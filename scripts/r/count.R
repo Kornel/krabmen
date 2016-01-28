@@ -51,9 +51,9 @@ for (f in files) {
   result[nrow(result) + 1, ] <- c(tumor.name, tumor, normal)
 
   dest.file <- sprintf('%s/table-%s.csv', results.dir, tumor.name)
-  write.table(count(participants), file = dest.file, row.names = F)
+  write.table(count(participants), file = dest.file, row.names = F, sep = ",")
 }
   
 dest.file <- sprintf('%s/stats-rsem-1-vs-11.csv', results.dir)
-write.table(result, file = dest.file, row.names = F)
+write.table(result, file = dest.file, row.names = F, sep = ",")
 

@@ -1,372 +1,372 @@
-"x" "freq"
-"4072" 2
-"4073" 2
-"5258" 2
-"5259" 2
-"5260" 2
-"5261" 2
-"5262" 2
-"5263" 2
-"5264" 2
-"A10Q" 4
-"A10R" 4
-"A10S" 2
-"A10T" 4
-"A10U" 4
-"A10W" 4
-"A10X" 4
-"A10Y" 4
-"A10Z" 4
-"A110" 4
-"A112" 2
-"A113" 4
-"A114" 4
-"A115" 2
-"A116" 4
-"A118" 4
-"A119" 4
-"A11A" 4
-"A11B" 4
-"A11C" 4
-"A11D" 4
-"A123" 2
-"A12J" 4
-"A1EA" 2
-"A1EB" 4
-"A1EC" 4
-"A1ED" 2
-"A1EE" 4
-"A1EF" 2
-"A1EG" 4
-"A1EH" 4
-"A1EI" 4
-"A1EJ" 4
-"A1EK" 2
-"A1EL" 4
-"A1HT" 2
-"A216" 4
-"A217" 2
-"A23B" 4
-"A25S" 2
-"A25T" 2
-"A25U" 2
-"A25V" 2
-"A25X" 2
-"A25Y" 2
-"A25Z" 2
-"A26S" 4
-"A2HS" 2
-"A2HT" 4
-"A2KA" 2
-"A2KB" 2
-"A2KC" 2
-"A2L6" 4
-"A2QQ" 2
-"A2QR" 4
-"A39V" 4
-"A39W" 4
-"A39X" 4
-"A39Y" 2
-"A39Z" 4
-"A3A1" 4
-"A3A2" 4
-"A3A3" 4
-"A3A4" 4
-"A3A5" 4
-"A3A6" 4
-"A3A7" 2
-"A3A8" 4
-"A3A9" 2
-"A3CG" 2
-"A3CH" 4
-"A3CI" 2
-"A3CJ" 2
-"A3CK" 2
-"A3EP" 4
-"A3ER" 2
-"A3I0" 4
-"A3I1" 4
-"A3JL" 2
-"A3KF" 2
-"A3KG" 2
-"A3M9" 2
-"A3MA" 2
-"A3MB" 2
-"A3MC" 2
-"A3OU" 2
-"A3R2" 4
-"A3R3" 2
-"A3RK" 4
-"A459" 2
-"A495" 2
-"A496" 2
-"A4NA" 2
-"A4NB" 2
-"A4ND" 2
-"A4NE" 2
-"A4NF" 2
-"A4NG" 2
-"A4NH" 2
-"A4NI" 2
-"A4NJ" 2
-"A4NK" 2
-"A4NL" 2
-"A4NN" 2
-"A4NO" 2
-"A4NP" 2
-"A4NQ" 2
-"A4NR" 2
-"A4NS" 2
-"A4NV" 2
-"A4U2" 2
-"A4XI" 2
-"A4ZP" 2
-"A4ZQ" 2
-"A520" 2
-"A5DF" 2
-"A5KG" 2
-"A5MZ" 2
-"A5N0" 2
-"A5NO" 2
-"A5NP" 2
-"A5NQ" 2
-"A5RF" 2
-"A5RG" 2
-"A5SI" 2
-"A5SJ" 2
-"A5SK" 2
-"A5SL" 2
-"A5SM" 2
-"A5UC" 2
-"A5UD" 2
-"A5UE" 2
-"A5W4" 2
-"A627" 2
-"A66X" 2
-"A66Y" 2
-"A69H" 2
-"A69I" 2
-"A6C0" 2
-"A6G5" 2
-"A6GG" 2
-"A6J8" 2
-"A6M3" 2
-"A6M4" 2
-"A6M5" 2
-"A6M6" 2
-"A6UC" 2
-"A73A" 2
-"A73B" 2
-"A73C" 2
-"A73D" 2
-"A73E" 2
-"A73F" 2
-"A73G" 2
-"A75C" 2
-"A75E" 2
-"A75G" 2
-"A75H" 2
-"A75I" 2
-"A75V" 2
-"A7B7" 2
-"A7D4" 2
-"A7IE" 2
-"A7IF" 2
-"A7IG" 2
-"A7IH" 2
-"A7II" 2
-"A7IJ" 2
-"A7IK" 2
-"A7IL" 2
-"A7K0" 2
-"A7K2" 2
-"A7K7" 2
-"A7K8" 2
-"A7M5" 2
-"A7M6" 2
-"A7M7" 2
-"A7M8" 2
-"A7M9" 2
-"A7MA" 2
-"A7MB" 2
-"A7MC" 2
-"A7MD" 2
-"A7ME" 2
-"A7MF" 2
-"A7PX" 2
-"A7PY" 2
-"A7PZ" 2
-"A7S9" 2
-"A7SB" 2
-"A7SF" 2
-"A7SH" 2
-"A7SK" 2
-"A7XO" 2
-"A7XP" 2
-"A82E" 2
-"A86L" 2
-"A8HS" 2
-"A8HT" 2
-"A8HU" 2
-"A8HV" 2
-"A8JO" 2
-"A8LF" 2
-"A8O5" 2
-"A8O6" 2
-"A8S7" 2
-"A8TC" 2
-"A8TD" 2
-"A8TE" 2
-"A8TF" 2
-"A8TG" 2
-"A8YO" 2
-"A95S" 2
-"A97K" 2
-"A9CD" 2
-"A9CE" 2
-"A9CF" 4
-"A9CG" 2
-"A9CV" 2
-"A9CY" 2
-"A9CZ" 2
-"A9D0" 2
-"A9D1" 2
-"A9D2" 2
-"A9D4" 2
-"A9DB" 2
-"A9FS" 2
-"A9FU" 2
-"A9FV" 2
-"A9FW" 2
-"A9G7" 2
-"A9GS" 2
-"A9GT" 2
-"A9GU" 2
-"A9GV" 2
-"A9GW" 2
-"A9GX" 2
-"A9GY" 2
-"A9GZ" 2
-"A9H0" 2
-"A9H1" 2
-"A9H2" 2
-"A9H3" 2
-"A9H4" 2
-"A9H5" 2
-"A9H6" 2
-"A9H7" 2
-"A9H8" 2
-"A9H9" 2
-"A9HA" 2
-"A9HB" 2
-"A9QC" 2
-"A9QD" 2
-"A9VG" 2
-"A9VH" 2
-"AA0U" 2
-"AA0V" 2
-"AA1C" 2
-"AA1D" 2
-"AA3A" 2
-"AA44" 2
-"AA46" 2
-"AA47" 2
-"AA8I" 2
-"AAAM" 2
-"AAC8" 2
-"AAC9" 2
-"AACA" 4
-"AACB" 2
-"AACC" 2
-"AACD" 2
-"AACE" 2
-"AACF" 2
-"AACG" 2
-"AACH" 2
-"AACI" 2
-"AACJ" 2
-"AACK" 2
-"AACL" 2
-"AACN" 2
-"AACO" 2
-"AACP" 2
-"AACQ" 2
-"AACS" 2
-"AACT" 2
-"AACU" 2
-"AACV" 2
-"AACW" 2
-"AACX" 2
-"AACY" 2
-"AACZ" 2
-"AAD0" 2
-"AAD1" 2
-"AAD2" 2
-"AAD3" 2
-"AAD5" 2
-"AAD6" 2
-"AAD8" 2
-"AADA" 2
-"AADB" 2
-"AADC" 2
-"AADD" 2
-"AADF" 2
-"AADG" 2
-"AADI" 2
-"AADJ" 2
-"AADK" 2
-"AADL" 2
-"AADM" 2
-"AADN" 2
-"AADO" 2
-"AADP" 2
-"AADQ" 2
-"AADR" 2
-"AADS" 2
-"AADU" 2
-"AADV" 2
-"AADW" 2
-"AADY" 2
-"AAE0" 2
-"AAE1" 2
-"AAE2" 2
-"AAE3" 2
-"AAE4" 2
-"AAE6" 2
-"AAE7" 2
-"AAE9" 2
-"AAEA" 2
-"AAEB" 2
-"AAED" 2
-"AAEE" 2
-"AAEG" 2
-"AAEH" 2
-"AAEI" 2
-"AAEK" 2
-"AAPD" 2
-"AAU7" 2
-"AAUZ" 2
-"AAV0" 2
-"AAV1" 2
-"AAV2" 2
-"AAV3" 2
-"AAV4" 2
-"AAV5" 2
-"AAV6" 2
-"AAV7" 2
-"AAVP" 2
-"AAVQ" 2
-"AAVR" 2
-"AAVS" 2
-"AAVU" 2
-"AAVV" 2
-"AAVW" 2
-"AAVX" 2
-"AAVY" 2
-"AAVZ" 2
-"AAW0" 2
-"AAW1" 2
-"AAW2" 2
-"AAW3" 2
-"AAZ8" 2
-"AB4B" 2
+"x","freq"
+"4072",2
+"4073",2
+"5258",2
+"5259",2
+"5260",2
+"5261",2
+"5262",2
+"5263",2
+"5264",2
+"A10Q",4
+"A10R",4
+"A10S",2
+"A10T",4
+"A10U",4
+"A10W",4
+"A10X",4
+"A10Y",4
+"A10Z",4
+"A110",4
+"A112",2
+"A113",4
+"A114",4
+"A115",2
+"A116",4
+"A118",4
+"A119",4
+"A11A",4
+"A11B",4
+"A11C",4
+"A11D",4
+"A123",2
+"A12J",4
+"A1EA",2
+"A1EB",4
+"A1EC",4
+"A1ED",2
+"A1EE",4
+"A1EF",2
+"A1EG",4
+"A1EH",4
+"A1EI",4
+"A1EJ",4
+"A1EK",2
+"A1EL",4
+"A1HT",2
+"A216",4
+"A217",2
+"A23B",4
+"A25S",2
+"A25T",2
+"A25U",2
+"A25V",2
+"A25X",2
+"A25Y",2
+"A25Z",2
+"A26S",4
+"A2HS",2
+"A2HT",4
+"A2KA",2
+"A2KB",2
+"A2KC",2
+"A2L6",4
+"A2QQ",2
+"A2QR",4
+"A39V",4
+"A39W",4
+"A39X",4
+"A39Y",2
+"A39Z",4
+"A3A1",4
+"A3A2",4
+"A3A3",4
+"A3A4",4
+"A3A5",4
+"A3A6",4
+"A3A7",2
+"A3A8",4
+"A3A9",2
+"A3CG",2
+"A3CH",4
+"A3CI",2
+"A3CJ",2
+"A3CK",2
+"A3EP",4
+"A3ER",2
+"A3I0",4
+"A3I1",4
+"A3JL",2
+"A3KF",2
+"A3KG",2
+"A3M9",2
+"A3MA",2
+"A3MB",2
+"A3MC",2
+"A3OU",2
+"A3R2",4
+"A3R3",2
+"A3RK",4
+"A459",2
+"A495",2
+"A496",2
+"A4NA",2
+"A4NB",2
+"A4ND",2
+"A4NE",2
+"A4NF",2
+"A4NG",2
+"A4NH",2
+"A4NI",2
+"A4NJ",2
+"A4NK",2
+"A4NL",2
+"A4NN",2
+"A4NO",2
+"A4NP",2
+"A4NQ",2
+"A4NR",2
+"A4NS",2
+"A4NV",2
+"A4U2",2
+"A4XI",2
+"A4ZP",2
+"A4ZQ",2
+"A520",2
+"A5DF",2
+"A5KG",2
+"A5MZ",2
+"A5N0",2
+"A5NO",2
+"A5NP",2
+"A5NQ",2
+"A5RF",2
+"A5RG",2
+"A5SI",2
+"A5SJ",2
+"A5SK",2
+"A5SL",2
+"A5SM",2
+"A5UC",2
+"A5UD",2
+"A5UE",2
+"A5W4",2
+"A627",2
+"A66X",2
+"A66Y",2
+"A69H",2
+"A69I",2
+"A6C0",2
+"A6G5",2
+"A6GG",2
+"A6J8",2
+"A6M3",2
+"A6M4",2
+"A6M5",2
+"A6M6",2
+"A6UC",2
+"A73A",2
+"A73B",2
+"A73C",2
+"A73D",2
+"A73E",2
+"A73F",2
+"A73G",2
+"A75C",2
+"A75E",2
+"A75G",2
+"A75H",2
+"A75I",2
+"A75V",2
+"A7B7",2
+"A7D4",2
+"A7IE",2
+"A7IF",2
+"A7IG",2
+"A7IH",2
+"A7II",2
+"A7IJ",2
+"A7IK",2
+"A7IL",2
+"A7K0",2
+"A7K2",2
+"A7K7",2
+"A7K8",2
+"A7M5",2
+"A7M6",2
+"A7M7",2
+"A7M8",2
+"A7M9",2
+"A7MA",2
+"A7MB",2
+"A7MC",2
+"A7MD",2
+"A7ME",2
+"A7MF",2
+"A7PX",2
+"A7PY",2
+"A7PZ",2
+"A7S9",2
+"A7SB",2
+"A7SF",2
+"A7SH",2
+"A7SK",2
+"A7XO",2
+"A7XP",2
+"A82E",2
+"A86L",2
+"A8HS",2
+"A8HT",2
+"A8HU",2
+"A8HV",2
+"A8JO",2
+"A8LF",2
+"A8O5",2
+"A8O6",2
+"A8S7",2
+"A8TC",2
+"A8TD",2
+"A8TE",2
+"A8TF",2
+"A8TG",2
+"A8YO",2
+"A95S",2
+"A97K",2
+"A9CD",2
+"A9CE",2
+"A9CF",4
+"A9CG",2
+"A9CV",2
+"A9CY",2
+"A9CZ",2
+"A9D0",2
+"A9D1",2
+"A9D2",2
+"A9D4",2
+"A9DB",2
+"A9FS",2
+"A9FU",2
+"A9FV",2
+"A9FW",2
+"A9G7",2
+"A9GS",2
+"A9GT",2
+"A9GU",2
+"A9GV",2
+"A9GW",2
+"A9GX",2
+"A9GY",2
+"A9GZ",2
+"A9H0",2
+"A9H1",2
+"A9H2",2
+"A9H3",2
+"A9H4",2
+"A9H5",2
+"A9H6",2
+"A9H7",2
+"A9H8",2
+"A9H9",2
+"A9HA",2
+"A9HB",2
+"A9QC",2
+"A9QD",2
+"A9VG",2
+"A9VH",2
+"AA0U",2
+"AA0V",2
+"AA1C",2
+"AA1D",2
+"AA3A",2
+"AA44",2
+"AA46",2
+"AA47",2
+"AA8I",2
+"AAAM",2
+"AAC8",2
+"AAC9",2
+"AACA",4
+"AACB",2
+"AACC",2
+"AACD",2
+"AACE",2
+"AACF",2
+"AACG",2
+"AACH",2
+"AACI",2
+"AACJ",2
+"AACK",2
+"AACL",2
+"AACN",2
+"AACO",2
+"AACP",2
+"AACQ",2
+"AACS",2
+"AACT",2
+"AACU",2
+"AACV",2
+"AACW",2
+"AACX",2
+"AACY",2
+"AACZ",2
+"AAD0",2
+"AAD1",2
+"AAD2",2
+"AAD3",2
+"AAD5",2
+"AAD6",2
+"AAD8",2
+"AADA",2
+"AADB",2
+"AADC",2
+"AADD",2
+"AADF",2
+"AADG",2
+"AADI",2
+"AADJ",2
+"AADK",2
+"AADL",2
+"AADM",2
+"AADN",2
+"AADO",2
+"AADP",2
+"AADQ",2
+"AADR",2
+"AADS",2
+"AADU",2
+"AADV",2
+"AADW",2
+"AADY",2
+"AAE0",2
+"AAE1",2
+"AAE2",2
+"AAE3",2
+"AAE4",2
+"AAE6",2
+"AAE7",2
+"AAE9",2
+"AAEA",2
+"AAEB",2
+"AAED",2
+"AAEE",2
+"AAEG",2
+"AAEH",2
+"AAEI",2
+"AAEK",2
+"AAPD",2
+"AAU7",2
+"AAUZ",2
+"AAV0",2
+"AAV1",2
+"AAV2",2
+"AAV3",2
+"AAV4",2
+"AAV5",2
+"AAV6",2
+"AAV7",2
+"AAVP",2
+"AAVQ",2
+"AAVR",2
+"AAVS",2
+"AAVU",2
+"AAVV",2
+"AAVW",2
+"AAVX",2
+"AAVY",2
+"AAVZ",2
+"AAW0",2
+"AAW1",2
+"AAW2",2
+"AAW3",2
+"AAZ8",2
+"AB4B",2
