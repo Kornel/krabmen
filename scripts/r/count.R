@@ -1,7 +1,7 @@
 library(stringr)
 library(plyr)
 
-headers.dir <- '../../data/'
+headers.dir <- '../../data/rsem-normalized/'
   
 files <- list.files(headers.dir, recursive = T)
   
@@ -21,8 +21,8 @@ for (f in files) {
   tumor <- 0
   normal <- 0
   
-  participants <- c()
-    
+  counts <- list()
+  
   for (x in df[1,]) {
     if (str_count(x, '-') != 6) {
       print(sprintf('Invalid barcode %s in file %s', x, tumor.name))  
@@ -32,8 +32,9 @@ for (f in files) {
       sample <- as.numeric(substr(sample.vial, 1, 2))
         
       participant <- elems[3]
-        
-      participants <- c(participant, participants)
+      
+      if (is.null(counts[[participant]]$Tumor)) counts[[participant]]$Tumor <- 0
+      if (is.null(counts[[participant]]$Normal)) counts[[participant]]$Normal <- 0
         
       # https://wiki.nci.nih.gov/display/TCGA/TCGA+barcode
       # Tumor types range from 01 - 09, 
@@ -42,18 +43,22 @@ for (f in files) {
         
       if (sample == 1) {
         tumor <- tumor + 1
+        counts[[participant]]$Tumor <- counts[[participant]]$Tumor + 1
       } else if (sample == 11) {
         normal <- normal + 1
+        counts[[participant]]$Normal <- counts[[participant]]$Normal + 1
       } 
-        
+      
     }
   }
-  result[nrow(result) + 1, ] <- c(tumor.name, tumor / 2, normal / 2)
+  result[nrow(result) + 1, ] <- c(tumor.name, tumor, normal)
 
-  dest.file <- sprintf('%s/table-%s.csv', results.dir, tumor.name)
-  write.table(count(participants[c(TRUE, FALSE)]), file = dest.file, row.names = F, sep = ",")
+  dest.file <- sprintf('%s/table-normalized-%s.csv', results.dir, tumor.name)
+  counts.df <- do.call("rbind", lapply(counts, as.data.frame))
+  counts.df <- cbind(Patient=rownames(counts.df), counts.df)
+  write.table(counts.df, file = dest.file, row.names = F, sep = ",")
 }
   
-dest.file <- sprintf('%s/stats-rsem-1-vs-11.csv', results.dir)
+dest.file <- sprintf('%s/stats-rsem-normalized-1-vs-11.csv', results.dir)
 write.table(result, file = dest.file, row.names = F, sep = ",")
 
