@@ -34,10 +34,3 @@ for (file in files) {
   write.csv(df, file = sprintf('%s/%s.csv', dest.dir, tumor.name), row.names = F)
   
 }
-
-
-
-
-
-
-
