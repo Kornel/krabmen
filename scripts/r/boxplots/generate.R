@@ -71,10 +71,12 @@ for (file in filtered.files) {
   
   t <- t %>% filter(type != 'other')
   
-  p <- ggplot(t, aes(y = ZNF195, x = type, fill = type)) + geom_boxplot(alpha = 0.5)  +
-   scale_fill_manual(values = tableau_color_pal()(3)) + ggtitle(tumor.name)
+  p <- ggplot(t, aes(y = ZNF195, x = type, fill = type)) + 
+    geom_boxplot(alpha = 1, coef = 100) +
+    scale_fill_manual(values = tableau_color_pal()(3)) + 
+    ggtitle(paste0(tumor.name, ' - ZNF195'))
   
   ggsave(sprintf('%s/%s.png', results.dir, tumor.name), p, dpi = 180)
 }
 
-write.csv(missing.genes, file = sprintf('%s/missing-genes.txt', results.dir, tumor.name), row.names = F)
+write.csv(missing.genes, file = sprintf('%s/missing-genes.csv', results.dir, tumor.name), row.names = F)
