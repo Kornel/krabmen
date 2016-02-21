@@ -4,25 +4,11 @@ library(ggthemes)
 library(dplyr)
 library(reshape)
 
-asNumeric <- function(x) as.numeric(as.character(x))
-factorsNumeric <- function(d) modifyList(d, lapply(d[, sapply(d, is.factor)], asNumeric))
+source('utils.R')
 
-patient.code.to.type <- function(patient.code) {
-  elems <- unlist(strsplit(patient.code, '-'))
-  sample.vial <- elems[4]
-  sample <- as.numeric(substr(sample.vial, 1, 2))
-  if (sample == 1) {
-    return('tumor')
-  } else if (sample == 11) {
-    return('healthy')
-  } else {
-    return('other')
-  }
-}
+results.dir <- '../../results/heatmap'
 
-results.dir <- '../../results/boxplot'
-
-genes <- read.csv('boxplots/gene-master-list.csv', sep = '\t')
+genes <- read.csv('../../data/KRAB ZNF gene master list.csv', sep = '\t')
 genes$Gene.ID <- as.character(genes$Gene.ID)
 
 patient.freqs.path <- '../../results/stats/stats-rsem-normalized-1-vs-11.csv'
@@ -41,7 +27,11 @@ for (tumor in patient.freqs$tumor.name) {
 }
 
 missing.genes <- data.frame(tumor = character(0), gene.id = character(0))
-other.types <- data.frame(tumor = character(0), barcode = character(0))
+
+heatmap.data <- data.frame(log2median = numeric(0), 
+                           log2mean = numeric(0), 
+                           Gene.Id = character(0), 
+                           tumor.name = character(0))
 
 for (file in filtered.files) {
   
@@ -64,40 +54,73 @@ for (file in filtered.files) {
   filtered$Ensembl.ID <- NULL
   filtered$`Hybridization REF` <- NULL
 
-  t <- as.data.frame(t(filtered))
-  colnames(t) <- unlist(as.list(t[1, ]))
-  t <- t[-1,]
-  t <- factorsNumeric(t)
+  t <- as.data.frame(filtered)
+  rownames(t) <- t$Gene.ID
+  t$Gene.ID <- NULL
+  colnames(t) <- patient.code.to.type(colnames(t))
   
-  other <- c()
+  t.tumor <- t[ , grep("tumor", colnames(t))]
+  t.healthy <- t[ , grep("healthy", colnames(t))]
   
-  t$type <- factor(unlist(lapply(rownames(t), patient.code.to.type)))
+  t.tumor$median = apply(t.tumor, 1, safe.median)
+  t.tumor$mean = apply(t.tumor, 1, safe.mean)
   
-  t$barcodes <- rownames(t)
+  t.healthy$median = apply(t.healthy, 1, safe.median)
+  t.healthy$mean = apply(t.healthy, 1, safe.mean)
   
-  other <- (t %>% filter(type == 'other'))$barcodes
-  other.df <- data.frame(barcode = other)
+  t.tumor <- t.tumor[,c('median', 'mean')]
+  t.healthy <- t.healthy[,c('median', 'mean')]
   
-  if (nrow(other.df) > 0) {
-    other.df$tumor <- tumor.name
-  }
+  colnames(t.tumor) <- paste0('tumor.', colnames(t.tumor))
+  colnames(t.healthy) <- paste0('healthy.', colnames(t.healthy))
   
-  other.types <- rbind(other.types, other.df)
+  t.tumor$Gene.Id <- rownames(t.tumor)
+  t.healthy$Gene.Id <- rownames(t.healthy)
   
-  t <- t %>% filter(type != 'other')
+  t.joined <- t.tumor %>% inner_join(t.healthy, by = c('Gene.Id' = 'Gene.Id'))
+  t.joined$log2median <- log2(t.joined$tumor.median/t.joined$healthy.median)
+  t.joined$log2mean <- log2(t.joined$tumor.mean/t.joined$healthy.mean)
   
-#   mdata <- melt(t, id = 'type')
-#   
-#   mdata <- mdata %>% filter(variable %in% c('ZNF195','TRIM28'))
+  t.joined$tumor.name <- tumor.name
+
   
-  p <- ggplot(t, aes(y = ZNF195, x = type, fill = type)) + 
-    geom_boxplot(alpha = 1, coef = 100 ) +
-    scale_fill_manual(values = tableau_color_pal()(3)) + 
-    ggtitle(tumor.name) #+ facet_wrap(~ variable, nrow = 1)
   
-  ggsave(sprintf('%s/%s.png', results.dir, tumor.name), p, dpi = 180)
+  heatmap.data <- rbind(heatmap.data, t.joined)
 }
 
-write.csv(other.types, file = sprintf('%s/other-types.csv', results.dir), row.names = F)
-# 
+write.csv(heatmap.data, file = sprintf('%s/heatmap-data.csv', results.dir), row.names = F)
+
+library(pheatmap)
+
+h <- heatmap.data[, c('log2median', 'log2mean', 'Gene.Id', 'tumor.name')]  
+
+
+library(reshape2)
+h.mean <- dcast(h, tumor.name ~ Gene.Id, value.var = 'log2mean')
+rownames(h.mean) <- h.mean$tumor.name
+h.mean$tumor.name <- NULL
+h.mean <- t(h.mean)
+pheatmap(h.mean, 
+         show_colnames = T, 
+         cluster_cols = T, 
+         cluster_rows = T, 
+         fontsize_row = 2,
+         filename = sprintf('%s/heatmap-mean.png', results.dir),
+         width = 10,
+         height = 20)
+
+h.median <- dcast(h, tumor.name ~ Gene.Id, value.var = 'log2median')
+rownames(h.median) <- h.median$tumor.name
+h.median$tumor.name <- NULL
+h.median <- t(h.median)
+pheatmap(h.median, 
+         show_colnames = T, 
+         cluster_cols = T, 
+         cluster_rows = T, 
+         fontsize_row = 2,
+         filename = sprintf('%s/heatmap-median.png', results.dir),
+         width = 10,
+         height = 20)
+
+
 # write.csv(missing.genes, file = sprintf('%s/missing-genes.csv', results.dir), row.names = F)
