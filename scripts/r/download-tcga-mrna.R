@@ -15,14 +15,14 @@ download.dir <- '../../download/'
 
 
   for (release.date in release.dates) {
-    dest.dir <- sprintf('%s/mrna-rsem-normalized-%s', download.dir, release.date)
+    dest.dir <- sprintf('%s/mrna-rsem-%s', download.dir, release.date)
     
     dir.create(dest.dir, showWarnings = F)
     
     sapply(cohorts, function(element){
       tryCatch({
         downloadTCGA(cancerTypes = element, 
-                     dataSet ='RSEM_genes_normalized__data.Level_3',
+                     dataSet ='RSEM_genes__data.Level_3',
                      destDir = dest.dir, 
                      date = release.date)
       },

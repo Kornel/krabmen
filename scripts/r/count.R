@@ -1,7 +1,7 @@
 library(stringr)
 library(plyr)
 
-headers.dir <- '../../data/rsem-normalized/'
+headers.dir <- '../../data/headers/rsem-normalized/'
   
 files <- list.files(headers.dir, recursive = T)
   
@@ -53,12 +53,12 @@ for (f in files) {
   }
   result[nrow(result) + 1, ] <- c(tumor.name, tumor, normal)
 
-  dest.file <- sprintf('%s/table-normalized-%s.csv', results.dir, tumor.name)
+  dest.file <- sprintf('%s/table-%s.csv', results.dir, tumor.name)
   counts.df <- do.call("rbind", lapply(counts, as.data.frame))
   counts.df <- cbind(Patient=rownames(counts.df), counts.df)
   write.table(counts.df, file = dest.file, row.names = F, sep = ",")
 }
   
-dest.file <- sprintf('%s/stats-rsem-normalized-1-vs-11.csv', results.dir)
+dest.file <- sprintf('%s/stats-rsem-1-vs-11.csv', results.dir)
 write.table(result, file = dest.file, row.names = F, sep = ",")
 

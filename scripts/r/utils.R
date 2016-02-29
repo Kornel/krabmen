@@ -2,9 +2,18 @@
 asNumeric <- function(x) as.numeric(as.character(x))
 factorsNumeric <- function(d) modifyList(d, lapply(d[, sapply(d, is.factor)], asNumeric))
 
-patient.code.to.type <- function(patient.codes) {
-  sapply(patient.codes, function(patient.code) {
-    elems <- unlist(strsplit(patient.code, '-'))
+barcode.to.type <- function(patient.codes) return(patient.code.to.type(patient.codes))
+
+barcode.to.participant <- function(barcodes) {
+  sapply(barcodes, function(barcode) {
+    elems <- unlist(strsplit(barcode, '-'))
+    return(elems[3])
+  })
+}
+
+patient.code.to.type <- function(barcodes) {
+  sapply(barcodes, function(barcode) {
+    elems <- unlist(strsplit(barcode, '-'))
     sample.vial <- elems[4]
     sample <- as.numeric(substr(sample.vial, 1, 2))
     if (sample == 1) {
