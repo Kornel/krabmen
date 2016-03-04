@@ -114,18 +114,3 @@ pheatmap(h.mean,
          width = 10,
          height = 20)
 
-h.median <- dcast(h, tumor.name ~ Gene.Id, value.var = 'log2median')
-rownames(h.median) <- h.median$tumor.name
-h.median$tumor.name <- NULL
-h.median <- t(h.median)
-pheatmap(h.median, 
-         show_colnames = T, 
-         cluster_cols = T, 
-         cluster_rows = T, 
-         fontsize_row = 2,
-         filename = sprintf('%s/heatmap-median.png', results.dir),
-         width = 10,
-         height = 20)
-
-
-
