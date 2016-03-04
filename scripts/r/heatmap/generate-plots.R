@@ -18,13 +18,13 @@ plot.heatmap <- function(which, h, threshold, filename) {
   
   f <- h.wide[abs(rowMeans(h.wide, na.rm = T)) >= threshold,]
   
-  cluster.rows <- f
-  cluster.rows[is.na(cluster.rows)] <- 10
-  cluster.rows <- hclust(dist(cluster.rows))
+  dist.rows <- dist(f)
+  dist.rows[is.na(dist.rows)] <- max(dist.rows, na.rm = T)
+  cluster.rows <- hclust(dist.rows)
   
-  cluster.cols <- t(f)
-  cluster.cols[is.na(cluster.cols)] <- 10
-  cluster.cols <- hclust(dist(cluster.cols))
+  dist.cols <- dist(t(f))
+  dist.cols[is.na(dist.cols)] <- max(dist.cols, na.rm = T)
+  cluster.cols <- hclust(dist.cols)
   
   pheatmap(f, 
            show_colnames = T, 
@@ -47,4 +47,3 @@ for (threshold in seq(0, 1, 0.1)) {
   plot.heatmap('mean', h, threshold, sprintf('%s/%f-heatmap-mean.png', results.dir, threshold))
   plot.heatmap('median', h, threshold, sprintf('%s/%f-heatmap-median.png', results.dir, threshold))
 }
-
