@@ -1,9 +1,9 @@
+library(knitr)
 library(pheatmap)
 library(RColorBrewer)
 library(reshape2)
 
-results.dir <- '../../results/heatmap/plots'
-heatmap.data <- read.csv(sprintf('%s/heatmap-data.csv', results.dir))
+heatmap.data <- read.csv('../../results/heatmap/heatmap-data.csv')
 
 h <- heatmap.data[, c('log2median', 'log2mean', 'Gene.Id', 'tumor.name')]  
 
@@ -27,6 +27,11 @@ plot.heatmap <- function(which, h, threshold, filename) {
            legend_breaks =  seq(-5, 5, 1),
            color = palette)
 }
+
+today <- format(Sys.time(), "%Y-%m-%d")
+results.dir <- sprintf('../../results/heatmap/plots/%s', today)
+
+if (!dir.exists(results.dir)) dir.create(results.dir, recursive = T)
 
 for (threshold in seq(0, 1, 0.1)) {
   plot.heatmap('mean', h, threshold, sprintf('%s/%f-heatmap-mean.png', results.dir, threshold))
