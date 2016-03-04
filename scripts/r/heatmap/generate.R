@@ -98,12 +98,14 @@ h.mean <- dcast(h, tumor.name ~ Gene.Id, value.var = 'log2mean')
 rownames(h.mean) <- h.mean$tumor.name
 h.mean$tumor.name <- NULL
 h.mean <- t(h.mean)
-pheatmap(h.mean, 
+df <- data.frame(h.mean)
+
+pheatmap(df[abs(rowMeans(df)) >= 0.4, ], 
          show_colnames = T, 
          cluster_cols = T, 
          cluster_rows = T, 
-         fontsize_row = 2,
-      #   filename = sprintf('%s/heatmap-mean.png', results.dir),
+         fontsize_row = 10,
+        filename = sprintf('%s/heatmap-mean.png', results.dir),
          width = 10,
          height = 20)
 
@@ -111,11 +113,14 @@ h.median <- dcast(h, tumor.name ~ Gene.Id, value.var = 'log2median')
 rownames(h.median) <- h.median$tumor.name
 h.median$tumor.name <- NULL
 h.median <- t(h.median)
-pheatmap(h.median, 
+
+df <- data.frame(h.median)
+
+pheatmap(df[abs(rowMeans(df)) >= 0.4, ], 
          show_colnames = T, 
          cluster_cols = T, 
          cluster_rows = T, 
-         fontsize_row = 2,
+         fontsize_row = 10,
          filename = sprintf('%s/heatmap-median.png', results.dir),
          width = 10,
          height = 20)
