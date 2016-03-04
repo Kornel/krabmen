@@ -11,6 +11,8 @@ barcode.to.participant <- function(barcodes) {
   })
 }
 
+
+
 patient.code.to.type <- function(barcodes) {
   sapply(barcodes, function(barcode) {
     elems <- unlist(strsplit(barcode, '-'))
@@ -41,3 +43,4 @@ safe.f <- function(f) {
 
 safe.mean <- safe.f(mean)
 safe.median <- safe.f(median)
+

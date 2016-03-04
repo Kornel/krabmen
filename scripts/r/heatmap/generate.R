@@ -5,26 +5,8 @@ library(dplyr)
 library(reshape)
 
 source('utils.R')
-
-results.dir <- '../../results/heatmap'
-
-genes <- read.csv('../../data/KRAB ZNF gene master list.csv', sep = '\t')
-genes$Gene.ID <- as.character(genes$Gene.ID)
-
-patient.freqs.path <- '../../results/stats/stats-rsem-normalized-1-vs-11.csv'
-patient.freqs <- read.csv(patient.freqs.path) %>% filter(normal >= 9)
-
-files.path <- '../../download/mrna-rsem-normalized-2015-11-01'
-
-files <- list.files(path = files.path, pattern = '*-clean.txt', recursive = T)
-
-filtered.files <- c()
-  
-for (tumor in patient.freqs$tumor.name) {
-  contains <- lapply(files, function(x) grepl(tumor, x))
-  file <- files[contains == T]
-  filtered.files <- c(file, filtered.files)
-}
+source('data-utils.R')
+source('heatmap-prepare.R')
 
 missing.genes <- data.frame(tumor = character(0), gene.id = character(0))
 
@@ -33,97 +15,29 @@ heatmap.data <- data.frame(log2median = numeric(0),
                            Gene.Id = character(0), 
                            tumor.name = character(0))
 
-for (file in filtered.files) {
-  
-  tumor.name <- sub('gdac.broadinstitute.org_(\\w*)\\..*', '\\1', file)
-  
-  print(sprintf("Reading %s", file))
+files <- select.tumor.files(patient.freqs.path = '../../results/stats/normalized/stats-rsem-normalized-1-vs-11.csv',
+                            files.path = '../../download/mrna-rsem-normalized-2015-11-01/')
 
-  data <- read_delim(paste0(files.path, '/', file), delim = '\t')
+for (file in files) {
   
-  data$HybRefShort <- sub('\\|.*', '', data$`Hybridization REF`)
+  tumor.name <- sub('.*gdac.broadinstitute.org_(\\w*)\\..*', '\\1', file)
   
-  joined <- genes %>% left_join(data, by = c('Gene.ID' = 'HybRefShort'))
-    
-  missing <- (joined %>% filter(is.na(`Hybridization REF`)))
-  missing$tumor <- tumor.name
+  print(sprintf("Reading %s", tumor.name))
 
-  missing.genes <- rbind(missing.genes, missing[, c('Gene.ID', 'tumor')])
-
-  filtered <- joined %>% filter(!is.na(`Hybridization REF`))
-  filtered$Ensembl.ID <- NULL
-  filtered$`Hybridization REF` <- NULL
-
-  t <- as.data.frame(filtered)
-  rownames(t) <- t$Gene.ID
-  t$Gene.ID <- NULL
-  colnames(t) <- patient.code.to.type(colnames(t))
+  rawdata <- read_delim(file, delim = '\t')
+  data <- rawdata
+  data$`Hybridization REF` <- NULL
+  data$HybRefShort <- sub('\\|.*', '', rawdata$`Hybridization REF`)
   
-  t.tumor <- t[ , grep("tumor", colnames(t))]
-  t.healthy <- t[ , grep("healthy", colnames(t))]
+  gene.table.result <- get.gene.table(data, tumor.name)
+  gene.table <- gene.table.result$gene.table
   
-  t.tumor$median = apply(t.tumor, 1, safe.median)
-  t.tumor$mean = apply(t.tumor, 1, safe.mean)
+  missing.genes <- rbind(missing.genes, gene.table.result$missing)
   
-  t.healthy$median = apply(t.healthy, 1, safe.median)
-  t.healthy$mean = apply(t.healthy, 1, safe.mean)
-  
-  t.tumor <- t.tumor[,c('median', 'mean')]
-  t.healthy <- t.healthy[,c('median', 'mean')]
-  
-  colnames(t.tumor) <- paste0('tumor.', colnames(t.tumor))
-  colnames(t.healthy) <- paste0('healthy.', colnames(t.healthy))
-  
-  t.tumor$Gene.Id <- rownames(t.tumor)
-  t.healthy$Gene.Id <- rownames(t.healthy)
-  
-  t.joined <- t.tumor %>% inner_join(t.healthy, by = c('Gene.Id' = 'Gene.Id'))
-  t.joined$log2median <- log2(t.joined$tumor.median/t.joined$healthy.median)
-  t.joined$log2mean <- log2(t.joined$tumor.mean/t.joined$healthy.mean)
-  
-  t.joined$tumor.name <- tumor.name
-
-  heatmap.data <- rbind(heatmap.data, t.joined)
+  h <- prepare.heatmap.data(gene.table)  
+  heatmap.data <- rbind(heatmap.data, h)
 }
 
+results.dir <- '../../results/heatmap/'
+
 write.csv(heatmap.data, file = sprintf('%s/heatmap-data.csv', results.dir), row.names = F)
-
-heatmap.data <- read.csv(sprintf('%s/heatmap-data.csv', results.dir))
-library(pheatmap)
-
-h <- heatmap.data[, c('log2median', 'log2mean', 'Gene.Id', 'tumor.name')]  
-
-library(reshape2)
-h.mean <- dcast(h, tumor.name ~ Gene.Id, value.var = 'log2mean')
-rownames(h.mean) <- h.mean$tumor.name
-h.mean$tumor.name <- NULL
-h.mean <- t(h.mean)
-df.mean <- data.frame(h.mean)
-
-pheatmap(df.mean[abs(rowMeans(df.mean)) >= 0.4, ], 
-         show_colnames = T, 
-         cluster_cols = T, 
-         cluster_rows = T, 
-         fontsize_row = 10,
-        #filename = sprintf('%s/heatmap-mean.png', results.dir),
-         width = 10,
-         height = 20)
-
-h.median <- dcast(h, tumor.name ~ Gene.Id, value.var = 'log2median')
-rownames(h.median) <- h.median$tumor.name
-h.median$tumor.name <- NULL
-h.median <- t(h.median)
-
-df.median <- data.frame(h.median)
-
-pheatmap(df.median[abs(rowMeans(df.median)) >= 0.4, ], 
-         show_colnames = T, 
-         cluster_cols = T, 
-         cluster_rows = F, 
-         fontsize_row = 10,
-         filename = sprintf('%s/heatmap-median.png', results.dir),
-         width = 10,
-         height = 20)
-
-
-# write.csv(missing.genes, file = sprintf('%s/missing-genes.csv', results.dir), row.names = F)
