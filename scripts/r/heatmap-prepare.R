@@ -27,4 +27,4 @@ prepare.heatmap.data <- function(gene.table) {
   t.joined$tumor.name <- tumor.name
   
   t.joined <- t.joined[!is.na(t.joined$log2median) & !is.infinite(t.joined$log2median), ]
-  }
+}
