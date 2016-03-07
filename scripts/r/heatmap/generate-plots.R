@@ -7,7 +7,7 @@ heatmap.data <- read.csv('../../results/heatmap/heatmap-data.csv')
 h <- heatmap.data[, c('log2median', 'log2mean', 'Gene.Id', 'tumor.name')]  
 
 plot.heatmap <- function(which, h, threshold, filename) {
-  palette <- colorRampPalette(c('green', 'black', 'red'))(n = 1000)
+  palette <- colorRampPalette(c('green', 'yellow', 'red'))(n = 1000)
   
   h.wide <- dcast(h, tumor.name ~ Gene.Id, value.var = paste0('log2', which))
   rownames(h.wide) <- h.wide$tumor.name

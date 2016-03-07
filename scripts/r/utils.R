@@ -1,4 +1,6 @@
 
+filename.to.tumor <- function(filename) sub('.*gdac.broadinstitute.org_(\\w*)\\..*', '\\1', filename)
+
 asNumeric <- function(x) as.numeric(as.character(x))
 factorsNumeric <- function(d) modifyList(d, lapply(d[, sapply(d, is.factor)], asNumeric))
 
@@ -11,6 +13,9 @@ barcode.to.participant <- function(barcodes) {
   })
 }
 
+se <- function(x) {
+  sqrt(var(x) / length(x))
+}
 
 
 patient.code.to.type <- function(barcodes) {

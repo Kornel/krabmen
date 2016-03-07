@@ -1,12 +1,12 @@
 library(dplyr)
 
-get.gene.table <- function(data, tumor.name) {
+get.gene.table <- function(rawdata, tumor.name) {
  
   genes <- read.csv('../../data/KRAB ZNF gene master list.csv', sep = '\t')
   genes$Gene.ID <- as.character(genes$Gene.ID)
   
-  joined <- genes %>% inner_join(data, by = c('Gene.ID' = 'HybRefShort'))
-  missing <- data.frame(Gene.ID = setdiff(genes$Gene.ID, data$HybRefShort), tumor = tumor.name)
+  joined <- genes %>% inner_join(rawdata, by = c('Gene.ID' = 'HybRefShort'))
+  missing <- data.frame(Gene.ID = setdiff(genes$Gene.ID, rawdata$HybRefShort), tumor = tumor.name)
   joined$Ensembl.ID <- NULL  
   
   rownames(joined) <- joined$Gene.ID
