@@ -33,5 +33,5 @@ cnames <- c('id', cnames[order(gsub(".*_(.*)", "\\1", cnames))])
 
 sorted <- all.wide[,cnames]
 
-write.csv(all, file = '../../results/bionmialTest/heatmap-data.csv', row.names = F)
+write.csv(all, file = '../../results/bionmialTest/full-table-pvalues-long.csv', row.names = F)
 write.csv(sorted, file = '../../results/bionmialTest/full-table-pvalues.csv', row.names = F)

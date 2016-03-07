@@ -4,26 +4,36 @@ library(RColorBrewer)
 library(reshape2)
 
 heatmap.data <- read.csv('../../results/heatmap/heatmap-data.csv')
-h <- heatmap.data[, c('log2median', 'log2mean', 'Gene.Id', 'tumor.name')]  
+
+heatmap.data <- do.call(data.frame, lapply(heatmap.data, function(x) replace(x, is.infinite(x), NA)))
 
 plot.heatmap <- function(which, h, threshold, filename) {
+  
+#   h <- heatmap.data
+#   
+#   which <- 'Median'
+  
   palette <- colorRampPalette(c('green', 'yellow', 'red'))(n = 1000)
   
-  h.wide <- dcast(h, tumor.name ~ Gene.Id, value.var = paste0('log2', which))
+  h.wide <- dcast(h, tumor.name ~ Gene.Id, value.var = paste0('log2FoldChange', which))
   rownames(h.wide) <- h.wide$tumor.name
   h.wide$tumor.name <- NULL
   h.wide <- t(h.wide)
   h.wide <- data.frame(h.wide)
-  #h.wide <- h.wide[complete.cases(h.wide),]
+
+  rows <- abs(rowMeans(h.wide, na.rm = T)) >= threshold
+  rows[is.na(rows)] <- FALSE
   
-  f <- h.wide[abs(rowMeans(h.wide, na.rm = T)) >= threshold,]
+  f <- h.wide[rows,]
   
   dist.rows <- dist(f)
-  dist.rows[is.na(dist.rows)] <- max(dist.rows, na.rm = T)
+  dist.rows[is.infinite(dist.rows)] <- NA
+  dist.rows[is.na(dist.rows)] <- mean(dist.rows, na.rm = T)
   cluster.rows <- hclust(dist.rows)
   
   dist.cols <- dist(t(f))
-  dist.cols[is.na(dist.cols)] <- max(dist.cols, na.rm = T)
+  dist.cols[is.infinite(dist.cols)] <- NA
+  dist.cols[is.na(dist.cols)] <- mean(dist.cols, na.rm = T)
   cluster.cols <- hclust(dist.cols)
   
   pheatmap(f, 
@@ -34,7 +44,6 @@ plot.heatmap <- function(which, h, threshold, filename) {
            filename = filename,
            cellwidth = 10,
            cellheight = 10,
-           legend_breaks =  seq(-5, 5, 1),
            color = palette)
 }
 
@@ -44,6 +53,6 @@ results.dir <- sprintf('../../results/heatmap/plots/%s', today)
 if (!dir.exists(results.dir)) dir.create(results.dir, recursive = T)
 
 for (threshold in seq(0, 1, 0.1)) {
-  plot.heatmap('mean', h, threshold, sprintf('%s/%f-heatmap-mean.png', results.dir, threshold))
-  plot.heatmap('median', h, threshold, sprintf('%s/%f-heatmap-median.png', results.dir, threshold))
+  plot.heatmap('Mean', heatmap.data, threshold, sprintf('%s/%f-heatmap-mean.png', results.dir, threshold))
+  plot.heatmap('Median', heatmap.data, threshold, sprintf('%s/%f-heatmap-median.png', results.dir, threshold))
 }
