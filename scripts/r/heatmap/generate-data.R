@@ -17,6 +17,7 @@ write.csv(selected, file = sprintf('../../results/heatmap/heatmap-data-deseq-nor
 rawdata <- read.csv('../../results/rsem-normalized/full-table-long.csv')
 
 selected <- subset(rawdata, select = c('Gene.ID', 'tumor', 'log2FoldChangeMean', 'log2FoldChangeMedian'))
+colnames(selected)[1] <- 'Gene.Id'
 colnames(selected)[2] <- 'tumor.name'
 
 selected <- do.call(data.frame, lapply(selected, function(x) replace(x, is.infinite(x), NA)))

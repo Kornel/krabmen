@@ -1,4 +1,4 @@
-"Gene.ID","tumor.name","log2FoldChangeMean","log2FoldChangeMedian"
+"Gene.Id","tumor.name","log2FoldChangeMean","log2FoldChangeMedian"
 "ZNF195","BLCA",0.725891034715826,0.656163369142771
 "ZNF263","BLCA",-0.194828559510757,-0.174380103000187
 "ZNF200","BLCA",0.449254191739725,0.320277508392945

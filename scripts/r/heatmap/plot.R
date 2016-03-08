@@ -38,3 +38,6 @@ plot.heatmap <- function(h, what.to.plot, threshold, threshold.func, filename) {
            cellheight = 10,
            color = palette)
 }
+
+setClass('HeatmapSource', representation(data = 'data.frame', results.dir = 'character'))
+setClass('ThresholdMethod', representation(threshold.func = 'function', t.name = 'character'))
