@@ -1,3 +1,9 @@
+drop.data <- function(df) {
+  f <- function(x) Vectorize(!grepl('^tumor$|^healthy$', x))
+  cn <- colnames(df)
+  filtered <- cn[f(cn)]
+  subset(df, select = filtered)
+}
 
 filename.to.tumor <- function(filename) sub('.*gdac.broadinstitute.org_(\\w*)\\..*', '\\1', filename)
 
@@ -33,19 +39,4 @@ patient.code.to.type <- function(barcodes) {
   })
 }
 
-
-
-safe.f <- function(f) {
-  function(x) {
-    r <- f(x)
-    if (r == 0) {
-      return(0.0001)
-    } else {
-      return(r)
-    }
-  }
-}
-
-safe.mean <- safe.f(mean)
-safe.median <- safe.f(median)
 

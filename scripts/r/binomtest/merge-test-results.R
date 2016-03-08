@@ -1,9 +1,7 @@
-library(DESeq)
 library(dplyr)
 library(readr)
 library(reshape2)
 library(data.table)
-library(pheatmap)
 
 files <- list.files(path = '../../results/bionmialTest/partial/', 
                     pattern = '*.csv', 

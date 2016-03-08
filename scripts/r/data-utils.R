@@ -16,18 +16,21 @@ get.gene.table <- function(rawdata, tumor.name) {
   return(list(gene.table = as.data.frame(joined), missing = missing))
 }
 
+hyb.ref.short <- function(rawdata) {
+  sub('\\|.*', '', rawdata$`Hybridization REF`)
+}
+
 raw.counts.only <- function(rawdata) {
   data <- rawdata[,seq(2, length(rawdata), 3)]
-  data$HybRefShort <- sub('\\|.*', '', rawdata$`Hybridization REF`)
+  data$HybRefShort <- hyb.ref.short(rawdata)
   return(data)
 }
 
 scaled.only <- function(rawdata) {
   data <- rawdata[,seq(3, length(rawdata), 3)]
-  data$HybRefShort <- sub('\\|.*', '', rawdata$`Hybridization REF`)
+  data$HybRefShort <- hyb.ref.short(rawdata)
   return(data)
 }
-
 
 select.tumor.files <- function(patient.freqs.path = '../../results/stats/raw/stats-rsem-1-vs-11.csv',
                                files.path = '../../download/mrna-rsem-2015-11-01/') {
