@@ -16,13 +16,10 @@ get.stats <- function(counts) {
   stats$Q1tumor <- apply(stats.tumor, 1, function(x) quantile(x, 1/4))
   stats$Q3tumor <- apply(stats.tumor, 1, function(x) quantile(x, 3/4))
   
-  stats$SEhealthy <- apply(stats.healthy, 1, se)
-  stats$SEtumor <- apply(stats.tumor, 1, se)
+  stats$SEMhealthy <- apply(stats.healthy, 1, se)
+  stats$SEMtumor <- apply(stats.tumor, 1, se)
   
   stats$Gene.ID <- rownames(stats)
-  
-  
-  subset(stats, select = c('Gene.ID', 'medianHealthy', 'medianTumor', 'IQRhealthy', 'IQRtumor', 'SEhealthy', 'SEtumor'))
   
   drop.data(stats)
 }

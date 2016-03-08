@@ -1,9 +1,6 @@
 library(DESeq)
 library(dplyr)
 library(readr)
-library(reshape2)
-library(data.table)
-library(pheatmap)
 
 source('./data-utils.R')
 source('./utils.R')
@@ -32,8 +29,6 @@ for (file in tumor.files) {
   cds <- newCountDataSet(counts, conditions)
   cds <- estimateSizeFactors(cds)
   cds <- estimateDispersions(cds)
-  
-  #plotDispEsts(cds)
   
   res <- nbinomTest(cds, 'healthy', 'tumor')
   
