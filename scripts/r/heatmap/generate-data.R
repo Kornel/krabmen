@@ -10,7 +10,7 @@ selected$log2FoldChangeMedian <- log2(selected$medianTumor / selected$medianHeal
 selected <- subset(selected, select = c('Gene.Id', 'tumor.name', 'log2FoldChangeMedian', 'log2FoldChangeMean'))
 
 selected <- do.call(data.frame, lapply(selected, function(x) replace(x, is.infinite(x), NA)))
-write.csv(selected, file = sprintf('../../results/heatmap/heatmap-data-deseq-normalized.csv'), row.names = F)
+write.csv(selected, file = sprintf('heatmap/data/heatmap-data-deseq-normalized.csv'), row.names = F)
 
 # Prepare heatmap data from rsem normalized data
 
@@ -22,4 +22,4 @@ colnames(selected)[2] <- 'tumor.name'
 
 selected <- do.call(data.frame, lapply(selected, function(x) replace(x, is.infinite(x), NA)))
 
-write.csv(selected, file = sprintf('../../results/heatmap/heatmap-data-rsem-normalized.csv'), row.names = F)
+write.csv(selected, file = sprintf('heatmap/data/heatmap-data-rsem-normalized.csv'), row.names = F)

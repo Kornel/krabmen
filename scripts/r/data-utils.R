@@ -36,8 +36,7 @@ select.tumor.files <- function(patient.freqs.path = '../../results/stats/raw/sta
                                files.path = '../../download/mrna-rsem-2015-11-01/') {
   
   results.dir <- '../../results/heatmap'
-  
-  patient.freqs.path <- '../../results/stats/raw/stats-rsem-1-vs-11.csv'
+
   patient.freqs <- read.csv(patient.freqs.path) %>% filter(normal >= 9)
   
   files <- list.files(path = files.path, pattern = '*-clean.txt', recursive = T, full.names = T)

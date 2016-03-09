@@ -11,7 +11,7 @@ results.dir <- '../../results/boxplot'
 genes <- read.csv('../../data/KRAB ZNF gene master list.csv', sep = '\t')
 genes$Gene.ID <- as.character(genes$Gene.ID)
 
-patient.freqs.path <- '../../results/stats/stats-rsem-normalized-1-vs-11.csv'
+patient.freqs.path <- '../../results/stats/normalized/stats-rsem-normalized-1-vs-11.csv'
 patient.freqs <- read.csv(patient.freqs.path) %>% filter(normal >= 9)
 
 files.path <- '../../download/mrna-rsem-normalized-2015-11-01'
@@ -28,6 +28,8 @@ for (tumor in patient.freqs$tumor.name) {
 
 missing.genes <- data.frame(tumor = character(0), gene.id = character(0))
 other.types <- data.frame(tumor = character(0), barcode = character(0))
+
+file <- filtered.files[1]
 
 for (file in filtered.files) {
   
@@ -80,6 +82,8 @@ for (file in filtered.files) {
     geom_boxplot(alpha = 1, coef = 100 ) +
     scale_fill_manual(values = tableau_color_pal()(3)) + 
     ggtitle(tumor.name) #+ facet_wrap(~ variable, nrow = 1)
+  
+  print(p)
   
   ggsave(sprintf('%s/%s.png', results.dir, tumor.name), p, dpi = 180)
 }

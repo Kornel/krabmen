@@ -3,9 +3,9 @@ library(pheatmap)
 library(RColorBrewer)
 library(reshape2)
 
-plot.heatmap <- function(h, what.to.plot, threshold, threshold.func, filename) {
+plot.heatmap <- function(h, what.to.plot, threshold, threshold.func, title, filename) {
   
-  palette <- rev(brewer.pal(8,"RdYlGn")) # colorRampPalette(c('green', 'yellow', 'red'))(n = 1000)
+  palette <- rev(brewer.pal(9, 'RdYlGn')) # colorRampPalette(c('green', 'yellow', 'red'))(n = 1000)
   
   h.wide <- dcast(h, tumor.name ~ Gene.Id, value.var = what.to.plot)
   rownames(h.wide) <- h.wide$tumor.name
@@ -36,8 +36,10 @@ plot.heatmap <- function(h, what.to.plot, threshold, threshold.func, filename) {
            filename = filename,
            cellwidth = 10,
            cellheight = 10,
-           color = palette)
+           color = palette,
+           main = title,
+           legend_breaks = seq(-8, 8, 1))
 }
 
-setClass('HeatmapSource', representation(data = 'data.frame', results.dir = 'character'))
+setClass('HeatmapSource', representation(data = 'data.frame', results.dir = 'character', desc = 'character'))
 setClass('ThresholdMethod', representation(threshold.func = 'function', t.name = 'character'))
