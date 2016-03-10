@@ -5,8 +5,6 @@ library(reshape2)
 
 plot.heatmap <- function(h, what.to.plot, threshold, threshold.func, title, filename) {
   
-  palette <- rev(brewer.pal(9, 'RdYlGn')) # colorRampPalette(c('green', 'yellow', 'red'))(n = 1000)
-  
   h.wide <- dcast(h, tumor.name ~ Gene.Id, value.var = what.to.plot)
   rownames(h.wide) <- h.wide$tumor.name
   h.wide$tumor.name <- NULL
@@ -28,18 +26,26 @@ plot.heatmap <- function(h, what.to.plot, threshold, threshold.func, title, file
   dist.cols[is.na(dist.cols)] <- mean(dist.cols, na.rm = T)
   cluster.cols <- hclust(dist.cols)
   
+  legend.start <- as.integer(min(f, na.rm = T))
+  legend.stop <- as.integer(max(f, na.rm = T))
+  breaks <- seq(legend.start, legend.stop, 1)
+  
+  palette <- colorRampPalette(c('dark green', 'green', 'yellow', 'red', 'dark red'), space = 'Lab')(n = length(breaks))
+  
   pheatmap(f, 
            show_colnames = T, 
            cluster_cols = cluster.cols, 
            cluster_rows = cluster.rows, 
            fontsize_row = 10,
+           fontsize_col = 10,
+           fontsize = 12,
            filename = filename,
            cellwidth = 10,
            cellheight = 10,
            color = palette,
            main = title,
-           legend_breaks = seq(-8, 8, 1))
+           legend_breaks = breaks)
 }
 
-setClass('HeatmapSource', representation(data = 'data.frame', results.dir = 'character', desc = 'character'))
+setClass('HeatmapSource', representation(data = 'data.frame', results.dir = 'character'))
 setClass('ThresholdMethod', representation(threshold.func = 'function', t.name = 'character'))

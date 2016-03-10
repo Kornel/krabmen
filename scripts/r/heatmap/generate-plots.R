@@ -11,8 +11,8 @@ if (!dir.exists(deseq.results.dir)) dir.create(deseq.results.dir, recursive = T)
 rsem.results.dir <- sprintf('heatmap/plots/%s/rsem-normalized', today)
 if (!dir.exists(rsem.results.dir)) dir.create(rsem.results.dir, recursive = T)
 
-deseq <- new('HeatmapSource', data = deseq.heatmap.data, results.dir = deseq.results.dir, desc = 'deseq')
-rsem <- new('HeatmapSource', data = rsem.heatmap.data, results.dir = rsem.results.dir, desc = 'RSEM')
+deseq <- new('HeatmapSource', data = deseq.heatmap.data, results.dir = deseq.results.dir)
+rsem <- new('HeatmapSource', data = rsem.heatmap.data, results.dir = rsem.results.dir)
 sources <- c(deseq, rsem)
 
 thresh.mean <- new('ThresholdMethod', threshold.func = function(df) rowMeans(df, na.rm = T), t.name = 'mean')
@@ -35,8 +35,8 @@ for (source.data in sources) {
       mean.path <- sprintf('%s/%f-heatmap-mean-threshold-%s.png', res.dir, threshold, thresh.name)
       median.path <- sprintf('%s/%f-heatmap-median-threshold-%s.png', res.dir, threshold, thresh.name)
       
-      title.mean <- sprintf('log2(mean %1$s tumor / mean %1$s normal)', source.data@desc)
-      title.median <- sprintf('log2(medain %1$s tumor / median %1$s normal)', source.data@desc)
+      title.mean <- sprintf('log2(mean tumor / mean normal)')
+      title.median <- sprintf('log2(median tumor / median normal)')
       
       plot.heatmap(data, 'log2FoldChangeMean', threshold, thresh.func, title.mean, mean.path)
       plot.heatmap(data, 'log2FoldChangeMedian', threshold, thresh.func, title.median, median.path)
