@@ -32,8 +32,8 @@ for (source.data in sources) {
       thresh.func <- thresh.method@threshold.func
       thresh.name <- thresh.method@t.name
       
-      mean.path <- sprintf('%s/%f-heatmap-mean-threshold-%s.png', res.dir, threshold, thresh.name)
-      median.path <- sprintf('%s/%f-heatmap-median-threshold-%s.png', res.dir, threshold, thresh.name)
+      mean.path <- sprintf('%s/%f-heatmap-mean-threshold-%s.pdf', res.dir, threshold, thresh.name)
+      median.path <- sprintf('%s/%f-heatmap-median-threshold-%s.pdf', res.dir, threshold, thresh.name)
       
       title.mean <- sprintf('log2(mean tumor / mean normal)')
       title.median <- sprintf('log2(median tumor / median normal)')
