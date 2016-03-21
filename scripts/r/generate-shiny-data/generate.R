@@ -1,4 +1,5 @@
 library(readr)
+library(reshape2)
 
 source('./data-utils.R')
 source('./utils.R')
@@ -8,6 +9,8 @@ files <- select.tumor.files(patient.freqs.path = '../../results/stats/normalized
 
 file <- files[1]
 
+all.tumors <- data.frame()
+  
 for (file in files) {
   tumor.name <- filename.to.tumor(file)
   
@@ -24,7 +27,24 @@ for (file in files) {
   gene.table$type <- r
   
   gene.table <- gene.table %>% filter(type != 'other')
+  
+  gene.table$tumor <- tumor.name
 
-  save(gene.table, file = paste0('../../../boxplots-krabmen/resources/', tumor.name, '.Rdata'))  
+  all.tumors <- rbind(all.tumors, gene.table)
+  # save(gene.table, file = paste0('../../../boxplots-krabmen/res2/', tumor.name, '.Rdata'))  
 }
 
+all.tumors.long <- melt(all.tumors, id.vars = c('tumor', 'type'), value.name = 'expression', variable.name = 'gene')
+save(all.tumors.long, file = paste0('../../../boxplots-krabmen/resources/all.Rdata'))
+
+write.table(unique(all.tumors$tumor), file = paste0('../../../boxplots-krabmen/resources/tumor-names.csv'), row.names = F,
+          col.names = c('name'), sep = ',')
+
+write.table(setdiff(colnames(all.tumors), c('tumor', 'type')), file = paste0('../../../boxplots-krabmen/resources/gene-names.csv'), row.names = F,
+            col.names = c('name'), sep = ',')
+
+
+pvalues <- read_csv('../../results/bionmialTest/full-table-pvalues-long.csv')
+pvalues <- subset(pvalues, select = c('pval', 'padj', 'id', 'tumor'))
+colnames(pvalues)[3] <- 'gene'
+save(pvalues, file = '../../../boxplots-krabmen/res2/pvalues.Rdata')
