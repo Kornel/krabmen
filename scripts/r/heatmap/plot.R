@@ -26,12 +26,14 @@ plot.heatmap <- function(h, what.to.plot, threshold, threshold.func, title, file
   dist.cols[is.na(dist.cols)] <- mean(dist.cols, na.rm = T)
   cluster.cols <- hclust(dist.cols)
   
-  legend.start <- as.integer(min(f, na.rm = T))
-  legend.stop <- as.integer(max(f, na.rm = T))
+  legend.start <- as.integer(min(f, na.rm = T)) - 1
+  legend.stop <- as.integer(max(f, na.rm = T)) + 1
   breaks <- seq(legend.start, legend.stop, 1)
   
-  palette <- colorRampPalette(c('dark green', 'yellow', 'dark red'), space = 'Lab')(n = length(breaks))
-  
+  palette <- colorRampPalette(c('#006837', '#1A9850', '#66bd63', 
+                                '#A6D96A', '#D9EF8B', '#FEE08B', 
+                                '#FDAE61', '#F46D43', '#D73027', 
+                                '#A50026'), space = 'Lab')(n = length(breaks) + 1)
   pheatmap(f, 
            show_colnames = T, 
            cluster_cols = cluster.cols, 
@@ -42,9 +44,12 @@ plot.heatmap <- function(h, what.to.plot, threshold, threshold.func, title, file
            filename = filename,
            cellwidth = 10,
            cellheight = 10,
+           treeheight_row = 15,
+           treeheight_col = 15,
            color = palette,
            main = title,
-           legend_breaks = breaks)
+           legend_breaks = breaks,
+           breaks = breaks)
 }
 
 setClass('HeatmapSource', representation(data = 'data.frame', results.dir = 'character'))

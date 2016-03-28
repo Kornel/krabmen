@@ -20,7 +20,7 @@ thresh.median <- new('ThresholdMethod', threshold.func = function(df) apply(df, 
 thresh.methods <- c(thresh.median, thresh.mean)
 
 for (source.data in sources) {
-  for (threshold in seq(0, 1, .1)) {
+  for (threshold in seq(0.3, 0.7, .1)) {
     for (thresh.method in thresh.methods) {
       print(sprintf('Generating heatmaps for threshold %f, method %s, at %s', 
                     threshold, 

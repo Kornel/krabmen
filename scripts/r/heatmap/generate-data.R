@@ -2,6 +2,8 @@
 
 rawdata <- read.csv('../../results/bionmialTest/full-table-pvalues-long.csv')
 
+rawdata <- rawdata[rawdata$tumor != 'KIPAN',]
+
 selected <- subset(rawdata, select = c('id', 'tumor', 'medianHealthy', 'medianTumor', 'log2FoldChange'))
 colnames(selected) <- c('Gene.Id', 'tumor.name', 'medianHealthy', 'medianTumor', 'log2FoldChangeMean')
 
@@ -15,6 +17,7 @@ write.csv(selected, file = sprintf('heatmap/data/heatmap-data-deseq-normalized.c
 # Prepare heatmap data from rsem normalized data
 
 rawdata <- read.csv('../../results/rsem-normalized/full-table-long.csv')
+rawdata <- rawdata[rawdata$tumor != 'KIPAN',]
 
 selected <- subset(rawdata, select = c('Gene.ID', 'tumor', 'log2FoldChangeMean', 'log2FoldChangeMedian'))
 colnames(selected)[1] <- 'Gene.Id'
