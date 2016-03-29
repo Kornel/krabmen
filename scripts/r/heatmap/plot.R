@@ -30,10 +30,16 @@ plot.heatmap <- function(h, what.to.plot, threshold, threshold.func, title, file
   legend.stop <- as.integer(max(f, na.rm = T)) + 1
   breaks <- seq(legend.start, legend.stop, 1)
   
-  palette <- colorRampPalette(c('#006837', '#1A9850', '#66bd63', 
-                                '#A6D96A', '#D9EF8B', '#FEE08B', 
-                                '#FDAE61', '#F46D43', '#D73027', 
-                                '#A50026'), space = 'Lab')(n = length(breaks) + 1)
+  zero.pos <- which(breaks == 0)
+  greens <- c('#006837', '#1A9850', '#66bd63', '#A6D96A', '#D9EF8B')
+  orange <- c('#FEE08B')
+  reds <- c('#FDAE61', '#F46D43', '#D73027', '#A50026')
+  
+  palette.greens <- colorRampPalette(greens, space = 'Lab')(n = zero.pos - 1)
+  palette.orange <- orange
+  palette.reds <- colorRampPalette(reds, space = 'Lab')(n = length(breaks) - zero.pos + 1)
+  palette <- c(palette.greens, palette.orange, palette.reds)
+  
   pheatmap(f, 
            show_colnames = T, 
            cluster_cols = cluster.cols, 
