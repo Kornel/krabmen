@@ -21,8 +21,9 @@ hyb.ref.short <- function(rawdata) {
 }
 
 raw.counts.only <- function(rawdata) {
-  data <- rawdata[,seq(2, length(rawdata), 3)]
-  data$HybRefShort <- hyb.ref.short(rawdata)
+  clean <- rawdata[-1,]
+  data <- clean[,seq(2, length(clean), 3)]
+  data$HybRefShort <- hyb.ref.short(clean)
   return(data)
 }
 
@@ -39,7 +40,7 @@ select.tumor.files <- function(patient.freqs.path = '../../results/stats/raw/sta
 
   patient.freqs <- read.csv(patient.freqs.path) %>% filter(normal >= 9)
   
-  files <- list.files(path = files.path, pattern = '*-clean.txt', recursive = T, full.names = T)
+  files <- list.files(path = files.path, pattern = '*data\\.txt$', recursive = T, full.names = T)
   
   filtered.files <- c()
   

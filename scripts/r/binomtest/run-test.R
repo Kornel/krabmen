@@ -16,6 +16,7 @@ for (file in tumor.files) {
   print(tumor.name)
   
   rawdata <- read_delim(file, delim = '\t')
+  
   raw.counts <- raw.counts.only(rawdata)
   
   filtered.counts <- get.gene.table(raw.counts, tumor.name)$gene.table
@@ -33,7 +34,7 @@ for (file in tumor.files) {
   res <- nbinomTest(cds, 'healthy', 'tumor')
   
   res <- res %>% inner_join(get.stats(counts), by = c('id' = 'Gene.ID'))
-  res <- rename(res, c('baseMeanA' = 'baseMeanHealthy', 'baseMeanB' = 'baseMeanTumor'))
+  res <- plyr::rename(res, c('baseMeanA' = 'baseMeanHealthy', 'baseMeanB' = 'baseMeanTumor'))
   
   write.csv(res, file = sprintf('../../results/bionmialTest/partial/%s.csv', tumor.name), row.names = F)
 }

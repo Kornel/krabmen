@@ -13,23 +13,27 @@ release.dates <- c('2015-11-01')
 
 download.dir <- '../../download/'
 
-
-  for (release.date in release.dates) {
-    dest.dir <- sprintf('%s/mrna-rsem-%s', download.dir, release.date)
+for (release.date in release.dates) {
+  dest.dir <- sprintf('%s/mrna-rsem-%s', download.dir, release.date)
+  dest.dir.norm <- sprintf('%s/mrna-rsem-normalized-%s', download.dir, release.date)
     
-    dir.create(dest.dir, showWarnings = F)
+  dir.create(dest.dir, showWarnings = F)
     
-    sapply(cohorts, function(element){
-      tryCatch({
-        downloadTCGA(cancerTypes = element, 
-                     dataSet ='RSEM_genes__data.Level_3',
-                     destDir = dest.dir, 
-                     date = release.date)
-      },
-      error = function(cond){
-        cat("Error: Maybe there weren't mutations data for ", element, " cancer.\n")
-      }
-      )
-    })
-    
-  }
+  sapply(cohorts, function(element){
+    tryCatch({
+      downloadTCGA(cancerTypes = element, 
+                   dataSet ='RSEM_genes__data.Level_3',
+                   destDir = dest.dir, 
+                   date = release.date)
+      
+      downloadTCGA(cancerTypes = element, 
+                   dataSet ='RSEM_genes_normalized__data.Level_3',
+                   destDir = dest.dir.norm, 
+                   date = release.date)
+    },
+    error = function(cond){
+      print(cond)
+    }
+    )
+  })
+}

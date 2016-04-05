@@ -2,7 +2,7 @@ library(readr)
 
 source('./data-utils.R')
 source('./utils.R')
-source('./rsem-table/stats.R')
+source('./rsem-normalized/stats.R')
 
 tumor.files <- select.tumor.files(
   patient.freqs.path = '../../results/stats/normalized/stats-rsem-normalized-1-vs-11.csv',
@@ -17,13 +17,18 @@ for (file in tumor.files) {
   print(tumor.name)
   
   rawdata <- read_delim(file, delim = '\t')
-  rawdata$HybRefShort <- hyb.ref.short(rawdata)
-  rawdata$`Hybridization REF` <- NULL
-  filtered.counts <- get.gene.table(rawdata, tumor.name)$gene.table
+  #Remove second header
+  data <- rawdata[-1, ]
+  #All except first column - Hybridization REF
+  data[, -1] <- as.data.frame(sapply(data[, -1], as.numeric))
+  
+  data$HybRefShort <- hyb.ref.short(data)
+  data$`Hybridization REF` <- NULL
+  filtered.counts <- get.gene.table(data, tumor.name)$gene.table
   
   counts <- filtered.counts
   counts <- counts[, colnames(counts) != 'other']
-  
+
   res <- get.full.stats(counts)
   
   write.csv(res, file = sprintf('../../results/rsem-normalized/partial/%s.csv', tumor.name), row.names = F)
