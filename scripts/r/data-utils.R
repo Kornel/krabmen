@@ -2,7 +2,7 @@ library(dplyr)
 
 source('utils.R')
 
-get.gene.table <- function(rawdata, tumor.name) {
+get.gene.table <- function(rawdata, tumor.name, resolve.types = T) {
  
   genes <- read.csv('../../data/KRAB ZNF gene master list.csv', sep = '\t')
   genes$Gene.ID <- as.character(genes$Gene.ID)
@@ -14,7 +14,9 @@ get.gene.table <- function(rawdata, tumor.name) {
   rownames(joined) <- joined$Gene.ID
   joined$Gene.ID <- NULL
   
-  colnames(joined) <- patient.code.to.type(colnames(joined))
+  if (resolve.types) {
+    colnames(joined) <- patient.code.to.type(colnames(joined))
+  }
   
   return(list(gene.table = as.data.frame(joined), missing = missing))
 }
