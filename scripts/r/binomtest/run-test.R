@@ -38,3 +38,21 @@ for (file in tumor.files) {
   
   write.csv(res, file = sprintf('../../results/bionmialTest/partial/%s.csv', tumor.name), row.names = F)
 }
+
+
+
+colnames(counts) factor(gsub('(.*)\\..*', '\\1', colnames(counts)))
+
+counts
+
+tumor <- counts[1, gsub('(.*)\\..*', '\\1', colnames(counts)) == 'tumor'] 
+healthy <- counts[1, gsub('(.*)\\..*', '\\1', colnames(counts)) == 'healthy'] 
+
+t <- unlist(unname(as.list(tumor)))
+h <- unlist(unname(as.list(healthy)))
+
+type <- c(rep('t', length(t)), rep('h', length(h)))
+boxplot(c(t,h) ~ type)
+
+
+hist(h)

@@ -1,0 +1,75 @@
+---
+title: "PRAD"
+author: "Kornel Kiełczewski"
+date: "13 April 2016"
+output: html_document
+---
+
+
+```{r}
+library(readr)
+setwd('scripts/r')
+source('data-utils.R')
+prad <- read_delim('../../download/mrna-rsem-normalized-2015-11-01/gdac.broadinstitute.org_PRAD.Merge_rnaseqv2__illuminahiseq_rnaseqv2__unc_edu__Level_3__RSEM_genes_normalized__data.Level_3.2015110100.0.0/PRAD.rnaseqv2__illuminahiseq_rnaseqv2__unc_edu__Level_3__RSEM_genes_normalized__data.data.txt', delim = '\t')
+
+raw.counts <- raw.counts.only(prad)
+
+tumor.name <- 'PRAD'
+filtered.counts <- get.gene.table(raw.counts, tumor.name)$gene.table
+
+subtypes.raw <- read.csv('../../data/Table_S1_PRAD.csv', sep = ';')
+
+first.row <- filtered.counts[1,]
+
+for (cc in 1:nrow(subtypes.raw)) {
+  c <- subtypes.raw[cc,]$SAMPLE_ID
+  s <- as.character(subtypes.raw[cc,]$Subtype)
+  w <- which(grepl(c, colnames(first.row)) == T)
+  if (length(w) != 0){
+    print(s)
+    colnames(first.row)[w] <- s
+  }
+}
+colnames(first.row)
+
+x <- first.row[,!grepl('TCGA', colnames(first.row))]
+
+colnames(x) <- sub('\\..*', '', colnames(x))
+
+x <- t(x)
+
+for (c in unique(rownames(x))) {
+  z <- x[rownames(x) == c]
+  print(sprintf('%s: %s', toString(c), toString(z)))
+  qqnorm(as.numeric(z))
+}
+
+ESG <- c(311.5345, 428.2857, 280.7298, 440.2036, 578.3722, 305.7823, 354.6479, 367.0954, 293.8747, 467.7501, 433.7126, 420.2765, 424.0401, 433.6328, 511.7574, 279.9685, 613.5820, 353.6156, 346.9157, 380.0635, 301.7751, 360.1066, 281.3469, 328.7106, 304.6062, 359.3305, 259.6416, 346.2810, 472.5111, 393.5549, 346.9773, 551.4833, 343.7981, 313.6852, 339.9259, 287.0407, 595.4845, 423.5650, 446.7393, 491.4034, 363.6708, 430.2885, 394.9822, 480.6950, 281.7431, 292.2780, 392.8049, 738.9306, 501.2686, 395.5990, 433.9623, 319.7821, 641.9805)
+
+ETV <- c(416.6837, 552.9744, 546.9244, 494.7781, 309.3180, 384.4891, 334.7639, 356.8655, 453.9823, 358.1565, 393.3579)
+
+FLI <- c(350.7069, 339.1792)
+
+other <- c(371.5823, 283.5050, 321.2446, 361.6087, 328.6128, 411.5724, 399.5368, 346.2312, 271.5988, 342.9395, 252.8289, 348.9455, 392.9978, 227.6577, 394.5098, 349.3617, 370.0034, 386.1359, 261.9146, 291.9540, 506.6927, 254.6191, 270.5036, 359.9865, 454.5061)
+
+ETV4 <- c(204.7244, 505.0195)
+SPOP <- c(395.3571, 300.5498, 325.7185, 326.9079, 245.7786, 281.1780, 430.4668, 397.0917, 325.9164, 470.9302, 343.7599)
+#FOXA1 <- c(280.2956)
+
+groups <- c(rep('ESG', length(ESG)), rep('ETV', length(ETV)), rep('FLI', length(FLI)), rep('other', length(other)), 
+            rep('ETV4', length(ETV4)), rep('SPOP', length(SPOP)))
+
+all <- c(ESG, ETV, FLI, other, ETV4, SPOP)
+
+bartlett.test(all, groups)
+
+
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

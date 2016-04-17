@@ -7,6 +7,8 @@ drop.data <- function(df) {
 
 filename.to.tumor <- function(filename) sub('.*gdac.broadinstitute.org_(\\w*)\\..*', '\\1', filename)
 
+filename.to.tumor <- function(filename) sub('.*/(\\w*).rnaseqv.*', '\\1', filename)
+
 asNumeric <- function(x) as.numeric(as.character(x))
 factorsNumeric <- function(d) modifyList(d, lapply(d[, sapply(d, is.factor)], asNumeric))
 
