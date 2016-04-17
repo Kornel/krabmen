@@ -1,0 +1,581 @@
+_PATIENT	histological_type
+TCGA-4C-A93U	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A0YZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A0Z0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A0Z2	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-BJ-A0Z3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A0Z5	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A0Z9	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-BJ-A0ZA	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A0ZB	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A0ZC	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A0ZE	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A0ZF	Other  specify
+TCGA-BJ-A0ZG	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-BJ-A0ZH	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-BJ-A0ZJ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A18Y	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A18Z	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A190	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A191	Other  specify
+TCGA-BJ-A192	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A28R	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A28R	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A28S	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A28T	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A28T	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A28V	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A28W	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A28W	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A28X	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-BJ-A28X	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-BJ-A28Z	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A290	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-BJ-A290	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-BJ-A291	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A2N7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A2N7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A2N8	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A2N8	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A2N9	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A2N9	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A2NA	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A2NA	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A2P4	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A3EZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A3F0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A3PR	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A3PR	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A3PT	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A3PU	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A3PU	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A45C	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A45D	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-BJ-A45E	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A45F	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A45G	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-BJ-A45H	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A45I	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-BJ-A45J	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-BJ-A45K	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-BJ-A4O8	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-BJ-A4O9	Other  specify
+TCGA-CE-A13K	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-CE-A27D	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-CE-A3MD	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-CE-A3ME	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-CE-A481	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-CE-A482	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-CE-A483	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-CE-A484	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-CE-A485	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A0XZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A0Y2	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A0Y3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A2OL	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DE-A3KN	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A4M8	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A4M9	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A4MA	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A4MB	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A4MC	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A4MD	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A4MD	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A69J	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A69K	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DE-A7U5	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A13L	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A13M	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A13O	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A13P	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A13R	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A13S	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A13T	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A13U	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A13V	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A13W	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A13X	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A1QD	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A1QE	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A1QF	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A1QG	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A1QH	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A1QI	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A1QL	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A1QM	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A1QN	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A1QO	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A1QQ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2PN	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2PO	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2PP	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A2PQ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2PR	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2PS	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2PT	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A2PU	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2PV	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2PW	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2PX	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A2PY	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A2PZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2Q0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2Q1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2Q2	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A2Q3	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A2Q4	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2Q5	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2Q6	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2Q7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A2Q8	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A2Q9	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A2QA	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A2QB	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A2QC	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3UK	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3UM	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3UN	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3UO	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3UP	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A3UQ	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A3UR	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A3US	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3UT	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A3UU	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3UV	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3UW	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3UX	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3UY	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3UZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3V0	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A3V2	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3V3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3V4	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A3V5	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A3V6	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A3V7	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A3V8	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A3V9	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3VA	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3VB	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A3VD	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3VE	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A3VF	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A3VG	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A3VI
+TCGA-DJ-A3VJ	Other  specify
+TCGA-DJ-A3VK
+TCGA-DJ-A3VL	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A3VM	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A4UL	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A4UP	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A4UQ	Other  specify
+TCGA-DJ-A4UR	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DJ-A4UT	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A4UW	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A4V0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A4V2	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DJ-A4V4	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-DJ-A4V5	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DO-A1JZ	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DO-A1JZ	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-DO-A1K0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-DO-A2HM	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E3-A3DY	Other  specify
+TCGA-E3-A3DZ	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-E3-A3E0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E3-A3E1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E3-A3E2	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-E3-A3E3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E3-A3E5	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A242	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A2EA	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A2JQ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A2JQ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A3X7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A413	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A414	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A415	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A416	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A417	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A418	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A419	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A432	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A433	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A434	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A436	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A437	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A438	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A44K	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-E8-A44M	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CL	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CM	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CN	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CO	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CP	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EL-A3CR	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CS	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CT	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CU	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CV	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CW	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CX	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CY	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3CZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3D0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3D1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3D4	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3D5	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3D6	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3GO	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3GP	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3GQ	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EL-A3GR	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3GS	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3GU	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3GV	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3GW	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3GX	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3GY	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3GZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3GZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3H1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3H1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3H2	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3H2	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3H3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3H4	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3H5	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3H7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3H7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3H8	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3MW	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3MW	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3MX	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3MX	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3MY	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3MY	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3MZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3N2	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3N2	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3N3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3N3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T2	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T2	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T6	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T6	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T8	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T8	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3T9	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3TA	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3TA	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3TB	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3TB	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZG	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZG	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZH	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZH	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZK	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZK	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZL	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZL	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZM	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZM	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZN	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZO	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZO	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZP	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZP	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZQ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZQ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZR	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZR	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZS	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZS	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZT	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A3ZT	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4JV	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4JW	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4JX	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4JZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4K0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4K1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4K2	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4K4	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4K6	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4K7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4K9	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4KD	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4KG	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4KH	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EL-A4KI	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A1CS	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A1CS	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A1CT	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A1CT	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A1CU	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A1CU	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A1CV	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A1CV	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A1CW	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A1CW	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A1YA	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A1YB	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A1YC	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A1YC	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A1YD	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A1YD	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A1YE	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A1YE	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A22I	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A22J	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A22K	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A22L	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A22M	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A22N	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A22O	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A22P	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A22Q	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2CJ	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2CK	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2CL	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2CM	Other  specify
+TCGA-EM-A2CN	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2CO	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2CP	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2CQ	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2CR	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2CS	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A2CS	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A2CT	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2CU	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2OV	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2OW	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2OX	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A2OY	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2OZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A2P0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A2P1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A2P1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A2P2	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A2P3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3AI	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3AJ	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3AK	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3AL	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3AN	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3AO	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3AP	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3AQ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3AR	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3FJ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3FK	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3FL	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3FM	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3FN	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3FO	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3FP	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3FQ	Other  specify
+TCGA-EM-A3FQ	Other  specify
+TCGA-EM-A3FR	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3O3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3O6	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3O7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3O8	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3O9	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3OA	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3OB	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3ST	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3ST	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3SU	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3SU	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3SX	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A3SY	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A3SZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A4FF	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A4FH	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A4FK	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A4FM	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A4FN	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A4FO	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A4FQ	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A4FR	Other  specify
+TCGA-EM-A4FU	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-EM-A4FV	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-EM-A4G1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A25G	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-ET-A25I	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-ET-A25J	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A25J	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A25K	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A25L	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-ET-A25M	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A25N	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A25N	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A25O	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A25P	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A25R	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-ET-A2MX	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A2MX	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A2MY	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A2MY	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A2MZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A2N0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A2N1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A2N3	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-ET-A2N4	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-ET-A2N5	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-ET-A2N5	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-ET-A39I	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-ET-A39J	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A39K	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A39L	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A39M	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A39N	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A39O	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-ET-A39P	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A39R	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A39S	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A39T	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-ET-A3BN	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3BO	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-ET-A3BP	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3BQ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3BS	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3BT	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-ET-A3BU	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3BV	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3BW	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3BX	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3DO	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3DP	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3DP	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3DQ	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-ET-A3DR	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3DS	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3DT	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3DU	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A3DV	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-ET-A3DW	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-ET-A3DW	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-ET-A40P	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-ET-A40Q	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-ET-A40R	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-ET-A40S	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A40T	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-ET-A4KN	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-ET-A4KQ	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-FE-A22Z	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-FE-A230	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A231	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A232	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A233	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A234	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A235	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A236	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A237	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A238	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A239	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A23A	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A3PA	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-FE-A3PB	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A3PC	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FE-A3PD	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-FK-A3S3	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-FK-A3SB	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FK-A3SD	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FK-A3SE	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FK-A3SG	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FK-A3SH	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FK-A4UB	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A2QD	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3BL	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3I4	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3I5	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-FY-A3NM	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3NN	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3NP	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-FY-A3ON	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3R6	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3R7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3R8	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3R9	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3RA	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3TY	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3TY	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A3W9	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-FY-A3WA	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-FY-A3YR	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A40K	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A40L	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A40M	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A40N	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-FY-A4B0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A4B3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A4B4	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-FY-A76V	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-GE-A2C6	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-GE-A2C6	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-H2-A26U	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-H2-A2K9	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-H2-A2K9	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-H2-A3RH	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-H2-A3RI	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-H2-A3RI	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-H2-A421	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-H2-A422	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-IM-A3EB	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-IM-A3ED	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-IM-A3U2	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-IM-A3U3	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-IM-A41Y	Other  specify
+TCGA-IM-A41Z	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-IM-A420	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-IM-A4EB	Other  specify
+TCGA-J8-A3NZ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A3O0	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A3O1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A3O2	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A3O2	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A3YD	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A3YE	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A3YF	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A3YG	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A3YH	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A3YH	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A42S	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A4HW	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A4HW	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-J8-A4HY	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-KS-A41F	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-KS-A41I	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-KS-A41I	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-KS-A41J	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-KS-A41J	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-KS-A41L	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-KS-A41L	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-KS-A4I1	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-KS-A4I3	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-KS-A4I5	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-KS-A4I7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-KS-A4I9	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-KS-A4IB	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-KS-A4IC	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-KS-A4ID	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-L6-A4EP	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-L6-A4EQ	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-L6-A4ET	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-L6-A4EU	Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
+TCGA-MK-A4N6	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-MK-A4N7	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-MK-A4N9	Thyroid Papillary Carcinoma - Classical/usual
+TCGA-MK-A84Z	Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned)
+TCGA-QD-A8IV	Thyroid Papillary Carcinoma - Classical/usual
