@@ -46,7 +46,7 @@ for (gene in gene.list) {
   b <- rbind(b, dcast(t.hsd, gene ~ type, value.var = c('p adj')))
 }
 
-write.table(b, file = 'result-PRAD.clinical.csv', row.names = F)
+write.table(b, file = 'result-PRAD.clinical.csv', row.names = F, sep = ';')
 
 # Subtypes
 subtypes.mapping <- read.csv('../../data/Table_S1_PRAD.csv', sep = ';', stringsAsFactors = F)
@@ -63,7 +63,7 @@ for (gene in gene.list) {
   b <- rbind(b, dcast(t.hsd, gene ~ type, value.var = c('p adj')))
 }
 
-write.table(b, file = 'result-TABLE_S1_PRAD.csv', row.names = F)
+write.table(b, file = 'result-TABLE_S1_PRAD.csv', row.names = F, sep = ';')
 
 
 ```
