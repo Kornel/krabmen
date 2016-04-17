@@ -13,7 +13,8 @@ get.gene.table <- function(rawdata, tumor.name) {
   
   rownames(joined) <- joined$Gene.ID
   joined$Gene.ID <- NULL
-  #colnames(joined) <- patient.code.to.type(colnames(joined))
+  
+  colnames(joined) <- patient.code.to.type(colnames(joined))
   
   return(list(gene.table = as.data.frame(joined), missing = missing))
 }

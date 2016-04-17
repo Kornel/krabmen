@@ -8,14 +8,57 @@ output: html_document
 
 ```{r}
 library(readr)
+library(dplyr)
 setwd('scripts/r')
 source('data-utils.R')
 prad <- read_delim('../../download/mrna-rsem-normalized-2015-11-01/gdac.broadinstitute.org_PRAD.Merge_rnaseqv2__illuminahiseq_rnaseqv2__unc_edu__Level_3__RSEM_genes_normalized__data.Level_3.2015110100.0.0/PRAD.rnaseqv2__illuminahiseq_rnaseqv2__unc_edu__Level_3__RSEM_genes_normalized__data.data.txt', delim = '\t')
 
-raw.counts <- raw.counts.only(prad)
+raw.counts <- prad[-1,]
+raw.counts$HybRefShort <- hyb.ref.short(raw.counts)
 
 tumor.name <- 'PRAD'
-filtered.counts <- get.gene.table(raw.counts, tumor.name)$gene.table
+
+data <- get.gene.table(raw.counts, tumor.name)$gene.table 
+data$`Hybridization REF` <- NULL
+r <- rownames(data)
+data <- as.data.frame(sapply(data[,-1], as.numeric))
+rownames(data) <- r
+data <- as.data.frame(t(data))
+
+subtypes.raw <- read.csv('../../data/Table_S1_PRAD.csv', sep = ';', stringsAsFactors = F)
+
+data$PATIENT_ID <- sub('(\\w+-\\w+-\\w+).*', '\\1', rownames(data))
+
+subtype.data <- data %>% inner_join(subtypes.raw, by = c('PATIENT_ID' = 'PATIENT_ID'))
+
+a <- aov(subtype.data$ZNF195 ~ subtype.data$Subtype)
+t.hsd <- TukeyHSD(a)
+```
+
+
+
+data$subtype <- sapply(rownames(data), function(rowname) {
+  matching.indices <- sapply(subtypes.raw$SAMPLE_ID, function(s) grepl(s, rowname))
+  if (length(which(matching.indices == T)) == 0) {
+    NA
+  } else {
+    as.character(subtypes.raw[matching.indices,c('Subtype')])
+  }
+})
+
+
+```{r}
+# genes <- read.csv('../../data/KRAB ZNF gene master list.csv', sep = '\t')
+# genes$Gene.ID <- as.character(genes$Gene.ID)
+# 
+# joined <- genes %>% inner_join(raw.counts, by = c('Gene.ID' = 'HybRefShort'))
+# missing <- data.frame(Gene.ID = setdiff(genes$Gene.ID, rawdata$HybRefShort), tumor = tumor.name)
+# joined$Ensembl.ID <- NULL  
+# 
+# rownames(joined) <- joined$Gene.ID
+# joined$Gene.ID <- NULL
+#colnames(joined) <- patient.code.to.type(colnames(joined))
+
 
 subtypes.raw <- read.csv('../../data/Table_S1_PRAD.csv', sep = ';')
 
@@ -63,6 +106,9 @@ all <- c(ESG, ETV, FLI, other, ETV4, SPOP)
 
 bartlett.test(all, groups)
 
+
+a <- aov(all ~ groups)
+TukeyHSD(a)
 
 ```
 
