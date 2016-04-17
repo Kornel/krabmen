@@ -53,7 +53,6 @@ subtypes.mapping <- read.csv('../../data/Table_S1_PRAD.csv', sep = ';', stringsA
 data$PATIENT_ID <- sub('(\\w+-\\w+-\\w+).*', '\\1', rownames(data))
 subtype.data <- data %>% inner_join(subtypes.mapping, by = c('PATIENT_ID' = 'PATIENT_ID'))
 
-gene <- gene.list[1]
 b <- data.frame()
 for (gene in gene.list) {
   a <- aov(subtype.data[,gene] ~ subtype.data$Subtype)
@@ -78,7 +77,7 @@ raw.counts$HybRefShort <- hyb.ref.short(raw.counts)
 
 tumor.name <- 'THCA'
 
-data <- get.gene.table(raw.counts, tumor.name)$gene.table 
+data <- get.gene.table(raw.counts, tumor.name, resolve.types = F)$gene.table 
 data$`Hybridization REF` <- NULL
 r <- rownames(data)
 data <- as.data.frame(sapply(data[,-1], as.numeric))
@@ -90,15 +89,35 @@ gene.list <- colnames(data)
 subtype.mapping <- read.csv('../../data/THCA.clinical.tsv', sep = '\t', stringsAsFactors = F) %>% filter(nchar(histological_type) > 0)
 data$X_PATIENT <- sub('(\\w+-\\w+-\\w+).*', '\\1', rownames(data))
 subtype.data <- data %>% inner_join(subtype.mapping, by = c('X_PATIENT' = 'X_PATIENT'))
-a <- aov(subtype.data$ZNF195 ~ subtype.data$histological_type)
-t.hsd <- TukeyHSD(a)$`subtype.data$histological_type`
+
+b <- data.frame()
+for (gene in gene.list) {
+  a <- aov(subtype.data[,gene] ~ subtype.data$histological_type)
+  t.hsd <- as.data.frame(TukeyHSD(a)$`subtype.data$histological_type`)
+  t.hsd$type <- rownames(t.hsd)
+  t.hsd$gene <- gene
+  b <- rbind(b, dcast(t.hsd, gene ~ type, value.var = c('p adj')))
+}
+
+write.table(b, file = 'result-THCA.clinical.csv', row.names = F, sep = ';')
+
 
 # Subtypes
 subtype.mapping <- read.csv('../../data/THCA_RNA_Subtypes.tsv', sep = '\t', stringsAsFactors = F)
 subtype.mapping$New_RNA_Class <- as.factor(subtype.mapping$New_RNA_Class)
 data$Barcode <- gsub('-', '.', data$X_PATIENT)
 subtype.data <- data %>% inner_join(subtype.mapping, by = c('Barcode' = 'Barcode'))
-a <- aov(subtype.data$ZNF195 ~ subtype.data$New_RNA_Class)
-t.hsd <- TukeyHSD(a)$`subtype.data$New_RNA_Class`
+
+b <- data.frame()
+for (gene in gene.list) {
+  a <- aov(subtype.data[,gene] ~ subtype.data$New_RNA_Class)
+  t.hsd <- as.data.frame(TukeyHSD(a)$`subtype.data$New_RNA_Class`)
+  t.hsd$type <- rownames(t.hsd)
+  t.hsd$gene <- gene
+  b <- rbind(b, dcast(t.hsd, gene ~ type, value.var = c('p adj')))
+}
+
+write.table(b, file = 'result-THCA_RNA_Subtypes.csv', row.names = F, sep = ';')
+
 ```
 
