@@ -32,7 +32,6 @@ data <- as.data.frame(t(data))
 gene.list <- colnames(data)
 
 # Clinical
-
 subtype.mapping <- read.csv('../../data/PRAD.clinical.tsv', sep = '\t', stringsAsFactors = F) %>% filter(nchar(histological_type) > 0)
 data$X_PATIENT <- sub('(\\w+-\\w+-\\w+).*', '\\1', rownames(data))
 subtype.data <- data %>% inner_join(subtype.mapping, by = c('X_PATIENT' = 'X_PATIENT'))
@@ -105,7 +104,7 @@ write.table(b, file = '../../subtypes/result-THCA.clinical.csv', row.names = F, 
 # Subtypes
 subtype.mapping <- read.csv('../../data/THCA_RNA_Subtypes.tsv', sep = '\t', stringsAsFactors = F)
 subtype.mapping$New_RNA_Class <- as.factor(subtype.mapping$New_RNA_Class)
-data$Barcode <- gsub('-', '.', data$X_PATIENT)
+data$Barcode <- data$X_PATIENT
 subtype.data <- data %>% inner_join(subtype.mapping, by = c('Barcode' = 'Barcode'))
 
 b <- data.frame()

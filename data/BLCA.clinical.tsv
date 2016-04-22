@@ -1,0 +1,437 @@
+sampleID	diagnosis_subtype
+TCGA-2F-A9KO	Non-Papillary
+TCGA-2F-A9KP	Non-Papillary
+TCGA-2F-A9KQ	Non-Papillary
+TCGA-2F-A9KR	Non-Papillary
+TCGA-2F-A9KT	Non-Papillary
+TCGA-2F-A9KW	Non-Papillary
+TCGA-4Z-AA7M	Non-Papillary
+TCGA-4Z-AA7N	Non-Papillary
+TCGA-4Z-AA7O	Papillary
+TCGA-4Z-AA7Q	Non-Papillary
+TCGA-4Z-AA7R	Papillary
+TCGA-4Z-AA7S	Non-Papillary
+TCGA-4Z-AA7W	Non-Papillary
+TCGA-4Z-AA7Y	Papillary
+TCGA-4Z-AA80	Papillary
+TCGA-4Z-AA81	Papillary
+TCGA-4Z-AA82	Non-Papillary
+TCGA-4Z-AA83	Papillary
+TCGA-4Z-AA84
+TCGA-4Z-AA86	Non-Papillary
+TCGA-4Z-AA87	Non-Papillary
+TCGA-4Z-AA89	Papillary
+TCGA-5N-A9KI
+TCGA-5N-A9KM
+TCGA-BL-A0C8	Non-Papillary
+TCGA-BL-A13I	Non-Papillary
+TCGA-BL-A13J	Papillary
+TCGA-BL-A13J	Papillary
+TCGA-BL-A3JM
+TCGA-BL-A5ZZ	Papillary
+TCGA-BT-A0S7	Non-Papillary
+TCGA-BT-A0YX	Non-Papillary
+TCGA-BT-A20J	Non-Papillary
+TCGA-BT-A20J	Non-Papillary
+TCGA-BT-A20N	Non-Papillary
+TCGA-BT-A20N	Non-Papillary
+TCGA-BT-A20O	Non-Papillary
+TCGA-BT-A20P	Non-Papillary
+TCGA-BT-A20P	Non-Papillary
+TCGA-BT-A20Q	Non-Papillary
+TCGA-BT-A20Q	Non-Papillary
+TCGA-BT-A20R	Non-Papillary
+TCGA-BT-A20R	Non-Papillary
+TCGA-BT-A20T	Non-Papillary
+TCGA-BT-A20U	Non-Papillary
+TCGA-BT-A20U	Non-Papillary
+TCGA-BT-A20V	Non-Papillary
+TCGA-BT-A20V	Non-Papillary
+TCGA-BT-A20W	Non-Papillary
+TCGA-BT-A20W	Non-Papillary
+TCGA-BT-A20X	Non-Papillary
+TCGA-BT-A20X	Non-Papillary
+TCGA-BT-A2LA	Non-Papillary
+TCGA-BT-A2LA	Non-Papillary
+TCGA-BT-A2LB	Non-Papillary
+TCGA-BT-A2LB	Non-Papillary
+TCGA-BT-A2LD	Non-Papillary
+TCGA-BT-A3PH	Non-Papillary
+TCGA-BT-A3PJ	Papillary
+TCGA-BT-A3PK	Papillary
+TCGA-BT-A42B	Papillary
+TCGA-BT-A42C	Papillary
+TCGA-BT-A42E	Non-Papillary
+TCGA-BT-A42F	Non-Papillary
+TCGA-C4-A0EZ	Non-Papillary
+TCGA-C4-A0F0	Non-Papillary
+TCGA-C4-A0F1	Non-Papillary
+TCGA-C4-A0F6	Non-Papillary
+TCGA-C4-A0F7	Non-Papillary
+TCGA-CF-A1HR	Non-Papillary
+TCGA-CF-A1HS	Non-Papillary
+TCGA-CF-A27C	Papillary
+TCGA-CF-A3MF	Papillary
+TCGA-CF-A3MG	Papillary
+TCGA-CF-A3MH	Papillary
+TCGA-CF-A3MI	Papillary
+TCGA-CF-A47S	Papillary
+TCGA-CF-A47T	Papillary
+TCGA-CF-A47V	Papillary
+TCGA-CF-A47W	Papillary
+TCGA-CF-A47X	Papillary
+TCGA-CF-A47Y	Papillary
+TCGA-CF-A5U8	Papillary
+TCGA-CF-A5UA	Papillary
+TCGA-CF-A7I0	Papillary
+TCGA-CF-A8HX	Papillary
+TCGA-CF-A8HY	Papillary
+TCGA-CF-A9FF	Papillary
+TCGA-CF-A9FH	Papillary
+TCGA-CF-A9FL
+TCGA-CF-A9FM
+TCGA-CU-A0YN	Non-Papillary
+TCGA-CU-A0YN	Non-Papillary
+TCGA-CU-A0YO	Non-Papillary
+TCGA-CU-A0YR	Non-Papillary
+TCGA-CU-A0YR	Non-Papillary
+TCGA-CU-A3KJ	Non-Papillary
+TCGA-CU-A3QU	Non-Papillary
+TCGA-CU-A3YL	Papillary
+TCGA-CU-A5W6	Non-Papillary
+TCGA-CU-A72E	Non-Papillary
+TCGA-DK-A1A3
+TCGA-DK-A1A5	Non-Papillary
+TCGA-DK-A1A6	Non-Papillary
+TCGA-DK-A1A6-06	Non-Papillary
+TCGA-DK-A1A7	Non-Papillary
+TCGA-DK-A1AA	Papillary
+TCGA-DK-A1AB	Non-Papillary
+TCGA-DK-A1AC	Non-Papillary
+TCGA-DK-A1AD	Non-Papillary
+TCGA-DK-A1AE	Non-Papillary
+TCGA-DK-A1AF	Non-Papillary
+TCGA-DK-A1AG	Papillary
+TCGA-DK-A2HX	Non-Papillary
+TCGA-DK-A2I1	Papillary
+TCGA-DK-A2I2	Non-Papillary
+TCGA-DK-A2I4	Papillary
+TCGA-DK-A2I6	Non-Papillary
+TCGA-DK-A3IK	Papillary
+TCGA-DK-A3IL	Non-Papillary
+TCGA-DK-A3IM	Papillary
+TCGA-DK-A3IN	Papillary
+TCGA-DK-A3IQ	Papillary
+TCGA-DK-A3IS	Papillary
+TCGA-DK-A3IT	Non-Papillary
+TCGA-DK-A3IU
+TCGA-DK-A3IV	Non-Papillary
+TCGA-DK-A3WW	Papillary
+TCGA-DK-A3WX	Non-Papillary
+TCGA-DK-A3WY	Non-Papillary
+TCGA-DK-A3X1	Non-Papillary
+TCGA-DK-A3X2	Papillary
+TCGA-DK-A6AV	Papillary
+TCGA-DK-A6AW	Non-Papillary
+TCGA-DK-A6B0	Papillary
+TCGA-DK-A6B1	Papillary
+TCGA-DK-A6B2	Non-Papillary
+TCGA-DK-A6B5	Non-Papillary
+TCGA-DK-A6B6	Papillary
+TCGA-DK-AA6L	Non-Papillary
+TCGA-DK-AA6M
+TCGA-DK-AA6P
+TCGA-DK-AA6Q	Non-Papillary
+TCGA-DK-AA6R
+TCGA-DK-AA6S	Non-Papillary
+TCGA-DK-AA6T	Non-Papillary
+TCGA-DK-AA6U	Papillary
+TCGA-DK-AA6W	Non-Papillary
+TCGA-DK-AA6X	Papillary
+TCGA-DK-AA71
+TCGA-DK-AA74	Non-Papillary
+TCGA-DK-AA75
+TCGA-DK-AA76	Papillary
+TCGA-DK-AA77
+TCGA-E5-A2PC	Non-Papillary
+TCGA-E5-A4TZ	Papillary
+TCGA-E5-A4U1	Papillary
+TCGA-E7-A3X6	Papillary
+TCGA-E7-A3Y1	Papillary
+TCGA-E7-A4IJ	Papillary
+TCGA-E7-A4XJ	Non-Papillary
+TCGA-E7-A519	Papillary
+TCGA-E7-A541	Papillary
+TCGA-E7-A5KE	Non-Papillary
+TCGA-E7-A5KF	Non-Papillary
+TCGA-E7-A677	Non-Papillary
+TCGA-E7-A678	Non-Papillary
+TCGA-E7-A6MD
+TCGA-E7-A6ME	Non-Papillary
+TCGA-E7-A6MF	Papillary
+TCGA-E7-A7DU
+TCGA-E7-A7DV	Papillary
+TCGA-E7-A7PW	Non-Papillary
+TCGA-E7-A7XN	Non-Papillary
+TCGA-E7-A85H	Non-Papillary
+TCGA-E7-A8O7	Papillary
+TCGA-E7-A8O8
+TCGA-E7-A97P	Non-Papillary
+TCGA-E7-A97Q	Non-Papillary
+TCGA-FD-A3B3	Papillary
+TCGA-FD-A3B4	Non-Papillary
+TCGA-FD-A3B5	Non-Papillary
+TCGA-FD-A3B6	Papillary
+TCGA-FD-A3B7	Non-Papillary
+TCGA-FD-A3B8	Non-Papillary
+TCGA-FD-A3N5	Non-Papillary
+TCGA-FD-A3N6	Non-Papillary
+TCGA-FD-A3NA	Non-Papillary
+TCGA-FD-A3SJ	Non-Papillary
+TCGA-FD-A3SL	Non-Papillary
+TCGA-FD-A3SM	Papillary
+TCGA-FD-A3SN	Papillary
+TCGA-FD-A3SO	Non-Papillary
+TCGA-FD-A3SP	Non-Papillary
+TCGA-FD-A3SQ	Non-Papillary
+TCGA-FD-A3SR	Non-Papillary
+TCGA-FD-A3SS	Non-Papillary
+TCGA-FD-A43N	Non-Papillary
+TCGA-FD-A43P	Non-Papillary
+TCGA-FD-A43S	Non-Papillary
+TCGA-FD-A43U	Non-Papillary
+TCGA-FD-A43X	Papillary
+TCGA-FD-A43Y	Non-Papillary
+TCGA-FD-A5BR	Non-Papillary
+TCGA-FD-A5BS	Non-Papillary
+TCGA-FD-A5BT	Non-Papillary
+TCGA-FD-A5BU	Non-Papillary
+TCGA-FD-A5BV	Non-Papillary
+TCGA-FD-A5BX	Non-Papillary
+TCGA-FD-A5BY	Papillary
+TCGA-FD-A5BZ	Non-Papillary
+TCGA-FD-A5C0	Non-Papillary
+TCGA-FD-A5C1	Non-Papillary
+TCGA-FD-A62N	Non-Papillary
+TCGA-FD-A62O	Non-Papillary
+TCGA-FD-A62P	Non-Papillary
+TCGA-FD-A62S	Non-Papillary
+TCGA-FD-A6TA	Papillary
+TCGA-FD-A6TB	Non-Papillary
+TCGA-FD-A6TC	Non-Papillary
+TCGA-FD-A6TD	Non-Papillary
+TCGA-FD-A6TE	Non-Papillary
+TCGA-FD-A6TF	Non-Papillary
+TCGA-FD-A6TG	Non-Papillary
+TCGA-FD-A6TH	Non-Papillary
+TCGA-FD-A6TI	Non-Papillary
+TCGA-FD-A6TK	Non-Papillary
+TCGA-FJ-A3Z7	Non-Papillary
+TCGA-FJ-A3Z9	Papillary
+TCGA-FJ-A3ZE	Non-Papillary
+TCGA-FJ-A3ZF	Papillary
+TCGA-FJ-A871	Non-Papillary
+TCGA-FT-A3EE	Papillary
+TCGA-FT-A61P	Papillary
+TCGA-G2-A2EC	Non-Papillary
+TCGA-G2-A2EF	Non-Papillary
+TCGA-G2-A2EJ	Non-Papillary
+TCGA-G2-A2EK	Non-Papillary
+TCGA-G2-A2EL	Non-Papillary
+TCGA-G2-A2EO	Non-Papillary
+TCGA-G2-A2ES	Non-Papillary
+TCGA-G2-A3IB	Non-Papillary
+TCGA-G2-A3IE	Non-Papillary
+TCGA-G2-A3VY	Non-Papillary
+TCGA-G2-AA3B	Non-Papillary
+TCGA-G2-AA3C	Non-Papillary
+TCGA-G2-AA3D	Non-Papillary
+TCGA-G2-AA3F	Non-Papillary
+TCGA-GC-A3BM	Non-Papillary
+TCGA-GC-A3BM	Non-Papillary
+TCGA-GC-A3I6	Non-Papillary
+TCGA-GC-A3OO	Non-Papillary
+TCGA-GC-A3RB	Non-Papillary
+TCGA-GC-A3RC	Non-Papillary
+TCGA-GC-A3RD	Non-Papillary
+TCGA-GC-A3WC	Non-Papillary
+TCGA-GC-A3WC	Non-Papillary
+TCGA-GC-A3YS	Non-Papillary
+TCGA-GC-A4ZW	Non-Papillary
+TCGA-GC-A6I1	Non-Papillary
+TCGA-GC-A6I3	Non-Papillary
+TCGA-GC-A6I3	Non-Papillary
+TCGA-GD-A2C5	Papillary
+TCGA-GD-A2C5	Papillary
+TCGA-GD-A3OP	Papillary
+TCGA-GD-A3OP	Papillary
+TCGA-GD-A3OQ	Papillary
+TCGA-GD-A3OQ	Papillary
+TCGA-GD-A3OS	Non-Papillary
+TCGA-GD-A6C6	Papillary
+TCGA-GD-A76B	Papillary
+TCGA-GU-A42P	Papillary
+TCGA-GU-A42Q	Non-Papillary
+TCGA-GU-A42R	Papillary
+TCGA-GU-A762	Non-Papillary
+TCGA-GU-A763	Papillary
+TCGA-GU-A764	Non-Papillary
+TCGA-GU-A766	Non-Papillary
+TCGA-GU-A767	Papillary
+TCGA-GU-AATO	Papillary
+TCGA-GU-AATP	Papillary
+TCGA-GU-AATQ	Papillary
+TCGA-GV-A3JV	Non-Papillary
+TCGA-GV-A3JW	Non-Papillary
+TCGA-GV-A3JX	Non-Papillary
+TCGA-GV-A3JZ	Non-Papillary
+TCGA-GV-A3QF	Papillary
+TCGA-GV-A3QG	Papillary
+TCGA-GV-A3QH	Non-Papillary
+TCGA-GV-A3QI	Papillary
+TCGA-GV-A3QK	Non-Papillary
+TCGA-GV-A40E	Non-Papillary
+TCGA-GV-A40G	Non-Papillary
+TCGA-GV-A6ZA	Papillary
+TCGA-H4-A2HO	Papillary
+TCGA-H4-A2HQ	Non-Papillary
+TCGA-HQ-A2OE	Papillary
+TCGA-HQ-A2OF	Papillary
+TCGA-HQ-A5ND
+TCGA-HQ-A5NE	Non-Papillary
+TCGA-K4-A3WS	Non-Papillary
+TCGA-K4-A3WU	Non-Papillary
+TCGA-K4-A3WV	Non-Papillary
+TCGA-K4-A3WV	Non-Papillary
+TCGA-K4-A4AB	Non-Papillary
+TCGA-K4-A4AC	Non-Papillary
+TCGA-K4-A54R	Papillary
+TCGA-K4-A54R	Papillary
+TCGA-K4-A5RH	Non-Papillary
+TCGA-K4-A5RI	Non-Papillary
+TCGA-K4-A5RI	Non-Papillary
+TCGA-K4-A5RJ	Papillary
+TCGA-K4-A6FZ	Non-Papillary
+TCGA-K4-A6MB	Non-Papillary
+TCGA-K4-A83P	Non-Papillary
+TCGA-K4-AAQO
+TCGA-KQ-A41N
+TCGA-KQ-A41O
+TCGA-KQ-A41P
+TCGA-KQ-A41Q
+TCGA-KQ-A41R
+TCGA-KQ-A41S
+TCGA-LC-A66R	Papillary
+TCGA-LT-A5Z6	Non-Papillary
+TCGA-LT-A8JT	Papillary
+TCGA-MV-A51V	Papillary
+TCGA-PQ-A6FI	Non-Papillary
+TCGA-PQ-A6FN	Non-Papillary
+TCGA-R3-A69X	Non-Papillary
+TCGA-S5-A6DX	Non-Papillary
+TCGA-S5-AA26	Papillary
+TCGA-SY-A9G0	Papillary
+TCGA-SY-A9G5	Papillary
+TCGA-UY-A78K	Papillary
+TCGA-UY-A78L	Papillary
+TCGA-UY-A78M	Non-Papillary
+TCGA-UY-A78N	Non-Papillary
+TCGA-UY-A78O	Non-Papillary
+TCGA-UY-A78P	Non-Papillary
+TCGA-UY-A8OB	Non-Papillary
+TCGA-UY-A8OC	Non-Papillary
+TCGA-UY-A8OD	Non-Papillary
+TCGA-UY-A9PA	Non-Papillary
+TCGA-UY-A9PB	Non-Papillary
+TCGA-UY-A9PD	Non-Papillary
+TCGA-UY-A9PE	Non-Papillary
+TCGA-UY-A9PF	Papillary
+TCGA-UY-A9PH
+TCGA-XF-A8HB	Papillary
+TCGA-XF-A8HC	Papillary
+TCGA-XF-A8HD	Non-Papillary
+TCGA-XF-A8HE	Non-Papillary
+TCGA-XF-A8HF	Non-Papillary
+TCGA-XF-A8HG	Non-Papillary
+TCGA-XF-A8HH	Non-Papillary
+TCGA-XF-A8HI	Papillary
+TCGA-XF-A9SG	Non-Papillary
+TCGA-XF-A9SH	Non-Papillary
+TCGA-XF-A9SI	Papillary
+TCGA-XF-A9SJ
+TCGA-XF-A9SK
+TCGA-XF-A9SL
+TCGA-XF-A9SM
+TCGA-XF-A9SP
+TCGA-XF-A9ST
+TCGA-XF-A9SU
+TCGA-XF-A9SV
+TCGA-XF-A9SW	Non-Papillary
+TCGA-XF-A9SX	Non-Papillary
+TCGA-XF-A9SY	Non-Papillary
+TCGA-XF-A9SZ	Non-Papillary
+TCGA-XF-A9T0	Non-Papillary
+TCGA-XF-A9T2	Non-Papillary
+TCGA-XF-A9T3	Non-Papillary
+TCGA-XF-A9T4	Non-Papillary
+TCGA-XF-A9T5	Non-Papillary
+TCGA-XF-A9T6	Papillary
+TCGA-XF-A9T8	Non-Papillary
+TCGA-XF-AAME	Non-Papillary
+TCGA-XF-AAMF	Non-Papillary
+TCGA-XF-AAMG
+TCGA-XF-AAMH	Non-Papillary
+TCGA-XF-AAMJ	Non-Papillary
+TCGA-XF-AAML	Papillary
+TCGA-XF-AAMQ	Papillary
+TCGA-XF-AAMR	Non-Papillary
+TCGA-XF-AAMT	Non-Papillary
+TCGA-XF-AAMW	Non-Papillary
+TCGA-XF-AAMX	Non-Papillary
+TCGA-XF-AAMY	Papillary
+TCGA-XF-AAMZ	Papillary
+TCGA-XF-AAN0	Non-Papillary
+TCGA-XF-AAN1	Papillary
+TCGA-XF-AAN2	Non-Papillary
+TCGA-XF-AAN3	Non-Papillary
+TCGA-XF-AAN4	Non-Papillary
+TCGA-XF-AAN5	Non-Papillary
+TCGA-XF-AAN7	Non-Papillary
+TCGA-XF-AAN8	Non-Papillary
+TCGA-YC-A89H	Non-Papillary
+TCGA-YC-A8S6	Papillary
+TCGA-YC-A9TC	Papillary
+TCGA-YF-AA3L	Non-Papillary
+TCGA-YF-AA3M	Non-Papillary
+TCGA-ZF-A9R0	Non-Papillary
+TCGA-ZF-A9R1
+TCGA-ZF-A9R2
+TCGA-ZF-A9R3
+TCGA-ZF-A9R4
+TCGA-ZF-A9R5	Non-Papillary
+TCGA-ZF-A9R7
+TCGA-ZF-A9R9
+TCGA-ZF-A9RC	Non-Papillary
+TCGA-ZF-A9RD
+TCGA-ZF-A9RE
+TCGA-ZF-A9RF	Non-Papillary
+TCGA-ZF-A9RG	Non-Papillary
+TCGA-ZF-A9RL
+TCGA-ZF-A9RM	Papillary
+TCGA-ZF-A9RN	Non-Papillary
+TCGA-ZF-AA4N
+TCGA-ZF-AA4R
+TCGA-ZF-AA4T	Non-Papillary
+TCGA-ZF-AA4U
+TCGA-ZF-AA4V
+TCGA-ZF-AA4W
+TCGA-ZF-AA4X	Non-Papillary
+TCGA-ZF-AA51	Non-Papillary
+TCGA-ZF-AA52
+TCGA-ZF-AA53
+TCGA-ZF-AA54	Non-Papillary
+TCGA-ZF-AA56
+TCGA-ZF-AA58
+TCGA-ZF-AA5H
+TCGA-ZF-AA5N
+TCGA-ZF-AA5P
