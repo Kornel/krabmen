@@ -1,0 +1,445 @@
+sampleID;cohort;histological_type;mRNA_subtype;mRNA_cluster;methylation_cluster;Hypermethylation.Cluster;Hypomethylation.Cluster 1;pathologic_T;pathologic_N;pathologic_M;pathologic_stage;grade;clinical_T;clinical_N;clinical_M;clinical_stage; age ;gender;OS_IND;vital_status;OS_months;days_to_death;days_to_last_followup;RFS_months;Disease.Free.Status;TIME_TO_EVENT;days_to_new_tumor;new_tumor;new_tumor_event_type;person_cancer_status;number_pack_years_smoked;tobacco_smoking_history;Hepatitis.C.1..Hepatitis.B.2..Alcohol.3..NAFLD.4..None.5..Other.6;HBV_consensus;HCV_consensus
+TCGA-2Y-A9GU;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;55;FEMALE;0;Alive;63.7;NA;1569;63.7;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-2Y-A9GX;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;68;MALE;0;Alive;80.22;NA;2442;70.07;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-2Y-A9H0;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;M0;;NA;;N0;;Stage IIIA;49;MALE;0;Alive;120.73;NA;3675;120.73;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-2Y-A9H2;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;N0;;Stage I;64;FEMALE;0;Alive;56.87;NA;1582;56.87;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-2Y-A9H3;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;45;MALE;0;Alive;49.8;NA;1257;0.72;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-2Y-A9H4;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;N0;;Stage I;68;MALE;0;Alive;47.7;NA;1270;47.7;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-2Y-A9H6;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;68;FEMALE;0;Alive;11.73;NA;357;11.73;DiseaseFree;;;NO;;[Unknown];;;NA;NA;NA
+TCGA-2Y-A9H7;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;N0;;Stage I;81;FEMALE;0;Alive;38.37;NA;1133;36.7;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-2Y-A9H9;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;N0;;Stage I;70;MALE;0;Alive;22.9;NA;456;23.03;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-2Y-A9HB;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;66;MALE;0;Alive;8.54;NA;158;8.54;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-3K-AAZ8;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3b;;MX;;NA;;NX;;Stage IIIB;65;MALE;0;Alive;13.01;NA;243;9.99;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-5C-A9VG;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;58;MALE;0;Alive;10.78;NA;328;10.78;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-5C-A9VH;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;70;MALE;0;Alive;10.58;NA;322;10.58;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-5C-AAPD;Hepatocholangiocarcinoma (Mixed);NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;61;MALE;0;Alive;0.66;NA;20;0.66;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-5R-AA1C;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;57;MALE;0;Alive;17.08;NA;63;17.08;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-5R-AA1D;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3a;;M0;;NA;;N0;;Stage IIIA;17;FEMALE;0;Alive;14.75;NA;61;14.75;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-BC-4073;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;MX;;NA;;N0;;Stage IIIA;73;MALE;0;Alive;27.89;NA;352;27.89;DiseaseFree;;;NA;;WITH TUMOR;;;NA;NA;NA
+TCGA-BC-A216;Hepatocellular Carcinoma;2;;1;;5;1;T3;;M0;;G2;;NX;;Stage IIIA;62;FEMALE;0;Alive;44.38;NA;1144;44.38;DiseaseFree;;;NA;;TUMOR FREE;;;5;neg;neg
+TCGA-BC-A3KF;Hepatocellular Carcinoma;2;;4;;3;5;T1;;M0;;G2;;NX;;Stage I;66;FEMALE;0;Alive;0.26;NA;8;0.26;DiseaseFree;;;NA;;TUMOR FREE;;;5;neg;neg
+TCGA-BC-A3KG;Hepatocellular Carcinoma;2;;4;;3;1;T2;;M0;;G3;;N0;;Stage II;68;FEMALE;0;Alive;22.34;NA;252;6.87;Recurred/Progressed;;;NA;;WITH TUMOR;;;3;neg;neg
+TCGA-BC-A69H;Hepatocellular Carcinoma;2;;1;;2;4;T2;;M0;;G3;;NX;;Stage II;64;MALE;0;Alive;14.59;NA;120;14.59;DiseaseFree;;;NO;;TUMOR FREE;;;3;neg;neg
+TCGA-BC-A69I;Hepatocellular Carcinoma;2;;5;;4;5;T1;;M0;;G1;;N0;;Stage I;69;MALE;0;Alive;12.71;NA;16;12.71;DiseaseFree;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-BC-A8YO;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T4;;M0;;NA;;N0;;Stage IIIC;66;FEMALE;0;Alive;18.46;NA;227;7.23;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-BD-A2L6;Hepatocellular Carcinoma;NA;;4;;5;1;T2;;MX;;G2;;NX;;NA;69;MALE;0;Alive;44.78;NA;289;13.63;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA;neg;neg
+TCGA-BD-A3EP;Hepatocellular Carcinoma;NA;;3;;5;1;T1;;M0;;G2;;N0;;Stage I;75;FEMALE;0;Alive;13.44;NA;409;13.44;DiseaseFree;;;NA;;TUMOR FREE;;;NA;neg;neg
+TCGA-BD-A3ER;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;62;MALE;0;Alive;36.63;NA;146;7.42;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA;NA;NA
+TCGA-BW-A5NO;Hepatocellular Carcinoma;NA;;4;;5;1;T3a;;MX;;G2;;NX;;Stage IIIA;50;MALE;0;Alive;0.66;NA;20;0.66;DiseaseFree;;;NO;;TUMOR FREE;;;NA;neg;pos
+TCGA-BW-A5NP;Hepatocellular Carcinoma;NA;;1;;1;2;T2;;M1;;G3;;N0;;Stage IV;26;FEMALE;0;Alive;0;NA;0;3.35;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;pos;neg
+TCGA-BW-A5NQ;Hepatocellular Carcinoma;2;;5;;5;1;T1;;MX;;G3;;NX;;Stage I;63;MALE;0;Alive;0;NA;0;0;DiseaseFree;;;[Unknown];;TUMOR FREE;;;3;neg;neg
+TCGA-CC-5259;Hepatocellular Carcinoma;2;;2;;1;4;T4;;M0;;G2;;N0;;Stage IIIC;60;FEMALE;0;Alive;8.21;NA;5;5.91;Recurred/Progressed;;;NA;;TUMOR FREE;;;5;pos;neg
+TCGA-CC-A123;Hepatocellular Carcinoma;2;;NA;;2;3;T3;;M0;;G1;;N0;;Stage IIIA;24;FEMALE;0;Alive;7.19;NA;-8;4.76;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA;neg;neg
+TCGA-CC-A3MC;Hepatocellular Carcinoma;2;;3;;2;2;T3;;M0;;G2;;N0;;Stage IIIA;54;MALE;0;Alive;11.93;NA;4;9.76;Recurred/Progressed;;;NA;;TUMOR FREE;;;3;pos;neg
+TCGA-CC-A7IH;Hepatocellular Carcinoma;NA;;5;;4;5;T3;;M0;;G1;;N0;;Stage IIIA;58;MALE;0;Alive;11.99;NA;0;11.99;DiseaseFree;;;NO;;TUMOR FREE;;;NA;neg;neg
+TCGA-CC-A7II;Hepatocellular Carcinoma;NA;;1;;2;4;T3;;M0;;G3;;N0;;Stage IIIA;54;MALE;0;Alive;13.11;NA;0;9.13;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;pos;neg
+TCGA-CC-A7IJ;Hepatocellular Carcinoma;NA;;1;;1;3;T2;;M0;;G3;;N0;;Stage II;56;MALE;0;Alive;12.55;NA;0;12.55;DiseaseFree;;;NO;;TUMOR FREE;;;NA;neg;neg
+TCGA-CC-A9FS;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;55;MALE;0;Alive;6.93;NA;0;3.58;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-CC-A9FU;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3a;;M0;;NA;;N0;;Stage IIIA;52;FEMALE;0;Alive;0;NA;0;0;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-CC-A9FV;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;M0;;NA;;N0;;Stage IIIA;57;MALE;0;Alive;0;NA;0;0;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-CC-A9FW;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;M0;;NA;;N0;;Stage IIIA;68;MALE;0;Alive;8.15;NA;0;5.03;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-A113;Hepatocellular Carcinoma;2;;1;;1;2;T2;;M0;;G3;;N0;;Stage II;55;FEMALE;0;Alive;79.66;NA;1678;55.06;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA;neg;neg
+TCGA-DD-A118;Hepatocellular Carcinoma;2;;1;;1;2;T2;;M0;;G2;;N0;;Stage II;77;FEMALE;0;Alive;112.91;NA;693;21.62;Recurred/Progressed;;;NA;;NA;;;NA;neg;neg
+TCGA-DD-A11A;Hepatocellular Carcinoma;2;;4;;1;3;T1;;M0;;G3;;N0;;Stage I;67;MALE;0;Alive;2.6;NA;79;2.6;DiseaseFree;;;NA;;NA;;;2;pos;neg
+TCGA-DD-A11C;Hepatocellular Carcinoma;2;;4;;4;1;T1;;M0;;G3;;N0;;Stage I;69;MALE;0;Alive;21.75;NA;662;21.75;DiseaseFree;;;NA;;TUMOR FREE;;;NA;neg;neg
+TCGA-DD-A1EA;Hepatocellular Carcinoma;2;;5;;4;5;T2;;M0;;G2;;N0;;Stage II;68;MALE;0;Alive;79.34;NA;2415;24.77;Recurred/Progressed;;;NA;;WITH TUMOR;;;2;pos;neg
+TCGA-DD-A1EB;Hepatocellular Carcinoma;2;;4;;4;2;T1;;M0;;G2;;N0;;Stage I;72;FEMALE;0;Alive;66.26;NA;2017;23.95;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA;neg;neg
+TCGA-DD-A1EC;Hepatocellular Carcinoma;2;;1;;1;3;T1;;M0;;G3;;N0;;Stage I;20;FEMALE;0;Alive;19.78;NA;602;9.82;Recurred/Progressed;;;NA;;NA;;;NA;neg;neg
+TCGA-DD-A1ED;Hepatocellular Carcinoma;2;;5;;3;2;T1;;M0;;G1;;N0;;Stage I;68;MALE;0;Alive;75.59;NA;1629;75.59;DiseaseFree;;;NA;;TUMOR FREE;;;3;neg;neg
+TCGA-DD-A1EH;Hepatocellular Carcinoma;2;;1;;1;2;T3;;M0;;G3;;N0;;Stage III;23;MALE;0;Alive;49.11;NA;1036;3.94;Recurred/Progressed;;;NA;;WITH TUMOR;;;2;pos;neg
+TCGA-DD-A1EI;Hepatocellular Carcinoma;2;;1;;2;2;T1;;M0;;G2;;N0;;Stage I;46;MALE;0;Alive;6.01;NA;183;6.01;DiseaseFree;;;NA;;TUMOR FREE;;;2;pos;neg
+TCGA-DD-A4NA;Hepatocellular Carcinoma;2;;1;;1;2;T2;;M0;;G3;;N1;;Stage IIIC;67;FEMALE;0;Alive;33.11;NA;1008;33.11;DiseaseFree;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-DD-A4NB;Fibrolamellar Carcinoma;1;;3;;3;3;T1;;M0;;G2;;N0;;Stage I;25;MALE;0;Alive;32.49;NA;391;29.96;Recurred/Progressed;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-DD-A4ND;Hepatocellular Carcinoma;2;;1;;3;3;T1;;M0;;G3;;N0;;Stage I;56;FEMALE;0;Alive;90.21;NA;2141;0.66;Recurred/Progressed;;;YES;;WITH TUMOR;;;5;neg;neg
+TCGA-DD-A4NF;Hepatocellular Carcinoma;2;;5;;4;3;T1;;M0;;G2;;N0;;Stage I;72;MALE;0;Alive;30.95;NA;428;21.55;Recurred/Progressed;;;NO;;TUMOR FREE;;;1;neg;pos
+TCGA-DD-A4NH;Hepatocellular Carcinoma;2;;1;;1;2;T3b;;M0;;G3;;N0;;Stage IIIB;65;FEMALE;0;Alive;30.12;NA;433;5.29;Recurred/Progressed;;;YES;;WITH TUMOR;;;3;neg;neg
+TCGA-DD-A4NI;Hepatocellular Carcinoma;2;;4;;4;5;T2;;M0;;G2;;NX;;Stage II;67;MALE;0;Alive;26.81;NA;328;26.81;DiseaseFree;;;NO;;TUMOR FREE;;;3,4;neg;neg
+TCGA-DD-A4NJ;Hepatocellular Carcinoma;2;;4;;5;5;T2;;M0;;G2;;N0;;Stage II;54;FEMALE;0;Alive;30.49;NA;458;18.17;Recurred/Progressed;;;NO;;TUMOR FREE;;;4;neg;neg
+TCGA-DD-A4NL;Hepatocellular Carcinoma;2;;5;;3;2;T1;;M0;;G1;;N0;;Stage I;46;MALE;0;Alive;56.21;NA;1711;56.21;DiseaseFree;;;NO;;TUMOR FREE;;;3;neg;neg
+TCGA-DD-A4NO;Hepatocellular Carcinoma;2;;3;;4;3;T1;;M0;;G1;;N0;;Stage I;65;MALE;0;Alive;73.75;NA;1869;73.62;Recurred/Progressed;;;YES;;WITH TUMOR;;;1;neg;pos
+TCGA-DD-A4NP;Hepatocellular Carcinoma;2;;5;;3;2;T1;;M0;;G3;;N0;;Stage I;32;MALE;0;Alive;108.67;NA;2849;90.08;Recurred/Progressed;;;YES;;WITH TUMOR;;;5;neg;neg
+TCGA-DD-A4NV;Hepatocellular Carcinoma;2;;4;;4;1;T3;;M0;;G1;;N0;;Stage IIIA;61;MALE;0;Alive;78.78;NA;2018;78.78;DiseaseFree;;;NO;;TUMOR FREE;;;4;neg;neg
+TCGA-DD-A73A;Hepatocellular Carcinoma;2;;4;;5;1;T1;;M0;;G2;;N0;;Stage I;71;MALE;0;Alive;23.92;NA;334;23.92;DiseaseFree;;;NO;;TUMOR FREE;;;3;neg;neg
+TCGA-DD-A73C;Hepatocellular Carcinoma;2;;4;;3;3;T3a;;M0;;G1;;N0;;Stage IIIA;65;FEMALE;0;Alive;23.03;NA;230;18.59;Recurred/Progressed;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-DD-A73D;Hepatocellular Carcinoma;2;;5;;4;5;T2;;MX;;G1;;NX;;Stage II;68;FEMALE;0;Alive;22.77;NA;334;19.45;Recurred/Progressed;;;NO;;TUMOR FREE;;;1;neg;pos
+TCGA-DD-A73E;Hepatocellular Carcinoma;2;;5;;4;5;T1;;M0;;G1;;N0;;Stage I;66;MALE;0;Alive;1.45;NA;44;1.45;DiseaseFree;;;NO;;TUMOR FREE;;;3,4;neg;neg
+TCGA-DD-A73F;Hepatocellular Carcinoma;2;;4;;3;1;T1;;M0;;G1;;N0;;Stage I;77;FEMALE;0;Alive;35.64;NA;843;35.64;DiseaseFree;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-DD-A73G;Hepatocellular Carcinoma;2;;1;;1;2;T1;;M0;;G3;;N0;;Stage I;73;FEMALE;0;Alive;114.26;NA;3071;114.26;DiseaseFree;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-DD-AAC9;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;51;MALE;0;Alive;11.4;NA;347;11.4;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AACA;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;65;MALE;0;Alive;75.59;NA;2000;71.06;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACA;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;65;MALE;0;Alive;75.59;NA;2000;71.06;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACB;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;74;FEMALE;0;Alive;76.35;NA;1800;76.35;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AACE;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;62;MALE;0;Alive;71.75;NA;1931;42.02;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACI;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;69;MALE;0;Alive;53.15;NA;1618;47.04;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACJ;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;75;MALE;0;Alive;69.05;NA;1828;3.29;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACK;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;70;MALE;0;Alive;0.3;NA;9;0.3;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AACM;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;48;MALE;0;Alive;58.11;NA;1769;36.04;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACN;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;32;MALE;0;Alive;42.77;NA;1292;11.73;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACO;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;40;MALE;0;Alive;61.63;NA;1485;15.74;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACP;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;64;MALE;0;Alive;13.63;NA;400;13.63;DiseaseFree;;;NO;;[Unknown];;;NA;NA;NA
+TCGA-DD-AACS;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;39;MALE;0;Alive;59.26;NA;1475;59.26;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AACT;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;69;FEMALE;0;Alive;51.31;NA;1291;51.31;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AACU;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;59;MALE;0;Alive;51.48;NA;1240;51.48;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AACV;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;53;MALE;0;Alive;50.3;NA;1210;11.3;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACW;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;43;MALE;0;Alive;46.78;NA;1157;46.78;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AACX;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;66;MALE;0;Alive;5.58;NA;170;1.38;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACY;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;61;MALE;0;Alive;47.63;NA;1140;25.49;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AAD0;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;73;FEMALE;0;Alive;4.5;NA;137;1.54;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AAD1;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;51;FEMALE;0;Alive;18.53;NA;564;4.17;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AAD2;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;66;MALE;0;Alive;21.62;NA;658;21.62;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAD3;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;43;MALE;0;Alive;42.54;NA;1029;42.54;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAD5;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;54;MALE;0;Alive;44.19;NA;1037;4.27;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AAD6;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3a;;M0;;NA;;N0;;Stage IIIA;66;MALE;0;Alive;22.08;NA;672;1.64;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAD8;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;73;FEMALE;0;Alive;40.05;NA;959;40.05;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADA;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;66;FEMALE;0;Alive;40.51;NA;930;40.51;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADB;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;51;MALE;0;Alive;40.8;NA;890;40.8;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADD;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;51;MALE;0;Alive;40.44;NA;864;40.44;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADE;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;50;MALE;0;Alive;39.49;NA;918;5.52;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AADG;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3a;;M0;;NA;;N0;;Stage IIIA;70;MALE;0;Alive;37.61;NA;808;8.87;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADI;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;43;FEMALE;0;Alive;35.64;NA;763;35.64;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADJ;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;70;FEMALE;0;Alive;35.02;NA;730;35.02;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADK;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;68;FEMALE;0;Alive;34.46;NA;734;34.46;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADL;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;58;MALE;0;Alive;20.89;NA;636;20.89;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADN;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;59;MALE;0;Alive;29.5;NA;527;29.5;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADO;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;55;MALE;0;Alive;14.88;NA;92;14.88;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADP;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;45;MALE;0;Alive;15.05;NA;120;15.05;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADQ;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;59;MALE;0;Alive;14.32;NA;161;14.32;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADR;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;58;MALE;0;Alive;66.62;NA;1742;66.62;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADS;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;63;MALE;0;Alive;15.57;NA;216;15.57;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADU;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;60;MALE;0;Alive;18.2;NA;252;18.2;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADV;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;50;MALE;0;Alive;18.86;NA;230;18.86;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADW;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;48;MALE;0;Alive;19.28;NA;203;12.68;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADY;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;55;FEMALE;0;Alive;18.23;NA;294;18.23;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAE0;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3a;;M0;;NA;;N0;;Stage IIIA;45;FEMALE;0;Alive;18.23;NA;300;18.23;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAE1;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;52;MALE;0;Alive;18.13;NA;293;18.13;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAE2;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;51;MALE;0;Alive;20.96;NA;288;20.96;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAE3;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;50;MALE;0;Alive;18.59;NA;300;18.59;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAE4;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;49;FEMALE;0;Alive;19.97;NA;259;3.65;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAE6;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;59;FEMALE;0;Alive;4.63;NA;141;3.45;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AAE7;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;72;MALE;0;Alive;21.16;NA;382;21.16;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAE8;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;45;MALE;0;Alive;21.81;NA;344;3.71;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAE9;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;69;MALE;0;Alive;23.72;NA;386;23.72;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAEA;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;65;MALE;0;Alive;18.89;NA;450;18.89;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAEB;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;60;MALE;0;Alive;15.7;NA;370;15.7;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAED;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;51;MALE;0;Alive;25.07;NA;470;6.5;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAEE;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;55;MALE;0;Alive;26.61;NA;498;7.36;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AAEG;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;59;FEMALE;0;Alive;23.62;NA;476;23.62;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAEH;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;73;MALE;0;Alive;25.76;NA;476;21.16;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAEI;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;72;MALE;0;Alive;50.3;NA;1233;16.13;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AAEK;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;51;MALE;0;Alive;35.05;NA;1067;35.05;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAVP;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;48;MALE;0;Alive;90.41;NA;2405;29.66;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAVQ;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;38;MALE;0;Alive;89.62;NA;2406;50.03;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAVR;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;44;MALE;0;Alive;82.56;NA;2198;82.56;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAVS;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;56;MALE;0;Alive;59.89;NA;1823;59.89;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAVU;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;46;MALE;0;Alive;72.34;NA;1882;53.55;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAVV;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;56;MALE;0;Alive;80.65;NA;2455;80.65;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAVW;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;35;MALE;0;Alive;76.12;NA;1867;76.12;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAVX;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;38;MALE;0;Alive;56.44;NA;1718;12.91;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AAVY;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;M0;;NA;;N0;;Stage IIIA;56;MALE;0;Alive;64.72;NA;1788;64.72;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAVZ;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;38;MALE;0;Alive;62.42;NA;1699;62.42;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAW0;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;54;MALE;0;Alive;66.2;NA;1644;66.2;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAW1;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;M0;;NA;;N0;;Stage IIIA;55;MALE;0;Alive;65.34;NA;1644;65.34;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAW2;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;69;MALE;0;Alive;60.94;NA;1505;12.84;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AAW3;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;69;MALE;0;Alive;53.65;NA;1451;53.65;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-ED-A459;Hepatocellular Carcinoma;2;;1;;4;3;T2;;M0;;G2;;N0;;Stage II;47;MALE;0;Alive;29.89;NA;7;29.89;DiseaseFree;;;NO;;TUMOR FREE;;;NA;neg;neg
+TCGA-ED-A4XI;Hepatocellular Carcinoma;2;;3;;2;2;T2;;M0;;G3;;N0;;Stage II;58;MALE;0;Alive;26.91;NA;6;26.91;DiseaseFree;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-ED-A5KG;Hepatocellular Carcinoma;2;;1;;2;2;T2;;M0;;G2;;N0;;Stage II;60;FEMALE;0;Alive;28.06;NA;6;3.61;Recurred/Progressed;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-ED-A627;Hepatocellular Carcinoma;2;;3;;3;2;T1;;M0;;G2;;NX;;Stage I;74;MALE;0;Alive;13.9;NA;0;13.9;DiseaseFree;;;NO;;TUMOR FREE;;;3;neg;neg
+TCGA-ED-A66X;Hepatocellular Carcinoma;2;;1;;2;2;T3a;;M0;;G3;;N0;;Stage IIIA;35;MALE;0;Alive;13.34;NA;6;4.07;Recurred/Progressed;;;YES;;TUMOR FREE;;;3;neg;neg
+TCGA-ED-A7PX;Hepatocellular Carcinoma;2;;1;;2;2;T2;;M0;;G3;;NX;;Stage II;48;FEMALE;0;Alive;0.2;NA;6;0.2;DiseaseFree;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-ED-A7PY;Hepatocellular Carcinoma;2;;1;;1;2;T2;;M0;;G3;;NX;;Stage II;20;FEMALE;0;Alive;12.81;NA;6;12.81;DiseaseFree;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-ED-A7PZ;Hepatocellular Carcinoma;2;;5;;3;1;T2;;M0;;G2;;NX;;Stage II;61;MALE;0;Alive;0.2;NA;6;0.2;DiseaseFree;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-ED-A7XO;Hepatocellular Carcinoma;2;;NA;;3;1;T3a;;M0;;G2;;N0;;Stage IIIA;29;MALE;0;Alive;14.03;NA;6;8.61;Recurred/Progressed;;;NO;;TUMOR FREE;;;5;pos;neg
+TCGA-ED-A7XP;Hepatocellular Carcinoma;2;;5;;2;2;T2;;M0;;G3;;N0;;Stage II;53;FEMALE;0;Alive;13.14;NA;6;6.14;Recurred/Progressed;;;NO;;TUMOR FREE;;;5;pos;neg
+TCGA-ED-A82E;Hepatocellular Carcinoma;2;;1;;1;2;T3a;;M0;;G2;;N0;;Stage IIIA;60;FEMALE;0;Alive;13.4;NA;6;13.4;DiseaseFree;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-ED-A8O5;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3a;;M0;;NA;;N0;;Stage IIIA;59;FEMALE;0;Alive;13.34;NA;6;13.34;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-ED-A97K;Hepatocholangiocarcinoma (Mixed);NA;;NA;;NA;NA;T3a;;M0;;NA;;N0;;Stage IIIA;54;MALE;0;Alive;0.2;NA;6;0.2;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-EP-A12J;Hepatocellular Carcinoma;2;;5;;4;3;T1;;MX;;G1;;NX;;Stage I;62;MALE;0;Alive;18.73;NA;129;18.73;DiseaseFree;;;NA;;TUMOR FREE;;;1;neg;pos
+TCGA-EP-A26S;Hepatocellular Carcinoma;2;;5;;4;5;T1;;MX;;G2;;N0;;Stage I;70;MALE;0;Alive;19.97;NA;111;19.97;DiseaseFree;;;NA;;TUMOR FREE;;;3;neg;neg
+TCGA-EP-A3JL;Hepatocellular Carcinoma;2;;3;;5;3;T1;;MX;;G2;;NX;;Stage I;76;MALE;0;Alive;9.95;NA;97;9.95;DiseaseFree;;;NA;;TUMOR FREE;;;3;neg;neg
+TCGA-EP-A3RK;Hepatocellular Carcinoma;2;;5;;4;3;T3a;;MX;;G2;;NX;;Stage IIIA;73;MALE;0;Alive;11.93;NA;13;10.51;Recurred/Progressed;;;NA;;TUMOR FREE;;;3;neg;neg
+TCGA-FV-A2QQ;Hepatocellular Carcinoma;2;;3;;4;3;T1;;MX;;G2;;N0;;Stage I;80;MALE;0;Alive;23.95;NA;0;23.95;DiseaseFree;;;NO;;TUMOR FREE;;;3;neg;neg
+TCGA-FV-A3I0;Hepatocholangiocarcinoma (Mixed);NA;;NA;;NA;NA;T2;;M0;;NA;;NX;;Stage II;76;FEMALE;0;Alive;27.86;NA;6;5.22;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA;NA;NA
+TCGA-FV-A495;Hepatocellular Carcinoma;2;;3;;5;1;T2;;M0;;G2;;NX;;Stage II;51;FEMALE;0;Alive;0.03;NA;1;0.03;DiseaseFree;;;NO;;TUMOR FREE;;;1;neg;pos
+TCGA-FV-A496;Hepatocellular Carcinoma;2;;4;;1;3;T1;;M0;;G2;;NX;;Stage I;84;FEMALE;0;Alive;0.33;NA;10;0.33;DiseaseFree;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-FV-A4ZQ;Hepatocellular Carcinoma;2;;5;;2;3;T1;;M0;;G2;;NX;;Stage I;52;MALE;0;Alive;0.39;NA;12;0.39;DiseaseFree;;;NO;;TUMOR FREE;;;1;neg;pos
+TCGA-G3-A25T;Hepatocellular Carcinoma;2;;1;;1;2;T3;;M0;;G2;;N0;;Stage IIIA;45;FEMALE;0;Alive;51.02;NA;1175;14.85;Recurred/Progressed;;;NA;;TUMOR FREE;;;1;neg;pos
+TCGA-G3-A25U;Hepatocellular Carcinoma;2;;4;;4;5;T1;;M0;;G3;;N0;;Stage I;63;FEMALE;0;Alive;53.75;NA;1231;53.75;DiseaseFree;;;NA;;TUMOR FREE;;;2;pos;neg
+TCGA-G3-A25V;Hepatocellular Carcinoma;2;;3;;3;3;T1;;M0;;G2;;N0;;Stage I;68;MALE;0;Alive;28.25;NA;69;16.06;Recurred/Progressed;;;NA;;TUMOR FREE;;;3;neg;neg
+TCGA-G3-A25W;Hepatocellular Carcinoma;2;;NA;;4;3;T3b;;M0;;G2;;N0;;Stage IIIB;79;FEMALE;0;Alive;30.72;NA;391;30.72;DiseaseFree;;;NA;;TUMOR FREE;;;5;neg;neg
+TCGA-G3-A25X;Hepatocellular Carcinoma;2;;1;;1;2;T2;;M0;;G3;;N0;;Stage II;73;MALE;0;Alive;58.44;NA;1359;58.44;DiseaseFree;;;NA;;TUMOR FREE;;;2;pos;neg
+TCGA-G3-A25Z;Hepatocellular Carcinoma;2;;3;;4;5;T1;;M0;;G2;;N0;;Stage I;58;MALE;0;Alive;21.52;NA;269;21.52;DiseaseFree;;;NA;;TUMOR FREE;;;2;pos;neg
+TCGA-G3-A3CG;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;80;MALE;0;Alive;22.11;NA;254;10.81;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA;NA;NA
+TCGA-G3-A3CH;Hepatocellular Carcinoma;2;;4;;2;2;T3a;;M0;;G2;;N0;;Stage IIIA;53;MALE;0;Alive;25.62;NA;193;18.33;Recurred/Progressed;;;NA;;TUMOR FREE;;;2;pos;neg
+TCGA-G3-A3CI;Hepatocellular Carcinoma;2;;4;;3;2;T1;;M0;;G2;;N0;;Stage I;71;MALE;0;Alive;5.91;NA;180;5.91;DiseaseFree;;;NA;;TUMOR FREE;;;4;neg;neg
+TCGA-G3-A3CJ;Hepatocellular Carcinoma;2;;5;;4;5;T2;;M0;;G2;;N0;;Stage II;52;MALE;0;Alive;19.51;NA;136;9.72;Recurred/Progressed;;;NA;;TUMOR FREE;;;1;pos;pos
+TCGA-G3-A3CK;Hepatocellular Carcinoma;2;;5;;4;5;T1;;M0;;G2;;N0;;Stage I;61;MALE;0;Alive;19.22;NA;27;19.22;DiseaseFree;;;NA;;TUMOR FREE;;;2;pos;neg
+TCGA-G3-A5SJ;Hepatocellular Carcinoma;2;;1;;5;1;T1;;M0;;G2;;NX;;Stage I;59;MALE;0;Alive;22.93;NA;364;10.12;Recurred/Progressed;;;YES;;WITH TUMOR;;;1,3;neg;pos
+TCGA-G3-A5SK;Hepatocellular Carcinoma;2;;4;;4;5;T1;;M0;;G1;;NX;;Stage I;58;MALE;0;Alive;24.44;NA;302;20.24;Recurred/Progressed;;;NO;;TUMOR FREE;;;1;neg;pos
+TCGA-G3-A5SL;Hepatocellular Carcinoma;2;;5;;4;5;T2;;M0;;G2;;NX;;Stage II;70;MALE;0;Alive;20.4;NA;243;20.4;DiseaseFree;;;NO;;TUMOR FREE;;;3;neg;neg
+TCGA-G3-A5SM;Hepatocellular Carcinoma;2;;3;;4;3;T2;;M0;;G3;;NX;;Stage II;58;MALE;0;Alive;17.08;NA;133;8.28;Recurred/Progressed;;;NO;;TUMOR FREE;;;1,3;neg;pos
+TCGA-G3-A6UC;Hepatocellular Carcinoma;2;;5;;3;1;T3b;;M0;;G2;;N0;;Stage IIIB;65;MALE;0;Alive;22.04;NA;236;20.99;Recurred/Progressed;;;NO;;WITH TUMOR;;;3;neg;neg
+TCGA-G3-A7M5;Hepatocellular Carcinoma;NA;;4;;3;1;T1;;MX;;G2;;NX;;Stage I;76;MALE;0;Alive;14.68;NA;0;14.68;DiseaseFree;;;NO;;TUMOR FREE;;;NA;neg;neg
+TCGA-G3-A7M6;Hepatocellular Carcinoma;NA;;1;;5;1;T1;;MX;;G3;;NX;;Stage I;60;FEMALE;0;Alive;20.76;NA;366;19.19;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;neg;pos
+TCGA-G3-A7M7;Hepatocellular Carcinoma;2;;3;;4;2;T1;;MX;;G1;;NX;;Stage I;65;MALE;0;Alive;11.86;NA;182;11.86;DiseaseFree;;;NO;;TUMOR FREE;;;3;neg;neg
+TCGA-G3-A7M8;Hepatocellular Carcinoma;NA;;4;;3;2;T1;;MX;;G1;;NX;;Stage I;31;MALE;0;Alive;14.13;NA;0;14.13;DiseaseFree;;;NO;;TUMOR FREE;;;NA;neg;neg
+TCGA-G3-AAUZ;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;48;MALE;0;Alive;15.77;NA;342;15.77;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-G3-AAV0;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;58;MALE;0;Alive;15.64;NA;260;15.64;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-G3-AAV2;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;50;MALE;0;Alive;12.22;NA;295;12.22;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-G3-AAV3;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;58;FEMALE;0;Alive;13.53;NA;279;13.53;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-G3-AAV5;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;67;MALE;0;Alive;11.63;NA;266;8.74;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-G3-AAV7;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;38;MALE;0;Alive;11.86;NA;92;11.86;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-GJ-A3OU;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;59;MALE;0;Alive;28.88;NA;697;28.88;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-K7-A5RF;Hepatocellular Carcinoma;NA;;3;;3;2;T1;;MX;;G1;;NX;;Stage I;64;MALE;0;Alive;20.73;NA;240;6.73;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;neg;pos
+TCGA-K7-A5RG;Hepatocellular Carcinoma;NA;;1;;2;3;T1;;MX;;G1;;NX;;Stage I;66;MALE;0;Alive;17.05;NA;120;17.05;DiseaseFree;;;NO;;TUMOR FREE;;;NA;neg;pos
+TCGA-K7-A6G5;Hepatocellular Carcinoma;2;;3;;3;5;T1;;MX;;G2;;N0;;Stage I;66;MALE;0;Alive;16.82;NA;122;16.82;DiseaseFree;;;NO;;TUMOR FREE;;;1,2,3,4;pos;pos
+TCGA-K7-AAU7;Hepatocholangiocarcinoma (Mixed);NA;;NA;;NA;NA;T2a;;MX;;NA;;NX;;Stage II;61;MALE;0;Alive;11.79;NA;113;1.91;Recurred/Progressed;;;YES;;[Unknown];;;NA;NA;NA
+TCGA-KR-A7K2;Hepatocholangiocarcinoma (Mixed);NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;64;MALE;0;Alive;27.23;NA;360;27.23;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-KR-A7K7;Hepatocellular Carcinoma;NA;;5;;5;4;T2;;M0;;G1;;N0;;Stage II;61;FEMALE;0;Alive;31.24;NA;407;7.85;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;neg;neg
+TCGA-KR-A7K8;Hepatocellular Carcinoma;NA;;4;;3;1;T1;;M0;;G1;;N0;;Stage I;57;MALE;0;Alive;29.76;NA;741;29.76;DiseaseFree;;;NO;;TUMOR FREE;;;NA;neg;neg
+TCGA-LG-A6GG;Hepatocellular Carcinoma;2;;4;;3;1;T2;;M0;;G2;;NX;;Stage II;79;FEMALE;0;Alive;12.71;NA;15;12.71;DiseaseFree;;;NO;;TUMOR FREE;;;6;neg;neg
+TCGA-LG-A9QC;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;NX;;Stage I;48;MALE;0;Alive;13.96;NA;180;13.96;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-LG-A9QD;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3a;;M0;;NA;;N0;;Stage IIIA;68;MALE;0;Alive;12.02;NA;130;12.02;DiseaseFree;;;NO;;WITH TUMOR;;;NA;NA;NA
+TCGA-MI-A75C;Hepatocellular Carcinoma;2;;2;;4;3;T1;;M0;;G3;;N0;;Stage I;64;MALE;0;Alive;9.56;NA;291;9.56;DiseaseFree;;;NO;;TUMOR FREE;;;1;neg;pos
+TCGA-MI-A75E;Hepatocellular Carcinoma;2;;3;;4;5;T4;;M0;;G2;;N0;;Stage IIIC;61;MALE;0;Alive;16.66;NA;155;16.66;DiseaseFree;;;NO;;TUMOR FREE;;;1,3;neg;pos
+TCGA-MI-A75G;Hepatocellular Carcinoma;2;;4;;4;1;T2;;M0;;G2;;N0;;Stage II;63;MALE;0;Alive;22.93;NA;433;22.93;DiseaseFree;;;NO;;TUMOR FREE;;;1,3;neg;pos
+TCGA-MI-A75H;Hepatocellular Carcinoma;NA;;5;;4;5;NA;;MX;;[Not Available];;NX;;NA;77;MALE;0;Alive;24.54;NA;391;10.09;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;neg;pos
+TCGA-MI-A75I;Hepatocellular Carcinoma;2;;4;;3;1;T2;;MX;;G1;;NX;;NA;61;MALE;0;Alive;20.7;NA;265;8.71;Recurred/Progressed;;;YES;;[Unknown];;;1;neg;pos
+TCGA-MR-A520;Hepatocellular Carcinoma;NA;;4;;3;2;T1;;MX;;G1;;NX;;Stage I;58;MALE;0;Alive;7.52;NA;19;7.52;DiseaseFree;;;NA;;TUMOR FREE;;;NA;neg;neg
+TCGA-MR-A8JO;Fibrolamellar Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;N0;;Stage I;34;MALE;0;Alive;10.84;NA;52;10.84;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-NI-A8LF;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;74;MALE;0;Alive;26.25;NA;498;26.25;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-O8-A75V;Hepatocellular Carcinoma;2;;3;;4;3;T1;;MX;;G2;;NX;;Stage I;54;MALE;0;Alive;17.67;NA;135;17.67;DiseaseFree;;;NO;;TUMOR FREE;;;1,2,3;pos;pos
+TCGA-QA-A7B7;Hepatocellular Carcinoma;NA;;4;;4;1;T2;;MX;;G2;;NX;;Stage II;48;MALE;0;Alive;3.09;NA;62;2.89;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;pos;neg
+TCGA-RC-A6M3;Hepatocellular Carcinoma;NA;;1;;2;2;T2;;M0;;NA;;N0;;Stage II;24;MALE;0;Alive;0;NA;0;0;DiseaseFree;;;[Unknown];;[Unknown];;;NA;neg;neg
+TCGA-RC-A6M4;Hepatocellular Carcinoma;NA;;5;;4;5;T3;;MX;;NA;;NX;;Stage IIIA;74;FEMALE;0;Alive;0.72;NA;22;0.72;DiseaseFree;;;[Unknown];;[Unknown];;;NA;neg;neg
+TCGA-RC-A6M5;Fibrolamellar Carcinoma;NA;;3;;3;2;T1;;M0;;NA;;N1;;Stage IVA;20;FEMALE;0;Alive;0.49;NA;15;0.49;DiseaseFree;;;[Unknown];;[Unknown];;;NA;neg;neg
+TCGA-RC-A6M6;Hepatocellular Carcinoma;NA;;1;;2;4;T2;;M0;;NA;;NX;;Stage II;75;MALE;0;Alive;0.3;NA;9;0.3;DiseaseFree;;;[Unknown];;[Unknown];;;NA;neg;neg
+TCGA-RC-A7S9;Hepatocellular Carcinoma;NA;;1;;1;2;T1;;M0;;G3;;N0;;Stage I;47;FEMALE;0;Alive;21.02;NA;640;21.02;DiseaseFree;;;NO;;TUMOR FREE;;;NA;pos;neg
+TCGA-RC-A7SB;Hepatocellular Carcinoma;NA;;4;;3;1;T2;;M0;;G2;;N0;;Stage II;53;MALE;0;Alive;19.32;NA;588;19.32;DiseaseFree;;;NO;;TUMOR FREE;;;NA;pos;neg
+TCGA-RC-A7SF;Hepatocellular Carcinoma;NA;;4;;4;1;T1;;M0;;G2;;N0;;Stage I;66;MALE;0;Alive;19.02;NA;579;16.49;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;neg;pos
+TCGA-RC-A7SH;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;42;MALE;0;Alive;15.37;NA;468;2.99;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-RC-A7SK;Hepatocellular Carcinoma;NA;;4;;5;1;T1;;M0;;G3;;N0;;Stage I;59;MALE;0;Alive;15.51;NA;472;10.25;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;neg;pos
+TCGA-RG-A7D4;Hepatocellular Carcinoma;NA;;5;;5;4;T2;;M0;;G2;;N0;;Stage II;69;MALE;0;Alive;36.07;NA;734;36.07;DiseaseFree;;;NO;;TUMOR FREE;;;NA;neg;pos
+TCGA-T1-A6J8;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;NX;;NA;68;MALE;0;Alive;0.76;NA;23;0.76;DiseaseFree;;;[Unknown];;TUMOR FREE;;;NA;NA;NA
+TCGA-UB-A7MA;Hepatocholangiocarcinoma (Mixed);NA;;NA;;NA;NA;T2b;;M0;;NA;;N0;;Stage II;62;FEMALE;0;Alive;27.86;NA;455;15.7;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-UB-A7MB;Hepatocellular Carcinoma;NA;;4;;3;3;T2;;MX;;G3;;NX;;Stage II;24;MALE;0;Alive;19.74;NA;526;1.58;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;neg;neg
+TCGA-UB-A7MC;Hepatocellular Carcinoma;NA;;5;;5;5;T3a;;MX;;G3;;N0;;Stage IIIA;59;MALE;0;Alive;16.43;NA;438;11.79;Recurred/Progressed;;;[Unknown];;[Unknown];;;NA;pos;neg
+TCGA-UB-A7ME;Hepatocellular Carcinoma;NA;;1;;2;2;T1;;MX;;G2;;NX;;Stage I;51;MALE;0;Alive;15.97;NA;486;15.97;DiseaseFree;;;NO;;TUMOR FREE;;;NA;pos;neg
+TCGA-UB-AA0U;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;60;MALE;0;Alive;10.74;NA;253;3.48;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-UB-AA0V;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T0;;MX;;NA;;NX;;Stage I;69;FEMALE;0;Alive;10.32;NA;139;10.32;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-WJ-A86L;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;68;FEMALE;0;Alive;11.33;NA;31;11.33;DiseaseFree;;;NO;;[Unknown];;;NA;NA;NA
+TCGA-WQ-A9G7;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3a;;M0;;NA;;NX;;NA;71;FEMALE;0;Alive;0.99;NA;30;0.99;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-WQ-AB4B;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;NX;;Stage II;62;MALE;0;Alive;12.98;NA;122;8.97;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-WX-AA44;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;64;FEMALE;0;Alive;20.2;NA;473;8.08;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-WX-AA46;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;61;MALE;0;Alive;24.84;NA;553;24.84;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-XR-A8TC;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;43;FEMALE;0;Alive;43.99;NA;1339;43.99;DiseaseFree;;;NO;;WITH TUMOR;;;NA;NA;NA
+TCGA-XR-A8TD;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;M0;;NA;;N0;;Stage IIIB;49;FEMALE;0;Alive;33.84;NA;1030;33.84;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-XR-A8TE;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;MX;;NA;;N0;;Stage IIIA;16;MALE;0;Alive;30.39;NA;925;6.9;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-XR-A8TG;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;NX;;Stage I;58;MALE;0;Alive;29.5;NA;867;11.5;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-ZP-A9CY;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;NA;66;FEMALE;0;Alive;25.69;NA;782;25.69;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-ZP-A9CZ;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;NA;72;MALE;0;Alive;23.19;NA;706;23.19;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-ZP-A9D0;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;NA;67;FEMALE;0;Alive;35.84;NA;717;35.84;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-ZP-A9D1;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;NA;56;FEMALE;0;Alive;0.69;NA;21;0.69;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-ZP-A9D4;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;NA;64;FEMALE;0;Alive;12.98;NA;395;12.98;DiseaseFree;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-ZS-A9CE;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;79;FEMALE;0;Alive;40.77;NA;1066;29.3;Recurred/Progressed;;;YES;;[Unknown];;;NA;NA;NA
+TCGA-ZS-A9CF;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;64;MALE;0;Alive;79.24;NA;2258;20.89;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-ZS-A9CF;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;64;MALE;0;Alive;79.24;NA;2258;20.89;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-ZS-A9CG;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;55;MALE;0;Alive;11.2;NA;250;11.2;DiseaseFree;;;NO;;[Unknown];;;NA;NA;NA
+TCGA-2Y-A9GS;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage IV;58;MALE;1;Dead;23.78;724;NA;3.35;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-2Y-A9GT;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;51;MALE;1;Dead;53.35;1624;NA;35.58;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-2Y-A9GV;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;54;FEMALE;1;Dead;83.18;2532;NA;71.91;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-2Y-A9GW;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;N0;;Stage I;64;MALE;1;Dead;41.75;1271;NA;40.37;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-2Y-A9GY;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;64;FEMALE;1;Dead;24.87;757;NA;20.93;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-2Y-A9GZ;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;82;FEMALE;1;Dead;27.86;848;NA;23.62;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-2Y-A9H1;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;58;MALE;1;Dead;40.37;1229;NA;25.3;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-2Y-A9H5;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;N0;;Stage I;59;FEMALE;1;Dead;18.23;555;NA;8.48;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-2Y-A9H8;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage II;85;FEMALE;1;Dead;20.8;633;NA;13.07;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-2Y-A9HA;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;70;MALE;1;Dead;1.18;36;NA;NA;NA;;;NO;;WITH TUMOR;;;NA;NA;NA
+TCGA-4R-AA8I;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;66;MALE;1;Dead;8.61;NA;216;8.11;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-5R-AAAM;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;65;FEMALE;1;Dead;1.51;46;NA;NA;NA;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-BC-4072;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;M0;;NA;;N0;;Stage IIIA;74;FEMALE;1;Dead;48.95;1490;NA;15.6;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA;NA;NA
+TCGA-BC-A10Q;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;NA;72;FEMALE;1;Dead;37.29;1135;NA;11.17;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA;NA;NA
+TCGA-BC-A10R;Hepatocellular Carcinoma;2;;1;;2;3;T3;;MX;;G2;;NX;;NA;66;FEMALE;1;Dead;10.12;308;NA;6.54;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA;neg;neg
+TCGA-BC-A10S;Hepatocellular Carcinoma;2;;3;;4;5;T3;;MX;;G1;;NX;;NA;81;MALE;1;Dead;46.75;1423;NA;37.12;Recurred/Progressed;;;NA;;WITH TUMOR;;;3;neg;neg
+TCGA-BC-A10T;Hepatocellular Carcinoma;2;;4;;5;1;T4;;MX;;G1;;NX;;NA;76;MALE;1;Dead;27.5;837;NA;19.65;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA;neg;neg
+TCGA-BC-A10U;Hepatocellular Carcinoma;2;;5;;3;1;T2;;MX;;G2;;NX;;NA;69;MALE;1;Dead;27.5;837;NA;19.25;Recurred/Progressed;;;NA;;WITH TUMOR;;;3;neg;neg
+TCGA-BC-A10W;Hepatocellular Carcinoma;2;;1;;5;3;T4;;MX;;G3;;NX;;NA;50;MALE;1;Dead;2.99;91;NA;NA;NA;;;NA;;WITH TUMOR;;;2;pos;neg
+TCGA-BC-A10X;Hepatocellular Carcinoma;2;;3;;3;2;T3a;;MX;;G2;;N0;;Stage IIIA;52;FEMALE;1;Dead;25.3;770;NA;NA;NA;;;NA;;TUMOR FREE;;;NA;neg;neg
+TCGA-BC-A10Y;Hepatocellular Carcinoma;2;;4;;5;1;T4;;MX;;G3;;NX;;NA;76;MALE;1;Dead;23.36;711;NA;13.14;Recurred/Progressed;;;NA;;WITH TUMOR;;;3;neg;neg
+TCGA-BC-A10Z;Hepatocellular Carcinoma;2;;4;;3;1;T1;;MX;;G2;;N0;;Stage I;62;FEMALE;1;Dead;1.12;34;NA;NA;NA;;;NA;;TUMOR FREE;;;NA;neg;neg
+TCGA-BC-A110;Hepatocellular Carcinoma;2;;3;;3;2;T1;;MX;;G1;;NX;;NA;51;FEMALE;1;Dead;69.51;2116;NA;67.58;Recurred/Progressed;;;NA;;WITH TUMOR;;;3;neg;neg
+TCGA-BC-A112;Hepatocellular Carcinoma;2;;1;;1;2;T3;;MX;;G2;;NX;;NA;80;MALE;1;Dead;5.03;153;NA;NA;NA;;;NA;;TUMOR FREE;;;3;neg;neg
+TCGA-BC-A217;Hepatocellular Carcinoma;2;;4;;5;1;T2;;M0;;G3;;NX;;Stage II;75;FEMALE;1;Dead;45.89;NA;421;NA;NA;;;NA;;TUMOR FREE;;;3;neg;neg
+TCGA-BC-A5W4;Hepatocellular Carcinoma;2;;4;;4;3;T3a;;M0;;G3;;NX;;Stage IIIA;69;MALE;1;Dead;17.97;NA;289;12.61;Recurred/Progressed;;;NO;;TUMOR FREE;;;3;neg;neg
+TCGA-CC-5258;Hepatocellular Carcinoma;2;;1;;2;2;T2;;M0;;G2;;N0;;Stage II;48;MALE;1;Dead;4.24;NA;0;NA;NA;;;NA;;TUMOR FREE;;;NA;pos;neg
+TCGA-CC-5260;Hepatocellular Carcinoma;2;;1;;1;2;T4;;M0;;G1;;N0;;Stage IIIC;61;FEMALE;1;Dead;2.86;NA;0;NA;NA;;;NA;;TUMOR FREE;;;NA;neg;neg
+TCGA-CC-5261;Hepatocellular Carcinoma;2;;1;;1;2;T2;;M0;;G2;;N0;;Stage II;44;MALE;1;Dead;3.19;NA;12;NA;NA;;;NA;;TUMOR FREE;;;NA;neg;neg
+TCGA-CC-5262;Hepatocellular Carcinoma;2;;3;;5;3;T4;;M0;;G1;;N0;;Stage IIIC;67;MALE;1;Dead;3.38;NA;0;NA;NA;;;NA;;TUMOR FREE;;;5;pos;neg
+TCGA-CC-5263;Hepatocellular Carcinoma;2;;1;;5;1;T3;;M0;;G1;;N0;;Stage IIIA;35;MALE;1;Dead;4.24;129;NA;NA;NA;;;NA;;TUMOR FREE;;;NA;pos;neg
+TCGA-CC-5264;Hepatocellular Carcinoma;2;;1;;5;1;T3;;M0;;G2;;N0;;Stage IIIA;71;MALE;1;Dead;3.35;NA;0;NA;NA;;;NA;;TUMOR FREE;;;NA;pos;neg
+TCGA-CC-A1HT;Hepatocellular Carcinoma;2;;1;;3;3;T3;;M0;;G3;;N0;;Stage IIIA;50;MALE;1;Dead;3.32;NA;0;NA;NA;;;NA;;TUMOR FREE;;;5;pos;neg
+TCGA-CC-A3M9;Hepatocellular Carcinoma;2;;1;;2;3;T3;;M0;;G3;;N0;;Stage IIIA;45;MALE;1;Dead;9.86;NA;3;7.19;Recurred/Progressed;;;NA;;TUMOR FREE;;;3;pos;neg
+TCGA-CC-A3MA;Hepatocellular Carcinoma;2;;1;;1;2;T3;;M0;;G2;;N0;;Stage IIIA;61;MALE;1;Dead;9.95;NA;2;8.57;Recurred/Progressed;;;NA;;TUMOR FREE;;;3;neg;neg
+TCGA-CC-A3MB;Hepatocellular Carcinoma;2;;1;;1;3;T3;;M0;;G1;;N0;;Stage IIIA;36;MALE;1;Dead;10.35;NA;3;8.54;Recurred/Progressed;;;NA;;TUMOR FREE;;;5;pos;neg
+TCGA-CC-A5UC;Hepatocellular Carcinoma;NA;;1;;2;2;T3;;M0;;G3;;N0;;Stage IIIA;63;MALE;1;Dead;11.4;NA;0;10.25;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;pos;neg
+TCGA-CC-A5UD;Hepatocellular Carcinoma;NA;;5;;2;3;T3;;M0;;G2;;N0;;Stage IIIA;45;MALE;1;Dead;9.99;NA;0;5.98;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;pos;neg
+TCGA-CC-A5UE;Hepatocellular Carcinoma;NA;;2;;3;4;T4;;M0;;G2;;N0;;Stage IIIB;48;MALE;1;Dead;8.94;NA;0;5.75;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;pos;neg
+TCGA-CC-A7IE;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;M0;;NA;;N0;;Stage IIIA;57;MALE;1;Dead;7.13;NA;0;5.55;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-CC-A7IF;Hepatocellular Carcinoma;NA;;4;;2;2;T3;;M0;;G1;;N0;;Stage IIIA;59;MALE;1;Dead;21.32;NA;0;8.34;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;neg;neg
+TCGA-CC-A7IG;Hepatocellular Carcinoma;NA;;1;;1;2;T2;;M0;;G2;;N0;;Stage II;47;MALE;1;Dead;9.82;NA;0;6.41;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;pos;neg
+TCGA-CC-A7IK;Hepatocellular Carcinoma;NA;;5;;3;1;T3;;M0;;G3;;N0;;Stage IIIA;59;MALE;1;Dead;8.61;NA;0;4.93;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;pos;neg
+TCGA-CC-A7IL;Hepatocellular Carcinoma;NA;;4;;3;1;T3;;M0;;G1;;N0;;Stage IIIA;61;MALE;1;Dead;9.13;NA;0;5.88;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;pos;neg
+TCGA-CC-A8HS;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;M0;;NA;;N1;;Stage IIIC;18;MALE;1;Dead;9.86;NA;0;6.6;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-CC-A8HT;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;M0;;NA;;N0;;Stage IIIA;74;MALE;1;Dead;4.6;NA;0;2.73;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-CC-A8HU;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3;;M0;;NA;;N0;;Stage IIIA;39;FEMALE;1;Dead;11.3;NA;0;9.89;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-CC-A8HV;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;51;FEMALE;1;Dead;9.17;NA;0;7.92;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-A114;Hepatocellular Carcinoma;2;;1;;2;2;T2;;M0;;G3;;NA;;Stage II;42;MALE;1;Dead;37.75;1149;NA;NA;NA;;;NA;;NA;;;1;neg;pos
+TCGA-DD-A115;Hepatocellular Carcinoma;2;;4;;3;1;T3;;M0;;G2;;N0;;Stage IIIA;53;MALE;1;Dead;83.51;2542;NA;15.41;Recurred/Progressed;;;NA;;WITH TUMOR;;;3;neg;neg
+TCGA-DD-A116;Hepatocellular Carcinoma;2;;5;;2;2;T3;;M0;;G3;;N0;;Stage IIIA;68;MALE;1;Dead;53.29;1622;NA;27.2;Recurred/Progressed;;;NA;;TUMOR FREE;;;2;pos;neg
+TCGA-DD-A119;Hepatocellular Carcinoma;2;;3;;2;2;T3a;;M1;;G3;;N0;;Stage IV;40;MALE;1;Dead;7.33;223;NA;NA;NA;;;NA;;NA;;;2;pos;neg
+TCGA-DD-A11B;Hepatocellular Carcinoma;2;;4;;4;3;T1;;M0;;G2;;N0;;Stage I;73;MALE;1;Dead;0.46;14;NA;NA;NA;;;NA;;TUMOR FREE;;;4;neg;neg
+TCGA-DD-A11D;Hepatocellular Carcinoma;2;;4;;5;1;T1;;M0;;G2;;N0;;Stage I;57;FEMALE;1;Dead;51.25;1560;NA;16.36;Recurred/Progressed;;;NA;;WITH TUMOR;;;4;neg;neg
+TCGA-DD-A1E9;Hepatocellular Carcinoma;2;;NA;;4;3;T1;;M0;;G2;;N0;;Stage I;70;MALE;1;Dead;90.64;2759;NA;60.38;Recurred/Progressed;;;NA;;NA;;;3;neg;neg
+TCGA-DD-A1EE;Hepatocellular Carcinoma;2;;5;;4;5;T3;;M0;;G3;;N0;;Stage IIIA;73;MALE;1;Dead;11.47;NA;204;1.45;Recurred/Progressed;;;NA;;WITH TUMOR;;;1;neg;pos
+TCGA-DD-A1EF;Hepatocellular Carcinoma;2;;1;;1;2;T1;;M0;;G3;;N0;;Stage I;57;FEMALE;1;Dead;12.94;394;NA;NA;NA;;;NA;;WITH TUMOR;;;5;neg;neg
+TCGA-DD-A1EG;Hepatocellular Carcinoma;2;;3;;5;1;T1;;M0;;G3;;N0;;Stage I;76;MALE;1;Dead;45.07;1372;NA;33.05;Recurred/Progressed;;;YES;;WITH TUMOR;;;3,4;neg;neg
+TCGA-DD-A1EJ;Hepatocellular Carcinoma;2;;1;;5;1;T1;;M0;;G2;;N1;;Stage IIIC;71;FEMALE;1;Dead;33.02;NA;887;8.64;Recurred/Progressed;;;NA;;WITH TUMOR;;;5;neg;neg
+TCGA-DD-A1EK;Hepatocellular Carcinoma;2;;4;;3;1;T4;;M1;;G2;;N0;;Stage IVB;64;FEMALE;1;Dead;18.33;558;NA;5.49;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;neg;neg
+TCGA-DD-A1EL;Hepatocellular Carcinoma;2;;5;;3;4;T2;;M0;;G3;;N0;;Stage II;23;MALE;1;Dead;13.63;415;NA;NA;NA;;;NA;;WITH TUMOR;;;2;pos;neg
+TCGA-DD-A39V;Hepatocellular Carcinoma;2;;5;;4;5;T2;;M0;;G3;;NX;;Stage II;77;MALE;1;Dead;21.12;643;NA;14.95;Recurred/Progressed;;;NA;;WITH TUMOR;;;5;neg;neg
+TCGA-DD-A39W;Hepatocellular Carcinoma;NA;;5;;1;3;T3;;M0;;G2;;N0;;Stage III;29;FEMALE;1;Dead;27.17;827;NA;NA;NA;;;NA;;NA;;;NA;neg;neg
+TCGA-DD-A39X;Hepatocellular Carcinoma;2;;3;;1;2;T1;;M0;;G2;;NX;;Stage I;78;FEMALE;1;Dead;55.65;1694;NA;33.9;Recurred/Progressed;;;NA;;WITH TUMOR;;;5;neg;neg
+TCGA-DD-A39Y;Hepatocellular Carcinoma;2;;1;;5;4;T1;;M0;;G3;;NX;;Stage I;67;MALE;1;Dead;5.62;171;NA;NA;NA;;;NA;;TUMOR FREE;;;5;neg;neg
+TCGA-DD-A39Z;Hepatocellular Carcinoma;2;;2;;4;5;T2;;M0;;G2;;NX;;Stage II;43;FEMALE;1;Dead;19.74;601;NA;NA;NA;;;NA;;TUMOR FREE;;;3;neg;neg
+TCGA-DD-A3A0;Hepatocellular Carcinoma;2;;NA;;5;3;T1;;M0;;G2;;NX;;Stage I;70;MALE;1;Dead;25.79;785;NA;11.79;Recurred/Progressed;;;NA;;WITH TUMOR;;;5;neg;neg
+TCGA-DD-A3A1;Hepatocellular Carcinoma;2;;4;;5;1;T3b;;M0;;G2;;N0;;Stage IIIA;65;MALE;1;Dead;7.65;233;NA;NA;NA;;;NA;;TUMOR FREE;;;5;neg;neg
+TCGA-DD-A3A2;Hepatocellular Carcinoma;2;;4;;4;5;T1;;M0;;G1;;N0;;Stage I;76;FEMALE;1;Dead;70.01;2131;NA;NA;NA;;;NA;;TUMOR FREE;;;5;neg;neg
+TCGA-DD-A3A3;Hepatocellular Carcinoma;2;;2;;2;2;T1;;M0;;G2;;N0;;Stage I;45;MALE;1;Dead;17.58;535;NA;NA;NA;;;NA;;NA;;;5;pos;neg
+TCGA-DD-A3A4;Hepatocellular Carcinoma;2;;3;;1;2;T3;;M0;;G3;;N0;;Stage IIIA;37;MALE;1;Dead;20.11;612;NA;2.86;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA;neg;neg
+TCGA-DD-A3A5;Hepatocellular Carcinoma;2;;4;;5;1;T3;;M0;;G2;;N0;;Stage III;66;FEMALE;1;Dead;102.66;3125;NA;2.76;Recurred/Progressed;;;NA;;WITH TUMOR;;;5;neg;neg
+TCGA-DD-A3A6;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;72;FEMALE;1;Dead;107.03;3258;NA;NA;NA;;;NA;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-A3A7;Hepatocellular Carcinoma;2;;3;;1;3;T3b;;M0;;G3;;N0;;Stage IIIB;67;MALE;1;Dead;13.76;419;NA;4.73;Recurred/Progressed;;;YES;;WITH TUMOR;;;3;neg;neg
+TCGA-DD-A3A8;Hepatocellular Carcinoma;2;;5;;4;3;T2;;M0;;G2;;N0;;Stage II;75;MALE;1;Dead;0.36;11;NA;NA;NA;;;NA;;TUMOR FREE;;;5;neg;neg
+TCGA-DD-A3A9;Hepatocellular Carcinoma;2;;1;;1;2;T4;;M1;;G2;;N0;;Stage IVB;64;FEMALE;1;Dead;30.58;931;NA;9.49;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA;neg;neg
+TCGA-DD-A4NE;Hepatocellular Carcinoma;2;;4;;1;2;T3a;;M0;;G3;;N0;;Stage IIIA;75;FEMALE;1;Dead;21.68;660;NA;6.24;Recurred/Progressed;;;YES;;WITH TUMOR;;;5;neg;neg
+TCGA-DD-A4NG;Hepatocellular Carcinoma;2;;5;;4;5;T3a;;M0;;G2;;NX;;Stage IIIA;77;MALE;1;Dead;26.35;NA;445;14.13;Recurred/Progressed;;;YES;;WITH TUMOR;;;3;neg;neg
+TCGA-DD-A4NK;Hepatocellular Carcinoma;2;;4;;4;5;T3;;M0;;G2;;N0;;Stage IIIA;80;FEMALE;1;Dead;39.75;1210;NA;2.92;Recurred/Progressed;;;YES;;WITH TUMOR;;;5;neg;neg
+TCGA-DD-A4NN;Hepatocellular Carcinoma;2;;1;;1;2;T1;;M0;;G3;;N0;;Stage I;56;FEMALE;1;Dead;29.53;899;NA;5.45;Recurred/Progressed;;;YES;;WITH TUMOR;;;5;neg;neg
+TCGA-DD-A4NQ;Hepatocellular Carcinoma;2;;1;;3;3;T2;;M0;;G3;;N0;;Stage II;60;MALE;1;Dead;12.25;373;NA;4.14;Recurred/Progressed;;;YES;;WITH TUMOR;;;2;pos;neg
+TCGA-DD-A4NR;Hepatocellular Carcinoma;2;;1;;5;3;T1;;M0;;G3;;N0;;Stage I;85;FEMALE;1;Dead;0.3;9;NA;NA;NA;;;NO;;[Unknown];;;6;neg;neg
+TCGA-DD-A4NS;Hepatocellular Carcinoma;2;;3;;3;2;T1;;M0;;G2;;N0;;Stage I;61;FEMALE;1;Dead;80.68;2456;NA;35.84;Recurred/Progressed;;;YES;;WITH TUMOR;;;3;neg;neg
+TCGA-DD-A73B;Hepatocellular Carcinoma;2;;4;;2;3;T1;;M0;;G2;;N0;;Stage I;72;FEMALE;1;Dead;9.3;283;NA;7.88;Recurred/Progressed;;;YES;;WITH TUMOR;;;6;neg;neg
+TCGA-DD-AA3A;Hepatocholangiocarcinoma (Mixed);NA;;NA;;NA;NA;T1;;MX;;NA;;N0;;Stage I;81;FEMALE;1;Dead;13.47;410;NA;NA;NA;;;[Unknown];;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AAC8;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;72;MALE;1;Dead;0.53;16;NA;NA;NA;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AACC;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;61;MALE;1;Dead;55.35;1685;NA;17.64;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACD;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;48;MALE;1;Dead;12.52;381;NA;4.96;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACF;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;68;MALE;1;Dead;11.99;365;NA;3.91;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACG;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;52;MALE;1;Dead;15.41;469;NA;4.11;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACH;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;69;MALE;1;Dead;6.41;195;NA;2.73;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AACL;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;66;FEMALE;1;Dead;3.52;NA;58;NA;NA;;;[Unknown];;[Unknown];;;NA;NA;NA
+TCGA-DD-AACQ;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;50;MALE;1;Dead;14.19;NA;429;3.45;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AACZ;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;63;FEMALE;1;Dead;5.62;171;NA;2.89;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADC;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;53;MALE;1;Dead;13.96;425;NA;3.32;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-DD-AADF;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;64;FEMALE;1;Dead;3.78;115;NA;NA;NA;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-DD-AADM;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;M0;;NA;;N0;;Stage II;58;MALE;1;Dead;0.39;12;NA;NA;NA;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-ED-A66Y;Hepatocellular Carcinoma;2;;1;;1;2;T3a;;M0;;G3;;N0;;Stage IIIA;51;FEMALE;1;Dead;9.72;NA;7;NA;NA;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-ED-A8O6;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3a;;M0;;NA;;N0;;Stage IIIA;50;FEMALE;1;Dead;1.84;NA;6;NA;NA;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-EP-A2KA;Hepatocellular Carcinoma;2;;1;;4;3;T3a;;MX;;G3;;NX;;Stage IIIA;52;FEMALE;1;Dead;20.6;NA;111;14.22;Recurred/Progressed;;;NA;;NA;;;5;neg;neg
+TCGA-EP-A2KB;Hepatocellular Carcinoma;2;;1;;1;2;T1;;MX;;G2;;NX;;Stage I;46;FEMALE;1;Dead;19.58;NA;60;5.29;Recurred/Progressed;;;NA;;TUMOR FREE;;;1;neg;pos
+TCGA-EP-A2KC;Hepatocellular Carcinoma;2;;5;;4;5;T1;;MX;;G3;;NX;;Stage I;62;MALE;1;Dead;0.62;19;NA;NA;NA;;;NA;;TUMOR FREE;;;1;neg;pos
+TCGA-ES-A2HS;Hepatocellular Carcinoma;2;;3;;4;5;T1;;MX;;G2;;NX;;Stage I;80;MALE;1;Dead;22.6;688;NA;NA;NA;;;NA;;TUMOR FREE;;;5;neg;neg
+TCGA-ES-A2HT;Hepatocellular Carcinoma;2;;3;;3;2;T1;;MX;;G2;;NX;;Stage I;54;MALE;1;Dead;14.39;438;NA;NA;NA;;;NA;;TUMOR FREE;;;1;neg;pos
+TCGA-FV-A23B;Hepatocellular Carcinoma;2;;1;;4;3;T2;;M0;;[Not Available];;N0;;Stage II;70;FEMALE;1;Dead;60.84;NA;987;47.73;Recurred/Progressed;;;NA;;TUMOR FREE;;;1;neg;pos
+TCGA-FV-A2QR;Hepatocellular Carcinoma;2;;4;;5;1;T1;;M0;;G1;;N0;;Stage I;75;MALE;1;Dead;19.09;581;NA;18.43;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA;neg;neg
+TCGA-FV-A3I1;Hepatocellular Carcinoma;2;;3;;5;1;T2;;MX;;G2;;N0;;Stage II;81;FEMALE;1;Dead;8.11;NA;0;NA;NA;;;NA;;TUMOR FREE;;;3;neg;neg
+TCGA-FV-A3R2;Hepatocellular Carcinoma;2;;4;;4;5;T1;;MX;;[Not Available];;NX;;Stage I;75;MALE;1;Dead;6.37;194;NA;NA;NA;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-FV-A3R3;Hepatocellular Carcinoma;2;;1;;2;2;T1;;MX;;G2;;NX;;Stage I;38;FEMALE;1;Dead;12.02;NA;4;NA;NA;;;NO;;TUMOR FREE;;;5;neg;neg
+TCGA-FV-A4ZP;Hepatocellular Carcinoma;2;;1;;1;3;T3;;M0;;G2;;NX;;Stage IIIA;78;MALE;1;Dead;81.67;NA;1836;NA;NA;;;NO;;TUMOR FREE;;;3;neg;neg
+TCGA-G3-A25S;Hepatocellular Carcinoma;2;;4;;5;1;T1;;M0;;G2;;N0;;Stage I;64;MALE;1;Dead;13.67;NA;37;1.22;Recurred/Progressed;;;NA;;WITH TUMOR;;;3;neg;neg
+TCGA-G3-A25Y;Hepatocellular Carcinoma;2;;1;;1;2;T1;;M0;;G3;;N0;;Stage I;52;FEMALE;1;Dead;14.85;452;NA;11.66;Recurred/Progressed;;;NA;;WITH TUMOR;;;2;pos;neg
+TCGA-G3-A5SI;Hepatocellular Carcinoma;2;;4;;1;2;T2;;M0;;G2;;N0;;Stage II;44;MALE;1;Dead;25.23;NA;447;11.43;Recurred/Progressed;;;YES;;WITH TUMOR;;;1;neg;pos
+TCGA-G3-A7M9;Hepatocellular Carcinoma;2;;1;;2;4;T3b;;MX;;G2;;NX;;Stage IIIB;70;MALE;1;Dead;1.84;56;NA;NA;NA;;;NO;;[Unknown];;;6;neg;neg
+TCGA-G3-AAV1;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T4;;M0;;NA;;N0;;Stage IIIC;51;MALE;1;Dead;11.79;359;NA;7.85;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-G3-AAV4;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;M0;;NA;;N0;;Stage I;83;FEMALE;1;Dead;0.89;27;NA;NA;NA;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-G3-AAV6;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3a;;M0;;NA;;N0;;Stage IIIA;53;FEMALE;1;Dead;2.14;65;NA;1.45;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-GJ-A6C0;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;75;FEMALE;1;Dead;1.02;31;NA;NA;NA;;;NO;;[Unknown];;;NA;NA;NA
+TCGA-GJ-A9DB;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;N0;;Stage I;68;MALE;1;Dead;2.2;67;NA;NA;NA;;;NO;;[Unknown];;;NA;NA;NA
+TCGA-HP-A5MZ;Hepatocellular Carcinoma;NA;;3;;4;2;T1;;M0;;G2;;NX;;Stage I;78;MALE;1;Dead;2.99;91;NA;NA;NA;;;NO;;TUMOR FREE;;;NA;neg;neg
+TCGA-HP-A5N0;Hepatocellular Carcinoma;NA;;4;;3;5;TX;;M0;;[Not Available];;NX;;NA;90;FEMALE;1;Dead;37.68;1147;NA;6.08;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;neg;neg
+TCGA-KR-A7K0;Hepatocellular Carcinoma;NA;;5;;4;5;T1;;M0;;G1;;N0;;Stage I;65;MALE;1;Dead;2.14;65;NA;NA;NA;;;NO;;TUMOR FREE;;;NA;neg;pos
+TCGA-NI-A4U2;Hepatocellular Carcinoma;2;;4;;3;5;T3;;MX;;G1;;NX;;Stage IIIA;71;MALE;1;Dead;58.84;1791;NA;42.21;Recurred/Progressed;;;YES;;WITH TUMOR;;;3;neg;neg
+TCGA-PD-A5DF;Hepatocellular Carcinoma;NA;;3;;5;1;T4;;M0;;G2;;N0;;Stage IIIB;58;FEMALE;1;Dead;20.99;639;NA;NA;NA;;;NO;;WITH TUMOR;;;NA;neg;neg
+TCGA-UB-A7MD;Hepatocellular Carcinoma;NA;;5;;5;1;T1;;MX;;G3;;N0;;Stage I;67;MALE;1;Dead;1.71;52;NA;NA;NA;;;NO;;TUMOR FREE;;;NA;neg;pos
+TCGA-UB-A7MF;Hepatocellular Carcinoma;NA;;1;;1;2;T3a;;MX;;G2;;NX;;Stage IIIA;56;MALE;1;Dead;7.03;214;NA;4.37;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;pos;pos
+TCGA-WX-AA47;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3a;;MX;;NA;;NX;;Stage IIIA;33;FEMALE;1;Dead;18.27;556;NA;15.93;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-XR-A8TF;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;Stage I;74;MALE;1;Dead;22.77;693;NA;7.59;Recurred/Progressed;;;YES;;TUMOR FREE;;;NA;NA;NA
+TCGA-YA-A8S7;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T3a;;MX;;NA;;N0;;Stage IIIA;68;MALE;1;Dead;13.53;412;NA;13.07;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-ZP-A9CV;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T1;;MX;;NA;;NX;;NA;59;MALE;1;Dead;35.74;NA;142;NA;NA;;;NO;;TUMOR FREE;;;NA;NA;NA
+TCGA-ZP-A9D2;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;NA;51;MALE;1;Dead;25.13;NA;743;10.35;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA;NA;NA
+TCGA-ZS-A9CD;Hepatocellular Carcinoma;NA;;NA;;NA;NA;T2;;MX;;NA;;NX;;Stage II;73;MALE;1;Dead;45.53;1386;NA;12.19;Recurred/Progressed;;;YES;;[Unknown];;;NA;NA;NA
+TCGA-2V-A95S;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3H-AB3K;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3H-AB3L;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3H-AB3M;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3H-AB3O;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3H-AB3S;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3H-AB3T;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3H-AB3U;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3U-A98D;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3U-A98E;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3U-A98F;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3U-A98G;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3U-A98H;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3U-A98I;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-3U-A98J;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-LK-A4NW;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-LK-A4NY;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-LK-A4NZ;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-LK-A4O0;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-LK-A4O2;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-LK-A4O4;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-LK-A4O5;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-LK-A4O6;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-LK-A4O7;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-MQ-A4KX;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-MQ-A4LI;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-MQ-A4LJ;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-MQ-A4LP;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-MQ-A4LV;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-MQ-A6BS;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-SC-A6LM;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-SC-A6LN;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-SC-A6LQ;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-SC-A6LR;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-SC-AA5Z;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-SH-A7BC;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-SH-A9CT;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-SH-A9CU;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A7OU;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A7OY;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A7OZ;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A7P0;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A7P1;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A7P3;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A7P7;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A7P8;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A7PB;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A8AF;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A8AI;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A8AV;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-TS-A8AY;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-UD-AABY;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-UD-AABZ;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-UD-AAC1;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-UD-AAC4;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-UD-AAC6;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-UD-AAC7;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-UT-A97Y;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-XT-AASU;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-YS-A95B;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-YS-A95C;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-ZN-A9VQ;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-ZN-A9VV;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-ZN-A9VW;NA;NA;;NA;;NA;NA;NA;;NA;;NA;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;NA;NA
+TCGA-BC-4072-01B;NA;2;;1;;3;4;NA;;NA;;G3;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA;neg;neg
+TCGA-BC-4073-01B;NA;2;;1;;3;1;NA;;NA;;G3;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;6;neg;neg

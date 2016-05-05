@@ -1,0 +1,186 @@
+sampleID;cohort;histological_type;mRNA_subtype;mRNA_cluster;methylation_cluster;PANCAN_DNAMethyl_1;PANCAN_DNAMethyl_2;pathologic_T;pathologic_N;pathologic_M;pathologic_stage;grade;clinical_T;clinical_N;clinical_M;clinical_stage; age ;gender;OS_IND;vital_status;OS_days;days_to_death;days_to_last_followup;RFS_days;RFS_IND;TIME_TO_EVENT;days_to_new_tumor;new_tumor;new_tumor_event_type;person_cancer_status;number_pack_years_smoked;tobacco_smoking_history
+TCGA-2H-A9GF;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;G3;;;;;67;MALE;1;DECEASED;784;784;;;;784;;YES;;WITH TUMOR;;
+TCGA-2H-A9GG;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;G2;;;;;66;MALE;1;DECEASED;610;610;;;;610;;YES;;WITH TUMOR;;
+TCGA-2H-A9GH;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N1;M0;Stage IIB;G2;;;;;44;MALE;1;DECEASED;951;951;;;;951;;YES;;WITH TUMOR;;
+TCGA-2H-A9GI;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;G2;;;;;68;MALE;1;DECEASED;435;435;;;;435;;YES;;WITH TUMOR;;
+TCGA-2H-A9GJ;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;M0;Stage I;G2;;;;;57;MALE;1;DECEASED;1781;1781;;;;1781;;YES;;WITH TUMOR;;
+TCGA-2H-A9GK;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;G3;;;;;43;MALE;1;DECEASED;232;232;;;;232;;YES;;WITH TUMOR;;
+TCGA-2H-A9GL;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;G3;;;;;74;MALE;1;DECEASED;180;180;;;;180;;YES;;WITH TUMOR;;
+TCGA-2H-A9GM;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N1;M0;Stage IIB;G2;;;;;53;MALE;1;DECEASED;424;424;;;;424;;YES;;WITH TUMOR;;
+TCGA-2H-A9GN;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;G3;;;;;70;MALE;1;DECEASED;272;272;;;;272;;YES;;WITH TUMOR;;
+TCGA-2H-A9GO;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M1a;Stage IVA;G3;;;;;58;MALE;1;DECEASED;494;494;;;;494;;YES;;WITH TUMOR;;
+TCGA-2H-A9GQ;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;G3;;;;;80;MALE;1;DECEASED;128;128;;;;128;;YES;;WITH TUMOR;;
+TCGA-2H-A9GR;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N0;M0;Stage IIA;G2;;;;;80;MALE;1;DECEASED;987;987;;;;987;;;;WITH TUMOR;;
+TCGA-IC-A6RE;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N1;M0;Stage IIB;G2;;;;;59;MALE;0;LIVING;234;;234;234;0;234;;NO;;WITH TUMOR;40;Current smoker
+TCGA-IC-A6RF;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T1;N0;M0;Stage IA;GX;T1;N1;M0;Stage IIB;69;FEMALE;0;LIVING;189;;189;189;0;189;;NO;;TUMOR FREE;22;Current reformed smoker for > 15 years
+TCGA-IG-A3I8;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G2;;;;;51;FEMALE;0;LIVING;476;;476;476;0;476;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-IG-A3QL;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIB;G2;;;;;54;MALE;0;LIVING;611;;611;611;0;611;;NO;;TUMOR FREE;30;Current smoker
+TCGA-IG-A3Y9;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T4;N0;M0;Stage IIIA;G2;;;;;72;MALE;1;DECEASED;26;26;0;26;0;26;;NO;;TUMOR FREE;50;Current smoker
+TCGA-IG-A3YA;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T4;N0;M0;Stage IIIA;G2;;;;;53;MALE;0;LIVING;632;;632;632;0;632;;NO;;TUMOR FREE;37.5;Current smoker
+TCGA-IG-A3YB;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage IIIA;G2;;;;;61;MALE;0;LIVING;80;;80;80;0;80;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-IG-A3YC;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage IIIA;G2;;;;;62;MALE;0;LIVING;612;;612;542;1;612;542;YES;New Primary Tumor;WITH TUMOR;40;Current smoker
+TCGA-IG-A4P3;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N1;M0;Stage IIB;G2;;;;;48;MALE;1;DECEASED;567;567;1;567;0;567;;NO;;WITH TUMOR;20;Current reformed smoker for < or = 15 years
+TCGA-IG-A4QS;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N2;M0;Stage IIIB;G3;;;;;71;MALE;1;DECEASED;118;118;8;118;0;118;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-IG-A4QT;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G2;;;;;56;MALE;1;DECEASED;283;283;30;283;0;283;;NO;;TUMOR FREE;60;Current smoker
+TCGA-IG-A50L;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage IIIA;G2;T3;N1;M0;Stage IIIA;58;MALE;0;LIVING;16;;16;;;16;;;;TUMOR FREE;31;Current reformed smoker for > 15 years
+TCGA-IG-A51D;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T1;N1;M0;Stage IIB;G2;T2;NX;M1;Stage IV;63;MALE;0;LIVING;518;;518;518;0;518;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-IG-A5B8;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IB;G1;;;;;72;MALE;1;DECEASED;24;24;;24;0;24;;NO;;TUMOR FREE;75;Current smoker
+TCGA-IG-A5S3;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIB;G2;;;;;69;FEMALE;0;LIVING;712;;712;712;0;712;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-IG-A625;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N2;M0;Stage IIIB;G2;;;;;60;MALE;1;DECEASED;390;390;11;390;0;390;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-IG-A6QS;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N1;M0;Stage IIB;G1;;;;;54;MALE;1;DECEASED;303;303;4;303;0;303;;NO;;TUMOR FREE;34;Current smoker
+TCGA-IG-A7DP;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T4a;NX;MX;Stage IIIA;G2;;;;;50;FEMALE;0;LIVING;452;;452;452;0;452;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-IG-A8O2;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N2;M0;Stage IIIB;G3;;;;;62;MALE;1;DECEASED;142;142;14;142;0;142;;NO;;TUMOR FREE;15;Current reformed smoker for < or = 15 years
+TCGA-IG-A97H;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;NX;M0;Stage IIA;G3;;;;;36;MALE;0;LIVING;441;;441;441;0;441;;NO;;TUMOR FREE;10;Current reformed smoker for < or = 15 years
+TCGA-IG-A97I;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G2;;;;;58;MALE;0;LIVING;370;;370;370;0;370;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-JY-A6F8;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;M0;Stage I;G1;;;;;56;MALE;0;LIVING;3714;;3714;3714;0;3714;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-JY-A6FA;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N1;M0;Stage IIB;G2;;;;;51;MALE;1;DECEASED;1361;1361;;;;1361;;YES;;WITH TUMOR;35;Current reformed smoker for < or = 15 years
+TCGA-JY-A6FB;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;M0;Stage I;G2;;;;;77;MALE;0;LIVING;1837;;1837;1837;0;1837;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-JY-A6FD;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G1;;;;;51;FEMALE;0;LIVING;2069;;2069;2069;0;2069;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-JY-A6FE;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage III;G3;;;;;49;MALE;1;DECEASED;112;112;;;;112;;YES;;WITH TUMOR;29;Current reformed smoker for < or = 15 years
+TCGA-JY-A6FG;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage III;G2;;;;;50;MALE;1;DECEASED;1263;1263;;1263;0;1263;;NO;;TUMOR FREE;6;Current reformed smoker for < or = 15 years
+TCGA-JY-A6FH;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T2;N1;M0;Stage IIB;G2;;;;;53;MALE;0;LIVING;1301;;1301;749;1;1301;749;YES;Distant Metastasis;WITH TUMOR;33;Current reformed smoker for < or = 15 years
+TCGA-JY-A938;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N0;M0;Stage IIB;G3;;;;;75;MALE;0;LIVING;773;;773;;;773;;YES;;WITH TUMOR;;Lifelong Non-smoker
+TCGA-JY-A939;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N1;M0;Stage IIB;G3;;;;;77;MALE;0;LIVING;471;;471;471;0;471;;NO;;WITH TUMOR;;Lifelong Non-smoker
+TCGA-JY-A93C;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N2;M0;Stage IIIB;G3;;;;;47;MALE;0;LIVING;705;;705;;;705;;YES;;WITH TUMOR;;Lifelong Non-smoker
+TCGA-JY-A93D;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T2;N3;M0;Stage IIIC;G3;;;;;51;MALE;0;LIVING;769;;769;;;769;;YES;;WITH TUMOR;;Lifelong Non-smoker
+TCGA-JY-A93E;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage IIIA;G3;;;;;61;MALE;0;LIVING;767;;767;767;0;767;;NO;;WITH TUMOR;;Lifelong Non-smoker
+TCGA-JY-A93F;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IB;G1;;;;;58;FEMALE;0;LIVING;535;;535;535;0;535;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-KH-A6WC;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T1;N0;M0;Stage IA;GX;T1;N0;M0;Stage IA;82;MALE;0;LIVING;191;;191;191;0;191;;NO;;TUMOR FREE;50;Current reformed smoker for > 15 years
+TCGA-L5-A43C;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;GX;T3;N1;MX;Stage III;81;MALE;0;LIVING;96;;96;96;0;96;;NO;;TUMOR FREE;78;Current reformed smoker for < or = 15 years
+TCGA-L5-A43E;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;M0;Stage I;GX;;;;;74;MALE;0;LIVING;920;;920;885;1;920;885;YES;New Primary Tumor;TUMOR FREE;15;Current reformed smoker for > 15 years
+TCGA-L5-A43H;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage III;GX;;;;;75;MALE;1;DECEASED;9;9;;9;0;9;;NO;;WITH TUMOR;102;Current reformed smoker for < or = 15 years
+TCGA-L5-A43I;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-L5-A43J;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;MX;Stage IIB;G3;;;;;90;MALE;1;DECEASED;131;131;;;;131;;YES;;WITH TUMOR;54;Current reformed smoker for > 15 years
+TCGA-L5-A43M;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N2;MX;;GX;;;;;84;FEMALE;0;LIVING;272;;272;272;0;272;;NO;;;;Current reformed smoker for > 15 years
+TCGA-L5-A4OE;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N2;;Stage IIIB;G2;;;;;81;MALE;1;DECEASED;730;730;107;730;0;730;;NO;;;38;Current reformed smoker for > 15 years
+TCGA-L5-A4OF;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N1;;Stage IIB;G3;;;;;63;MALE;0;LIVING;112;;112;112;0;112;;NO;;;;Lifelong Non-smoker
+TCGA-L5-A4OG;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;M0;Stage I;G1;;;;;79;FEMALE;0;LIVING;143;;143;143;0;143;;NO;;;30;Current reformed smoker for > 15 years
+TCGA-L5-A4OH;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;M0;Stage I;GX;;;;;71;MALE;0;LIVING;992;;992;992;0;992;;NO;;TUMOR FREE;60;Current reformed smoker for > 15 years
+TCGA-L5-A4OI;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N3;MX;Stage IIIC;G2;;;;;79;MALE;0;LIVING;608;;608;267;1;608;267;YES;Locoregional Recurrence;WITH TUMOR;48;Current reformed smoker for > 15 years
+TCGA-L5-A4OJ;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;M0;Stage I;G3;;;;;70;FEMALE;0;LIVING;639;;639;639;0;639;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-L5-A4OM;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T1;N0;;Stage IA;GX;;;;;54;FEMALE;1;DECEASED;1458;1458;124;1458;0;1458;;NO;;TUMOR FREE;40;Current smoker
+TCGA-L5-A4ON;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N1;;Stage IIB;GX;;;;;65;MALE;1;DECEASED;558;558;;558;0;558;;NO;;TUMOR FREE;10;Current reformed smoker for > 15 years
+TCGA-L5-A4OO;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N3;M0;Stage IIIC;G2;;;;;75;MALE;0;LIVING;101;;101;;;101;;;;;2.5;Current reformed smoker for < or = 15 years
+TCGA-L5-A4OP;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;MX;Stage IA;G2;;;;;67;FEMALE;0;LIVING;218;;218;218;0;218;;NO;;TUMOR FREE;30;Current smoker
+TCGA-L5-A4OQ;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T2;N2;MX;Stage IIIA;GX;;;;;75;MALE;1;DECEASED;42;42;;;;42;;YES;;WITH TUMOR;35;Current reformed smoker for > 15 years
+TCGA-L5-A4OR;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;MX;Stage IA;GX;;;;;83;MALE;1;DECEASED;96;96;;96;0;96;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-L5-A4OS;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T2;N1;M0;Stage IIB;G3;;;;;86;FEMALE;0;LIVING;1782;;1782;1782;0;1782;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-L5-A4OT;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M1a;Stage IV;GX;;;;;77;MALE;1;DECEASED;149;149;;149;0;149;;NO;;WITH TUMOR;40;Current reformed smoker for < or = 15 years
+TCGA-L5-A4OU;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N0;M0;Stage IIA;GX;;;;;81;MALE;0;LIVING;882;;882;882;0;882;;NO;;TUMOR FREE;30;Current reformed smoker for > 15 years
+TCGA-L5-A4OW;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T2;N1;M0;Stage IIB;GX;;;;;56;FEMALE;1;DECEASED;217;217;;217;0;217;;NO;;TUMOR FREE;40;Current smoker
+TCGA-L5-A4OX;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T2;N1;M0;Stage IIB;GX;;;;;60;MALE;1;DECEASED;226;226;;226;0;226;;NO;;TUMOR FREE;28.75;Current reformed smoker for < or = 15 years
+TCGA-L5-A88S;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;MX;Stage IB;GX;;;;;84;MALE;0;LIVING;211;;211;211;0;211;;NO;;TUMOR FREE;30;Current Reformed Smoker, Duration Not Specified
+TCGA-L5-A88T;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T2;N1;M0;Stage IIB;GX;;;;;86;MALE;0;LIVING;265;;265;265;0;265;;NO;;TUMOR FREE;17.5;Current Reformed Smoker, Duration Not Specified
+TCGA-L5-A88V;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;MX;Stage III;GX;;;;;60;MALE;0;LIVING;79;;79;79;0;79;;NO;;TUMOR FREE;30;Current reformed smoker for > 15 years
+TCGA-L5-A88W;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;MX;Stage IIA;GX;;;;;67;MALE;1;DECEASED;764;764;;;;764;;YES;;WITH TUMOR;;
+TCGA-L5-A88Y;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;MX;;GX;;;;;76;MALE;0;LIVING;11;;11;;;11;;;;;50;Current Reformed Smoker, Duration Not Specified
+TCGA-L5-A88Z;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T1;N1;M0;Stage IIA;GX;;;;;70;FEMALE;0;LIVING;225;;225;225;0;225;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-L5-A891;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;;GX;;;;;51;MALE;0;LIVING;120;;120;120;0;120;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-L5-A893;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;M0;Stage I;GX;;;;;71;FEMALE;0;LIVING;92;;92;92;0;92;;NO;;TUMOR FREE;52;Current smoker
+TCGA-L5-A8NE;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T2;N1;M0;Stage IIB;GX;;;;;77;MALE;0;LIVING;1688;;1688;1688;0;1688;;NO;;TUMOR FREE;58;Current reformed smoker for > 15 years
+TCGA-L5-A8NF;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;M1a;Stage IVA;GX;;;;;57;MALE;1;DECEASED;81;81;;81;0;81;;NO;;TUMOR FREE;60;Current reformed smoker for < or = 15 years
+TCGA-L5-A8NG;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;GX;;;;;77;MALE;0;LIVING;1094;;1094;1094;0;1094;;NO;;TUMOR FREE;100;Current reformed smoker for < or = 15 years
+TCGA-L5-A8NH;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;M1;Stage IV;GX;;;;;54;MALE;1;DECEASED;393;393;;;;393;;;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-L5-A8NI;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;G3;;;;;79;MALE;1;DECEASED;410;410;;;;410;;YES;;WITH TUMOR;;Current reformed smoker for > 15 years
+TCGA-L5-A8NJ;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;GX;;;;;77;MALE;0;LIVING;501;;501;;;501;;YES;;WITH TUMOR;;Current reformed smoker for > 15 years
+TCGA-L5-A8NK;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G1;;;;;84;FEMALE;0;LIVING;412;;412;;;412;;YES;;WITH TUMOR;25;Current reformed smoker for < or = 15 years
+TCGA-L5-A8NL;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;GX;;;;;56;MALE;0;LIVING;402;;402;402;0;402;;NO;;TUMOR FREE;;Current reformed smoker for > 15 years
+TCGA-L5-A8NM;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T2;N1;M0;Stage IIB;GX;;;;;84;FEMALE;1;DECEASED;236;236;;236;0;236;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-L5-A8NN;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;GX;;;;;81;MALE;0;LIVING;167;;167;;;167;;;;;15;Current reformed smoker for > 15 years
+TCGA-L5-A8NQ;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G3;;;;;71;MALE;1;DECEASED;650;650;;;;650;;YES;;WITH TUMOR;60;Current reformed smoker for > 15 years
+TCGA-L5-A8NR;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;GX;;;;;81;FEMALE;0;LIVING;265;;265;;;265;;YES;;WITH TUMOR;15;Current reformed smoker for > 15 years
+TCGA-L5-A8NS;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N0;M0;Stage IIB;GX;;;;;76;MALE;0;LIVING;408;;408;;;408;;YES;;WITH TUMOR;80;Current reformed smoker for < or = 15 years
+TCGA-L5-A8NT;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N0;M0;Stage IIB;GX;;;;;69;MALE;0;LIVING;825;;825;;;825;;YES;;WITH TUMOR;26;Current reformed smoker for > 15 years
+TCGA-L5-A8NU;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T2;N0;M0;Stage IIA;G3;;;;;84;MALE;1;DECEASED;2532;2532;;;;2532;;;;TUMOR FREE;;Current reformed smoker for > 15 years
+TCGA-L5-A8NV;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N0;M0;Stage IIA;G3;;;;;75;MALE;1;DECEASED;1599;1599;;;;1599;;YES;;WITH TUMOR;;Current reformed smoker for > 15 years
+TCGA-L5-A8NW;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T2;N1;M0;Stage IB;GX;;;;;55;MALE;1;DECEASED;1402;1402;;;;1402;;YES;;WITH TUMOR;15;Current reformed smoker for > 15 years
+TCGA-L7-A56G;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-L7-A6VZ;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N3;MX;Stage IIIC;G2;;;;;62;MALE;0;LIVING;315;;315;315;0;315;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-LN-A49K;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G2;T3;N0;M0;Stage IIA;66;MALE;1;DECEASED;180;180;2;180;0;180;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-LN-A49L;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G2;T2;N0;M0;Stage IIA;44;MALE;0;LIVING;153;;153;153;0;153;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-LN-A49M;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G1;T2;N0;M0;Stage IIA;62;MALE;0;LIVING;385;;385;385;0;385;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-LN-A49N;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N1;M0;Stage IIB;G2;T2;N1;M0;Stage IIB;50;MALE;0;LIVING;378;;378;378;0;378;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-LN-A49O;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G3;T3;N0;M0;Stage IIA;47;MALE;0;LIVING;408;;408;193;1;408;193;YES;Locoregional Recurrence;WITH TUMOR;20;Current reformed smoker for < or = 15 years
+TCGA-LN-A49P;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G2;T3;N0;M0;Stage IIA;71;MALE;;LIVING;;;0;;;;;NO;;TUMOR FREE;40;Current reformed smoker for < or = 15 years
+TCGA-LN-A49R;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage III;G3;T3;N1;M0;Stage III;46;MALE;0;LIVING;3;;3;3;0;3;;NO;;TUMOR FREE;20;Current reformed smoker for < or = 15 years
+TCGA-LN-A49S;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G2;T3;N0;M0;Stage IIA;59;MALE;0;LIVING;400;;400;49;1;400;49;YES;Locoregional Recurrence;WITH TUMOR;40;Current reformed smoker for < or = 15 years
+TCGA-LN-A49U;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G1;T3;N0;M0;Stage IIA;62;MALE;0;LIVING;467;;467;467;0;467;;NO;;TUMOR FREE;40;Current reformed smoker for < or = 15 years
+TCGA-LN-A49V;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G3;T3;N0;M0;Stage IIA;49;MALE;0;LIVING;3;;3;3;0;3;;NO;;TUMOR FREE;15;Current reformed smoker for < or = 15 years
+TCGA-LN-A49W;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage III;G3;T3;N1;M0;Stage III;73;MALE;0;LIVING;403;;403;403;0;403;;NO;;TUMOR FREE;40;Current reformed smoker for < or = 15 years
+TCGA-LN-A49X;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G2;T3;N0;M0;Stage IIA;44;MALE;0;LIVING;3;;3;3;0;3;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-LN-A49Y;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G2;T3;N0;M0;Stage IIA;77;MALE;0;LIVING;379;;379;90;1;379;90;YES;Locoregional Recurrence;WITH TUMOR;;Lifelong Non-smoker
+TCGA-LN-A4A1;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G3;T3;N0;M0;Stage IIA;60;MALE;0;LIVING;383;;383;205;1;383;205;YES;Locoregional Recurrence;WITH TUMOR;;Lifelong Non-smoker
+TCGA-LN-A4A2;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G1;T3;N0;M0;Stage IIA;57;MALE;0;LIVING;380;;380;380;0;380;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-LN-A4A3;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage III;G2;T3;N1;M0;Stage III;61;MALE;0;LIVING;388;;388;388;0;388;;NO;;TUMOR FREE;35;Current smoker
+TCGA-LN-A4A4;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage III;GX;T3;N1;M0;Stage III;36;MALE;0;LIVING;383;;383;383;0;383;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-LN-A4A5;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G2;T2;N0;M0;Stage IIA;49;MALE;1;DECEASED;681;681;3;224;1;681;224;YES;Locoregional Recurrence;WITH TUMOR;;Lifelong Non-smoker
+TCGA-LN-A4A6;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage II;G2;T2;N0;M0;Stage II;65;MALE;0;LIVING;3;;3;3;0;3;;NO;;TUMOR FREE;20;Current reformed smoker for < or = 15 years
+TCGA-LN-A4A8;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G2;T2;N0;M0;Stage IIA;52;MALE;0;LIVING;472;;472;250;1;472;250;YES;Locoregional Recurrence;TUMOR FREE;;Lifelong Non-smoker
+TCGA-LN-A4A9;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G1;T2;N0;M0;Stage IIA;58;MALE;1;DECEASED;351;351;2;274;1;351;274;YES;Locoregional Recurrence;WITH TUMOR;20;Current reformed smoker for < or = 15 years
+TCGA-LN-A4MQ;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage III;G3;T3;N1;M0;Stage III;46;MALE;0;LIVING;375;;375;25;1;375;25;YES;Locoregional Recurrence;TUMOR FREE;;Current smoker
+TCGA-LN-A4MR;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G2;T2;N0;M0;Stage IIA;57;MALE;0;LIVING;402;;402;226;1;402;226;YES;Locoregional Recurrence;TUMOR FREE;;Lifelong Non-smoker
+TCGA-LN-A5U5;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M1;Stage IV;G2;;;;;57;MALE;1;DECEASED;136;136;5;136;0;136;;NO;;WITH TUMOR;;Lifelong Non-smoker
+TCGA-LN-A5U6;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N1;M0;Stage IIB;G2;;;;;54;MALE;0;LIVING;375;;375;375;0;375;;NO;;TUMOR FREE;24;Current smoker
+TCGA-LN-A5U7;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G1;;;;;46;MALE;0;LIVING;768;;768;535;1;768;535;YES;Locoregional Recurrence;TUMOR FREE;23;Current smoker
+TCGA-LN-A7HV;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G1;;;;;58;MALE;0;LIVING;320;;320;320;0;320;;NO;;TUMOR FREE;15;Current smoker
+TCGA-LN-A7HW;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G2;;;;;59;MALE;0;LIVING;365;;365;97;1;365;97;YES;Locoregional Recurrence;TUMOR FREE;40;Current smoker
+TCGA-LN-A7HX;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G2;;;;;72;MALE;0;LIVING;372;;372;372;0;372;;NO;;TUMOR FREE;50;Current smoker
+TCGA-LN-A7HY;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage III;G2;;;;;50;MALE;0;LIVING;366;;366;88;1;366;88;YES;Locoregional Recurrence;TUMOR FREE;;Lifelong Non-smoker
+TCGA-LN-A7HZ;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G2;;;;;49;MALE;0;LIVING;401;;401;117;1;401;117;YES;Locoregional Recurrence;TUMOR FREE;25;Current smoker
+TCGA-LN-A8HZ;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-LN-A8I0;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-LN-A8I1;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-LN-A9FO;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G2;;;;;42;MALE;0;LIVING;4;;4;4;0;4;;NO;;TUMOR FREE;;Current smoker
+TCGA-LN-A9FP;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-LN-A9FQ;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-LN-A9FR;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N1;M0;Stage IIB;G2;;;;;70;MALE;;LIVING;;;-16;;;;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-M9-A5M8;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N0;M0;Stage IIA;G2;;;;;58;MALE;0;LIVING;536;;536;536;0;536;;NO;;TUMOR FREE;50;Current smoker
+TCGA-Q9-A6FU;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N2;M0;Stage IIIB;G2;;;;;57;FEMALE;1;DECEASED;157;157;;;;157;;YES;;WITH TUMOR;53;Current reformed smoker for < or = 15 years
+TCGA-Q9-A6FW;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N2;M0;Stage IIIB;G2;;;;;61;MALE;0;LIVING;238;;238;238;0;238;;NO;;TUMOR FREE;75;Current reformed smoker for < or = 15 years
+TCGA-R6-A6DN;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G3;TX;NX;M1;Stage IV;58;MALE;1;DECEASED;243;243;;199;1;243;199;YES;Distant Metastasis;WITH TUMOR;8;Current reformed smoker for > 15 years
+TCGA-R6-A6DQ;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G3;T3;N1;M0;Stage IIIA;74;FEMALE;1;DECEASED;231;231;;231;0;231;;NO;;WITH TUMOR;;Lifelong Non-smoker
+TCGA-R6-A6KZ;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G3;TX;NX;M1;Stage IV;42;MALE;1;DECEASED;154;154;;154;0;154;;NO;;WITH TUMOR;;Lifelong Non-smoker
+TCGA-R6-A6L4;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G2;T3;N1;M0;Stage IIIA;27;MALE;0;LIVING;447;;447;;;447;;YES;;WITH TUMOR;11;Current reformed smoker for < or = 15 years
+TCGA-R6-A6L6;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G3;TX;NX;M1;Stage IV;68;MALE;1;DECEASED;214;214;;214;0;214;;NO;;WITH TUMOR;;Lifelong Non-smoker
+TCGA-R6-A6XG;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G2;T3;N1;M0;Stage IIIA;64;MALE;0;LIVING;900;;900;;;900;;YES;;WITH TUMOR;;Lifelong Non-smoker
+TCGA-R6-A6XQ;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G3;T3;N1;M1b;Stage IVB;58;MALE;1;DECEASED;193;193;;193;0;193;;NO;;WITH TUMOR;54;Current reformed smoker for < or = 15 years
+TCGA-R6-A6Y0;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G2;T3;N1;M1a;Stage IVA;54;MALE;0;LIVING;1641;;1641;1641;0;1641;;NO;;WITH TUMOR;;Lifelong Non-smoker
+TCGA-R6-A6Y2;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G3;T2;N1;M0;Stage IIB;71;MALE;1;DECEASED;283;283;;;;283;;YES;;WITH TUMOR;70;Current reformed smoker for < or = 15 years
+TCGA-R6-A8W5;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T0;N0;M0;Stage 0;G2;;;;;60;MALE;1;DECEASED;480;480;;;;480;;YES;;WITH TUMOR;41;Current reformed smoker for < or = 15 years
+TCGA-R6-A8W8;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G2;T3;N1;M0;Stage IIIA;72;MALE;1;DECEASED;88;88;;88;0;88;;NO;;WITH TUMOR;76;Current reformed smoker for > 15 years
+TCGA-R6-A8WC;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G2;T3;N0;M0;Stage IIA;56;MALE;0;LIVING;44;;44;44;0;44;;NO;;WITH TUMOR;3;Current reformed smoker for > 15 years
+TCGA-R6-A8WG;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-RE-A7BO;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N1;M0;Stage IIB;G3;;;;;72;FEMALE;1;DECEASED;213;213;;213;0;213;;NO;;TUMOR FREE;5;Current reformed smoker for > 15 years
+TCGA-S8-A6BV;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;MX;Stage IIIA;G2;T2;N0;MX;Stage IB;76;MALE;0;LIVING;609;;609;267;1;609;267;YES;Distant Metastasis;WITH TUMOR;;Current reformed smoker for > 15 years
+TCGA-S8-A6BW;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;MX;Stage IB;G1;;;;;51;MALE;0;LIVING;511;;511;511;0;511;;NO;;TUMOR FREE;;Current reformed smoker for > 15 years
+TCGA-V5-A7RB;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T0;N1;MX;;GX;T2;N1;MX;Stage IIB;59;MALE;1;DECEASED;161;161;;161;0;161;;NO;;TUMOR FREE;40;Current smoker
+TCGA-V5-A7RC;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;;;;;GX;T4;NX;M1;Stage IV;55;MALE;1;DECEASED;104;104;;104;0;104;;NO;;WITH TUMOR;18;Current smoker
+TCGA-V5-A7RE;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N0;M0;Stage IB;G2;T3;N1;M0;Stage IIIA;45;MALE;0;LIVING;146;;146;146;0;146;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-V5-AASV;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;MX;Stage IIB;G3;;;;;67;MALE;0;LIVING;258;;258;258;0;258;;NO;;TUMOR FREE;30;Current reformed smoker for < or = 15 years
+TCGA-V5-AASW;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G3;T3;N1;M0;Stage IIIA;72;MALE;0;LIVING;248;;248;248;0;248;;NO;;WITH TUMOR;;Current smoker
+TCGA-V5-AASX;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;;;;;G2;T3;N2;M1;Stage IV;74;MALE;0;LIVING;135;;135;135;0;135;;NO;;WITH TUMOR;;Current reformed smoker for < or = 15 years
+TCGA-VR-A8EO;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIIB;G3;T3;N0;M0;Stage IIB;49;MALE;0;LIVING;572;;572;572;0;572;;NO;;TUMOR FREE;;
+TCGA-VR-A8EP;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N2;M0;Stage IIIB;G3;T3;NX;M0;Stage IIB;51;MALE;0;LIVING;607;;607;607;0;607;;NO;;TUMOR FREE;54;Current smoker
+TCGA-VR-A8EQ;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N1;M0;Stage III;G2;T3;N1;M0;Stage III;73;MALE;1;DECEASED;694;694;;694;0;694;;NO;;WITH TUMOR;;
+TCGA-VR-A8ER;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T4;N1;M0;Stage III;GX;T4;N1;M0;Stage III;54;MALE;1;DECEASED;378;378;;;;378;;;;WITH TUMOR;12.25;Current smoker
+TCGA-VR-A8ET;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N0;M0;Stage IIA;G2;T2;NX;M0;Stage IIA;64;MALE;1;DECEASED;47;47;;47;0;47;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-VR-A8EU;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T1;N1;M1;Stage IV;G2;T1;N1;M1;Stage IV;51;MALE;1;DECEASED;557;557;;557;0;557;;NO;;WITH TUMOR;10;Current smoker
+TCGA-VR-A8EW;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N2;M0;Stage IIIB;G2;T3;N2;M0;Stage IIIB;57;MALE;1;DECEASED;247;247;;;;247;;;;WITH TUMOR;10;Current smoker
+TCGA-VR-A8EX;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T1;N1;M1a;Stage IVA;G2;T1;N1;M1a;Stage IVA;63;MALE;1;DECEASED;855;855;;;;855;;;;WITH TUMOR;10;Current smoker
+TCGA-VR-A8EY;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G1;T3;NX;M0;Stage IIA;44;FEMALE;0;LIVING;843;;843;843;0;843;;NO;;TUMOR FREE;;Current reformed smoker for > 15 years
+TCGA-VR-A8EZ;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N3;M0;Stage IIIC;G2;T3;NX;M0;Stage IIA;47;MALE;1;DECEASED;553;553;;;;553;;YES;;WITH TUMOR;45;Current smoker
+TCGA-VR-A8Q7;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage IIIA;G3;T3;N1;M0;Stage IIIA;60;MALE;0;LIVING;1304;;1304;1304;0;1304;;NO;;TUMOR FREE;13.5;Current smoker
+TCGA-VR-AA4D;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N1;M0;Stage IB;G2;T1;NX;M0;Stage IA;53;MALE;0;LIVING;1378;;1378;1378;0;1378;;NO;;WITH TUMOR;;
+TCGA-VR-AA4G;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T2;N2;M0;Stage IIIA;G2;T2;N2;M0;Stage IIIA;51;FEMALE;0;LIVING;458;;458;458;0;458;;NO;;TUMOR FREE;10;Current reformed smoker for < or = 15 years
+TCGA-VR-AA7B;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-VR-AA7D;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N3;M0;Stage IIIC;G2;T3;NX;M0;Stage IIIC;58;MALE;1;DECEASED;279;279;;;;279;;YES;;WITH TUMOR;40;Current smoker
+TCGA-VR-AA7I;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T4;N0;M0;Stage III;G1;T4;N0;M0;Stage III;70;MALE;1;DECEASED;484;484;;;;484;;;;WITH TUMOR;20;Current reformed smoker for > 15 years
+TCGA-X8-AAAR;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T1;N1;;;G1;;;;;69;MALE;0;LIVING;309;;309;309;0;309;;NO;;TUMOR FREE;75;Current reformed smoker for > 15 years
+TCGA-XP-A8T6;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-XP-A8T7;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-XP-A8T8;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-Z6-A8JD;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIB;G2;;;;;53;MALE;0;LIVING;104;;104;104;0;104;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-Z6-A8JE;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N1;M0;Stage IIIA;G3;T3;N1;M0;Stage IIIA;57;MALE;0;LIVING;64;;64;64;0;64;;NO;;TUMOR FREE;;Lifelong Non-smoker
+TCGA-Z6-A9VB;esophageal carcinoma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TCGA-Z6-AAPN;esophageal carcinoma;Esophagus Squamous Cell Carcinoma;;;;;;T3;N0;M0;Stage IIA;G1;;;;;57;MALE;0;LIVING;81;;81;81;0;81;;NO;;TUMOR FREE;1;Current reformed smoker for < or = 15 years
+TCGA-ZR-A9CJ;esophageal carcinoma;Esophagus Adenocarcinoma  NOS;;;;;;T3;N3;MX;Stage IIIC;G3;;;;;65;MALE;1;DECEASED;600;600;551;163;1;600;163;YES;Distant Metastasis;WITH TUMOR;;
