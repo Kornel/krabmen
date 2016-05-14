@@ -1,0 +1,444 @@
+sampleID;cohort;histological_type_WHO;mRNA_subtype;mRNA_cluster;methylation_cluster;CIMP_Category;PANCAN_DNAMethyl_2;pathologic_T;pathologic_N;pathologic_M;pathologic_stage;grade;clinical_T;clinical_N;clinical_M;clinical_stage; age ;gender;OS_IND;vital_status;OS_months;days_to_death;days_to_last_followup;RFS_months;Disease.Free.Status;TIME_TO_EVENT;days_to_new_tumor;new_tumor;new_tumor_event_type;person_cancer_status;number_pack_years_smoked;tobacco_smoking_history;H.PYLORI.Infection
+TCGA-B7-5816;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;MSI;C2;C3;OTHER;;T4a;;M0;;;;N0;;Stage IIB;51;FEMALE;0;Alive;26.68;NA;171;26.68;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-B7-5818;Stomach, Adenocarcinoma, Diffuse Type;NA;EBV;C3;C1;GASTRIC-EBV-CIMP;;T2;;M0;;;;N0;;Stage IB;62;MALE;0;Alive;11.7;NA;3;11.7;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-B7-A5TI;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T4;;M0;;;;N3;;Stage IIIC;52;MALE;0;Alive;19.55;NA;230;19.55;DiseaseFree;;;NO;;TUMOR FREE;;;Yes
+TCGA-B7-A5TJ;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4a;;M0;;;;NX;;Stage IIB;74;MALE;0;Alive;11.01;NA;25;11.01;DiseaseFree;;;NO;;TUMOR FREE;;;Yes
+TCGA-B7-A5TK;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4;;M0;;;;NA;;Stage IIIA;51;MALE;0;Alive;9.46;NA;55;9.46;DiseaseFree;;;NO;;TUMOR FREE;;;Yes
+TCGA-B7-A5TN;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4a;;M0;;;;NX;;Stage IIB;60;MALE;0;Alive;9.43;NA;166;9.43;DiseaseFree;;;NO;;TUMOR FREE;;;Yes
+TCGA-BR-4292;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;MSI;C4;C2;GASTRIC-CIMP;;T1;;M0;;;;NX;;NA;73;FEMALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-4294;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;NA;C4;OTHER;;T2a;;M0;;;;NX;;NA;65;MALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-4357;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C2;C4;OTHER;;T3;;MX;;;;NX;;NA;58;MALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-4361;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;MSI;C3;C2;GASTRIC-CIMP;;T4;;M0;;;;N0;;Stage IIIA;66;FEMALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-4362;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;MSI;C2;C2;GASTRIC-CIMP;;TX;;M0;;;;N1;;NA;74;FEMALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-4363;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;MSI;C2;C4;OTHER;;T3;;MX;;;;NX;;NA;60;FEMALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-4366;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C4;C4;OTHER;;TX;;M0;;;;NX;;NA;87;MALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-4367;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;CIN;C2;C2;GASTRIC-CIMP;;TX;;M0;;;;N1;;NA;78;MALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-4368;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;MSI;C3;C2;GASTRIC-CIMP;;T4;;M0;;;;N2;;Stage IV;78;FEMALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-4369;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C3;OTHER;;TX;;M0;;;;NX;;NA;75;MALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-4370;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C1;C2;GASTRIC-CIMP;;TX;;M0;;;;NX;;NA;74;FEMALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-4371;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;GS;C4;C2;GASTRIC-CIMP;;T2;;M0;;;;NX;;NA;71;FEMALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-6452;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;MSI;C4;C2;GASTRIC-CIMP;;T3;;M0;;;;N0;;Stage IIA;78;FEMALE;0;Alive;34.66;NA;29;34.66;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6453;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C2;C4;OTHER;;T2;;M0;;;;N1;;Stage IIA;54;MALE;0;Alive;15.93;NA;0;15.93;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6454;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C2;C3;OTHER;;T3;;M0;;;;N0;;Stage IIA;58;MALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-6457;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C1;C4;OTHER;;T3;;M0;;;;N0;;Stage IIA;69;MALE;0;Alive;13.67;NA;41;13.67;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6563;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C2;C4;OTHER;;T3;;M0;;;;N1;;Stage IIB;60;MALE;0;Alive;39.09;NA;26;4.86;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6566;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mucinous;MSI;C3;C3;OTHER;;T3;;M0;;;;N0;;Stage IIA;64;FEMALE;0;Alive;32.75;NA;19;32.75;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6710;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;GS;NA;C4;OTHER;;T2;;M0;;;;N0;;Stage IB;41;MALE;0;Alive;8.97;NA;21;8.97;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6801;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;GS;C3;C4;OTHER;;T3;;M0;;;;N0;;Stage IIA;70;MALE;0;Alive;40.18;NA;35;40.18;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6802;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C3;C3;OTHER;;T3;;M0;;;;N2;;Stage IIIA;65;MALE;0;Alive;30.88;NA;23;26.51;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6803;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C1;C4;OTHER;;T3;;M0;;;;N0;;Stage IIA;54;FEMALE;0;Alive;31.18;NA;20;31.18;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6852;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;MSI;C2;C2;GASTRIC-CIMP;;T3;;M0;;;;N0;;Stage IIA;64;FEMALE;0;Alive;44.91;NA;8;44.91;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-7196;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;EBV;C2;C1;GASTRIC-EBV-CIMP;;T3;;M1;;;;N3a;;Stage IV;64;MALE;0;Alive;21.88;NA;37;11.43;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA
+TCGA-BR-7197;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C4;OTHER;;T3;;M0;;;;N0;;Stage II;69;MALE;0;Alive;9.2;NA;46;9.2;DiseaseFree;;;NA;;NA;;;NA
+TCGA-BR-7703;Stomach, Intestinal Adenocarcinoma, Papillary Type;Papillary;MSI;C3;C2;GASTRIC-CIMP;;T1b;;M0;;;;N0;;Stage IA;81;MALE;0;Alive;36.14;NA;14;36.14;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-7704;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N0;;Stage II;69;FEMALE;0;Alive;35.22;NA;38;35.22;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-7707;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C3;C2;GASTRIC-CIMP;;T2;;M0;;;;N0;;Stage IB;69;FEMALE;0;Alive;35.81;NA;4;35.81;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-7715;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C3;OTHER;;T3;;M0;;;;N0;;Stage IIA;65;MALE;0;Alive;33.61;NA;32;33.61;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-7716;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C2;C4;OTHER;;T3;;M0;;;;N1;;Stage IIB;62;FEMALE;0;Alive;39.75;NA;25;39.75;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-7958;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;EBV;C2;C1;GASTRIC-EBV-CIMP;;T4b;;M0;;;;N0;;Stage IIIB;60;MALE;0;Alive;29.53;NA;5;29.53;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-7959;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Mucinous;CIN;C1;C3;OTHER;;T4a;;M0;;;;N1;;Stage IIIA;59;MALE;0;Alive;33.18;NA;33;33.18;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-8058;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C2;C4;OTHER;;T4a;;M0;;;;N2;;Stage IIIB;53;FEMALE;0;Alive;37.22;NA;35;2.92;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-8077;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C4;OTHER;;T4b;;M0;;;;N1;;Stage IIIB;58;FEMALE;0;Alive;0.69;NA;21;0.69;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-8078;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C3;C2;GASTRIC-CIMP;;T4a;;M0;;;;N0;;Stage IIB;70;FEMALE;0;Alive;29.57;NA;29;29.57;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-8081;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C2;C2;GASTRIC-CIMP;;T4a;;M0;;;;N0;;Stage IIB;71;FEMALE;0;Alive;32.23;NA;14;32.23;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-8286;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C4;C3;OTHER;;T3;;M0;;;;N0;;Stage II;49;MALE;0;Alive;29.4;NA;13;29.4;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8297;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;CIN;C1;C3;OTHER;;T4b;;M0;;;;N3a;;Stage IIIC;58;MALE;0;Alive;7.39;NA;23;7.39;DiseaseFree;;;[Unknown];;WITH TUMOR;;;[Unknown]
+TCGA-BR-8360;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;NA;C2;GASTRIC-CIMP;;T3;;M0;;;;N0;;Stage IIA;66;MALE;0;Alive;6.18;NA;6;6.18;DiseaseFree;;;[Unknown];;TUMOR FREE;;;NA
+TCGA-BR-8361;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;MSI;C3;C2;GASTRIC-CIMP;;T4b;;M0;;;;N2;;Stage IIIC;71;FEMALE;0;Alive;31.08;NA;12;31.08;DiseaseFree;;;[Unknown];;TUMOR FREE;;;NA
+TCGA-BR-8364;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C1;C4;OTHER;;T4b;;M0;;;;N2;;Stage IIIC;42;FEMALE;0;Alive;22.17;NA;67;22.17;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8366;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mixed;EBV;C2;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N0;;Stage IIA;80;FEMALE;0;Alive;0.95;NA;17;0.95;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8368;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;MSI;C3;C2;GASTRIC-CIMP;;T2;;M0;;;;N0;;Stage IB;84;FEMALE;0;Alive;4.3;NA;42;4.3;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8369;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mucinous;CIN;C1;C3;OTHER;;T3;;M0;;;;N3a;;Stage IIIB;76;FEMALE;0;Alive;14.03;NA;25;13.76;Recurred/Progressed;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8370;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;NA;C2;GASTRIC-CIMP;;T3;;M0;;;;N3a;;Stage IIIB;64;MALE;0;Alive;3.32;NA;17;3.32;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8372;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C2;C2;GASTRIC-CIMP;;T4b;;M0;;;;N3a;;Stage IIIC;63;MALE;0;Alive;31.24;NA;18;31.24;DiseaseFree;;;[Unknown];;TUMOR FREE;;;NA
+TCGA-BR-8373;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;CIN;C3;C3;OTHER;;T4a;;M0;;;;N1;;Stage IIIA;65;FEMALE;0;Alive;14.78;NA;26;14.78;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8381;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;EBV;C2;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N1;;Stage IIB;51;MALE;0;Alive;7.36;NA;8;7.36;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8384;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C1;C4;OTHER;;T4b;;M0;;;;N2;;Stage IIIC;69;MALE;0;Alive;3.71;NA;21;3.71;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-BR-8483;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C3;OTHER;;T3;;M0;;;;N2;;Stage IIIA;59;MALE;0;Alive;5.39;NA;25;5.39;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8485;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mixed;CIN;C3;C4;OTHER;;T4;;M0;;;;N3a;;Stage IIIC;68;FEMALE;0;Alive;9.2;NA;9;9.2;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8486;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C4;OTHER;;T1b;;M0;;;;N0;;Stage IA;90;FEMALE;0;Alive;20.2;NA;30;20.2;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8487;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C4;C2;GASTRIC-CIMP;;T3;;M0;;;;N0;;Stage IIA;64;FEMALE;0;Alive;1.12;NA;21;1.12;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8588;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C4;C3;OTHER;;T4a;;M0;;;;N0;;Stage IIB;55;FEMALE;0;Alive;12.78;NA;23;12.78;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8589;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;EBV;C2;C1;GASTRIC-EBV-CIMP;;T4b;;M0;;;;N1;;Stage IIIB;56;MALE;0;Alive;27.1;NA;58;27.1;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8591;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C2;C2;GASTRIC-CIMP;;T4a;;M0;;;;N3a;;Stage IIIC;79;MALE;0;Alive;28.12;NA;6;28.12;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8676;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;EBV;NA;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N3a;;Stage IIIB;59;MALE;0;Alive;7.52;NA;27;7.52;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8677;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C2;C4;OTHER;;T3;;M0;;;;N3a;;Stage IIIB;74;FEMALE;0;Alive;26.71;NA;15;26.71;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8678;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;CIN;C3;C4;OTHER;;T2;;M0;;;;N0;;Stage IB;76;MALE;0;Alive;24.77;NA;5;24.77;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8679;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mucinous;CIN;C3;C2;GASTRIC-CIMP;;T2;;M0;;;;N0;;Stage IB;63;FEMALE;0;Alive;0;NA;0;0;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8680;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;GS;C3;C3;OTHER;;T4b;;M1;;;;N2;;Stage IV;45;MALE;0;Alive;31.93;NA;24;31.93;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-BR-8682;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Tubular;CIN;C1;C3;OTHER;;T4a;;M0;;;;N0;;Stage IIB;52;MALE;0;Alive;32.56;NA;51;32.56;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-BR-8690;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;CIN;NA;C4;OTHER;;T3;;M0;;;;N3a;;Stage IIIB;54;FEMALE;0;Alive;10.68;NA;18;10.68;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A44T;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C1;C4;OTHER;;T3;;M0;;;;N0;;Stage IIA;53;FEMALE;0;Alive;34.1;NA;13;22.4;Recurred/Progressed;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4CQ;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;NA;C2;GASTRIC-CIMP;;T4a;;M0;;;;N1;;Stage IIIA;58;MALE;0;Alive;34.95;NA;69;31.6;Recurred/Progressed;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4CR;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C4;OTHER;;T4b;;M0;;;;N3a;;Stage IIIC;70;FEMALE;0;Alive;0;NA;0;0;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4IU;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C1;C3;OTHER;;T4a;;M0;;;;N1;;Stage IIIA;34;FEMALE;0;Alive;27.53;NA;18;27.53;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4IY;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C2;C1;GASTRIC-EBV-CIMP;;T4a;;M0;;;;N0;;Stage IIB;58;MALE;0;Alive;12.88;NA;12;12.88;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4J2;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C1;C3;OTHER;;T4a;;M0;;;;N0;;Stage IIB;70;MALE;0;Alive;14.16;NA;24;14.16;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4J4;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;EBV;C3;C1;GASTRIC-EBV-CIMP;;T4a;;M0;;;;N2;;Stage IIIB;39;MALE;0;Alive;0.53;NA;16;0.53;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4J5;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Mucinous;GS;C1;C3;OTHER;;T4a;;M0;;;;N1;;Stage IIIA;56;MALE;0;Alive;28.32;NA;13;28.32;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4J6;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;GS;C4;C4;OTHER;;T3;;M0;;;;N0;;Stage IIA;69;FEMALE;0;Alive;0.66;NA;4;0.66;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4J7;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Mucinous;GS;C1;C4;OTHER;;T4a;;M0;;;;NX;;Stage IIB;49;MALE;0;Alive;32.49;NA;14;32.49;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4J8;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mixed;CIN;C3;C2;GASTRIC-CIMP;;T3;;M0;;;;N3a;;Stage IIIB;71;FEMALE;0;Alive;13.5;NA;7;13.5;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4J9;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C1;C4;OTHER;;T3;;M0;;;;N0;;Stage IIA;55;MALE;0;Alive;0.46;NA;3;0.46;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4PD;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C4;C4;OTHER;;T4a;;M0;;;;N0;;Stage IIB;72;FEMALE;0;Alive;20.63;NA;41;20.63;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4PE;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C2;GASTRIC-CIMP;;T2;;M0;;;;N0;;Stage IB;68;FEMALE;0;Alive;20.4;NA;0;20.4;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4PF;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;CIN;C3;C3;OTHER;;T4a;;M0;;;;N2;;Stage IIIB;72;MALE;0;Alive;1.15;NA;22;1.15;DiseaseFree;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4QM;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;NA;C2;GASTRIC-CIMP;;T3;;M0;;;;N2;;Stage IIIA;65;MALE;0;Alive;5.12;NA;17;4.17;Recurred/Progressed;;;NO;;TUMOR FREE;;;No
+TCGA-CD-5798;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Poorly_Cohesive;GS;C1;C4;OTHER;;T3;;M0;;;;N0;;Stage II;82;MALE;0;Alive;13.4;NA;25;13.4;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CD-5799;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;CIN;C3;C4;OTHER;;T2;;M0;;;;N1;;Stage II;45;MALE;0;Alive;13.01;NA;21;13.01;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CD-5800;Stomach, Intestinal Adenocarcinoma, Papillary Type;Papillary;CIN;C3;C4;OTHER;;T3;;M0;;;;N0;;Stage II;51;FEMALE;0;Alive;13.14;NA;11;13.14;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CD-5802;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;NA;C4;OTHER;;T3;;M0;;;;N0;;Stage II;58;MALE;0;Alive;13.34;NA;9;13.34;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CD-5804;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C4;C4;OTHER;;T3;;M0;;;;N1;;NA;90;MALE;0;Alive;12.09;NA;0;12.09;DiseaseFree;;;NA;;NA;;;No
+TCGA-CD-8524;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;CIN;C3;C3;OTHER;;T3;;M0;;;;N0;;Stage II;61;FEMALE;0;Alive;12.75;NA;2;2.27;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-8525;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Tubular;CIN;NA;C4;OTHER;;T3;;M0;;;;N1;;Stage IIIA;82;FEMALE;0;Alive;12.58;NA;2;12.58;DiseaseFree;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-8526;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C2;C4;OTHER;;T3;;M0;;;;N1;;Stage IIIA;73;FEMALE;0;Alive;12.52;NA;2;12.52;DiseaseFree;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-8528;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;CIN;C3;C2;GASTRIC-CIMP;;T4;;M0;;;;N0;;Stage IIIA;43;FEMALE;0;Alive;12.32;NA;3;12.32;DiseaseFree;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-8529;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Mucinous;CIN;C4;C4;OTHER;;T4;;M1;;;;N0;;Stage IV;65;MALE;0;Alive;12.29;NA;4;12.29;DiseaseFree;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-8530;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;CIN;C1;C4;OTHER;;T3;;M0;;;;N0;;Stage II;51;MALE;0;Alive;12.39;NA;5;12.39;DiseaseFree;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-8531;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C2;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N1;;Stage IIIA;66;FEMALE;0;Alive;12.58;NA;3;12.58;DiseaseFree;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-8533;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N0;;Stage II;48;MALE;0;Alive;15.37;NA;4;7.42;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-8534;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;CIN;C4;C3;OTHER;;T3;;M0;;;;N0;;Stage II;41;MALE;0;Alive;12.06;NA;0;6.6;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-8535;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C3;OTHER;;T3;;M0;;;;N1;;Stage IIIA;59;MALE;0;Alive;12.81;NA;4;12.81;DiseaseFree;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-8536;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mixed;MSI;C3;C2;GASTRIC-CIMP;;T3;;M0;;;;N0;;Stage II;74;MALE;0;Alive;12.42;NA;3;12.42;DiseaseFree;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-A487;Stomach, Adenocarcinoma, Diffuse Type;Mixed;CIN;C3;C4;OTHER;;T3;;M0;;;;N1;;Stage IIB;51;MALE;0;Alive;12.29;NA;4;12.29;DiseaseFree;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-A48A;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;NA;C3;OTHER;;T3;;M0;;;;N0;;Stage IIA;57;MALE;0;Alive;12.42;NA;4;12.42;DiseaseFree;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-A4MH;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C4;C4;OTHER;;T3;;M0;;;;N0;;Stage IIA;86;FEMALE;0;Alive;12.19;NA;3;12.19;DiseaseFree;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-A4MJ;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C3;C2;GASTRIC-CIMP;;T2;;M0;;;;N0;;Stage IB;60;MALE;0;Alive;12.61;NA;3;2.27;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA
+TCGA-CG-4301;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C4;C4;OTHER;;T4;;M1;;;;N1;;Stage IV;75;FEMALE;0;Alive;3.02;NA;92;3.02;DiseaseFree;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-4304;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;CIN;C4;C3;OTHER;;T2a;;M0;;;;N0;;Stage IB;84;MALE;0;Alive;27;NA;822;27;DiseaseFree;;;NA;;NA;;;NA
+TCGA-CG-4305;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C3;C2;GASTRIC-CIMP;;T2a;;M0;;;;N1;;Stage II;69;MALE;0;Alive;15.93;NA;485;15.01;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-4436;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;CIN;NA;C4;OTHER;;T2;;M0;;;;N0;;Stage IB;57;MALE;0;Alive;7.98;NA;243;7.98;DiseaseFree;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-4437;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C2;C2;GASTRIC-CIMP;;T2;;M0;;;;N1;;Stage II;83;MALE;0;Alive;8.05;NA;245;8.05;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-4438;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C4;OTHER;;T4;;M0;;;;N2;;Stage IV;56;MALE;0;Alive;54.04;NA;1645;54.04;DiseaseFree;;;NA;;NA;;;NA
+TCGA-CG-4442;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C3;C2;GASTRIC-CIMP;;T2;;M0;;;;N0;;Stage IB;85;MALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-4443;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C4;OTHER;;T1;;M0;;;;N0;;Stage IA;68;MALE;0;Alive;29.96;NA;912;29.96;DiseaseFree;;;NA;;NA;;;NA
+TCGA-CG-4444;Stomach, Adenocarcinoma, Diffuse Type;Mucinous;CIN;C4;C3;OTHER;;T2b;;M0;;;;N2;;Stage IIIA;76;MALE;0;Alive;47.01;NA;1431;47.01;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-4449;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Mucinous;CIN;C3;C4;OTHER;;T2;;M0;;;;N1;;Stage II;81;MALE;0;Alive;19.05;NA;580;11.04;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-4455;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Mucinous;CIN;NA;C3;OTHER;;T2b;;M0;;;;N1;;Stage II;72;MALE;0;Alive;12.02;NA;366;12.02;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-4466;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;CIN;C3;C4;OTHER;;T2a;;M0;;;;N0;;Stage IB;81;FEMALE;0;Alive;18.96;NA;577;18.96;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-4472;NA;Tubular;CIN;C4;C3;OTHER;;T4;;M0;;;;N1;;Stage IV;49;MALE;0;Alive;11.99;NA;365;4.01;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-4474;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C2;C2;GASTRIC-CIMP;;T4a;;M1;;;;N2;;Stage IV;67;FEMALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-4475;NA;Mucinous;CIN;C3;C4;OTHER;;T3;;M0;;;;N1;;Stage IIB;76;MALE;0;Alive;22.96;NA;0;22.96;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-4476;Stomach, Adenocarcinoma, Diffuse Type;Tubular;CIN;C4;C4;OTHER;;T4b;;M0;;;;N3a;;Stage IIIC;69;MALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-4477;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C2;C4;OTHER;;T2a;;M0;;;;N0;;Stage IB;58;FEMALE;0;Alive;30.95;NA;31;11.99;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-5716;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4a;;M1;;;;N2;;Stage IV;86;MALE;0;Alive;0;NA;0;0;DiseaseFree;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-5719;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C1;C4;OTHER;;T4;;M1;;;;N0;;Stage IV;54;FEMALE;0;Alive;1.02;NA;31;1.02;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-5721;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C2;C3;OTHER;;T4;;M0;;;;N1;;Stage IV;58;MALE;0;Alive;6.01;NA;183;6.01;DiseaseFree;;;NA;;TUMOR FREE;;;Yes
+TCGA-CG-5722;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;EBV;C2;C1;GASTRIC-EBV-CIMP;;T3;;M1;;;;N2;;Stage IV;67;FEMALE;0;Alive;0.99;NA;30;0.99;DiseaseFree;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-5723;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;MSI;C2;C4;OTHER;;T2;;M0;;;;N1;;Stage II;83;MALE;0;Alive;104.99;NA;2131;104.99;DiseaseFree;;;NA;;NA;;;NA
+TCGA-CG-5727;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;GS;NA;C3;OTHER;;T3;;M0;;;;N0;;Stage II;66;MALE;0;Alive;79.01;NA;944;79.01;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-5728;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;NA;C3;OTHER;;T2;;M0;;;;N0;;Stage IB;88;FEMALE;0;Alive;65.05;NA;1980;65.05;DiseaseFree;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-5730;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;NA;C3;OTHER;;T2;;M1;;;;N1;;Stage IV;80;FEMALE;0;Alive;4.01;NA;122;4.01;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-D7-5578;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C2;C3;OTHER;;T3;;M0;;;;N2;;Stage IIIA;80;MALE;0;Alive;12.65;NA;109;12.65;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-D7-5579;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Poorly_Cohesive;CIN;NA;C4;OTHER;;T3;;M0;;;;N2;;Stage IIIA;74;MALE;0;Alive;20.89;NA;138;20.89;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-D7-6518;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;CIN;C1;C4;OTHER;;T2;;M0;;;;N3;;Stage IIIA;75;MALE;0;Alive;19.12;NA;298;19.12;DiseaseFree;;;NA;;WITH TUMOR;;;NA
+TCGA-D7-6519;Stomach, Adenocarcinoma, Diffuse Type;Tubular;CIN;C3;C4;OTHER;;T2;;M0;;;;N1;;Stage IIIB;64;FEMALE;0;Alive;20.53;NA;476;14.09;Recurred/Progressed;;;NA;;WITH TUMOR;;;No
+TCGA-D7-6520;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C3;C4;OTHER;;T2b;;M0;;;;N2;;Stage IIIA;53;MALE;0;Alive;18.82;NA;293;1.51;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-D7-6521;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;CIN;C4;C4;OTHER;;T2b;;M0;;;;N2;;Stage IIIA;65;MALE;0;Alive;18.53;NA;249;6.31;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-D7-6522;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C2;C4;OTHER;;T2;;M0;;;;N0;;Stage IB;58;MALE;0;Alive;18.59;NA;210;18.59;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-D7-6524;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C3;C4;OTHER;;T2;;M0;;;;N1;;Stage II;53;MALE;0;Alive;17.84;NA;21;17.84;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-D7-6526;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C3;C4;OTHER;;T3;;M0;;;;N2;;Stage IIIA;67;FEMALE;0;Alive;17.18;NA;201;17.18;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-D7-6528;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C3;C3;OTHER;;T2;;M0;;;;N0;;Stage IB;70;FEMALE;0;Alive;15.21;NA;51;15.21;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-D7-6815;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C3;C3;OTHER;;T2;;M0;;;;N2;;Stage IIB;70;FEMALE;0;Alive;15.97;NA;111;15.97;DiseaseFree;;;NA;;TUMOR FREE;;;No
+TCGA-D7-6817;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C4;C4;OTHER;;T2b;;M0;;;;N3;;Stage IIIA;63;MALE;0;Alive;12.78;NA;24;12.78;DiseaseFree;;;NA;;TUMOR FREE;;;No
+TCGA-D7-6820;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C4;C4;OTHER;;T2;;M0;;;;N1;;Stage IIB;64;MALE;0;Alive;11.3;NA;89;11.3;DiseaseFree;;;NA;;TUMOR FREE;;;Yes
+TCGA-D7-6822;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C3;C3;OTHER;;T2;;M0;;;;N0;;Stage IB;77;MALE;0;Alive;12.32;NA;131;12.32;DiseaseFree;;;NA;;TUMOR FREE;;;No
+TCGA-D7-8570;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;EBV;C2;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N3a;;Stage IIIB;44;MALE;0;Alive;24.7;NA;243;24.7;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-8572;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;GS;C3;C4;OTHER;;T2;;M0;;;;N2;;Stage IIB;57;MALE;0;Alive;16.79;NA;26;16.79;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-8573;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;EBV;C3;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N0;;Stage IIA;57;MALE;0;Alive;19.48;NA;119;19.48;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-8574;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C1;C4;OTHER;;T2;;M0;;;;N3a;;Stage IIIA;72;MALE;0;Alive;17.18;NA;128;17.18;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-8578;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C1;C4;OTHER;;T2;;M0;;;;N0;;Stage IB;72;MALE;0;Alive;21.12;NA;160;14.82;Recurred/Progressed;;;NO;;TUMOR FREE;;;No
+TCGA-D7-8579;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;GS;C1;C3;OTHER;;T2;;M0;;;;N2;;Stage IIB;66;FEMALE;0;Alive;20.89;NA;146;20.89;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A4YT;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C3;C4;OTHER;;T2;;M0;;;;N3a;;Stage IIIA;56;MALE;0;Alive;14.26;NA;129;14.26;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A4YU;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C2;C2;GASTRIC-CIMP;;T3;;M0;;;;N3a;;Stage IIIB;73;MALE;0;Alive;16.43;NA;210;16.43;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A4YX;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;EBV;C3;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N1;;Stage IIB;63;MALE;0;Alive;36.4;NA;244;36.4;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A4YY;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C2;C2;GASTRIC-CIMP;;T3;;M0;;;;N3a;;Stage IIIB;61;MALE;0;Alive;13.76;NA;104;13.76;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A4Z0;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Poorly_Cohesive;GS;C3;C3;OTHER;;T2;;M0;;;;N2;;Stage IIB;60;FEMALE;0;Alive;14.75;NA;148;14.75;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A6ET;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N3a;;Stage IIIB;76;MALE;0;Alive;26.41;NA;417;25.53;Recurred/Progressed;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A6EV;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T2;;M0;;;;N2;;Stage IIB;71;FEMALE;0;Alive;11.24;NA;342;11.24;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A6EX;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIA;72;FEMALE;0;Alive;11.3;NA;344;11.3;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A6F0;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T2;;M0;;;;N0;;Stage IB;79;FEMALE;0;Alive;22.27;NA;90;22.27;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A6F2;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T2;;M0;;;;N0;;Stage IB;62;MALE;0;Alive;15.64;NA;476;15.64;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-D7-A74A;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIA;61;FEMALE;0;Alive;19.94;NA;225;19.94;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-EQ-A4SO;NA;Papillary;CIN;C4;C4;OTHER;;T4b;;MX;;;;N1;;Stage IIIB;70;MALE;0;Alive;16.23;NA;242;16.23;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-F1-6874;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C3;C2;GASTRIC-CIMP;;T2;;M0;;;;N0;;Stage IB;79;MALE;0;Alive;14.45;NA;62;14.45;DiseaseFree;;;NA;;TUMOR FREE;;;No
+TCGA-F1-A448;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Mucinous;MSI;C4;C3;OTHER;;T3;;M0;;;;N3b;;Stage IIIB;70;MALE;0;Alive;21.25;NA;252;21.25;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-F1-A72C;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N0;;Stage IIA;68;MALE;0;Alive;11.37;NA;247;11.27;Recurred/Progressed;;;NO;;TUMOR FREE;;;No
+TCGA-FP-7829;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Tubular;CIN;C3;C2;GASTRIC-CIMP;;T3;;M0;;;;N1;;Stage IIB;69;MALE;0;Alive;19.51;NA;6;19.51;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-FP-7998;Stomach, Adenocarcinoma, Diffuse Type;NA;EBV;C2;C1;GASTRIC-EBV-CIMP;;T4a;;MX;;;;N3a;;Stage IIIC;77;MALE;0;Alive;22.27;NA;109;22.27;DiseaseFree;;;NO;;NA;;;NA
+TCGA-FP-8099;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mixed;CIN;C3;C3;OTHER;;T3;;MX;;;;N0;;Stage IIA;79;MALE;0;Alive;17.05;NA;34;17.05;DiseaseFree;;;NO;;[Unknown];;;[Unknown]
+TCGA-FP-8211;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C4;OTHER;;T3;;MX;;;;N1;;Stage IIB;62;MALE;0;Alive;13.57;NA;86;13.57;DiseaseFree;;;NO;;WITH TUMOR;;;[Unknown]
+TCGA-FP-8631;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C4;C4;OTHER;;T3;;MX;;;;N2;;Stage IIIA;68;MALE;0;Alive;0.56;NA;17;0.56;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-FP-A4BE;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C2;C2;GASTRIC-CIMP;;T3;;M0;;;;N0;;Stage IIA;55;MALE;0;Alive;11.07;NA;35;11.07;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-FP-A8CX;Stomach Adenocarcinoma, Signet Ring Type;NA;NA;NA;NA;NA;;T4b;;MX;;;;N3a;;Stage IIIC;60;MALE;0;Alive;0.23;NA;7;0.23;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-FP-A9TM;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T1b;;M0;;;;N1;;Stage IIB;77;MALE;0;Alive;6.21;NA;189;6.21;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HF-7131;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T2b;;MX;;;;N0;;Stage IB;NA;FEMALE;0;Alive;NA;NA;NA;NA;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-HF-7132;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Mucinous;MSI;C4;C2;GASTRIC-CIMP;;T2b;;M0;;;;N1;;Stage II;NA;MALE;0;Alive;77.23;NA;NA;77.23;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-HF-7133;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Mucinous;CIN;C4;C4;OTHER;;T2b;;M0;;;;N3;;Stage IV;NA;FEMALE;0;Alive;63.01;NA;NA;63.01;DiseaseFree;;;NA;;TUMOR FREE;;;No
+TCGA-HF-7134;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T1;;M0;;;;N0;;Stage IA;NA;MALE;0;Alive;52.17;NA;NA;52.17;DiseaseFree;;;NA;;TUMOR FREE;;;No
+TCGA-HF-7136;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C4;OTHER;;T3;;M0;;;;N1;;Stage IIIA;NA;MALE;0;Alive;NA;NA;NA;NA;DiseaseFree;;;NA;;WITH TUMOR;;;NA
+TCGA-HF-A5NB;Stomach, Intestinal Adenocarcinoma, Mucinous Type;NA;NA;NA;NA;NA;;T4a;;M0;;;;N3a;;Stage IIIC;75;FEMALE;0;Alive;30.49;NA;550;30.49;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-8238;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;NA;56;MALE;0;Alive;1.51;NA;46;1.51;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-HU-8244;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T1a;;M0;;;;N0;;Stage IA;77;FEMALE;0;Alive;24.38;NA;434;24.38;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-8245;Stomach, Intestinal Adenocarcinoma, Papillary Type;Papillary;CIN;NA;C4;OTHER;;T3;;M0;;;;N0;;Stage IIA;72;MALE;0;Alive;18.13;NA;383;18.13;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-8249;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;NA;C3;OTHER;;T3;;M0;;;;N2;;Stage IIIA;76;MALE;0;Alive;28.94;NA;431;28.94;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-8602;Stomach, Adenocarcinoma, Diffuse Type;NA;MSI;C3;C2;GASTRIC-CIMP;;T4a;;M0;;;;N0;;Stage IIB;58;FEMALE;0;Alive;22.31;NA;347;22.31;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-8604;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C2;C2;GASTRIC-CIMP;;T3;;M0;;;;N0;;Stage IIA;82;FEMALE;0;Alive;22.8;NA;368;22.8;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-8608;Stomach, Adenocarcinoma, Diffuse Type;NA;EBV;C2;C1;GASTRIC-EBV-CIMP;;T4a;;M0;;;;N2;;Stage IIIB;70;MALE;0;Alive;21.06;NA;323;9.1;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-HU-8610;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C4;C3;OTHER;;T1b;;M0;;;;N0;;Stage IA;75;MALE;0;Alive;0.76;NA;23;0.76;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4G2;Stomach, Adenocarcinoma, Diffuse Type;Tubular;EBV;C4;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N1;;Stage IIB;45;MALE;0;Alive;24.28;NA;739;24.28;DiseaseFree;;;NO;;TUMOR FREE;;;Yes
+TCGA-HU-A4G3;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;GS;C4;C2;GASTRIC-CIMP;;T2;;M0;;;;N2;;Stage IIB;54;MALE;0;Alive;5.58;NA;170;5.58;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4G6;Stomach, Intestinal Adenocarcinoma, Papillary Type;Tubular;EBV;C3;C1;GASTRIC-EBV-CIMP;;T1b;;M0;;;;N0;;Stage IA;74;MALE;0;Alive;24.24;NA;374;24.24;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4G8;Stomach, Adenocarcinoma, Diffuse Type;Tubular;MSI;C3;C2;GASTRIC-CIMP;;T3;;M0;;;;N1;;Stage IIB;71;FEMALE;0;Alive;22.67;NA;360;22.67;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4G9;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;MSI;C4;C2;GASTRIC-CIMP;;T1a;;M0;;;;N0;;Stage IA;67;FEMALE;0;Alive;24.18;NA;463;24.18;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4GC;Stomach, Adenocarcinoma, Diffuse Type;Tubular;CIN;C4;C3;OTHER;;T4a;;M0;;;;N2;;Stage IIIB;74;MALE;0;Alive;3.25;NA;99;3.25;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4GD;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;NA;C4;OTHER;;T3;;M0;;;;N1;;Stage IIB;56;MALE;0;Alive;22.73;NA;429;13.11;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-HU-A4GF;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C3;C4;OTHER;;T3;;M0;;;;N0;;Stage IIA;69;MALE;0;Alive;25.79;NA;519;25.79;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-HU-A4GH;Stomach, Intestinal Adenocarcinoma, Tubular Type;Papillary;CIN;C3;C4;OTHER;;T1b;;M0;;;;N0;;Stage IA;75;MALE;0;Alive;11.76;NA;358;11.76;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4GJ;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T4;;M0;;;;N3a;;Stage IIIC;60;FEMALE;0;Alive;21.35;NA;650;17.97;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-HU-A4GN;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;MSI;C3;C2;GASTRIC-CIMP;;T2;;M0;;;;N1;;Stage IIA;61;MALE;0;Alive;29.96;NA;640;5.52;Recurred/Progressed;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4GP;Stomach, Adenocarcinoma, Diffuse Type;Tubular;CIN;C4;C3;OTHER;;T2;;M0;;;;N1;;Stage IIA;62;FEMALE;0;Alive;8.97;NA;273;8.97;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-HU-A4GT;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;MSI;C3;C2;GASTRIC-CIMP;;T3;;M0;;;;N0;;Stage IIA;71;FEMALE;0;Alive;6.5;NA;198;6.5;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-HU-A4GU;Stomach, Adenocarcinoma, Diffuse Type;Tubular;MSI;C3;C2;GASTRIC-CIMP;;T3;;M0;;;;N1;;Stage IIB;73;MALE;0;Alive;6.57;NA;190;6.57;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4GX;Stomach, Adenocarcinoma, Diffuse Type;Tubular;MSI;C4;C4;OTHER;;T4b;;M0;;;;N2;;Stage IIIC;70;FEMALE;0;Alive;20.24;NA;310;20.24;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4GY;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C2;C4;OTHER;;T4;;M0;;;;N1;;Stage IIIA;76;FEMALE;0;Alive;0.26;NA;8;0.26;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-HU-A4H0;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;EBV;C2;C1;GASTRIC-EBV-CIMP;;T4a;;M0;;;;N3b;;Stage IIIC;72;MALE;0;Alive;2.1;NA;64;2.1;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4H2;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C3;C3;OTHER;;T3;;M0;;;;N3b;;Stage IIIB;58;FEMALE;0;Alive;12.94;NA;394;12.94;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4H3;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;MSI;C3;C2;GASTRIC-CIMP;;T4a;;M0;;;;N3b;;Stage IIIC;56;FEMALE;0;Alive;28.98;NA;589;15.31;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-HU-A4H4;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;MSI;C2;C2;GASTRIC-CIMP;;T2;;M0;;;;N2;;Stage IIB;53;FEMALE;0;Alive;23.82;NA;538;23.82;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4H5;Stomach, Intestinal Adenocarcinoma, Papillary Type;Papillary;CIN;C3;C4;OTHER;;T2;;M0;;;;N0;;Stage IB;71;MALE;0;Alive;23.78;NA;374;23.78;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4H6;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C4;C2;GASTRIC-CIMP;;T3;;M0;;;;N2;;Stage IIIA;72;FEMALE;0;Alive;21.16;NA;294;21.16;DiseaseFree;;;NO;;WITH TUMOR;;;No
+TCGA-HU-A4H8;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;MSI;C4;C2;GASTRIC-CIMP;;T1b;;M0;;;;N1;;Stage IB;77;MALE;0;Alive;14.06;NA;270;11.63;Recurred/Progressed;;;NO;;TUMOR FREE;;;No
+TCGA-HU-A4HD;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C3;C4;OTHER;;T3;;M0;;;;N2;;Stage IIIA;73;MALE;0;Alive;33.38;NA;834;33.38;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-IN-7806;Stomach, Adenocarcinoma, Diffuse Type;Tubular;CIN;C3;C3;OTHER;;T3;;M0;;;;N1;;Stage IIB;50;MALE;0;Alive;36.33;NA;209;36.33;DiseaseFree;;;NA;;TUMOR FREE;;;No
+TCGA-IN-8462;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mixed;CIN;NA;C3;OTHER;;T2;;M0;;;;N1;;Stage IIB;80;MALE;0;Alive;18.79;NA;319;8.87;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-IN-A6RI;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T1b;;M0;;;;N0;;Stage I;45;MALE;0;Alive;18.36;NA;559;18.36;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-IN-A6RJ;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T1b;;M0;;;;N0;;Stage IA;64;MALE;0;Alive;12.45;NA;163;12.45;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-IN-A6RN;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T1b;;M0;;;;N2;;Stage IIA;72;FEMALE;0;Alive;19.51;NA;398;19.51;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-IN-A6RP;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T1b;;M0;;;;N3;;Stage IIIC;63;MALE;0;Alive;6.44;NA;196;4.93;Recurred/Progressed;;;YES;;WITH TUMOR;;;[Unknown]
+TCGA-IN-A6RS;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T1b;;M0;;;;N0;;Stage IA;76;MALE;0;Alive;12.58;NA;209;12.58;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-IN-A7NR;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M1;;;;N3;;Stage IV;64;FEMALE;0;Alive;6.5;NA;198;6.5;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-IN-A7NT;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIB;73;FEMALE;0;Alive;10.61;NA;169;10.61;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-IN-A7NU;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N3;;Stage IIIB;69;MALE;0;Alive;11.7;NA;55;11.07;Recurred/Progressed;;;[Unknown];;[Unknown];;;[Unknown]
+TCGA-IN-AB1V;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T1b;;M0;;;;N0;;Stage IA;63;MALE;0;Alive;15.74;NA;238;15.74;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-IN-AB1X;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N0;;Stage IIA;78;FEMALE;0;Alive;13.5;NA;190;13.5;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-IP-7968;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C3;OTHER;;T3;;MX;;;;N2;;Stage IIIB;74;MALE;0;Alive;2.53;NA;77;2.53;DiseaseFree;;;NA;;TUMOR FREE;;;NA
+TCGA-KB-A6F5;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIA;73;MALE;0;Alive;5.55;NA;169;5.55;DiseaseFree;;;[Unknown];;TUMOR FREE;;;No
+TCGA-KB-A6F7;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T1;;M0;;;;N1;;Stage IB;54;FEMALE;0;Alive;63.57;NA;1572;63.57;DiseaseFree;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-KB-A93G;Stomach Adenocarcinoma, Signet Ring Type;NA;NA;NA;NA;NA;;T2;;M0;;;;N0;;Stage IB;68;MALE;0;Alive;20.14;NA;432;20.14;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-KB-A93H;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIB;79;FEMALE;0;Alive;37.61;NA;879;37.61;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-KB-A93J;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T2b;;M0;;;;N1;;Stage II;78;MALE;0;Alive;36.93;NA;1124;36.93;DiseaseFree;;;[Unknown];;[Unknown];;;No
+TCGA-MX-A5UJ;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIA;86;FEMALE;0;Alive;19.71;NA;137;19.71;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-MX-A666;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T2;;MX;;;;NX;;Stage IIA;61;MALE;0;Alive;14.03;NA;70;14.03;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-R5-A7O7;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M1;;;;N1;;Stage IV;51;MALE;0;Alive;45.63;NA;1389;45.63;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-R5-A7ZI;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T4;;M1;;;;N1;;Stage IV;44;FEMALE;0;Alive;74.47;NA;1863;74.47;DiseaseFree;;;NO;;WITH TUMOR;;;No
+TCGA-RD-A8MV;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIB;56;MALE;0;Alive;122.21;NA;3720;122.21;DiseaseFree;;;NO;;TUMOR FREE;;;Yes
+TCGA-RD-A8N0;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIB;53;FEMALE;0;Alive;40.6;NA;1236;40.6;DiseaseFree;;;NO;;TUMOR FREE;;;Yes
+TCGA-RD-A8N1;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIB;70;MALE;0;Alive;115.6;NA;3519;115.6;DiseaseFree;;;NO;;TUMOR FREE;;;Yes
+TCGA-RD-A8N2;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T2;;M0;;;;N0;;Stage IB;59;FEMALE;0;Alive;116.29;NA;3540;116.29;DiseaseFree;;;NO;;TUMOR FREE;;;Yes
+TCGA-RD-A8N4;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;58;FEMALE;0;Alive;71.32;NA;2171;71.32;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-RD-A8N9;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T2;;M0;;;;N1;;Stage II;63;FEMALE;0;Alive;35.58;NA;1083;35.58;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-SW-A7EA;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T2;;M0;;;;N0;;Stage IB;61;FEMALE;0;Alive;19.02;NA;13;19.02;DiseaseFree;;;NO;;[Unknown];;;No
+TCGA-SW-A7EB;Stomach, Intestinal Adenocarcinoma, Mucinous Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIA;45;MALE;0;Alive;5.78;NA;176;5.78;DiseaseFree;;;NO;;NA;;;[Unknown]
+TCGA-VQ-A8DT;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N3a;;Stage IIIB;43;MALE;0;Alive;48.75;NA;1148;45.2;Recurred/Progressed;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A8E2;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIB;57;MALE;0;Alive;43.33;NA;946;43.33;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A8E7;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M1;;;;N1;;Stage IV;59;MALE;0;Alive;37.39;NA;787;34.43;Recurred/Progressed;;;NO;;WITH TUMOR;;;No
+TCGA-VQ-A8P2;Stomach, Intestinal Adenocarcinoma, Mucinous Type;NA;NA;NA;NA;NA;;T4a;;M0;;;;N1;;Stage IIIA;68;MALE;0;Alive;38.11;NA;680;38.11;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A8P3;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4;;M0;;;;N1;;Stage IIIA;72;MALE;0;Alive;37.19;NA;723;37.19;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A8P8;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4a;;M0;;;;N0;;Stage IIB;72;FEMALE;0;Alive;30.95;NA;580;30.95;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A8PT;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4b;;M0;;;;N0;;Stage IIIB;65;MALE;0;Alive;29.57;NA;587;29.57;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A8PX;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T1;;M0;;;;N0;;Stage IA;51;MALE;0;Alive;64.52;NA;1597;64.52;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A8PZ;Stomach Adenocarcinoma, Signet Ring Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N0;;Stage II;56;FEMALE;0;Alive;73.36;NA;1800;73.36;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A91A;Stomach, Intestinal Adenocarcinoma, Mucinous Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N3a;;Stage IIIB;67;MALE;0;Alive;39.42;NA;873;4.24;Recurred/Progressed;;;YES;;TUMOR FREE;;;No
+TCGA-VQ-A91E;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4b;;M0;;;;N0;;Stage IIIB;67;FEMALE;0;Alive;21.81;NA;264;21.81;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A91K;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;69;MALE;0;Alive;61.17;NA;1498;61.17;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A91S;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4b;;M0;;;;N1;;Stage IIIB;63;MALE;0;Alive;32.85;NA;690;32.85;DiseaseFree;;;NO;;TUMOR FREE;;;Yes
+TCGA-VQ-A91V;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIA;58;MALE;0;Alive;42.61;NA;974;38.9;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A91W;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;30;MALE;0;Alive;60.81;NA;224;60.81;DiseaseFree;;;[Unknown];;[Unknown];;;No
+TCGA-VQ-A91Z;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;67;FEMALE;0;Alive;55.52;NA;1346;43.04;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A92D;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T2b;;M0;;;;N0;;Stage IB;67;MALE;0;Alive;66.75;NA;1683;66.75;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A94U;Stomach Adenocarcinoma, Signet Ring Type;NA;NA;NA;NA;NA;;T4a;;M0;;;;N0;;Stage IIB;70;MALE;0;Alive;26.91;NA;468;26.91;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-AA68;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4a;;M0;;;;N3;;Stage IIIC;52;FEMALE;0;Alive;43.63;NA;1219;43.63;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-AA69;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIA;35;MALE;0;Alive;28.38;NA;542;28.38;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-AA6A;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4;;M0;;;;N3a;;Stage IIIC;56;MALE;0;Alive;38.9;NA;848;38.9;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-AA6B;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIB;48;MALE;0;Alive;32.92;NA;793;32.92;DiseaseFree;;;NO;;TUMOR FREE;;;Yes
+TCGA-VQ-AA6D;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4a;;M0;;;;N1;;Stage IIIA;52;FEMALE;0;Alive;17.12;NA;521;17.12;DiseaseFree;;;NO;;TUMOR FREE;;;Yes
+TCGA-VQ-AA6F;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIB;57;MALE;0;Alive;54.07;NA;1646;17.94;Recurred/Progressed;;;YES;;TUMOR FREE;;;No
+TCGA-VQ-AA6J;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4a;;M0;;;;N2;;Stage IIIB;75;MALE;0;Alive;27.53;NA;642;27.53;DiseaseFree;;;NO;;TUMOR FREE;;;No
+TCGA-ZA-A8F6;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T2;;MX;;;;N0;;Stage IB;71;MALE;0;Alive;17.25;NA;128;17.25;DiseaseFree;;;NO;;[Unknown];;;No
+TCGA-3M-AB47;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;MX;;;;N2;;Stage IIIB;51;MALE;1;Dead;NA;NA;NA;12.98;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-BR-4183;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;NA;C3;OTHER;;T3;;M0;;;;N1;;Stage IIIA;55;FEMALE;1;Dead;6.6;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-4184;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;NA;C2;GASTRIC-CIMP;;T3;;MX;;;;N1;;Stage IIIA;70;MALE;1;Dead;6.96;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-4187;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C1;C3;OTHER;;TX;;M0;;;;NX;;NA;56;MALE;1;Dead;4.63;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-4188;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;NA;C2;GASTRIC-CIMP;;TX;;M0;;;;N1;;NA;53;FEMALE;1;Dead;7.42;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-4191;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C4;C3;OTHER;;TX;;M0;;;;N1;;NA;72;MALE;1;Dead;18.33;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-4201;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C1;C3;OTHER;;T2a;;M0;;;;NX;;NA;66;FEMALE;1;Dead;30.88;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-4253;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;EBV;C2;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N1;;Stage IIIA;80;FEMALE;1;Dead;4.07;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-4255;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;CIN;C1;C3;OTHER;;T3;;M0;;;;N1;;Stage IIIA;76;FEMALE;1;Dead;4.07;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-4256;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C2;C2;GASTRIC-CIMP;;TX;;M0;;;;N1;;NA;80;MALE;1;Dead;9.33;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-4257;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mucinous;MSI;C3;C2;GASTRIC-CIMP;;TX;;M0;;;;NX;;NA;79;FEMALE;1;Dead;9.66;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-4267;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;CIN;NA;C3;OTHER;;T2a;;M0;;;;N0;;Stage IB;51;MALE;1;Dead;6.18;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-4279;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C4;C3;OTHER;;T2a;;M0;;;;N1;;Stage II;43;MALE;1;Dead;9.56;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-4280;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C3;C3;OTHER;;T2b;;M0;;;;N1;;Stage III;78;FEMALE;1;Dead;6.6;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-6455;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;EBV;C2;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N1;;Stage IIB;59;MALE;1;Dead;13.86;NA;43;12.65;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6456;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C1;C4;OTHER;;T3;;M0;;;;N1;;Stage IIB;74;FEMALE;1;Dead;17.28;NA;0;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-6458;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C2;C3;OTHER;;T3;;M0;;;;N1;;Stage IIB;57;FEMALE;1;Dead;19.32;NA;41;18.86;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6564;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;CIN;C1;C4;OTHER;;T3;;M0;;;;N2;;Stage IIIA;46;FEMALE;1;Dead;26.08;NA;25;NA;NA;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6565;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C2;C4;OTHER;;T4a;;M0;;;;N0;;Stage IIB;67;MALE;1;Dead;9.17;NA;19;NA;NA;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6705;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C1;C4;OTHER;;T3;;M0;;;;N3a;;Stage IIIB;68;FEMALE;1;Dead;25.59;NA;53;NA;NA;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6706;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mixed;EBV;C2;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N1;;Stage IIIA;63;MALE;1;Dead;18.04;NA;66;13.21;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6707;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;EBV;C2;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N0;;Stage IIA;75;MALE;1;Dead;19.88;NA;30;13.99;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-6709;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N3a;;Stage IIIB;57;FEMALE;1;Dead;12.16;NA;38;NA;NA;;;NA;;WITH TUMOR;;;NA
+TCGA-BR-7717;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C3;OTHER;;T4;;M0;;;;N1;;Stage IV;63;MALE;1;Dead;18.13;NA;21;NA;NA;;;NA;;NA;;;NA
+TCGA-BR-7722;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mixed;GS;C4;C4;OTHER;;T3;;M0;;;;N1;;Stage IIB;62;MALE;1;Dead;15.31;NA;5;NA;NA;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-7723;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C4;OTHER;;T3;;M0;;;;N3a;;Stage IIIB;59;MALE;1;Dead;28.71;NA;139;18.36;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-7851;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C3;C2;GASTRIC-CIMP;;T4a;;M0;;;;N0;;Stage IIB;74;MALE;1;Dead;NA;NA;30;NA;NA;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-7901;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C4;C4;OTHER;;T3;;M0;;;;N1;;Stage IIB;74;MALE;1;Dead;3.45;NA;29;2.99;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-7957;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C1;C4;OTHER;;T3;;M1;;;;N3a;;Stage IV;50;FEMALE;1;Dead;9.07;NA;21;NA;NA;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-8059;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C1;C4;OTHER;;T4;;M0;;;;N1;;Stage III;72;MALE;1;Dead;14.42;NA;25;NA;NA;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8060;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T2;;M0;;;;N2;;Stage IIB;75;FEMALE;1;Dead;11.43;NA;40;NA;NA;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-8080;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Poorly_Cohesive;CIN;C1;C4;OTHER;;T4;;M0;;;;N3a;;Stage IIIC;72;FEMALE;1;Dead;9.59;NA;15;NA;NA;;;NA;;TUMOR FREE;;;NA
+TCGA-BR-8284;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Mixed;MSI;C2;C2;GASTRIC-CIMP;;T4a;;M0;;;;N3a;;Stage IIIC;72;FEMALE;1;Dead;8.05;NA;22;NA;NA;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8285;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;EBV;NA;C1;GASTRIC-EBV-CIMP;;T4a;;M0;;;;N3a;;Stage IIIC;57;FEMALE;1;Dead;0.56;NA;8;NA;NA;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-BR-8289;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C3;OTHER;;T4;;M1;;;;N3a;;Stage IV;57;MALE;1;Dead;2.66;NA;8;NA;NA;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8291;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;CIN;C1;C4;OTHER;;T3;;M0;;;;N1;;Stage IIB;61;MALE;1;Dead;19.94;NA;36;NA;NA;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8295;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;NA;C4;OTHER;;T4a;;M0;;;;N0;;Stage IIB;60;FEMALE;1;Dead;2.2;NA;47;NA;NA;;;[Unknown];;WITH TUMOR;;;[Unknown]
+TCGA-BR-8296;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;NA;C2;GASTRIC-CIMP;;T4b;;M0;;;;N2;;Stage IIIC;58;FEMALE;1;Dead;15.57;NA;45;12.81;Recurred/Progressed;;;[Unknown];;WITH TUMOR;;;[Unknown]
+TCGA-BR-8362;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;GS;C3;C3;OTHER;;T4b;;M0;;;;N3a;;Stage IIIC;65;MALE;1;Dead;13.07;NA;11;11.7;Recurred/Progressed;;;[Unknown];;TUMOR FREE;;;NA
+TCGA-BR-8363;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;MSI;C2;C2;GASTRIC-CIMP;;T2;;M0;;;;N0;;Stage IB;73;FEMALE;1;Dead;0.26;8;NA;NA;NA;;;NO;;TUMOR FREE;;;NA
+TCGA-BR-8365;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;CIN;C1;C4;OTHER;;T3;;M0;;;;N0;;Stage IIA;70;FEMALE;1;Dead;17.51;NA;90;NA;NA;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8367;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mixed;GS;C1;C3;OTHER;;T3;;M0;;;;N3a;;Stage IIIB;55;MALE;1;Dead;26.31;NA;33;19.05;Recurred/Progressed;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8371;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C1;C4;OTHER;;T3;;M0;;;;N3a;;Stage IIIB;62;MALE;1;Dead;11.79;NA;11;11.73;Recurred/Progressed;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8380;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C1;C3;OTHER;;T4a;;M0;;;;N3a;;Stage IIIC;55;MALE;1;Dead;NA;NA;21;15.34;Recurred/Progressed;;;[Unknown];;WITH TUMOR;;;[Unknown]
+TCGA-BR-8382;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C2;C2;GASTRIC-CIMP;;T4b;;M0;;;;N3a;;Stage IIIC;67;FEMALE;1;Dead;25.03;NA;13;NA;NA;;;[Unknown];;TUMOR FREE;;;NA
+TCGA-BR-8484;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C2;C4;OTHER;;T4a;;M0;;;;N1;;Stage IIIA;61;MALE;1;Dead;25.16;NA;22;NA;NA;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8590;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mixed;GS;C1;C4;OTHER;;T4b;;M0;;;;N2;;Stage IIIC;62;MALE;1;Dead;9.33;NA;65;7.33;Recurred/Progressed;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8592;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C1;C3;OTHER;;T4b;;M0;;;;N1;;Stage IIIB;63;FEMALE;1;Dead;6.27;NA;6;NA;NA;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8683;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C3;C3;OTHER;;T4a;;M0;;;;N2;;Stage IIIB;75;MALE;1;Dead;9.86;NA;18;NA;NA;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-8686;Stomach, Intestinal Adenocarcinoma, Tubular Type;Poorly_Cohesive;EBV;C2;C1;GASTRIC-EBV-CIMP;;T4b;;M0;;;;N1;;Stage IIIB;69;MALE;1;Dead;20.86;NA;17;NA;NA;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-BR-8687;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;CIN;NA;C4;OTHER;;T4b;;M0;;;;N2;;Stage IIIC;67;FEMALE;1;Dead;8.21;NA;19;NA;NA;;;NO;;WITH TUMOR;;;[Unknown]
+TCGA-BR-A44U;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mixed;CIN;NA;C3;OTHER;;T3;;M0;;;;N3a;;Stage IIIB;70;MALE;1;Dead;13.86;NA;35;NA;NA;;;NO;;TUMOR FREE;;;NA
+TCGA-BR-A452;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;C3;C4;OTHER;;T4a;;M0;;;;N1;;Stage IIIA;57;MALE;1;Dead;7.52;NA;20;NA;NA;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-BR-A453;Stomach Adenocarcinoma, Signet Ring Type;Poorly_Cohesive;GS;C1;C4;OTHER;;T4a;;M1;;;;N3a;;Stage IV;51;MALE;1;Dead;6.08;NA;92;NA;NA;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4CS;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;CIN;C3;C3;OTHER;;T4b;;M0;;;;N3a;;Stage IIIC;77;MALE;1;Dead;1.48;NA;28;NA;NA;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4IV;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C1;C4;OTHER;;T4a;;M0;;;;N2;;Stage IIIB;47;MALE;1;Dead;28.55;NA;28;24.21;Recurred/Progressed;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4IZ;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C1;C4;OTHER;;T4a;;M0;;;;N2;;Stage IIIB;45;FEMALE;1;Dead;8.97;NA;24;NA;NA;;;[Unknown];;TUMOR FREE;;;[Unknown]
+TCGA-BR-A4J1;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C4;OTHER;;T4a;;M0;;;;N1;;Stage IIIA;63;MALE;1;Dead;0.72;22;NA;NA;NA;;;[Unknown];;[Unknown];;;[Unknown]
+TCGA-BR-A4QI;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;CIN;C3;C2;GASTRIC-CIMP;;T3;;M0;;;;N0;;Stage IIA;70;FEMALE;1;Dead;21.42;NA;15;12.58;Recurred/Progressed;;;NO;;TUMOR FREE;;;No
+TCGA-BR-A4QL;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;MSI;NA;C2;GASTRIC-CIMP;;T3;;M0;;;;N3a;;Stage IIIB;75;FEMALE;1;Dead;16.13;NA;0;NA;NA;;;NO;;TUMOR FREE;;;No
+TCGA-CD-5801;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;EBV;C2;C1;GASTRIC-EBV-CIMP;;T3;;M0;;;;N1;;Stage IIIA;69;MALE;1;Dead;13.17;NA;15;NA;NA;;;NA;;NA;;;NA
+TCGA-CD-5803;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C1;C4;OTHER;;T3;;M0;;;;N0;;Stage II;78;FEMALE;1;Dead;11.2;NA;2;9.86;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-CD-5813;Stomach, Intestinal Adenocarcinoma, Mucinous Type;Poorly_Cohesive;GS;C1;C4;OTHER;;T3;;M0;;;;N0;;Stage II;60;MALE;1;Dead;12.39;NA;12;10.35;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-CD-8527;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;NA;C3;OTHER;;T2;;M0;;;;N1;;Stage II;72;FEMALE;1;Dead;7.16;NA;2;5.22;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-8532;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;GS;C2;C4;OTHER;;T3;;M0;;;;N0;;Stage II;52;MALE;1;Dead;11.63;NA;3;9.26;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-A486;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;CIN;C2;C4;OTHER;;T3;;M0;;;;N0;;Stage IIA;68;MALE;1;Dead;6.31;NA;2;2.6;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-A489;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;CIN;C1;C3;OTHER;;T3;;M0;;;;N0;;Stage IIA;58;MALE;1;Dead;11.3;NA;4;9.1;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-A48C;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;CIN;C3;C2;GASTRIC-CIMP;;T3;;M0;;;;N1;;Stage IIB;79;FEMALE;1;Dead;11.6;NA;4;7.56;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-A4MG;Stomach, Adenocarcinoma, Diffuse Type;Mucinous;MSI;C3;C2;GASTRIC-CIMP;;T3;;M0;;;;N0;;Stage IIA;76;MALE;1;Dead;6.57;NA;2;2.43;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA
+TCGA-CD-A4MI;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C1;C2;GASTRIC-CIMP;;T3;;M0;;;;N1;;Stage IIIA;62;MALE;1;Dead;11.76;NA;3;8.9;Recurred/Progressed;;;NO;;TUMOR FREE;;;NA
+TCGA-CG-4300;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;NA;C3;OTHER;;T3;;M0;;;;N2;;Stage IIIB;79;MALE;1;Dead;20.01;609;NA;NA;NA;;;NA;;NA;;;NA
+TCGA-CG-4306;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Mucinous;MSI;C4;C2;GASTRIC-CIMP;;T3;;M1;;;;N2;;Stage IV;90;MALE;1;Dead;1.02;31;NA;NA;NA;;;NA;;NA;;;NA
+TCGA-CG-4440;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;CIN;C3;C4;OTHER;;T3;;M1;;;;N3;;Stage IV;68;FEMALE;1;Dead;4.01;122;NA;NA;NA;;;NA;;NA;;;NA
+TCGA-CG-4441;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C3;OTHER;;T2;;M0;;;;N2;;Stage IIIA;83;MALE;1;Dead;13.99;426;NA;NA;NA;;;NA;;NA;;;NA
+TCGA-CG-4460;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4;;M1;;;;N1;;Stage IV;66;FEMALE;1;Dead;21.98;669;NA;16;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-4462;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C1;C2;GASTRIC-CIMP;;T3;;M1;;;;N3;;Stage IV;72;FEMALE;1;Dead;0;0;NA;NA;NA;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-4465;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;MSI;C3;C2;GASTRIC-CIMP;;T4;;M1;;;;N3;;Stage IV;69;FEMALE;1;Dead;9;274;NA;NA;NA;;;NA;;NA;;;NA
+TCGA-CG-4469;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C2;GASTRIC-CIMP;;T3;;M0;;;;N3;;Stage IV;70;MALE;1;Dead;7.06;215;NA;NA;NA;;;NA;;NA;;;NA
+TCGA-CG-5717;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;NA;C4;OTHER;;T2b;;M0;;;;N1;;Stage II;58;MALE;1;Dead;6.96;212;NA;3.94;Recurred/Progressed;;;NA;;WITH TUMOR;;;No
+TCGA-CG-5718;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C4;C4;OTHER;;T2b;;M0;;;;N1;;Stage II;78;FEMALE;1;Dead;35.97;NA;31;NA;NA;;;NA;;TUMOR FREE;;;Yes
+TCGA-CG-5720;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;GS;C4;C2;GASTRIC-CIMP;;T2;;M0;;;;N0;;Stage IB;71;MALE;1;Dead;0.99;30;NA;NA;NA;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-5724;Stomach, Adenocarcinoma, Diffuse Type;Mixed;CIN;C3;C3;OTHER;;T3;;M1;;;;N3;;Stage IV;59;MALE;1;Dead;12.02;366;NA;4.01;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-5725;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T2;;M0;;;;N0;;Stage IB;72;MALE;1;Dead;15.01;457;NA;5.03;Recurred/Progressed;;;NA;;WITH TUMOR;;;No
+TCGA-CG-5726;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;MSI;C3;C2;GASTRIC-CIMP;;T1;;M0;;;;N0;;Stage IA;73;MALE;1;Dead;28.94;881;NA;NA;NA;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-5732;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;CIN;C4;C4;OTHER;;T2;;M0;;;;N3;;Stage IV;66;MALE;1;Dead;68.99;NA;1674;64.03;Recurred/Progressed;;;NA;;TUMOR FREE;;;NA
+TCGA-CG-5733;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Mucinous;MSI;NA;C2;GASTRIC-CIMP;;T2;;M0;;;;N2;;Stage IIIA;83;FEMALE;1;Dead;21.06;641;NA;14.03;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA
+TCGA-CG-5734;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;GS;C4;C4;OTHER;;T3;;M0;;;;N1;;Stage IIIA;68;MALE;1;Dead;7.98;243;NA;NA;NA;;;NA;;NA;;;NA
+TCGA-D7-5577;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;EBV;C2;C1;GASTRIC-EBV-CIMP;;T2;;M0;;;;N3;;Stage IIIA;53;FEMALE;1;Dead;25.69;NA;263;12.35;Recurred/Progressed;;;NA;;TUMOR FREE;;;No
+TCGA-D7-6525;Stomach, Adenocarcinoma, Diffuse Type;Tubular;CIN;C3;C2;GASTRIC-CIMP;;T2;;M0;;;;N2;;Stage IIIA;58;MALE;1;Dead;13.34;NA;181;5.62;Recurred/Progressed;;;NA;;WITH TUMOR;;;NA
+TCGA-D7-6527;Stomach, Intestinal Adenocarcinoma, Papillary Type;Papillary;CIN;NA;C4;OTHER;;T2;;M0;;;;N1;;Stage II;62;MALE;1;Dead;10.25;NA;126;2.46;Recurred/Progressed;;;NA;;NA;;;NA
+TCGA-D7-6818;Stomach, Adenocarcinoma, Diffuse Type;Tubular;CIN;C1;C4;OTHER;;T2;;M0;;;;N3;;Stage IIIA;53;MALE;1;Dead;12.35;NA;124;9.13;Recurred/Progressed;;;NA;;TUMOR FREE;;;No
+TCGA-D7-8575;Stomach, Intestinal Adenocarcinoma, Tubular Type;Mixed;CIN;C4;C3;OTHER;;T3;;M0;;;;N2;;Stage IIIA;75;MALE;1;Dead;18.2;NA;7;14.03;Recurred/Progressed;;;NO;;TUMOR FREE;;;No
+TCGA-D7-8576;Stomach, Intestinal Adenocarcinoma, Tubular Type;Mixed;CIN;C4;C4;OTHER;;T3;;M0;;;;N3a;;Stage IIIB;54;FEMALE;1;Dead;14.65;NA;98;6.7;Recurred/Progressed;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A4YV;Stomach, Intestinal Adenocarcinoma, Tubular Type;Poorly_Cohesive;MSI;C4;C2;GASTRIC-CIMP;;T3;;M0;;;;N1;;Stage IIB;69;FEMALE;1;Dead;5.91;NA;180;NA;NA;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A6EY;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N3a;;Stage IIIB;72;FEMALE;1;Dead;11.43;348;NA;NA;NA;;;NO;;WITH TUMOR;;;No
+TCGA-D7-A6EZ;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIA;66;MALE;1;Dead;20.3;NA;297;NA;NA;;;NO;;TUMOR FREE;;;No
+TCGA-D7-A747;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIB;57;MALE;1;Dead;8.38;255;NA;NA;NA;;;[Unknown];;WITH TUMOR;;;[Unknown]
+TCGA-D7-A748;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T4a;;M1;;;;N3;;Stage IV;41;FEMALE;1;Dead;4.34;132;NA;3.25;Recurred/Progressed;;;YES;;WITH TUMOR;;;[Unknown]
+TCGA-D7-A74B;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N3;;Stage IIIB;52;FEMALE;1;Dead;7.13;217;NA;5.72;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-EQ-5647;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;NA;C4;OTHER;;T4;;M1;;;;N3;;Stage IV;86;FEMALE;1;Dead;0.62;19;NA;NA;NA;;;NA;;WITH TUMOR;;;No
+TCGA-EQ-8122;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;CIN;C3;C4;OTHER;;T3;;MX;;;;N1;;Stage IIB;71;FEMALE;1;Dead;7.98;NA;237;NA;NA;;;[Unknown];;NA;;;NA
+TCGA-F1-6177;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;MSI;C3;C2;GASTRIC-CIMP;;T1b;;MX;;;;N1;;Stage I;90;MALE;1;Dead;NA;NA;200;NA;NA;;;NA;;TUMOR FREE;;;No
+TCGA-F1-6875;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Tubular;CIN;C3;C4;OTHER;;T2;;M0;;;;N0;;Stage IA;79;MALE;1;Dead;72.17;2197;NA;NA;NA;;;NA;;TUMOR FREE;;;NA
+TCGA-FP-7735;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Papillary;CIN;C4;C4;OTHER;;T2;;MX;;;;N0;;Stage IB;77;MALE;1;Dead;3.48;NA;12;NA;NA;;;NA;;TUMOR FREE;;;NA
+TCGA-FP-7916;Stomach, Adenocarcinoma, Diffuse Type;Mixed;EBV;C2;C1;GASTRIC-EBV-CIMP;;T4a;;MX;;;;N3a;;Stage IIIC;77;MALE;1;Dead;14.06;NA;92;NA;NA;;;NA;;WITH TUMOR;;;NA
+TCGA-FP-8209;Stomach, Adenocarcinoma, Diffuse Type;Tubular;GS;C1;C4;OTHER;;T2a;;M0;;;;N0;;Stage IB;49;MALE;1;Dead;59.49;1811;NA;55.06;Recurred/Progressed;;;YES;;WITH TUMOR;;;NA
+TCGA-FP-8210;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;GS;C1;C4;OTHER;;T3;;M0;;;;N1;;Stage IIIA;48;MALE;1;Dead;5.03;153;NA;NA;NA;;;NO;;WITH TUMOR;;;NA
+TCGA-FP-A4BF;Stomach Adenocarcinoma, Signet Ring Type;Mixed;CIN;NA;C2;GASTRIC-CIMP;;T3;;M0;;;;N2;;Stage IIIA;68;MALE;1;Dead;5.52;NA;47;5.22;Recurred/Progressed;;;NO;;WITH TUMOR;;;[Unknown]
+TCGA-HJ-7597;Stomach Adenocarcinoma, Signet Ring Type;Mixed;MSI;NA;C4;OTHER;;T2b;;MX;;;;N0;;Stage IB;71;FEMALE;1;Dead;26.45;805;NA;26.12;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-HU-8243;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;CIN;NA;C3;OTHER;;T4a;;M0;;;;N3b;;Stage IIIC;66;MALE;1;Dead;5.91;180;NA;4.34;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-HU-A4GQ;Stomach, Intestinal Adenocarcinoma, Tubular Type;Tubular;MSI;NA;C2;GASTRIC-CIMP;;T4b;;M0;;;;N2;;Stage IIIC;71;MALE;1;Dead;0.1;3;NA;NA;NA;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-HU-A4HB;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T2;;M0;;;;N2;;Stage IIB;68;MALE;1;Dead;15.67;NA;268;12.81;Recurred/Progressed;;;NO;;TUMOR FREE;;;No
+TCGA-IN-7808;Stomach, Adenocarcinoma, Diffuse Type;Poorly_Cohesive;CIN;C2;C3;OTHER;;T3;;M1;;;;N3;;NA;59;MALE;1;Dead;3.45;105;NA;NA;NA;;;NA;;WITH TUMOR;;;No
+TCGA-IN-8663;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);Poorly_Cohesive;CIN;C3;C2;GASTRIC-CIMP;;T2;;M0;;;;N2;;Stage IIB;68;MALE;1;Dead;3.38;103;NA;NA;NA;;;NO;;TUMOR FREE;;;NA
+TCGA-IN-A6RL;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T2;;M0;;;;N1;;Stage IIIA;84;MALE;1;Dead;13.34;NA;158;10.09;Recurred/Progressed;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-IN-A6RO;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T1b;;M0;;;;N0;;Stage IA;70;MALE;1;Dead;NA;NA;NA;5.06;Recurred/Progressed;;;NO;;NA;;;[Unknown]
+TCGA-IN-A6RR;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;84;MALE;1;Dead;6.73;205;NA;NA;NA;;;NO;;TUMOR FREE;;;[Unknown]
+TCGA-MX-A5UG;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;78;MALE;1;Dead;3.71;113;NA;NA;NA;;;NO;;TUMOR FREE;;;Yes
+TCGA-MX-A663;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N0;;Stage IIA;66;MALE;1;Dead;9.86;NA;131;7.16;Recurred/Progressed;;;NO;;TUMOR FREE;;;No
+TCGA-R5-A7ZE;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIA;66;FEMALE;1;Dead;18.2;554;NA;NA;NA;;;NO;;WITH TUMOR;;;No
+TCGA-R5-A7ZF;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4a;;M1;;;;N1;;Stage IV;65;FEMALE;1;Dead;8.51;259;NA;NA;NA;;;NO;;WITH TUMOR;;;No
+TCGA-R5-A7ZR;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;NX;;Stage III;70;FEMALE;1;Dead;6.08;185;NA;NA;NA;;;NO;;WITH TUMOR;;;No
+TCGA-R5-A804;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T3;;M1;;;;N2;;Stage IV;54;MALE;1;Dead;4.6;140;NA;NA;NA;;;NO;;WITH TUMOR;;;No
+TCGA-R5-A805;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIB;71;MALE;1;Dead;9.23;281;NA;NA;NA;;;[Unknown];;WITH TUMOR;;;No
+TCGA-RD-A7BS;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;46;MALE;1;Dead;11.04;336;NA;8.02;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-RD-A7BT;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N3;;Stage IV;66;MALE;1;Dead;8.61;262;NA;4.04;Recurred/Progressed;;;YES;;WITH TUMOR;;;Yes
+TCGA-RD-A7BW;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T2;;M0;;;;N0;;Stage IB;68;FEMALE;1;Dead;5.12;156;NA;NA;NA;;;NO;;TUMOR FREE;;;No
+TCGA-RD-A7C1;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T2;;M0;;;;N0;;Stage IB;82;MALE;1;Dead;16.66;507;NA;14.39;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-RD-A8MW;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIB;72;MALE;1;Dead;37.88;1153;NA;3.22;Recurred/Progressed;;;YES;;WITH TUMOR;;;Yes
+TCGA-RD-A8N5;Stomach, Intestinal Adenocarcinoma, Mucinous Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;78;MALE;1;Dead;57.39;1747;NA;NA;NA;;;NO;;TUMOR FREE;;;Yes
+TCGA-RD-A8N6;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T2;;M0;;;;N2;;Stage IIIA;78;FEMALE;1;Dead;8.94;272;NA;5.35;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-RD-A8NB;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;80;FEMALE;1;Dead;16.85;513;NA;7.56;Recurred/Progressed;;;YES;;WITH TUMOR;;;Yes
+TCGA-VQ-A8DL;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N0;;Stage IIA;69;FEMALE;1;Dead;0.92;28;NA;NA;NA;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A8DU;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIA;63;MALE;1;Dead;5.45;166;NA;5.19;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A8DV;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T2;;M0;;;;N0;;Stage IB;48;MALE;1;Dead;13.24;403;NA;9.46;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A8DZ;Stomach Adenocarcinoma, Signet Ring Type;NA;NA;NA;NA;NA;;T4;;M1;;;;N3;;Stage IV;70;MALE;1;Dead;13.01;396;NA;NA;NA;;;NO;;WITH TUMOR;;;No
+TCGA-VQ-A8E0;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIA;68;MALE;1;Dead;18.46;562;NA;17.44;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A8E3;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N0;;Stage IIA;79;MALE;1;Dead;21.71;661;NA;17.67;Recurred/Progressed;;;YES;;[Unknown];;;No
+TCGA-VQ-A8P5;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N0;;Stage IIA;67;MALE;1;Dead;7.72;235;NA;NA;NA;;;NO;;[Unknown];;;No
+TCGA-VQ-A8PB;Stomach, Intestinal Adenocarcinoma, Papillary Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N0;;Stage II;65;FEMALE;1;Dead;34.26;NA;1023;NA;NA;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A8PC;Stomach Adenocarcinoma, Signet Ring Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;65;MALE;1;Dead;46.22;1407;NA;42.28;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A8PD;Stomach, Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4a;;M0;;;;N3;;Stage IIIC;69;MALE;1;Dead;16.29;496;NA;4.4;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A8PE;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N3a;;Stage IIIB;78;MALE;1;Dead;22.17;NA;422;8.71;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A8PF;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N3b;;Stage IIIB;76;MALE;1;Dead;2.5;76;NA;NA;NA;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A8PH;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N3;;Stage IIIB;62;MALE;1;Dead;12.78;389;NA;12.39;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A8PJ;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4;;M1;;;;N2;;Stage IV;53;MALE;1;Dead;2.69;82;NA;NA;NA;;;NO;;WITH TUMOR;;;No
+TCGA-VQ-A8PK;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N3a;;Stage IIIB;58;MALE;1;Dead;17.84;543;NA;8.64;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A8PM;Stomach Adenocarcinoma, Signet Ring Type;NA;NA;NA;NA;NA;;T4;;M0;;;;N3;;Stage IV;56;MALE;1;Dead;1.87;57;NA;NA;NA;;;NO;;WITH TUMOR;;;No
+TCGA-VQ-A8PO;Stomach Adenocarcinoma, Signet Ring Type;NA;NA;NA;NA;NA;;T4a;;M0;;;;N0;;Stage IIB;74;MALE;1;Dead;9.26;282;NA;8.41;Recurred/Progressed;;;YES;;[Unknown];;;No
+TCGA-VQ-A8PP;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4;;M0;;;;N1;;Stage IV;76;MALE;1;Dead;23.39;712;NA;16.49;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A8PQ;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4;;M1;;;;N1;;Stage IV;50;FEMALE;1;Dead;15.64;476;NA;2.99;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A8PS;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;76;MALE;1;Dead;13.34;406;NA;4.3;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A8PU;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4a;;M0;;;;N1;;Stage IIIA;72;FEMALE;1;Dead;27.33;NA;717;NA;NA;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A8PY;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIB;47;FEMALE;1;Dead;14.32;436;NA;NA;NA;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A91D;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4b;;M0;;;;N2;;Stage IIIC;70;MALE;1;Dead;11.7;356;NA;11.53;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A91N;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4;;M0;;;;N3;;Stage IV;59;FEMALE;1;Dead;18.73;570;NA;14.39;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A91Q;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N3;;Stage IV;61;MALE;1;Dead;20.8;633;NA;18.1;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A91U;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;78;MALE;1;Dead;1.71;52;NA;NA;NA;;;[Unknown];;[Unknown];;;No
+TCGA-VQ-A91X;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIB;74;MALE;1;Dead;9.49;289;NA;NA;NA;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A91Y;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4a;;M0;;;;N3b;;Stage IIIC;67;MALE;1;Dead;9.72;296;NA;8.48;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A922;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4;;M0;;;;N1;;Stage IV;70;MALE;1;Dead;9.03;275;262;8.28;Recurred/Progressed;;;YES;;[Unknown];;;No
+TCGA-VQ-A923;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N1;;Stage IIIA;90;MALE;1;Dead;2;61;NA;NA;NA;;;NO;;TUMOR FREE;;;No
+TCGA-VQ-A924;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N0;;Stage II;69;MALE;1;Dead;55.39;1686;NA;NA;NA;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A925;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIA;66;MALE;1;Dead;4.53;138;NA;NA;NA;;;NO;;WITH TUMOR;;;No
+TCGA-VQ-A927;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N3;;Stage IIIB;81;MALE;1;Dead;6.57;200;NA;NA;NA;;;NO;;WITH TUMOR;;;No
+TCGA-VQ-A928;Stomach, Intestinal Adenocarcinoma, Papillary Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N3;;Stage IV;49;MALE;1;Dead;5.72;174;NA;4.86;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A94O;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4a;;M0;;;;N3;;Stage IIIC;74;MALE;1;Dead;21.02;640;NA;6.08;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A94P;Stomach Adenocarcinoma, Signet Ring Type;NA;NA;NA;NA;NA;;T4;;MX;;;;NX;;Stage IV;57;MALE;1;Dead;2.66;81;NA;NA;NA;;;NO;;WITH TUMOR;;;No
+TCGA-VQ-A94R;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T4a;;M0;;;;N2;;Stage IV;63;MALE;1;Dead;42.51;1294;NA;33.44;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-A94T;Stomach, Adenocarcinoma, Diffuse Type;NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIB;73;MALE;1;Dead;11.24;342;NA;9.72;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-AA64;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N2;;Stage IIIB;68;MALE;1;Dead;18.4;560;NA;NA;NA;;;[Unknown];;WITH TUMOR;;;No
+TCGA-VQ-AA6G;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N0;;Stage IIA;68;MALE;1;Dead;26.02;792;NA;15.41;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-AA6I;Stomach, Intestinal Adenocarcinoma, Not Otherwise Specified (NOS);NA;NA;NA;NA;NA;;T3;;M0;;;;N3;;Stage IIIB;68;MALE;1;Dead;16.13;491;NA;15.6;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-VQ-AA6K;Stomach Adenocarcinoma, Signet Ring Type;NA;NA;NA;NA;NA;;T4a;;M0;;;;N3a;;Stage IIIC;59;MALE;1;Dead;12.42;378;NA;10.91;Recurred/Progressed;;;YES;;WITH TUMOR;;;No
+TCGA-ZQ-A9CR;Stomach, Intestinal Adenocarcinoma, Tubular Type;NA;NA;NA;NA;NA;;T4a;;MX;;;;N3;;Stage IIIC;79;FEMALE;1;Dead;0.79;24;NA;NA;NA;;;NO;;[Unknown];;;No
+TCGA-3M-AB46;NA;NA;NA;NA;NA;NA;;NA;;NA;;;;NA;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;;;NA;;NA;;;NA
