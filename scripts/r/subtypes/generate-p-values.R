@@ -7,6 +7,8 @@ ignored <- c('age', 'OS_IND', 'OS_days', 'days_to_death', 'vital_status', 'days_
              'RFS_days', 'RFS_IND', 'TIME_TO_EVENT', 'days_to_new_tumor', 'number_pack_years_smoked', 
              'OS_months', 'RFS_months', 'Age', 'Days.to.Last.Followup')
 
+full.stats <- read.csv('../../results/rsem-normalized/full-table-long.csv')
+
 for (subtype.file in list.files(subtypes.dir, pattern = 'csv', full.names = F)) {
   tumor <- gsub('([a-zA-Z]+).*', '\\1', subtype.file)
   
@@ -14,6 +16,8 @@ for (subtype.file in list.files(subtypes.dir, pattern = 'csv', full.names = F)) 
   
   tumor.file <- list.files(mrna.dir, pattern = tumor, recursive = T, full.names = T)
   
-  if (length(tumor.file) > 0) compare.subtypes(tumor.file, subtype.full.file, ignored)
-}
+  tumor.stats <- full.stats[as.character(full.stats$tumor) == tumor.name,]
   
+  if (length(tumor.file) > 0) compare.subtypes(tumor.stats, tumor, tumor.file, subtype.full.file, ignored)
+}
+
