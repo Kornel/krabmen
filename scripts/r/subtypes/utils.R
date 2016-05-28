@@ -1,6 +1,7 @@
 library(dplyr)
 library(readr)
 source('data-utils.R')
+source('utils.R')
 library(reshape2)
 
 .load.tumor <- function(path) {
@@ -26,7 +27,7 @@ library(reshape2)
   data
 }
 
-.compare.subtypes <- function(subtypes.file, data) {
+.compare.subtypes <- function(subtypes.file, data, ignored) {
   
   genes <- setdiff(colnames(data), 'barcode')
   
@@ -38,14 +39,10 @@ library(reshape2)
   
   subtypes <- setdiff(colnames(join), c(genes, 'barcode'))
   
-  ignored <- c('age', 'OS_IND', 'OS_days', 'days_to_death', 'vital_status', 'days_to_last_followup', 
-               'RFS_days', 'RFS_IND', 'TIME_TO_EVENT', 'days_to_new_tumor', 'number_pack_years_smoked', 
-               'OS_months', 'RFS_months', 'Age', 'Days.to.Last.Followup')
-  
   subtypes <- setdiff(subtypes, ignored)
   
-  for (subtype in subtypes) {
-    
+  for (subtype in na.omit(subtypes)) {
+  
     na <- is.na(join[,subtype])
     
     subtCol <- as.character(join[,subtype])[!na]
@@ -53,9 +50,9 @@ library(reshape2)
     subtypes.str <- toString(paste(unlist(unique(subtCol)), collapse = ', '))
     
     if (length(unique(subtCol)) <= 1) {
-      print(sprintf('Cannot perform comparison, only values of %s found: %s', subtype, subtypes.str))
+      print(sprintf('IGNORED subtype \'%s\'. Cannot perform comparison, only values found: %s', subtype, subtypes.str))
     } else {
-      print(sprintf('For %s found: %s', subtype, subtypes.str))
+      print(sprintf('OK subtype \'%s\'. Values found: %s', subtype, subtypes.str))
       
       dir <- file.path('../../KRAB_and_TCGA_Subtypes/results', subtypes.file.name)
       dir.create(dir, showWarnings = F, recursive = T)
@@ -63,20 +60,36 @@ library(reshape2)
       
       b <- data.frame()
       for (gene in genes) {
-        
         geneCol <- join[,gene][!na]
+        
         a <- aov(geneCol ~ subtCol)
         t.hsd <- as.data.frame(TukeyHSD(a)$`subtCol`)
         t.hsd$type <- rownames(t.hsd)
         t.hsd$gene <- gene
-        b <- rbind(b, dcast(t.hsd, gene ~ type, value.var = c('p adj')))
+        
+        t.hds.df <- dcast(t.hsd, gene ~ type, value.var = c('p adj'))
+        
+        t.hds.df <- .append.stat(geneCol, subtCol, mean, 'mean-', t.hds.df)
+        t.hds.df <- .append.stat(geneCol, subtCol, se, 'SEM-', t.hds.df)
+        t.hds.df <- .append.stat(geneCol, subtCol, function(x) quantile(x, 1/4), 'Q1-', t.hds.df)
+        t.hds.df <- .append.stat(geneCol, subtCol, function(x) quantile(x, 3/4), 'Q3-', t.hds.df)
+        
+        b <- rbind(b, t.hds.df)
       }
       write.table(b, file = file, row.names = F, sep = ',')
+      print(sprintf('Analysis written to %s', file))
     }
   }
 }
 
-compare.subtypes <- function(tumor.file, subtypes.file) {
+.append.stat <- function(geneCol, subtCol, stat, name, df) {
+  
+  stats <- tapply(geneCol, subtCol, stat)
+  names(stats) <- paste0(name, names(stats))
+  cbind(df, t(as.data.frame(stats)))
+}
+
+compare.subtypes <- function(tumor.file, subtypes.file, ignored) {
   data <- .load.tumor(tumor.file)
-  .compare.subtypes(subtypes.file, data)
+  .compare.subtypes(subtypes.file, data, ignored)
 }
