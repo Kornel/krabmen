@@ -1,7 +1,5 @@
 library(dplyr)
 library(readr)
-source('data-utils.R')
-source('utils.R')
 library(reshape2)
 
 .load.tumor <- function(tumor.name, path) {
@@ -11,10 +9,10 @@ library(reshape2)
   raw <- read_delim(path, delim = '\t')
   
   raw.counts <- raw[-1,]
-  raw.counts$HybRefShort <- hyb.ref.short(raw.counts)
+  raw.counts$HybRefShort <- .hyb.ref.short(raw.counts)
   
-  data <- get.gene.table(raw.counts, tumor.name, resolve.types = F)$gene.table 
-  data$`Hybridization REF` <- NULL
+  data <- .get.gene.table(raw.counts, tumor.name) 
+  
   r <- rownames(data)
   data <- as.data.frame(sapply(data[,-1], as.numeric))
   rownames(data) <- r
@@ -59,7 +57,7 @@ library(reshape2)
       b <- data.frame()
       for (gene in genes) {
         
-        extra.stats <- tumor.stats[as.character(full.stats$Gene.ID) == gene,]
+        extra.stats <- tumor.stats[as.character(tumor.stats$Gene.ID) == gene,]
         extra.stats$Gene.ID <- NULL
         
         geneCol <- join[,gene][!na]
@@ -70,16 +68,19 @@ library(reshape2)
         t.hsd$type <- rownames(t.hsd)
         t.hsd$gene <- gene
         t.hds.df <- dcast(t.hsd, gene ~ type, value.var = c('p adj'))
-        colnames(t.hds.df) <- paste0('p-adj', colnames(t.hds.df))
+        colnames(t.hds.df)[-1] <- paste0('p-adj-', colnames(t.hds.df)[-1])
         
         t.hds.df <- .append.stat(geneCol, subtCol, mean, 'mean-', t.hds.df)
-        t.hds.df <- .append.stat(geneCol, subtCol, se, 'SEM-', t.hds.df)
+        t.hds.df <- .append.stat(geneCol, subtCol, function(x) sqrt(var(x) / length(x)), 'SEM-', t.hds.df)
         t.hds.df <- .append.stat(geneCol, subtCol, function(x) quantile(x, 1/4), 'Q1-', t.hds.df)
         t.hds.df <- .append.stat(geneCol, subtCol, function(x) quantile(x, 3/4), 'Q3-', t.hds.df)
         
-        x <- cbind(t.hds.df, extra.stats)
+        if (dim(extra.stats)[1] > 0)
+          final <- cbind(t.hds.df, extra.stats)
+        else
+          final <- t.hds.df
         
-        b <- rbind(b, x)
+        b <- rbind(b, final)
       }
       write.table(b, file = file, row.names = F, sep = ',')
       print(sprintf('Analysis written to %s', file))
@@ -92,6 +93,28 @@ library(reshape2)
   names(stats) <- paste0(name, names(stats))
   cbind(df, t(as.data.frame(stats)))
 }
+
+.hyb.ref.short <- function(rawdata) {
+  sub('\\|.*', '', rawdata$`Hybridization REF`)
+}
+
+.get.gene.table <- function(rawdata, tumor.name) {
+  
+  genes <- read.csv('../../data/KRAB ZNF gene master list.csv', sep = '\t')
+  genes$Gene.ID <- as.character(genes$Gene.ID)
+  
+  joined <- genes %>% inner_join(rawdata, by = c('Gene.ID' = 'HybRefShort'))
+  
+  joined$Ensembl.ID <- NULL  
+  
+  rownames(joined) <- joined$Gene.ID
+  joined$Gene.ID <- NULL
+  joined$`Hybridization REF` <- NULL
+  
+  as.data.frame(joined)
+  
+}
+
 
 compare.subtypes <- function(tumor.stats, tumor.name, tumor.file, subtypes.file, ignored) {
   data <- .load.tumor(tumor.name, tumor.file)
