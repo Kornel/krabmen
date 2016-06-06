@@ -1,0 +1,587 @@
+PatientID;cohort;histological_type;IntegrativeCluster;msi_status_7_marker_call;mrna_expression_cluster;X_PANCAN_DNAMethyl_PANCAN;X_PANCAN_DNAMethyl_UCEC;clinical_stage;tumor_grade;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months
+TCGA-2E-A9G8;Uterine Corpus Endometroid Cancer;NA;NA;NA;NA;;;;NA;NA;NA;NA;NA;NA;NA;NA;NA
+TCGA-4E-A92E;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;54;FEMALE;Alive;0.43;NA;0;DiseaseFree;0.43
+TCGA-5B-A90C;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;69;FEMALE;Alive;39.49;NA;883;Recurred/Progressed;16.98
+TCGA-5S-A9Q8;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;51;FEMALE;Alive;10.28;NA;33;DiseaseFree;10.28
+TCGA-A5-A0G1;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;Notassigned;MSI-H;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;67;FEMALE;Dead;106.8;3251;NA;NA;NA
+TCGA-A5-A0G2;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;Notassigned;MSI-L;1;BRCA CIMP c7;cluster 1;stage III;Grade 3;57;FEMALE;Alive;149.44;NA;4054;DiseaseFree;149.44
+TCGA-A5-A0G3;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;61;FEMALE;Alive;46.91;NA;1079;Recurred/Progressed;26.12
+TCGA-A5-A0G5;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSI-L;1;UCEC non-CIMP c3;cluster 2;stage I;Grade 3;73;FEMALE;Alive;36.99;NA;790;DiseaseFree;36.99
+TCGA-A5-A0G9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 1;stage I;Grade 3;79;FEMALE;Alive;83.44;NA;2165;DiseaseFree;83.44
+TCGA-A5-A0GA;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;1;UCEC CIMP c18;cluster 2;stage III;Grade 3;67;FEMALE;Dead;17.84;543;NA;NA;NA
+TCGA-A5-A0GB;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 3;65;FEMALE;Alive;32.75;NA;275;DiseaseFree;32.75
+TCGA-A5-A0GD;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;75;FEMALE;Dead;112.45;NA;98;NA;NA
+TCGA-A5-A0GE;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 2;stage I;Grade 2;38;FEMALE;Alive;105.29;NA;2717;DiseaseFree;105.29
+TCGA-A5-A0GG;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC Serous c4;cluster 3;stage I;Grade 1;76;FEMALE;Alive;123.59;NA;2517;DiseaseFree;123.59
+TCGA-A5-A0GH;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;1;UCEC CIMP c18;cluster 2;stage I;Grade 3;57;FEMALE;Alive;74.05;NA;1672;DiseaseFree;74.05
+TCGA-A5-A0GI;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 1;stage I;Grade 2;63;FEMALE;Alive;88.11;NA;1750;DiseaseFree;88.11
+TCGA-A5-A0GJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;3;UCEC CIMP c18;cluster 1;stage I;Grade 2;44;FEMALE;Alive;65.7;NA;1447;Recurred/Progressed;0.39
+TCGA-A5-A0GM;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;53;FEMALE;Alive;60.48;NA;1448;DiseaseFree;60.48
+TCGA-A5-A0GN;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;3;UCEC CIMP c18;cluster 1;stage I;Grade 1;65;FEMALE;Alive;60.48;NA;1477;DiseaseFree;60.48
+TCGA-A5-A0GP;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSS;1;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;58;FEMALE;Alive;46.52;NA;1087;DiseaseFree;46.52
+TCGA-A5-A0GQ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;76;FEMALE;Alive;73.82;NA;1167;DiseaseFree;73.82
+TCGA-A5-A0GR;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;3;Cluster 5;cluster 4;stage I;Grade 2;69;FEMALE;Alive;36.79;NA;780;DiseaseFree;36.79
+TCGA-A5-A0GU;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;58;FEMALE;Alive;28.25;NA;496;DiseaseFree;28.25
+TCGA-A5-A0GV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;67;FEMALE;Alive;53.98;NA;486;Recurred/Progressed;9.99
+TCGA-A5-A0GW;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;1;UCEC CIMP c18;cluster 2;stage I;Grade 3;46;FEMALE;Alive;23.19;NA;385;DiseaseFree;23.19
+TCGA-A5-A0GX;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;53;FEMALE;Alive;68.59;NA;925;DiseaseFree;68.59
+TCGA-A5-A0R6;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC non-CIMP c3;cluster 4;stage III;Grade 3;64;FEMALE;Alive;37.88;NA;369;Recurred/Progressed;31.57
+TCGA-A5-A0R7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 2;55;FEMALE;Alive;17.58;NA;40;DiseaseFree;17.58
+TCGA-A5-A0R8;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;81;FEMALE;Alive;19.58;NA;126;Recurred/Progressed;1.38
+TCGA-A5-A0R9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;51;FEMALE;Alive;24.61;NA;294;DiseaseFree;24.61
+TCGA-A5-A0RA;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 2;stage I;Grade 2;68;FEMALE;Alive;29.04;NA;556;DiseaseFree;29.04
+TCGA-A5-A0VO;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC CIMP c18;cluster 1;stage I;Grade 2;64;FEMALE;Dead;28.75;NA;128;NA;NA
+TCGA-A5-A0VP;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 3;74;FEMALE;Alive;42.31;NA;928;DiseaseFree;42.31
+TCGA-A5-A0VQ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 1;stage I;Grade 3;62;FEMALE;Alive;15.93;NA;177;DiseaseFree;15.93
+TCGA-A5-A1OF;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;Notassigned;MSI-H;1;UCEC non-CIMP c3;cluster 2;stage I;Grade 3;47;FEMALE;Alive;31.96;NA;241;DiseaseFree;31.96
+TCGA-A5-A1OG;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;65;FEMALE;Dead;31.96;NA;348;Recurred/Progressed;11.07
+TCGA-A5-A1OH;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;86;FEMALE;Alive;36.3;NA;539;DiseaseFree;36.3
+TCGA-A5-A1OJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC CIMP c18;cluster 2;stage I;Grade 2;31;FEMALE;Alive;33.05;NA;292;DiseaseFree;33.05
+TCGA-A5-A1OK;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC non-CIMP c3;cluster 2;stage III;Grade 3;63;FEMALE;Alive;30.12;NA;244;DiseaseFree;30.12
+TCGA-A5-A2K2;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;77;FEMALE;Alive;118.1;NA;2769;DiseaseFree;118.1
+TCGA-A5-A2K3;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;BRCA CIMP c7;;stage I;NA;68;FEMALE;Alive;66.1;NA;1409;DiseaseFree;66.1
+TCGA-A5-A2K4;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;69;FEMALE;Dead;28.61;871;NA;Recurred/Progressed;17.35
+TCGA-A5-A2K5;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;76;FEMALE;Alive;24.7;NA;162;DiseaseFree;24.7
+TCGA-A5-A2K7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage II;NA;41;FEMALE;Alive;34.92;NA;157;DiseaseFree;34.92
+TCGA-A5-A3LO;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;64;FEMALE;Alive;25.49;NA;223;DiseaseFree;25.49
+TCGA-A5-A3LP;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;74;FEMALE;Alive;14.95;NA;230;DiseaseFree;14.95
+TCGA-A5-A7WJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;64;FEMALE;Alive;11.2;NA;341;DiseaseFree;11.2
+TCGA-A5-A7WK;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;NA;NA;NA;;;stage I;NA;71;FEMALE;Alive;18.4;NA;248;Recurred/Progressed;11.5
+TCGA-A5-AB3J;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage II;NA;52;FEMALE;Alive;16.82;NA;251;DiseaseFree;16.82
+TCGA-AJ-A23M;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage II;Grade 3;61;FEMALE;Dead;20.24;NA;36;Recurred/Progressed;16.95
+TCGA-AJ-A23N;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;70;FEMALE;Dead;14.42;NA;33;NA;NA
+TCGA-AJ-A23O;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;3;UCEC CIMP c18;cluster 2;stage I;Grade 3;69;FEMALE;Dead;10.25;NA;60;NA;NA
+TCGA-AJ-A2QK;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;65;FEMALE;Alive;21.12;NA;12;Recurred/Progressed;19.91
+TCGA-AJ-A2QL;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;60;FEMALE;Alive;19.78;NA;49;DiseaseFree;19.78
+TCGA-AJ-A2QL;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage III;NA;60;FEMALE;Alive;19.78;NA;49;DiseaseFree;19.78
+TCGA-AJ-A2QM;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage II;NA;67;FEMALE;Alive;29.37;NA;26;DiseaseFree;29.37
+TCGA-AJ-A2QN;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage II;NA;60;FEMALE;Alive;35.12;NA;73;DiseaseFree;35.12
+TCGA-AJ-A2QO;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;85;FEMALE;Dead;34.33;NA;92;NA;NA
+TCGA-AJ-A3BD;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;57;FEMALE;Alive;34.13;NA;15;DiseaseFree;34.13
+TCGA-AJ-A3BF;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;65;FEMALE;Alive;18.1;NA;34;Recurred/Progressed;16.72
+TCGA-AJ-A3BG;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;NA;NA;NA;BRCA CIMP c7;;stage I;NA;65;FEMALE;Alive;18.07;NA;23;Recurred/Progressed;15.77
+TCGA-AJ-A3BH;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;NA;FEMALE;Alive;NA;NA;NA;DiseaseFree;NA
+TCGA-AJ-A3BI;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;67;FEMALE;Alive;18.89;NA;68;Recurred/Progressed;12.25
+TCGA-AJ-A3BK;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;68;FEMALE;Alive;33.87;NA;51;DiseaseFree;33.87
+TCGA-AJ-A3EJ;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;NA;NA;NA;UCEC Serous c4;;stage III;NA;74;FEMALE;Dead;1.64;50;NA;NA;NA
+TCGA-AJ-A3EK;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;53;FEMALE;Alive;14.65;NA;64;DiseaseFree;14.65
+TCGA-AJ-A3EL;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;47;FEMALE;Alive;22.47;NA;65;DiseaseFree;22.47
+TCGA-AJ-A3EM;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;69;FEMALE;Alive;22.24;NA;50;DiseaseFree;22.24
+TCGA-AJ-A3I9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage II;NA;52;FEMALE;Dead;17.05;NA;39;Recurred/Progressed;12.16
+TCGA-AJ-A3IA;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;OV-like c1;;stage I;NA;77;FEMALE;Alive;20.8;NA;28;DiseaseFree;20.8
+TCGA-AJ-A3NC;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;63;FEMALE;Alive;36.96;NA;210;DiseaseFree;36.96
+TCGA-AJ-A3NC;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;63;FEMALE;Alive;36.96;NA;210;DiseaseFree;36.96
+TCGA-AJ-A3NE;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;46;FEMALE;Alive;20.63;NA;78;DiseaseFree;20.63
+TCGA-AJ-A3NE;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;46;FEMALE;Alive;20.63;NA;78;DiseaseFree;20.63
+TCGA-AJ-A3NF;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;60;FEMALE;Alive;21.19;NA;41;DiseaseFree;21.19
+TCGA-AJ-A3NG;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;NA;NA;NA;Cluster 5;;stage II;NA;83;FEMALE;Alive;15.6;NA;52;DiseaseFree;15.6
+TCGA-AJ-A3NH;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;90;FEMALE;Dead;10.18;NA;23;NA;NA
+TCGA-AJ-A3NH;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;90;FEMALE;Dead;10.18;NA;23;NA;NA
+TCGA-AJ-A3OJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;BRCA CIMP c7;;stage II;NA;54;FEMALE;Alive;15.34;NA;59;DiseaseFree;15.34
+TCGA-AJ-A3OK;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;73;FEMALE;Alive;15.93;NA;142;DiseaseFree;15.93
+TCGA-AJ-A3OL;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage III;NA;55;FEMALE;Dead;14.75;NA;57;Recurred/Progressed;13.93
+TCGA-AJ-A3QS;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;57;FEMALE;Alive;16.85;NA;56;DiseaseFree;16.85
+TCGA-AJ-A3TW;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;78;FEMALE;Alive;16.85;NA;52;DiseaseFree;16.85
+TCGA-AJ-A4ZG;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;NA;NA;stage IV;NA;53;FEMALE;Alive;16.36;NA;28;DiseaseFree;16.36
+TCGA-AJ-A5DV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;65;FEMALE;Alive;22.31;NA;148;DiseaseFree;22.31
+TCGA-AJ-A5DW;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;56;FEMALE;Alive;12.81;NA;71;DiseaseFree;12.81
+TCGA-AJ-A6NU;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage II;NA;64;FEMALE;Alive;20.76;NA;30;DiseaseFree;20.76
+TCGA-AJ-A8CT;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;58;FEMALE;Alive;2.69;NA;82;DiseaseFree;2.69
+TCGA-AJ-A8CV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;58;FEMALE;Alive;35.09;NA;71;DiseaseFree;35.09
+TCGA-AJ-A8CW;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;64;FEMALE;Alive;0.13;NA;4;DiseaseFree;0.13
+TCGA-AP-A051;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 3;69;FEMALE;Alive;129.7;NA;2545;DiseaseFree;129.7
+TCGA-AP-A052;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage IV;Grade 3;59;FEMALE;Dead;21.98;669;NA;Recurred/Progressed;12.94
+TCGA-AP-A053;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;90;FEMALE;Dead;110.55;NA;18;NA;NA
+TCGA-AP-A054;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;1;UCEC CIMP c18;cluster 1;stage III;Grade 3;64;FEMALE;Dead;23.29;709;NA;Recurred/Progressed;18.59
+TCGA-AP-A056;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSI-L;1;UCEC CIMP c18;cluster 1;stage II;Grade 3;64;FEMALE;Alive;86.01;NA;2026;DiseaseFree;86.01
+TCGA-AP-A059;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSI-H;1;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;69;FEMALE;Alive;48;NA;1461;DiseaseFree;48
+TCGA-AP-A05A;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage II;Grade 3;81;FEMALE;Dead;63.86;NA;1199;NA;NA
+TCGA-AP-A05D;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;67;FEMALE;Alive;57.75;NA;1364;DiseaseFree;57.75
+TCGA-AP-A05H;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;OV-like c1;cluster 3;stage I;Grade 3;75;FEMALE;Alive;45.5;NA;831;DiseaseFree;45.5
+TCGA-AP-A05J;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage II;Grade 3;66;FEMALE;Alive;36.86;NA;639;DiseaseFree;36.86
+TCGA-AP-A05N;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 1;58;FEMALE;Dead;23.85;NA;239;NA;NA
+TCGA-AP-A05O;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 2;stage I;Grade 3;68;FEMALE;Alive;12.61;NA;384;Recurred/Progressed;11.17
+TCGA-AP-A05P;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;54;FEMALE;Alive;20.89;NA;260;DiseaseFree;20.89
+TCGA-AP-A0L8;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 4;stage III;Grade 3;70;FEMALE;Dead;48.75;1484;NA;Recurred/Progressed;47.73
+TCGA-AP-A0L9;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;71;FEMALE;Alive;125.33;NA;3444;DiseaseFree;125.33
+TCGA-AP-A0LD;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 3;63;FEMALE;Alive;117.9;NA;2907;DiseaseFree;117.9
+TCGA-AP-A0LE;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 1;stage I;Grade 3;57;FEMALE;Alive;110.28;NA;2986;DiseaseFree;110.28
+TCGA-AP-A0LF;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 4;stage IV;Grade 3;82;FEMALE;Alive;93.92;NA;2859;DiseaseFree;93.92
+TCGA-AP-A0LG;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 3;54;FEMALE;Alive;66.2;NA;2015;DiseaseFree;66.2
+TCGA-AP-A0LH;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;CN high;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;60;FEMALE;Dead;36.33;1106;NA;Recurred/Progressed;9.92
+TCGA-AP-A0LI;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC non-CIMP c3;cluster 4;stage III;Grade 3;67;FEMALE;Alive;97.63;NA;2602;DiseaseFree;97.63
+TCGA-AP-A0LJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;42;FEMALE;Alive;46.68;NA;1421;DiseaseFree;46.68
+TCGA-AP-A0LL;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;56;FEMALE;Alive;83.9;NA;2141;Recurred/Progressed;25.95
+TCGA-AP-A0LM;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSS;3;UCEC non-CIMP c3;cluster 4;stage III;Grade 3;33;FEMALE;Alive;27.1;NA;825;DiseaseFree;27.1
+TCGA-AP-A0LN;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;56;FEMALE;Alive;82.46;NA;1993;DiseaseFree;82.46
+TCGA-AP-A0LO;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 2;stage I;Grade 2;45;FEMALE;Dead;33.38;1016;NA;Recurred/Progressed;16.95
+TCGA-AP-A0LP;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;76;FEMALE;Alive;61.6;NA;1875;DiseaseFree;61.6
+TCGA-AP-A0LQ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;59;FEMALE;Alive;80.72;NA;1906;DiseaseFree;80.72
+TCGA-AP-A0LS;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 1;stage I;Grade 2;63;FEMALE;Alive;95.4;NA;1668;DiseaseFree;95.4
+TCGA-AP-A0LT;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage II;Grade 2;57;FEMALE;Alive;49.18;NA;1185;DiseaseFree;49.18
+TCGA-AP-A0LV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;39;FEMALE;Alive;25.07;NA;385;DiseaseFree;25.07
+TCGA-AP-A1DH;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC CIMP c18;cluster 1;stage I;Grade 3;62;FEMALE;Alive;71.62;NA;1816;DiseaseFree;71.62
+TCGA-AP-A1DK;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC Serous c4;cluster 3;stage I;Grade 3;53;FEMALE;Alive;90.9;NA;1650;DiseaseFree;90.9
+TCGA-AP-A1DM;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 1;60;FEMALE;Alive;55.85;NA;1329;DiseaseFree;55.85
+TCGA-AP-A1DO;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;BRCA CIMP c7;cluster 1;stage I;Grade 2;62;FEMALE;Alive;31.27;NA;952;DiseaseFree;31.27
+TCGA-AP-A1DP;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 1;stage I;Grade 2;70;FEMALE;Dead;35.51;1081;NA;Recurred/Progressed;27.3
+TCGA-AP-A1DQ;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;76;FEMALE;Dead;46.75;NA;1185;Recurred/Progressed;29.73
+TCGA-AP-A1DR;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage III;Grade 2;59;FEMALE;Alive;49.11;NA;1131;DiseaseFree;49.11
+TCGA-AP-A1DV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC CIMP c18;cluster 1;stage II;Grade 3;59;FEMALE;Alive;6.7;NA;204;DiseaseFree;6.7
+TCGA-AP-A1E0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC CIMP c18;cluster 1;stage III;Grade 2;40;FEMALE;Alive;60.18;NA;691;DiseaseFree;60.18
+TCGA-AP-A1E1;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;74;FEMALE;Alive;45.83;NA;317;DiseaseFree;45.83
+TCGA-AP-A1E3;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC non-CIMP c3;cluster 2;stage III;Grade 3;45;FEMALE;Alive;27.83;NA;523;DiseaseFree;27.83
+TCGA-AP-A1E4;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;OV-like c1;cluster 3;stage I;Grade 2;54;FEMALE;Alive;51.08;NA;267;Recurred/Progressed;5.19
+TCGA-AP-A3K1;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage IV;NA;56;FEMALE;Dead;21.88;NA;555;Recurred/Progressed;6.5
+TCGA-AP-A5FX;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;NA;NA;NA;;;stage III;NA;68;FEMALE;Dead;36.1;NA;1026;Recurred/Progressed;13.37
+TCGA-AW-A1PO;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;66;FEMALE;Alive;0.56;NA;17;DiseaseFree;0.56
+TCGA-AX-A05S;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 1;stage III;Grade 3;81;FEMALE;Dead;13.57;413;NA;Recurred/Progressed;11.1
+TCGA-AX-A05T;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;82;FEMALE;Alive;33.18;NA;603;DiseaseFree;33.18
+TCGA-AX-A05U;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;56;FEMALE;Alive;29.66;NA;903;DiseaseFree;29.66
+TCGA-AX-A05W;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC CIMP c18;cluster 1;stage II;Grade 1;60;FEMALE;Alive;80.49;NA;2079;DiseaseFree;80.49
+TCGA-AX-A05Y;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;;;stage I;Grade 1;57;FEMALE;Alive;88.17;NA;2191;Recurred/Progressed;6.37
+TCGA-AX-A05Y;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 2;stage I;Grade 1;57;FEMALE;Alive;88.17;NA;2191;Recurred/Progressed;6.37
+TCGA-AX-A05Z;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSS;3;UCEC CIMP c18;cluster 1;stage III;Grade 2;37;FEMALE;Alive;71.45;NA;1413;DiseaseFree;71.45
+TCGA-AX-A060;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 3;77;FEMALE;Alive;35.32;NA;1075;DiseaseFree;35.32
+TCGA-AX-A062;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;53;FEMALE;Alive;45.96;NA;1399;DiseaseFree;45.96
+TCGA-AX-A063;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;63;FEMALE;Alive;79.4;NA;2025;DiseaseFree;79.4
+TCGA-AX-A064;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 2;stage II;Grade 2;81;FEMALE;Alive;49.84;NA;1064;DiseaseFree;49.84
+TCGA-AX-A06B;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 4;stage II;Grade 3;72;FEMALE;Alive;67.61;NA;1640;DiseaseFree;67.61
+TCGA-AX-A06D;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;3;UCEC non-CIMP c3;cluster 2;stage III;Grade 2;82;FEMALE;Dead;12.25;373;NA;Recurred/Progressed;8.31
+TCGA-AX-A06F;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-L;1;UCEC CIMP c18;cluster 2;stage IV;Grade 3;59;FEMALE;Alive;57.42;NA;1554;DiseaseFree;57.42
+TCGA-AX-A06H;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage III;Grade 1;60;FEMALE;Alive;27.37;NA;833;DiseaseFree;27.37
+TCGA-AX-A06J;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;3;UCEC CIMP c18;cluster 1;stage I;Grade 3;71;FEMALE;Alive;29.99;NA;913;DiseaseFree;29.99
+TCGA-AX-A06L;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC non-CIMP c3;cluster 3;stage I;Grade 1;63;FEMALE;Alive;60.61;NA;1480;DiseaseFree;60.61
+TCGA-AX-A0IS;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 2;stage I;Grade 2;52;FEMALE;Dead;61.04;NA;1065;Recurred/Progressed;14.72
+TCGA-AX-A0IU;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;79;FEMALE;Alive;35.71;NA;868;DiseaseFree;35.71
+TCGA-AX-A0IW;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSI-L;1;OV-like c1;cluster 3;stage III;Grade 3;67;FEMALE;Alive;37.75;NA;1149;DiseaseFree;37.75
+TCGA-AX-A0IZ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;3;;;stage I;Grade 3;53;FEMALE;Alive;43.79;NA;1333;DiseaseFree;43.79
+TCGA-AX-A0IZ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 3;53;FEMALE;Alive;43.79;NA;1333;DiseaseFree;43.79
+TCGA-AX-A0J0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSS;1;UCEC Serous c4;cluster 4;stage I;Grade 2;47;FEMALE;Alive;40.08;NA;1220;DiseaseFree;40.08
+TCGA-AX-A0J0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSS;1;;;stage I;Grade 2;47;FEMALE;Alive;40.08;NA;1220;DiseaseFree;40.08
+TCGA-AX-A0J1;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;80;FEMALE;Alive;77.33;NA;2004;DiseaseFree;77.33
+TCGA-AX-A1C4;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC CIMP c18;cluster 1;stage I;Grade 2;52;FEMALE;Alive;13.27;NA;404;DiseaseFree;13.27
+TCGA-AX-A1C5;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC non-CIMP c3;cluster 2;stage III;Grade 3;47;FEMALE;Alive;32.88;NA;584;DiseaseFree;32.88
+TCGA-AX-A1C7;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;77;FEMALE;Alive;34.63;NA;516;Recurred/Progressed;12.81
+TCGA-AX-A1C8;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;77;FEMALE;Alive;25.49;NA;412;DiseaseFree;25.49
+TCGA-AX-A1C9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC non-CIMP c3;cluster 2;stage I;Grade 2;73;FEMALE;Alive;26.35;NA;464;DiseaseFree;26.35
+TCGA-AX-A1CA;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;Notassigned;Indeterminant;1;UCEC Serous c4;cluster 3;stage I;Grade 3;70;FEMALE;Alive;32;NA;617;DiseaseFree;32
+TCGA-AX-A1CC;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;Notassigned;MSI-L;1;Low purity c2;cluster 3;stage I;Grade 3;65;FEMALE;Alive;25.89;NA;378;DiseaseFree;25.89
+TCGA-AX-A1CE;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 3;60;FEMALE;Alive;34.07;NA;610;DiseaseFree;34.07
+TCGA-AX-A1CF;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;OV-like c1;cluster 3;stage IV;Grade 3;69;FEMALE;Alive;76.77;NA;2337;Recurred/Progressed;28.75
+TCGA-AX-A1CF;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;;;stage IV;Grade 3;69;FEMALE;Alive;76.77;NA;2337;Recurred/Progressed;28.75
+TCGA-AX-A1CI;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;;;stage I;Grade 1;61;FEMALE;Alive;85.41;NA;2207;DiseaseFree;85.41
+TCGA-AX-A1CI;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC CIMP c18;cluster 2;stage I;Grade 1;61;FEMALE;Alive;85.41;NA;2207;DiseaseFree;85.41
+TCGA-AX-A1CJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;Indeterminant;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;59;FEMALE;Alive;73.36;NA;1646;DiseaseFree;73.36
+TCGA-AX-A1CJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;Indeterminant;3;;;stage I;Grade 2;59;FEMALE;Alive;73.36;NA;1646;DiseaseFree;73.36
+TCGA-AX-A1CK;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;;;stage I;Grade 2;58;FEMALE;Alive;80.19;NA;2053;DiseaseFree;80.19
+TCGA-AX-A1CK;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;58;FEMALE;Alive;80.19;NA;2053;DiseaseFree;80.19
+TCGA-AX-A1CN;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-L;1;OV-like c1;cluster 3;stage II;Grade 3;54;FEMALE;Alive;37.55;NA;764;Recurred/Progressed;36.3
+TCGA-AX-A1CP;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;OV-like c1;cluster 3;stage I;Grade 3;84;FEMALE;Alive;36.37;NA;1107;Recurred/Progressed;23.72
+TCGA-AX-A1CR;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage II;Grade 3;70;FEMALE;Alive;23.03;NA;337;DiseaseFree;23.03
+TCGA-AX-A2H2;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage II;NA;86;FEMALE;Dead;4.76;145;NA;NA;NA
+TCGA-AX-A2H4;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage III;NA;66;FEMALE;Dead;30.09;916;NA;Recurred/Progressed;17.08
+TCGA-AX-A2H4;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;66;FEMALE;Dead;30.09;916;NA;Recurred/Progressed;17.08
+TCGA-AX-A2H5;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;67;FEMALE;Alive;71.19;NA;2167;DiseaseFree;71.19
+TCGA-AX-A2H5;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;;;stage III;Grade 3;67;FEMALE;Alive;71.19;NA;2167;DiseaseFree;71.19
+TCGA-AX-A2H7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;87;FEMALE;Dead;40.77;NA;1020;Recurred/Progressed;22.47
+TCGA-AX-A2H7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;87;FEMALE;Dead;40.77;NA;1020;Recurred/Progressed;22.47
+TCGA-AX-A2H8;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-L;NA;UCEC non-CIMP c3;cluster 3;stage I;Grade 3;64;FEMALE;Alive;61.14;NA;1861;DiseaseFree;61.14
+TCGA-AX-A2H8;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-L;NA;;;stage I;Grade 3;64;FEMALE;Alive;61.14;NA;1861;DiseaseFree;61.14
+TCGA-AX-A2HA;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;35;FEMALE;Alive;81.31;NA;2090;DiseaseFree;81.31
+TCGA-AX-A2HA;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;35;FEMALE;Alive;81.31;NA;2090;DiseaseFree;81.31
+TCGA-AX-A2HC;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC CIMP c18;cluster 1;stage III;Grade 3;53;FEMALE;Alive;34.3;NA;1016;Recurred/Progressed;24.84
+TCGA-AX-A2HC;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;;;stage III;Grade 3;53;FEMALE;Alive;34.3;NA;1016;Recurred/Progressed;24.84
+TCGA-AX-A2HD;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;;;stage III;Grade 3;69;FEMALE;Alive;46.45;NA;1232;DiseaseFree;46.45
+TCGA-AX-A2HD;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC non-CIMP c3;cluster 2;stage III;Grade 3;69;FEMALE;Alive;46.45;NA;1232;DiseaseFree;46.45
+TCGA-AX-A2HF;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;67;FEMALE;Alive;27.86;NA;489;DiseaseFree;27.86
+TCGA-AX-A2HG;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC CIMP c18;cluster 2;stage I;Grade 3;56;FEMALE;Alive;38.21;NA;661;DiseaseFree;38.21
+TCGA-AX-A2HH;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC CIMP c18;cluster 2;stage I;Grade 3;60;FEMALE;Alive;17.74;NA;540;DiseaseFree;17.74
+TCGA-AX-A2HJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 2;stage I;Grade 3;35;FEMALE;Alive;30.72;NA;831;DiseaseFree;30.72
+TCGA-AX-A2HK;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;77;FEMALE;Dead;2.96;90;NA;NA;NA
+TCGA-AX-A2IN;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;63;FEMALE;Dead;31.11;947;NA;Recurred/Progressed;11.76
+TCGA-AX-A2IO;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage II;NA;83;FEMALE;Alive;64.88;NA;1177;DiseaseFree;64.88
+TCGA-AX-A3FS;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;82;FEMALE;Alive;0.23;NA;7;DiseaseFree;0.23
+TCGA-AX-A3FT;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;BRCA CIMP c7;;stage I;NA;64;FEMALE;Alive;0.2;NA;3;DiseaseFree;0.2
+TCGA-AX-A3FV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;Cluster 13 (HNSC-LUSC);;stage III;NA;62;FEMALE;Alive;-0.2;NA;-13;DiseaseFree;-0.2
+TCGA-AX-A3FW;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;66;FEMALE;Alive;0.56;NA;10;DiseaseFree;0.56
+TCGA-AX-A3FX;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage II;NA;69;FEMALE;Dead;43.79;NA;4;Recurred/Progressed;40.47
+TCGA-AX-A3FZ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage III;NA;33;FEMALE;Alive;0.2;NA;6;DiseaseFree;0.2
+TCGA-AX-A3G1;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;84;FEMALE;Dead;20.5;624;NA;NA;NA
+TCGA-AX-A3G3;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;OV-like c1;;stage III;NA;58;FEMALE;Alive;1.38;NA;1;DiseaseFree;1.38
+TCGA-AX-A3G4;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;60;FEMALE;Alive;0.3;NA;4;DiseaseFree;0.3
+TCGA-AX-A3G6;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;67;FEMALE;Alive;0.26;NA;0;DiseaseFree;0.26
+TCGA-AX-A3G7;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage IV;NA;71;FEMALE;Alive;0.3;NA;7;DiseaseFree;0.3
+TCGA-AX-A3G8;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;76;FEMALE;Alive;1.18;NA;36;DiseaseFree;1.18
+TCGA-AX-A3G9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage III;NA;63;FEMALE;Alive;18.33;NA;254;DiseaseFree;18.33
+TCGA-AX-A3GB;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;73;FEMALE;Alive;14.45;NA;440;DiseaseFree;14.45
+TCGA-AX-A3GI;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;66;FEMALE;Alive;0.39;NA;4;DiseaseFree;0.39
+TCGA-B5-A0JN;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;Notassigned;MSI-L;NA;UCEC Serous c4;cluster 3;stage IV;Grade 3;84;FEMALE;Alive;80.32;NA;2068;DiseaseFree;80.32
+TCGA-B5-A0JR;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 1;stage I;Grade 3;73;FEMALE;Alive;56.87;NA;1465;DiseaseFree;56.87
+TCGA-B5-A0JS;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;54;FEMALE;Alive;86.3;NA;1241;DiseaseFree;86.3
+TCGA-B5-A0JT;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage III;Grade 1;63;FEMALE;Alive;55.26;NA;1312;DiseaseFree;55.26
+TCGA-B5-A0JU;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 1;stage I;Grade 2;57;FEMALE;Alive;59.2;NA;1483;DiseaseFree;59.2
+TCGA-B5-A0JV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;63;FEMALE;Alive;85.94;NA;1125;Recurred/Progressed;22.93
+TCGA-B5-A0JX;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC CIMP c18;cluster 2;stage I;Grade 3;62;FEMALE;Alive;58.71;NA;1360;DiseaseFree;58.71
+TCGA-B5-A0JY;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSS;1;UCEC CIMP c18;cluster 2;stage III;Grade 3;50;FEMALE;Alive;69.22;NA;809;DiseaseFree;69.22
+TCGA-B5-A0JZ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 2;stage III;Grade 3;60;FEMALE;Alive;71.39;NA;689;Recurred/Progressed;11.7
+TCGA-B5-A0K0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC Serous c4;cluster 3;stage I;Grade 1;48;FEMALE;Alive;48.55;NA;679;DiseaseFree;48.55
+TCGA-B5-A0K1;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;69;FEMALE;Alive;36.47;NA;746;DiseaseFree;36.47
+TCGA-B5-A0K2;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 2;stage III;Grade 1;54;FEMALE;Alive;72.57;NA;683;DiseaseFree;72.57
+TCGA-B5-A0K3;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;62;FEMALE;Dead;27.27;NA;700;Recurred/Progressed;17.38
+TCGA-B5-A0K4;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;51;FEMALE;Alive;57.72;NA;466;DiseaseFree;57.72
+TCGA-B5-A0K6;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 1;stage I;Grade 1;58;FEMALE;Alive;64.16;NA;418;DiseaseFree;64.16
+TCGA-B5-A0K7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;64;FEMALE;Alive;63.5;NA;372;Recurred/Progressed;10.58
+TCGA-B5-A0K8;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;71;FEMALE;Alive;27.83;NA;543;DiseaseFree;27.83
+TCGA-B5-A0K9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 1;stage II;Grade 1;88;FEMALE;Dead;13.44;NA;167;NA;NA
+TCGA-B5-A0KB;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC Serous c4;cluster 4;stage I;Grade 3;62;FEMALE;Alive;27.07;NA;125;Recurred/Progressed;22.63
+TCGA-B5-A11E;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSS;1;UCEC CIMP c18;cluster 2;stage I;Grade 3;53;FEMALE;Alive;59.79;NA;265;DiseaseFree;59.79
+TCGA-B5-A11F;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 2;stage I;Grade 2;55;FEMALE;Alive;185.64;NA;5280;Recurred/Progressed;52.89
+TCGA-B5-A11G;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;71;FEMALE;Alive;113.27;NA;3077;DiseaseFree;113.27
+TCGA-B5-A11H;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 2;stage III;Grade 2;67;FEMALE;Alive;88.27;NA;2317;DiseaseFree;88.27
+TCGA-B5-A11I;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage IV;Grade 3;65;FEMALE;Alive;75.66;NA;2038;Recurred/Progressed;63.73
+TCGA-B5-A11J;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 2;stage I;Grade 2;64;FEMALE;Alive;54.4;NA;1291;DiseaseFree;54.4
+TCGA-B5-A11L;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;3;UCEC CIMP c18;cluster 2;stage I;Grade 2;71;FEMALE;Dead;73.59;NA;1396;Recurred/Progressed;4.3
+TCGA-B5-A11M;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC non-CIMP c3;cluster 3;stage I;Grade 1;43;FEMALE;Alive;44.74;NA;1117;DiseaseFree;44.74
+TCGA-B5-A11N;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSS;3;UCEC CIMP c18;cluster 2;stage I;Grade 1;69;FEMALE;Alive;61.63;NA;1147;DiseaseFree;61.63
+TCGA-B5-A11O;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;62;FEMALE;Alive;85.71;NA;1042;Recurred/Progressed;63.21
+TCGA-B5-A11P;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC non-CIMP c3;cluster 2;stage I;Grade 3;87;FEMALE;Alive;52;NA;1120;DiseaseFree;52
+TCGA-B5-A11Q;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 1;stage III;Grade 1;64;FEMALE;Alive;32.06;NA;703;DiseaseFree;32.06
+TCGA-B5-A11R;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC CIMP c18;cluster 2;stage II;Grade 3;51;FEMALE;Alive;77.17;NA;837;DiseaseFree;77.17
+TCGA-B5-A11S;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 2;stage I;Grade 2;63;FEMALE;Alive;73.23;NA;650;Recurred/Progressed;1.35
+TCGA-B5-A11U;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;1;UCEC non-CIMP c3;cluster 3;stage IV;Grade 3;74;FEMALE;Alive;16.72;NA;271;DiseaseFree;16.72
+TCGA-B5-A11V;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;64;FEMALE;Alive;19.55;NA;232;DiseaseFree;19.55
+TCGA-B5-A11W;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 2;stage I;Grade 2;61;FEMALE;Alive;19.48;NA;339;DiseaseFree;19.48
+TCGA-B5-A11X;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-L;1;UCEC non-CIMP c3;cluster 4;stage III;Grade 3;66;FEMALE;Alive;19.58;NA;337;Recurred/Progressed;13.04
+TCGA-B5-A11Y;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSI-L;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;59;FEMALE;Alive;18.4;NA;315;DiseaseFree;18.4
+TCGA-B5-A11Z;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 1;stage I;Grade 1;61;FEMALE;Alive;17.35;NA;291;DiseaseFree;17.35
+TCGA-B5-A121;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage III;Grade 1;57;FEMALE;Alive;16.56;NA;259;DiseaseFree;16.56
+TCGA-B5-A1MR;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC non-CIMP c3;cluster 2;stage III;Grade 3;65;FEMALE;Alive;225.33;NA;5691;DiseaseFree;225.33
+TCGA-B5-A1MS;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;60;FEMALE;Dead;102.23;3112;NA;Recurred/Progressed;88.9
+TCGA-B5-A1MU;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage IV;Grade 3;79;FEMALE;Dead;50.85;1548;NA;Recurred/Progressed;44.84
+TCGA-B5-A1MV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-L;NA;UCEC non-CIMP c3;cluster 2;stage I;Grade 2;84;FEMALE;Alive;51.41;NA;380;DiseaseFree;51.41
+TCGA-B5-A1MW;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC non-CIMP c3;cluster 2;stage I;Grade 3;55;FEMALE;Alive;14.68;NA;220;Recurred/Progressed;10.22
+TCGA-B5-A1MX;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 3;47;FEMALE;Alive;48.39;NA;175;DiseaseFree;48.39
+TCGA-B5-A1MY;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;62;FEMALE;Dead;11.86;361;NA;Recurred/Progressed;10.94
+TCGA-B5-A1MZ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-L;NA;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;54;FEMALE;Alive;52.5;NA;465;Recurred/Progressed;20.14
+TCGA-B5-A1N2;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;70;FEMALE;Dead;31.34;NA;389;Recurred/Progressed;26.41
+TCGA-B5-A3F9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;56;FEMALE;Alive;136.5;NA;3264;DiseaseFree;136.5
+TCGA-B5-A3FA;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;73;FEMALE;Alive;96.22;NA;2565;DiseaseFree;96.22
+TCGA-B5-A3FB;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;73;FEMALE;Alive;93.43;NA;2096;DiseaseFree;93.43
+TCGA-B5-A3FC;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage II;NA;53;FEMALE;Alive;71.78;NA;1890;DiseaseFree;71.78
+TCGA-B5-A3FD;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;70;FEMALE;Dead;39.32;NA;796;Recurred/Progressed;32.59
+TCGA-B5-A3FH;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;74;FEMALE;Alive;27.63;NA;197;DiseaseFree;27.63
+TCGA-B5-A3S1;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage III;NA;71;FEMALE;Alive;29.63;NA;153;DiseaseFree;29.63
+TCGA-B5-A5OC;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;71;FEMALE;Alive;41.03;NA;841;DiseaseFree;41.03
+TCGA-B5-A5OD;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;67;FEMALE;Alive;34.1;NA;772;DiseaseFree;34.1
+TCGA-B5-A5OE;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;68;FEMALE;Alive;34.92;NA;734;DiseaseFree;34.92
+TCGA-BG-A0LW;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;47;FEMALE;Alive;18.59;NA;195;DiseaseFree;18.59
+TCGA-BG-A0LX;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;57;FEMALE;Alive;20.17;NA;253;DiseaseFree;20.17
+TCGA-BG-A0M0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 1;stage I;Grade 1;66;FEMALE;Alive;19.32;NA;238;DiseaseFree;19.32
+TCGA-BG-A0M2;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;62;FEMALE;Alive;20.93;NA;317;DiseaseFree;20.93
+TCGA-BG-A0M3;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;74;FEMALE;Alive;35.18;NA;742;DiseaseFree;35.18
+TCGA-BG-A0M4;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 2;stage I;Grade 3;60;FEMALE;Alive;71.19;NA;480;DiseaseFree;71.19
+TCGA-BG-A0M6;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;73;FEMALE;Dead;22.04;NA;241;NA;NA
+TCGA-BG-A0M7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 2;stage III;Grade 2;60;FEMALE;Alive;63.63;NA;698;DiseaseFree;63.63
+TCGA-BG-A0M8;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;3;OV-like c1;cluster 3;stage I;Grade 3;50;FEMALE;Alive;66.36;NA;690;DiseaseFree;66.36
+TCGA-BG-A0M9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 2;73;FEMALE;Alive;74.57;NA;765;DiseaseFree;74.57
+TCGA-BG-A0MA;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;;;stage I;Grade 3;60;FEMALE;Dead;10.71;326;NA;Recurred/Progressed;2.3
+TCGA-BG-A0MA;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;60;FEMALE;Dead;10.71;326;NA;Recurred/Progressed;2.3
+TCGA-BG-A0MC;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;74;FEMALE;Alive;41.49;NA;827;DiseaseFree;41.49
+TCGA-BG-A0MG;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;1;UCEC CIMP c18;cluster 2;stage I;Grade 1;73;FEMALE;Alive;48.52;NA;896;DiseaseFree;48.52
+TCGA-BG-A0MH;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;61;FEMALE;Alive;63.4;NA;1341;DiseaseFree;63.4
+TCGA-BG-A0MI;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC CIMP c18;cluster 2;stage I;Grade 2;83;FEMALE;Dead;23.46;714;NA;NA;NA
+TCGA-BG-A0MK;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage II;NA;52;FEMALE;Dead;43.27;1317;NA;NA;NA
+TCGA-BG-A0MO;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;63;FEMALE;Alive;43;NA;1021;DiseaseFree;43
+TCGA-BG-A0MQ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 1;71;FEMALE;Alive;59.69;NA;761;DiseaseFree;59.69
+TCGA-BG-A0MS;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 2;stage III;Grade 3;53;FEMALE;Alive;61.83;NA;553;DiseaseFree;61.83
+TCGA-BG-A0MT;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;64;FEMALE;Alive;21.16;NA;240;Recurred/Progressed;18.56
+TCGA-BG-A0MU;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 1;stage III;Grade 1;78;FEMALE;Alive;20.27;NA;232;DiseaseFree;20.27
+TCGA-BG-A0RY;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 2;68;FEMALE;Alive;15.41;NA;128;DiseaseFree;15.41
+TCGA-BG-A0VT;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage III;Grade 2;56;FEMALE;Alive;51.51;NA;224;DiseaseFree;51.51
+TCGA-BG-A0VV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;53;FEMALE;Alive;51.02;NA;272;DiseaseFree;51.02
+TCGA-BG-A0VW;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 2;stage I;Grade 1;77;FEMALE;Alive;51.97;NA;132;DiseaseFree;51.97
+TCGA-BG-A0VX;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;58;FEMALE;Alive;34.26;NA;490;DiseaseFree;34.26
+TCGA-BG-A0VZ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage III;Grade 2;58;FEMALE;Alive;52.6;NA;868;DiseaseFree;52.6
+TCGA-BG-A0W1;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 1;stage II;Grade 2;89;FEMALE;Alive;52.79;NA;908;DiseaseFree;52.79
+TCGA-BG-A0W2;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;57;FEMALE;Alive;56.54;NA;1151;DiseaseFree;56.54
+TCGA-BG-A0YU;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 3;stage I;Grade 1;37;FEMALE;Alive;14.82;NA;279;DiseaseFree;14.82
+TCGA-BG-A0YV;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC non-CIMP c3;cluster 4;stage III;Grade 3;67;FEMALE;Alive;12.55;NA;186;DiseaseFree;12.55
+TCGA-BG-A186;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage III;Grade 2;61;FEMALE;Alive;13.76;NA;230;DiseaseFree;13.76
+TCGA-BG-A187;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSI-L;3;UCEC CIMP c18;cluster 1;stage I;Grade 2;65;FEMALE;Alive;14.72;NA;231;DiseaseFree;14.72
+TCGA-BG-A18A;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;74;FEMALE;Alive;13.99;NA;252;DiseaseFree;13.99
+TCGA-BG-A18B;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;53;FEMALE;Alive;15.44;NA;155;DiseaseFree;15.44
+TCGA-BG-A18C;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;1;Cluster 5;cluster 3;stage I;Grade 2;72;FEMALE;Alive;15.44;NA;169;DiseaseFree;15.44
+TCGA-BG-A220;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;69;FEMALE;Alive;14.26;NA;221;DiseaseFree;14.26
+TCGA-BG-A221;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;84;FEMALE;Alive;1.81;NA;46;DiseaseFree;1.81
+TCGA-BG-A222;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC CIMP c18;cluster 1;stage I;Grade 3;49;FEMALE;Alive;9.56;NA;14;DiseaseFree;9.56
+TCGA-BG-A2AD;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;;;stage III;Grade 3;63;FEMALE;Alive;20.01;NA;609;DiseaseFree;20.01
+TCGA-BG-A2AD;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC CIMP c18;cluster 1;stage III;Grade 3;63;FEMALE;Alive;20.01;NA;609;DiseaseFree;20.01
+TCGA-BG-A2AE;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;1;UCEC non-CIMP c3;cluster 2;stage I;Grade 3;57;FEMALE;Alive;23.69;NA;327;DiseaseFree;23.69
+TCGA-BG-A2AE;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;1;;;stage I;Grade 3;57;FEMALE;Alive;23.69;NA;327;DiseaseFree;23.69
+TCGA-BG-A2L7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;68;FEMALE;Alive;20.11;NA;177;DiseaseFree;20.11
+TCGA-BG-A2L7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;68;FEMALE;Alive;20.11;NA;177;DiseaseFree;20.11
+TCGA-BG-A3EW;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage III;NA;62;FEMALE;Alive;11.3;NA;5;DiseaseFree;11.3
+TCGA-BG-A3EW;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;62;FEMALE;Alive;11.3;NA;5;DiseaseFree;11.3
+TCGA-BG-A3PP;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage II;NA;82;FEMALE;Alive;22.37;NA;207;Recurred/Progressed;21.85
+TCGA-BG-A3PP;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage II;NA;82;FEMALE;Alive;22.37;NA;207;Recurred/Progressed;21.85
+TCGA-BK-A0C9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 1;stage I;Grade 1;57;FEMALE;Alive;35.87;NA;289;DiseaseFree;35.87
+TCGA-BK-A0CA;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage III;Grade 3;61;FEMALE;Alive;34.95;NA;371;DiseaseFree;34.95
+TCGA-BK-A0CB;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage III;Grade 2;60;FEMALE;Alive;35.87;NA;189;DiseaseFree;35.87
+TCGA-BK-A0CB;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;;;stage III;Grade 2;60;FEMALE;Alive;35.87;NA;189;DiseaseFree;35.87
+TCGA-BK-A0CC;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;69;FEMALE;Alive;35.05;NA;212;Recurred/Progressed;33.18
+TCGA-BK-A139;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;1;UCEC CIMP c18;cluster 2;stage I;Grade 3;74;FEMALE;Dead;30.98;NA;239;Recurred/Progressed;22.47
+TCGA-BK-A139;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;1;;;stage I;Grade 3;74;FEMALE;Dead;30.98;NA;239;Recurred/Progressed;22.47
+TCGA-BK-A139;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;1;UCEC CIMP c18;cluster 2;stage I;Grade 3;74;FEMALE;Dead;30.98;NA;239;Recurred/Progressed;22.47
+TCGA-BK-A139;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;1;;;stage I;Grade 3;74;FEMALE;Dead;30.98;NA;239;Recurred/Progressed;22.47
+TCGA-BK-A13B;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;58;FEMALE;Alive;31.73;NA;578;Recurred/Progressed;25.2
+TCGA-BK-A13C;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 2;stage I;Grade 2;47;FEMALE;Alive;24.97;NA;202;DiseaseFree;24.97
+TCGA-BK-A13C;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;;;stage I;Grade 2;47;FEMALE;Alive;24.97;NA;202;DiseaseFree;24.97
+TCGA-BK-A26L;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;71;FEMALE;Alive;24.11;NA;234;DiseaseFree;24.11
+TCGA-BK-A4ZD;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;42;FEMALE;Alive;16.62;NA;211;DiseaseFree;16.62
+TCGA-BK-A4ZD;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;42;FEMALE;Alive;16.62;NA;211;DiseaseFree;16.62
+TCGA-BK-A56F;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;75;FEMALE;Alive;13.17;NA;200;DiseaseFree;13.17
+TCGA-BK-A6W3;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage II;NA;34;FEMALE;Alive;10.02;NA;86;DiseaseFree;10.02
+TCGA-BK-A6W4;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;62;FEMALE;Alive;9.86;NA;158;DiseaseFree;9.86
+TCGA-BS-A0T9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage IV;Grade 3;39;FEMALE;Dead;46.91;1428;NA;Recurred/Progressed;20.83
+TCGA-BS-A0TA;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 4;stage IV;Grade 3;58;FEMALE;Dead;24.31;NA;714;Recurred/Progressed;19.09
+TCGA-BS-A0TC;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSS;3;UCEC CIMP c18;cluster 1;stage I;Grade 1;69;FEMALE;Alive;85.48;NA;2260;DiseaseFree;85.48
+TCGA-BS-A0TD;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;65;FEMALE;Alive;78.15;NA;2003;DiseaseFree;78.15
+TCGA-BS-A0TE;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;1;Cluster 5;cluster 3;stage IV;Grade 3;35;FEMALE;Dead;4.8;146;NA;Recurred/Progressed;1.91
+TCGA-BS-A0TG;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage III;Grade 2;60;FEMALE;Alive;77.89;NA;2035;DiseaseFree;77.89
+TCGA-BS-A0TI;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;3;UCEC Serous c4;cluster 4;stage I;Grade 3;64;FEMALE;Alive;61.83;NA;1443;DiseaseFree;61.83
+TCGA-BS-A0TJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;1;UCEC CIMP c18;cluster 1;stage I;Grade 3;59;FEMALE;Alive;67.94;NA;1514;DiseaseFree;67.94
+TCGA-BS-A0U5;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;76;FEMALE;Alive;96.42;NA;2204;DiseaseFree;96.42
+TCGA-BS-A0U7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;63;FEMALE;Dead;30.72;935;NA;NA;NA
+TCGA-BS-A0U8;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage III;Grade 1;55;FEMALE;Alive;97.34;NA;2606;DiseaseFree;97.34
+TCGA-BS-A0U9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage II;Grade 3;59;FEMALE;Alive;92.81;NA;1749;DiseaseFree;92.81
+TCGA-BS-A0UA;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 2;stage I;Grade 1;68;FEMALE;Alive;114.82;NA;2540;Recurred/Progressed;17.08
+TCGA-BS-A0UF;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSS;1;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;65;FEMALE;Alive;85.78;NA;1843;DiseaseFree;85.78
+TCGA-BS-A0UJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;68;FEMALE;Alive;82.33;NA;27;DiseaseFree;82.33
+TCGA-BS-A0UL;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 2;stage I;Grade 1;54;FEMALE;Alive;81.5;NA;36;DiseaseFree;81.5
+TCGA-BS-A0UM;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 1;64;FEMALE;Alive;86.86;NA;2191;Recurred/Progressed;47.77
+TCGA-BS-A0UT;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage II;Grade 2;62;FEMALE;Alive;72.67;NA;595;DiseaseFree;72.67
+TCGA-BS-A0UV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSS;1;UCEC non-CIMP c3;cluster 4;stage III;Grade 3;55;FEMALE;Alive;73.19;NA;149;DiseaseFree;73.19
+TCGA-BS-A0V4;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 1;stage I;Grade 1;56;FEMALE;Alive;59.46;NA;31;DiseaseFree;59.46
+TCGA-BS-A0V6;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 2;stage I;Grade 1;55;FEMALE;Alive;89.52;NA;1650;DiseaseFree;89.52
+TCGA-BS-A0V7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;48;FEMALE;Alive;63.53;NA;1429;DiseaseFree;63.53
+TCGA-BS-A0V8;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;3;UCEC non-CIMP c3;cluster 3;stage II;Grade 2;68;FEMALE;Alive;83.57;NA;1507;DiseaseFree;83.57
+TCGA-BS-A0VI;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;3;UCEC CIMP c18;cluster 1;stage II;Grade 3;58;FEMALE;Alive;86.93;NA;1661;DiseaseFree;86.93
+TCGA-BS-A0WQ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;55;FEMALE;Alive;66.43;NA;1208;DiseaseFree;66.43
+TCGA-D1-A0ZN;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 1;stage I;Grade 1;60;FEMALE;Alive;16.82;NA;512;Recurred/Progressed;14.72
+TCGA-D1-A0ZO;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 1;75;FEMALE;Alive;19.78;NA;69;DiseaseFree;19.78
+TCGA-D1-A0ZP;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSI-L;1;UCEC Serous c4;cluster 3;stage IV;Grade 3;59;FEMALE;Alive;29.93;NA;690;Recurred/Progressed;20.66
+TCGA-D1-A0ZQ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 2;stage I;Grade 2;90;FEMALE;Alive;8.54;NA;8;DiseaseFree;8.54
+TCGA-D1-A0ZR;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;57;FEMALE;Alive;0.56;NA;17;DiseaseFree;0.56
+TCGA-D1-A0ZS;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;1;UCEC CIMP c18;cluster 2;stage I;Grade 3;54;FEMALE;Alive;4.86;NA;148;DiseaseFree;4.86
+TCGA-D1-A0ZU;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;34;FEMALE;Alive;28.65;NA;578;DiseaseFree;28.65
+TCGA-D1-A0ZV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;58;FEMALE;Alive;23.92;NA;350;DiseaseFree;23.92
+TCGA-D1-A0ZZ;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;80;FEMALE;Alive;22.54;NA;377;DiseaseFree;22.54
+TCGA-D1-A101;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 2;stage I;Grade 2;60;FEMALE;Alive;1.74;NA;53;DiseaseFree;1.74
+TCGA-D1-A102;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;49;FEMALE;Alive;4.43;NA;43;DiseaseFree;4.43
+TCGA-D1-A103;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSI-H;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;87;FEMALE;Alive;21.98;NA;480;DiseaseFree;21.98
+TCGA-D1-A15V;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;68;FEMALE;Alive;39.45;NA;1012;DiseaseFree;39.45
+TCGA-D1-A15W;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC CIMP c18;cluster 2;stage III;Grade 1;58;FEMALE;Alive;30.06;NA;915;DiseaseFree;30.06
+TCGA-D1-A15X;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN low;MSI-L;1;UCEC CIMP c18;cluster 2;stage I;Grade 3;45;FEMALE;Alive;29.86;NA;909;DiseaseFree;29.86
+TCGA-D1-A15Z;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSI-L;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;72;FEMALE;Dead;1.91;58;NA;NA;NA
+TCGA-D1-A160;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 2;stage I;Grade 2;70;FEMALE;Alive;3.68;NA;112;DiseaseFree;3.68
+TCGA-D1-A161;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;78;FEMALE;Alive;29.3;NA;892;DiseaseFree;29.3
+TCGA-D1-A162;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;69;FEMALE;Alive;37.61;NA;976;DiseaseFree;37.61
+TCGA-D1-A163;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage III;Grade 2;50;FEMALE;Alive;32.56;NA;938;Recurred/Progressed;7.33
+TCGA-D1-A165;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 2;stage III;Grade 1;64;FEMALE;Alive;0.66;NA;20;DiseaseFree;0.66
+TCGA-D1-A167;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;1;UCEC CIMP c18;cluster 1;stage I;Grade 2;70;FEMALE;Alive;15.7;NA;478;DiseaseFree;15.7
+TCGA-D1-A168;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;67;FEMALE;Alive;36.07;NA;913;DiseaseFree;36.07
+TCGA-D1-A169;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;3;UCEC CIMP c18;cluster 2;stage IV;Grade 2;63;FEMALE;Alive;37.29;NA;905;Recurred/Progressed;17.05
+TCGA-D1-A16B;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;64;FEMALE;Alive;36.33;NA;744;DiseaseFree;36.33
+TCGA-D1-A16D;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;49;FEMALE;Alive;37.48;NA;908;DiseaseFree;37.48
+TCGA-D1-A16E;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;73;FEMALE;Alive;36.76;NA;909;DiseaseFree;36.76
+TCGA-D1-A16F;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;3;UCEC CIMP c18;cluster 2;stage I;Grade 2;60;FEMALE;Alive;2.63;NA;80;DiseaseFree;2.63
+TCGA-D1-A16G;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC non-CIMP c3;cluster 4;stage IV;Grade 3;74;FEMALE;Dead;27.4;834;NA;Recurred/Progressed;21.09
+TCGA-D1-A16I;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;62;FEMALE;Dead;11.5;350;NA;NA;NA
+TCGA-D1-A16J;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;Cluster 6;cluster 1;stage II;Grade 2;61;FEMALE;Alive;29.89;NA;742;DiseaseFree;29.89
+TCGA-D1-A16N;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;1;UCEC non-CIMP c3;cluster 4;stage III;Grade 3;51;FEMALE;Alive;31.04;NA;640;DiseaseFree;31.04
+TCGA-D1-A16O;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;44;FEMALE;Alive;33.61;NA;865;DiseaseFree;33.61
+TCGA-D1-A16Q;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage II;Grade 2;54;FEMALE;Alive;10.64;NA;221;DiseaseFree;10.64
+TCGA-D1-A16R;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;39;FEMALE;Alive;0.69;NA;21;DiseaseFree;0.69
+TCGA-D1-A16S;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;3;UCEC Serous c4;cluster 3;stage III;Grade 3;70;FEMALE;Alive;18.66;NA;238;DiseaseFree;18.66
+TCGA-D1-A16V;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC CIMP c18;cluster 2;stage III;Grade 3;78;FEMALE;Dead;3.94;NA;43;NA;NA
+TCGA-D1-A16X;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;54;FEMALE;Alive;3.65;NA;111;DiseaseFree;3.65
+TCGA-D1-A16Y;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSI-L;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;56;FEMALE;Alive;17.48;NA;532;DiseaseFree;17.48
+TCGA-D1-A174;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 1;stage I;Grade 3;51;FEMALE;Alive;19.51;NA;324;DiseaseFree;19.51
+TCGA-D1-A175;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;48;FEMALE;Alive;6.64;NA;202;DiseaseFree;6.64
+TCGA-D1-A176;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;67;FEMALE;Alive;30.12;NA;506;DiseaseFree;30.12
+TCGA-D1-A177;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;70;FEMALE;Alive;18;NA;347;Recurred/Progressed;11.4
+TCGA-D1-A179;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;76;FEMALE;Dead;14.72;NA;206;Recurred/Progressed;14.03
+TCGA-D1-A17A;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 1;stage II;Grade 3;59;FEMALE;Alive;1.58;NA;19;DiseaseFree;1.58
+TCGA-D1-A17B;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 2;stage I;Grade 2;69;FEMALE;Alive;7;NA;213;DiseaseFree;7
+TCGA-D1-A17C;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;78;FEMALE;Alive;0.99;NA;1;DiseaseFree;0.99
+TCGA-D1-A17D;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 1;stage I;Grade 3;58;FEMALE;Alive;30.42;NA;160;DiseaseFree;30.42
+TCGA-D1-A17F;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;68;FEMALE;Alive;1.28;NA;39;DiseaseFree;1.28
+TCGA-D1-A17H;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;61;FEMALE;Alive;27.99;NA;454;DiseaseFree;27.99
+TCGA-D1-A17K;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 2;74;FEMALE;Alive;28.06;NA;429;Recurred/Progressed;26.77
+TCGA-D1-A17L;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;81;FEMALE;Alive;26.35;NA;459;DiseaseFree;26.35
+TCGA-D1-A17M;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage II;Grade 1;56;FEMALE;Alive;10.22;NA;311;DiseaseFree;10.22
+TCGA-D1-A17N;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;46;FEMALE;Alive;1.51;NA;46;DiseaseFree;1.51
+TCGA-D1-A17Q;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;POLE;MSI-L;3;UCEC CIMP c18;cluster 2;stage I;Grade 2;54;FEMALE;Alive;1.77;NA;54;DiseaseFree;1.77
+TCGA-D1-A17R;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC CIMP c18;cluster 1;stage I;Grade 2;58;FEMALE;Dead;11.14;339;NA;NA;NA
+TCGA-D1-A17S;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;59;FEMALE;Alive;24.28;NA;326;DiseaseFree;24.28
+TCGA-D1-A17T;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;CN low;MSS;3;UCEC non-CIMP c3;cluster 1;stage I;Grade 2;67;FEMALE;Alive;2.33;NA;71;DiseaseFree;2.33
+TCGA-D1-A17U;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;2;UCEC CIMP c18;cluster 1;stage III;Grade 2;53;FEMALE;Alive;22.9;NA;396;DiseaseFree;22.9
+TCGA-D1-A1NS;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 2;stage I;Grade 1;53;FEMALE;Alive;1.41;NA;43;DiseaseFree;1.41
+TCGA-D1-A1NU;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;74;FEMALE;Alive;13.21;NA;312;DiseaseFree;13.21
+TCGA-D1-A1NW;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage IV;Grade 3;72;FEMALE;Alive;0.72;NA;22;DiseaseFree;0.72
+TCGA-D1-A1NX;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;66;FEMALE;Alive;18.23;NA;399;Recurred/Progressed;15.64
+TCGA-D1-A1NY;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC CIMP c18;cluster 1;stage I;Grade 3;67;FEMALE;Alive;16.85;NA;396;DiseaseFree;16.85
+TCGA-D1-A1NZ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 1;stage I;Grade 1;60;FEMALE;Alive;18;NA;8;DiseaseFree;18
+TCGA-D1-A1O0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC non-CIMP c3;cluster 3;stage I;Grade 3;77;FEMALE;Alive;2.07;NA;2;DiseaseFree;2.07
+TCGA-D1-A1O5;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;61;FEMALE;Alive;15.05;NA;377;DiseaseFree;15.05
+TCGA-D1-A1O7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 2;stage I;Grade 1;60;FEMALE;Alive;1.05;NA;32;DiseaseFree;1.05
+TCGA-D1-A1O8;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC non-CIMP c3;cluster 2;stage III;Grade 3;70;FEMALE;Dead;3.94;120;NA;NA;NA
+TCGA-D1-A2G0;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 1;stage I;Grade 3;70;FEMALE;Alive;48.75;NA;107;DiseaseFree;48.75
+TCGA-D1-A2G5;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 2;stage I;Grade 3;50;FEMALE;Alive;47.8;NA;1260;Recurred/Progressed;36.86
+TCGA-D1-A2G6;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;3;UCEC CIMP c18;cluster 2;stage III;Grade 3;53;FEMALE;Dead;8.48;258;NA;NA;NA
+TCGA-D1-A2G7;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;65;FEMALE;Dead;58.9;NA;1365;NA;NA
+TCGA-D1-A3DA;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage III;NA;77;FEMALE;Alive;15.87;NA;8;DiseaseFree;15.87
+TCGA-D1-A3DG;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage IV;NA;81;FEMALE;Dead;4.27;NA;130;NA;NA
+TCGA-D1-A3DH;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;71;FEMALE;Alive;18.82;NA;125;DiseaseFree;18.82
+TCGA-D1-A3JP;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;61;FEMALE;Alive;16.92;NA;515;DiseaseFree;16.92
+TCGA-D1-A3JQ;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;61;FEMALE;Alive;17.28;NA;526;DiseaseFree;17.28
+TCGA-DF-A2KN;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;NA;FEMALE;Alive;2.2;NA;67;DiseaseFree;2.2
+TCGA-DF-A2KR;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage III;NA;84;FEMALE;Alive;71.55;NA;2178;Recurred/Progressed;69.42
+TCGA-DF-A2KS;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;69;FEMALE;Alive;109;NA;2188;Recurred/Progressed;74.8
+TCGA-DF-A2KU;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;NA;FEMALE;Alive;100.76;NA;1983;DiseaseFree;100.76
+TCGA-DF-A2KV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;55;FEMALE;Alive;89.26;NA;936;DiseaseFree;89.26
+TCGA-DF-A2KY;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;BRCA CIMP c7;;stage IV;NA;49;FEMALE;Alive;10.91;NA;332;DiseaseFree;10.91
+TCGA-DF-A2KZ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;87;FEMALE;Alive;27.14;NA;826;DiseaseFree;27.14
+TCGA-DF-A2L0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage III;NA;60;FEMALE;Dead;25.89;788;NA;Recurred/Progressed;17.18
+TCGA-DI-A0WH;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;MSI;MSI-H;3;UCEC non-CIMP c3;cluster 3;stage I;Grade 3;64;FEMALE;Alive;16.29;NA;405;DiseaseFree;16.29
+TCGA-DI-A1BU;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;Notassigned;MSI-H;NA;UCEC non-CIMP c3;cluster 2;stage II;Grade 3;55;FEMALE;Alive;39.26;NA;1005;DiseaseFree;39.26
+TCGA-DI-A1BY;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;3;UCEC non-CIMP c3;cluster 2;stage II;Grade 2;63;FEMALE;Alive;36.6;NA;1114;DiseaseFree;36.6
+TCGA-DI-A1C3;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC non-CIMP c3;cluster 4;stage I;Grade 2;38;FEMALE;Alive;24.28;NA;739;DiseaseFree;24.28
+TCGA-DI-A1NN;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;OV-like c1;cluster 3;stage III;Grade 3;63;FEMALE;Alive;35.35;NA;944;Recurred/Progressed;33.61
+TCGA-DI-A1NN;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;;;stage III;Grade 3;63;FEMALE;Alive;35.35;NA;944;Recurred/Progressed;33.61
+TCGA-DI-A1NO;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;OV-like c1;cluster 3;stage III;Grade 3;68;FEMALE;Dead;9.36;285;NA;NA;NA
+TCGA-DI-A1NO;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;;;stage III;Grade 3;68;FEMALE;Dead;9.36;285;NA;NA;NA
+TCGA-DI-A2QT;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;51;FEMALE;Dead;12.39;377;NA;NA;NA
+TCGA-DI-A2QU;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage IV;NA;67;FEMALE;Dead;31.08;946;NA;NA;NA
+TCGA-DI-A2QU;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage IV;NA;67;FEMALE;Dead;31.08;946;NA;NA;NA
+TCGA-DI-A2QY;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage II;NA;64;FEMALE;Dead;110.02;NA;2797;NA;NA
+TCGA-DI-A2QY;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage II;NA;64;FEMALE;Dead;110.02;NA;2797;NA;NA
+TCGA-E6-A1LX;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC CIMP c18;cluster 2;stage I;Grade 3;40;FEMALE;Alive;23.36;NA;711;DiseaseFree;23.36
+TCGA-E6-A1LZ;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;76;FEMALE;Alive;79.04;NA;1289;DiseaseFree;79.04
+TCGA-E6-A1M0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC non-CIMP c3;cluster 4;stage III;Grade 3;56;FEMALE;Alive;58.9;NA;428;DiseaseFree;58.9
+TCGA-E6-A1M0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;;;stage III;Grade 3;56;FEMALE;Alive;58.9;NA;428;DiseaseFree;58.9
+TCGA-E6-A2P8;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;NA;NA;NA;UCEC CIMP c18;;stage IV;NA;53;FEMALE;Dead;2.37;72;NA;Recurred/Progressed;1.97
+TCGA-E6-A2P9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;65;FEMALE;Alive;45.53;NA;203;DiseaseFree;45.53
+TCGA-E6-A8L9;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;61;FEMALE;Alive;33.28;NA;740;DiseaseFree;33.28
+TCGA-EC-A1NJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 1;stage I;Grade 2;73;FEMALE;Alive;16.03;NA;0;DiseaseFree;16.03
+TCGA-EC-A1QX;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC CIMP c18;cluster 2;stage I;Grade 3;71;FEMALE;Alive;7.36;NA;66;Recurred/Progressed;7.19
+TCGA-EC-A24G;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage II;Grade 3;57;FEMALE;Alive;16.79;NA;47;DiseaseFree;16.79
+TCGA-EO-A1Y5;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;63;FEMALE;Alive;10.91;NA;332;DiseaseFree;10.91
+TCGA-EO-A1Y7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;65;FEMALE;Alive;49.11;NA;243;Recurred/Progressed;28.91
+TCGA-EO-A1Y8;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;87;FEMALE;Alive;37.68;NA;328;DiseaseFree;37.68
+TCGA-EO-A22R;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;56;FEMALE;Alive;61.7;NA;972;DiseaseFree;61.7
+TCGA-EO-A22R;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;56;FEMALE;Alive;61.7;NA;972;DiseaseFree;61.7
+TCGA-EO-A22S;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;58;FEMALE;Alive;61.5;NA;1066;DiseaseFree;61.5
+TCGA-EO-A22S;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;58;FEMALE;Alive;61.5;NA;1066;DiseaseFree;61.5
+TCGA-EO-A22T;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage II;NA;56;FEMALE;Alive;66.85;NA;1004;DiseaseFree;66.85
+TCGA-EO-A22T;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage II;NA;56;FEMALE;Alive;66.85;NA;1004;DiseaseFree;66.85
+TCGA-EO-A22U;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;83;FEMALE;Alive;46.22;NA;825;DiseaseFree;46.22
+TCGA-EO-A22X;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage III;NA;36;FEMALE;Alive;57.56;NA;982;DiseaseFree;57.56
+TCGA-EO-A22Y;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;68;FEMALE;Alive;51.48;NA;754;DiseaseFree;51.48
+TCGA-EO-A2CG;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;OV-like c1;;stage I;NA;69;FEMALE;Alive;51.38;NA;752;DiseaseFree;51.38
+TCGA-EO-A2CH;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage IV;NA;73;FEMALE;Dead;19.38;590;NA;Recurred/Progressed;18.89
+TCGA-EO-A3AS;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;86;FEMALE;Alive;34.36;NA;1046;DiseaseFree;34.36
+TCGA-EO-A3AU;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage II;NA;72;FEMALE;Alive;50.69;NA;589;Recurred/Progressed;38.7
+TCGA-EO-A3AV;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage III;NA;51;FEMALE;Alive;35.12;NA;573;DiseaseFree;35.12
+TCGA-EO-A3AY;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;58;FEMALE;Alive;38.04;NA;392;Recurred/Progressed;38.21
+TCGA-EO-A3AZ;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;80;FEMALE;Alive;27.14;NA;469;DiseaseFree;27.14
+TCGA-EO-A3B0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage III;NA;43;FEMALE;Alive;46.39;NA;404;DiseaseFree;46.39
+TCGA-EO-A3B1;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;63;FEMALE;Alive;26.94;NA;337;DiseaseFree;26.94
+TCGA-EO-A3KU;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage II;NA;68;FEMALE;Alive;22.24;NA;254;DiseaseFree;22.24
+TCGA-EO-A3KW;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;72;FEMALE;Alive;16.33;NA;182;DiseaseFree;16.33
+TCGA-EO-A3KX;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;80;FEMALE;Alive;38.44;NA;281;DiseaseFree;38.44
+TCGA-EO-A3L0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;76;FEMALE;Alive;51.05;NA;577;DiseaseFree;51.05
+TCGA-EY-A1G7;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC CIMP c18;cluster 2;stage II;Grade 2;86;FEMALE;Dead;6.21;189;NA;Recurred/Progressed;3.12
+TCGA-EY-A1G8;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC non-CIMP c3;cluster 2;stage I;Grade 3;83;FEMALE;Dead;14.98;456;NA;NA;NA
+TCGA-EY-A1GC;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;62;FEMALE;Alive;54.11;NA;138;DiseaseFree;54.11
+TCGA-EY-A1GD;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC non-CIMP c3;cluster 2;stage I;Grade 1;51;FEMALE;Alive;53.84;NA;248;DiseaseFree;53.84
+TCGA-EY-A1GE;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC non-CIMP c3;cluster 4;stage I;Grade 1;67;FEMALE;Alive;24.34;NA;552;DiseaseFree;24.34
+TCGA-EY-A1GF;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 1;stage I;Grade 2;75;FEMALE;Alive;27.14;NA;532;DiseaseFree;27.14
+TCGA-EY-A1GH;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC non-CIMP c3;cluster 2;stage I;Grade 2;70;FEMALE;Alive;23.32;NA;528;DiseaseFree;23.32
+TCGA-EY-A1GI;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC non-CIMP c3;cluster 2;stage I;Grade 2;52;FEMALE;Alive;23.32;NA;507;DiseaseFree;23.32
+TCGA-EY-A1GJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC Serous c4;cluster 3;stage I;Grade 3;73;FEMALE;Alive;23.88;NA;511;DiseaseFree;23.88
+TCGA-EY-A1GK;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 3;74;FEMALE;Alive;22.77;NA;504;DiseaseFree;22.77
+TCGA-EY-A1GL;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC CIMP c18;cluster 1;stage II;Grade 2;51;FEMALE;Alive;33.31;NA;425;DiseaseFree;33.31
+TCGA-EY-A1GM;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;60;FEMALE;Dead;32.69;NA;210;Recurred/Progressed;25.99
+TCGA-EY-A1GO;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC Serous c4;cluster 4;stage III;Grade 2;65;FEMALE;Alive;19.25;NA;360;Recurred/Progressed;16.98
+TCGA-EY-A1GP;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC Serous c4;cluster 3;stage I;Grade 1;54;FEMALE;Alive;18.82;NA;348;DiseaseFree;18.82
+TCGA-EY-A1GQ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 3;76;FEMALE;Alive;17.87;NA;340;Recurred/Progressed;10.97
+TCGA-EY-A1GR;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;67;FEMALE;Alive;17.61;NA;344;DiseaseFree;17.61
+TCGA-EY-A1GS;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;BRCA CIMP c7;cluster 2;stage IV;Grade 3;71;FEMALE;Dead;22.01;NA;284;NA;NA
+TCGA-EY-A1GT;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;3;UCEC CIMP c18;cluster 1;stage III;Grade 1;68;FEMALE;Alive;16.1;NA;300;DiseaseFree;16.1
+TCGA-EY-A1GU;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 2;66;FEMALE;Dead;32.75;NA;259;NA;NA
+TCGA-EY-A1GV;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;Notassigned;MSS;3;OV-like c1;cluster 3;stage III;Grade 3;75;FEMALE;Alive;15.8;NA;257;DiseaseFree;15.8
+TCGA-EY-A1GW;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;2;UCEC non-CIMP c3;cluster 2;stage IV;Grade 3;73;FEMALE;Dead;11.07;NA;260;Recurred/Progressed;6.24
+TCGA-EY-A1GX;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC CIMP c18;cluster 1;stage III;Grade 2;76;FEMALE;Dead;37.02;NA;166;Recurred/Progressed;24.41
+TCGA-EY-A1H0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage III;Grade 2;57;FEMALE;Alive;19.32;NA;339;DiseaseFree;19.32
+TCGA-EY-A210;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;Notassigned;MSI-L;NA;UCEC non-CIMP c3;cluster 3;stage III;Grade 3;82;FEMALE;Alive;12.58;NA;166;DiseaseFree;12.58
+TCGA-EY-A212;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage III;Grade 3;83;FEMALE;Dead;10.18;NA;110;NA;NA
+TCGA-EY-A214;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;NA;UCEC Serous c4;cluster 3;stage III;Grade 3;66;FEMALE;Alive;14.39;NA;252;DiseaseFree;14.39
+TCGA-EY-A215;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;NA;UCEC CIMP c18;cluster 1;stage I;Grade 3;60;FEMALE;Alive;18.86;NA;391;DiseaseFree;18.86
+TCGA-EY-A2OM;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;55;FEMALE;Alive;22.8;NA;236;DiseaseFree;22.8
+TCGA-EY-A2ON;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage IV;NA;61;FEMALE;Dead;20.04;NA;171;Recurred/Progressed;7.42
+TCGA-EY-A2OO;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;NA;NA;NA;UCEC CIMP c18;;stage I;NA;56;FEMALE;Alive;45.73;NA;774;DiseaseFree;45.73
+TCGA-EY-A2OP;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC CIMP c18;;stage I;NA;63;FEMALE;Alive;31.01;NA;504;DiseaseFree;31.01
+TCGA-EY-A2OQ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;61;FEMALE;Alive;29.07;NA;294;DiseaseFree;29.07
+TCGA-EY-A3L3;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;82;FEMALE;Alive;27.33;NA;258;DiseaseFree;27.33
+TCGA-EY-A3QX;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage IV;NA;64;FEMALE;Dead;32.49;NA;162;Recurred/Progressed;29.43
+TCGA-EY-A4KR;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;56;FEMALE;Dead;11.37;NA;196;NA;NA
+TCGA-EY-A547;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;75;FEMALE;Alive;17.9;NA;545;DiseaseFree;17.9
+TCGA-EY-A548;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;83;FEMALE;Alive;14.13;NA;65;DiseaseFree;14.13
+TCGA-EY-A549;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;78;FEMALE;Alive;19.88;NA;212;DiseaseFree;19.88
+TCGA-EY-A54A;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;67;FEMALE;Alive;14.68;NA;113;DiseaseFree;14.68
+TCGA-EY-A5W2;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;72;FEMALE;Alive;16.95;NA;161;DiseaseFree;16.95
+TCGA-EY-A72D;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage II;NA;87;FEMALE;Alive;5.88;NA;179;DiseaseFree;5.88
+TCGA-FI-A2CX;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;OV-like c1;cluster 3;stage I;Grade 3;82;FEMALE;Alive;66.72;NA;1217;DiseaseFree;66.72
+TCGA-FI-A2CY;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;60;FEMALE;Alive;68.33;NA;1064;DiseaseFree;68.33
+TCGA-FI-A2D0;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC non-CIMP c3;cluster 4;stage I;Grade 3;55;FEMALE;Alive;39.85;NA;1034;DiseaseFree;39.85
+TCGA-FI-A2D2;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;CN high;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;66;FEMALE;Dead;77.27;NA;1095;Recurred/Progressed;62.98
+TCGA-FI-A2D4;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;UCEC CIMP c18;cluster 1;stage III;Grade 3;44;FEMALE;Dead;7.98;243;NA;NA;NA
+TCGA-FI-A2D5;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC non-CIMP c3;cluster 4;stage IV;Grade 3;56;FEMALE;Dead;13.83;421;NA;Recurred/Progressed;9.2
+TCGA-FI-A2D6;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;1;BRCA CIMP c7;cluster 1;stage I;Grade 3;74;FEMALE;Dead;25.2;NA;273;NA;NA
+TCGA-FI-A2EU;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;68;FEMALE;Alive;96.62;NA;2557;DiseaseFree;96.62
+TCGA-FI-A2EW;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;Indeterminant;1;UCEC Serous c4;cluster 3;stage II;Grade 3;71;FEMALE;Alive;58.97;NA;1795;Recurred/Progressed;38.4
+TCGA-FI-A2EX;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC non-CIMP c3;cluster 3;stage III;Grade 3;58;FEMALE;Alive;9.33;NA;276;Recurred/Progressed;7
+TCGA-FI-A2EY;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;OV-like c1;;stage III;NA;63;FEMALE;Dead;28.91;880;NA;Recurred/Progressed;18.96
+TCGA-FI-A2F4;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSI-H;2;UCEC CIMP c18;cluster 1;stage I;Grade 3;64;FEMALE;Alive;73.26;NA;881;DiseaseFree;73.26
+TCGA-FI-A2F8;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;CN high;MSS;1;UCEC Serous c4;cluster 3;stage II;Grade 3;64;FEMALE;Alive;30.65;NA;761;DiseaseFree;30.65
+TCGA-FI-A2F9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;Notassigned;MSS;1;UCEC Serous c4;cluster 3;stage I;Grade 3;79;FEMALE;Alive;59.23;NA;791;DiseaseFree;59.23
+TCGA-FI-A3PV;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;68;FEMALE;Dead;41.52;1249;NA;NA;NA
+TCGA-FI-A3PX;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;57;FEMALE;Alive;78.32;NA;1369;DiseaseFree;78.32
+TCGA-H5-A2HR;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;71;FEMALE;Alive;1.74;NA;53;DiseaseFree;1.74
+TCGA-JU-AAVI;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;61;FEMALE;Dead;17.74;NA;236;Recurred/Progressed;16.59
+TCGA-K6-A3WQ;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage IV;NA;60;FEMALE;Dead;14.03;NA;204;Recurred/Progressed;12.55
+TCGA-KJ-A3U4;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;55;FEMALE;Alive;35.97;NA;74;Recurred/Progressed;10.05
+TCGA-KP-A3VZ;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;OV-like c1;;stage IV;NA;69;FEMALE;Alive;23.72;NA;722;DiseaseFree;23.72
+TCGA-KP-A3W0;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;OV-like c1;;stage I;NA;72;FEMALE;Alive;13.27;NA;404;DiseaseFree;13.27
+TCGA-KP-A3W1;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC non-CIMP c3;;stage I;NA;76;FEMALE;Alive;9.46;NA;288;DiseaseFree;9.46
+TCGA-KP-A3W3;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage I;NA;72;FEMALE;Alive;26.08;NA;794;Recurred/Progressed;21.71
+TCGA-KP-A3W4;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;UCEC Serous c4;;stage III;NA;63;FEMALE;Dead;18.2;554;NA;Recurred/Progressed;10.55
+TCGA-PG-A5BC;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage II;NA;72;FEMALE;Alive;23.23;NA;329;DiseaseFree;23.23
+TCGA-PG-A6IB;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;68;FEMALE;Alive;21.29;NA;277;DiseaseFree;21.29
+TCGA-PG-A7D5;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;62;FEMALE;Alive;38.67;NA;729;DiseaseFree;38.67
+TCGA-PG-A914;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;73;FEMALE;Alive;22.57;NA;393;DiseaseFree;22.57
+TCGA-PG-A915;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;60;FEMALE;Alive;8.18;NA;213;DiseaseFree;8.18
+TCGA-PG-A916;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;70;FEMALE;Alive;17.15;NA;342;DiseaseFree;17.15
+TCGA-PG-A917;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;74;FEMALE;Alive;6.96;NA;212;DiseaseFree;6.96
+TCGA-QF-A5YS;Uterine Corpus Endometroid Cancer;Mixed serous and endometrioid;NA;NA;NA;;;stage II;NA;57;FEMALE;Alive;22.63;NA;275;DiseaseFree;22.63
+TCGA-QF-A5YT;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage II;NA;57;FEMALE;Alive;39.91;NA;887;DiseaseFree;39.91
+TCGA-QS-A5YQ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;55;FEMALE;Alive;24.93;NA;128;DiseaseFree;24.93
+TCGA-QS-A5YR;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;61;FEMALE;Alive;23.62;NA;168;DiseaseFree;23.62
+TCGA-QS-A744;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;86;FEMALE;Alive;14.82;NA;143;DiseaseFree;14.82
+TCGA-QS-A8F1;Uterine Corpus Endometroid Cancer;Serous endometrial adenocarcinoma;NA;NA;NA;;;stage III;NA;85;FEMALE;Dead;4.43;NA;125;NA;NA
+TCGA-SJ-A6ZI;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;64;FEMALE;Alive;20.73;NA;128;DiseaseFree;20.73
+TCGA-SJ-A6ZJ;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;61;FEMALE;Alive;18.27;NA;234;DiseaseFree;18.27
+TCGA-SL-A6J9;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;73;FEMALE;Alive;0.07;NA;2;DiseaseFree;0.07
+TCGA-SL-A6JA;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;77;FEMALE;Alive;0.23;NA;7;DiseaseFree;0.23

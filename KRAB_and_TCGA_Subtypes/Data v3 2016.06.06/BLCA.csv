@@ -1,0 +1,439 @@
+PatientID;cohort;histological_subtype;X_PANCAN_Cluster_Cluster_PANCAN;X_PANCAN_DNAMethyl_BLCA;X_PANCAN_DNAMethyl_PANCAN;X_PANCAN_UNC_RNAseq_PANCAN_K16;pathologic_T;clinical_T;pathologic_N;pathologic_M;pathologic_stage;neoplasm_histologic_grade;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months;smoking_history;pack_per_year
+TCGA-2F-A9KO;bladder urothelial carcinoma;NA;;;;;;;;;;High Grade;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+TCGA-2F-A9KP;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N2;MX;Stage IV;High Grade;66;MALE;Dead;11.96;364;NA;Recurred/Progressed;11.27;4;62
+TCGA-2F-A9KQ;bladder urothelial carcinoma;Non-Papillary;;;;;T3;TX;N0;M0;Stage III;High Grade;69;MALE;Alive;94.81;NA;2555;DiseaseFree;94.81;1;NA
+TCGA-2F-A9KR;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;M0;Stage III;High Grade;59;FEMALE;Dead;104.57;NA;3148;Recurred/Progressed;101.38;2;22.5
+TCGA-2F-A9KT;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;N0;M0;Stage II;High Grade;83;MALE;Alive;108.87;NA;2991;DiseaseFree;108.87;2;NA
+TCGA-2F-A9KW;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;MX;Stage III;High Grade;67;FEMALE;Dead;8.34;NA;147;Recurred/Progressed;2.79;3;NA
+TCGA-4Z-AA7M;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;M0;Stage III;High Grade;65;MALE;Alive;16.26;NA;405;DiseaseFree;16.26;2;10
+TCGA-4Z-AA7N;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;M0;Stage III;High Grade;65;MALE;Dead;44.91;NA;655;NA;NA;2;NA
+TCGA-4Z-AA7O;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;M0;Stage II;High Grade;64;MALE;Alive;16.82;NA;399;DiseaseFree;16.82;2;NA
+TCGA-4Z-AA7Q;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T3;NX;M0;Stage III;High Grade;79;MALE;Dead;16.75;510;NA;NA;NA;4;NA
+TCGA-4Z-AA7R;bladder urothelial carcinoma;Papillary;;;;;T4;T2;N0;M0;Stage IV;High Grade;73;MALE;Dead;17.15;NA;493;Recurred/Progressed;11.6;2;NA
+TCGA-4Z-AA7S;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T2;N0;M0;Stage III;High Grade;66;MALE;Dead;34.95;1064;NA;NA;NA;1;NA
+TCGA-4Z-AA7W;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;N0;M0;Stage II;High Grade;55;MALE;Alive;27.6;NA;742;Recurred/Progressed;24.97;1;NA
+TCGA-4Z-AA7Y;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;M0;Stage II;High Grade;60;MALE;Alive;50;NA;1459;DiseaseFree;50;2;NA
+TCGA-4Z-AA80;bladder urothelial carcinoma;Papillary;;;;;T2;T1;N0;M0;Stage II;High Grade;73;MALE;Dead;0.62;19;NA;NA;NA;5;NA
+TCGA-4Z-AA81;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;M0;Stage II;High Grade;80;MALE;Dead;41.72;NA;710;NA;NA;3;NA
+TCGA-4Z-AA82;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;N1;M0;Stage IV;High Grade;59;MALE;Dead;51.12;NA;1538;Recurred/Progressed;37.78;2;NA
+TCGA-4Z-AA83;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;M0;Stage II;High Grade;52;MALE;Alive;66.49;NA;1943;DiseaseFree;66.49;4;NA
+TCGA-4Z-AA84;bladder urothelial carcinoma;Papillary;;;;;T3;T1;N2;M1;Stage IV;;61;MALE;Alive;15.11;NA;460;DiseaseFree;15.11;2;NA
+TCGA-4Z-AA86;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N1;M0;Stage IV;High Grade;66;MALE;Dead;10.22;NA;270;Recurred/Progressed;4.47;3;NA
+TCGA-4Z-AA87;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T4;N0;M0;Stage III;High Grade;72;MALE;Alive;47.77;NA;243;Recurred/Progressed;19.09;1;NA
+TCGA-4Z-AA89;bladder urothelial carcinoma;Papillary;;;;;T4;TX;N0;M0;Stage IV;High Grade;60;MALE;Alive;33.8;NA;1029;Recurred/Progressed;29.07;4;40
+TCGA-5N-A9KI;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T4;NX;MX;Stage III;;76;FEMALE;Dead;2.5;76;NA;NA;NA;2;60
+TCGA-5N-A9KM;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T4;N0;MX;Stage III;;73;FEMALE;Dead;17.41;530;NA;Recurred/Progressed;9.07;4;30
+TCGA-BL-A0C8;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T1;;NX;M0;Stage I;High Grade;73;MALE;Alive;40.05;NA;389;Recurred/Progressed;25.99;3;10
+TCGA-BL-A13I;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 1;Cluster 5;RNA cluster 2;T3;;N0;M0;Stage III;High Grade;57;FEMALE;Dead;7.33;223;NA;Recurred/Progressed;7.1;2;15
+TCGA-BL-A13J;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 2;Cluster 6;BLCA nonsquamous-like c1;T4;;N2;M0;Stage IV;High Grade;65;MALE;Dead;2.66;81;NA;NA;NA;2;24
+TCGA-BL-A13J;bladder urothelial carcinoma;Papillary;C8-BLCA;;;;T4;;N2;M0;Stage IV;High Grade;65;MALE;Dead;2.66;81;NA;NA;NA;2;24
+TCGA-BL-A3JM;bladder urothelial carcinoma;NA;C8-BLCA;cluster 4;Cluster 6;RNA cluster 3;T3;;N0;M0;Stage III;High Grade;62;MALE;Dead;6.73;205;NA;Recurred/Progressed;3.65;4;49
+TCGA-BL-A5ZZ;bladder urothelial carcinoma;Papillary;;;;;T4;;N0;MX;Stage III;High Grade;80;FEMALE;Alive;12.39;NA;197;Recurred/Progressed;7.95;4;30
+TCGA-BT-A0S7;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 3;Low purity c2;BLCA nonsquamous-like c1;T4;;N0;MX;Stage III;High Grade;75;MALE;Dead;6.57;200;NA;NA;NA;3;NA
+TCGA-BT-A0YX;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 1;Cluster 14 (HNSC);squamous-like c4;T3;T3;N0;M0;Stage III;High Grade;70;FEMALE;Dead;13.14;NA;363;Recurred/Progressed;10.71;1;NA
+TCGA-BT-A20J;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 1;Cluster 5;RNA cluster 5;T2;T2;N0;MX;Stage II;High Grade;75;MALE;Dead;19.02;579;NA;Recurred/Progressed;14.19;3;20
+TCGA-BT-A20J;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;;;;T2;T2;N0;MX;Stage II;High Grade;75;MALE;Dead;19.02;579;NA;Recurred/Progressed;14.19;3;20
+TCGA-BT-A20N;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 2;Cluster 6;BLCA nonsquamous-like c1;T3;T3;N0;MX;Stage III;High Grade;72;MALE;Dead;26.12;795;NA;NA;NA;2;50
+TCGA-BT-A20N;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;;;;T3;T3;N0;MX;Stage III;High Grade;72;MALE;Dead;26.12;795;NA;NA;NA;2;50
+TCGA-BT-A20O;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 1;Cluster 5;RNA cluster 2;T3;T3;N0;MX;Stage III;High Grade;75;MALE;Dead;12.16;370;NA;Recurred/Progressed;10.35;NA;NA
+TCGA-BT-A20P;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 5;BLCA nonsquamous-like c1;T3;T3;N0;M0;Stage III;High Grade;81;FEMALE;Dead;17.87;544;NA;NA;NA;1;NA
+TCGA-BT-A20P;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;;;;T3;T3;N0;M0;Stage III;High Grade;81;FEMALE;Dead;17.87;544;NA;NA;NA;1;NA
+TCGA-BT-A20Q;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 2;Cluster 5;BLCA nonsquamous-like c1;T3;T3;N2;M0;Stage IV;High Grade;73;MALE;Dead;19.48;593;NA;NA;NA;1;NA
+TCGA-BT-A20Q;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;;;;T3;T3;N2;M0;Stage IV;High Grade;73;MALE;Dead;19.48;593;NA;NA;NA;1;NA
+TCGA-BT-A20R;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;T3;N1;M0;Stage IV;High Grade;79;FEMALE;Dead;5.06;154;NA;NA;NA;1;NA
+TCGA-BT-A20R;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;;;;T3;T3;N1;M0;Stage IV;High Grade;79;FEMALE;Dead;5.06;154;NA;NA;NA;1;NA
+TCGA-BT-A20T;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 5;BLCA nonsquamous-like c1;T3;T3;N1;M0;Stage IV;High Grade;63;MALE;Dead;14.88;453;NA;Recurred/Progressed;10.32;3;NA
+TCGA-BT-A20U;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 2;Cluster 14 (HNSC);squamous-like c4;T3;T3;N0;M0;Stage III;High Grade;70;FEMALE;Dead;14.95;455;NA;NA;NA;1;NA
+TCGA-BT-A20U;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;;;;T3;T3;N0;M0;Stage III;High Grade;70;FEMALE;Dead;14.95;455;NA;NA;NA;1;NA
+TCGA-BT-A20V;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 2;Cluster 14 (HNSC);squamous-like c4;T4;T4;N2;M0;Stage IV;High Grade;59;FEMALE;Dead;5.06;154;NA;NA;NA;NA;NA
+TCGA-BT-A20V;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;;;;T4;T4;N2;M0;Stage IV;High Grade;59;FEMALE;Dead;5.06;154;NA;NA;NA;NA;NA
+TCGA-BT-A20W;bladder urothelial carcinoma;Non-Papillary;C1-LUAD-enriched;cluster 2;Cluster 5;BLCA nonsquamous-like c1;T2;T2;N0;M0;Stage II;High Grade;71;MALE;Dead;8.34;254;NA;NA;NA;NA;NA
+TCGA-BT-A20W;bladder urothelial carcinoma;Non-Papillary;C1-LUAD-enriched;;;;T2;T2;N0;M0;Stage II;High Grade;71;MALE;Dead;8.34;254;NA;NA;NA;NA;NA
+TCGA-BT-A20X;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 1;Cluster 5;squamous-like c4;T4;T4;N2;M0;Stage IV;High Grade;56;MALE;Dead;8.25;251;NA;NA;NA;NA;NA
+TCGA-BT-A20X;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;;;;T4;T4;N2;M0;Stage IV;High Grade;56;MALE;Dead;8.25;251;NA;NA;NA;NA;NA
+TCGA-BT-A2LA;bladder urothelial carcinoma;Non-Papillary;C11-small-various;cluster 4;Cluster 6;GBM-like c6;T3;T3;N0;M0;Stage III;High Grade;54;MALE;Alive;17.15;NA;180;DiseaseFree;17.15;3;40
+TCGA-BT-A2LA;bladder urothelial carcinoma;Non-Papillary;C11-small-various;;;;T3;T3;N0;M0;Stage III;High Grade;54;MALE;Alive;17.15;NA;180;DiseaseFree;17.15;3;40
+TCGA-BT-A2LB;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;T3;N0;M0;Stage III;High Grade;73;FEMALE;Dead;16.16;NA;170;NA;NA;4;NA
+TCGA-BT-A2LB;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;;;;T3;T3;N0;M0;Stage III;High Grade;73;FEMALE;Dead;16.16;NA;170;NA;NA;4;NA
+TCGA-BT-A2LD;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;T3;N1;M0;Stage IV;High Grade;78;FEMALE;Dead;20.47;NA;111;Recurred/Progressed;18.23;1;NA
+TCGA-BT-A3PH;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T3;T3;N2;MX;Stage IV;High Grade;76;MALE;Dead;4.66;142;NA;NA;NA;1;NA
+TCGA-BT-A3PJ;bladder urothelial carcinoma;Papillary;C1-LUAD-enriched;cluster 4;Cluster 6;squamous-like c4;T3;;N0;M0;Stage III;High Grade;76;MALE;Alive;25.92;NA;33;DiseaseFree;25.92;1;NA
+TCGA-BT-A3PK;bladder urothelial carcinoma;Papillary;C2-Squamous-like;cluster 1;Cluster 5;squamous-like c4;T2;T2;N0;MX;Stage II;High Grade;80;MALE;Dead;9.95;NA;63;NA;NA;1;NA
+TCGA-BT-A42B;bladder urothelial carcinoma;Papillary;;;Cluster 6;;T3;T3;N1;MX;Stage IV;High Grade;59;MALE;Dead;17.54;NA;469;NA;NA;2;20
+TCGA-BT-A42C;bladder urothelial carcinoma;Papillary;;;Cluster 6;;;T2;N0;M0;Stage II;High Grade;64;MALE;Alive;28.68;NA;421;DiseaseFree;28.68;2;132
+TCGA-BT-A42E;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T3;N0;M0;Stage III;High Grade;74;MALE;Alive;36.4;NA;304;DiseaseFree;36.4;5;50
+TCGA-BT-A42F;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T4;N1;MX;Stage IV;High Grade;64;MALE;Alive;28.38;NA;380;DiseaseFree;28.38;3;NA
+TCGA-C4-A0EZ;bladder urothelial carcinoma;Non-Papillary;C1-LUAD-enriched;cluster 4;Cluster 6;;T3;;N1;M1;Stage IV;High Grade;69;FEMALE;Dead;8.97;273;NA;NA;NA;2;34
+TCGA-C4-A0F0;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 1;Cluster 14 (HNSC);squamous-like c4;T2;;N0;M0;Stage II;High Grade;60;MALE;Alive;1.94;NA;59;DiseaseFree;1.94;2;61
+TCGA-C4-A0F1;bladder urothelial carcinoma;Non-Papillary;;cluster 3;Low purity c2;;T3;;N0;M0;Stage III;High Grade;71;MALE;Alive;2.92;NA;89;DiseaseFree;2.92;2;75
+TCGA-C4-A0F6;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 5;BLCA nonsquamous-like c1;T3;;N0;M0;Stage III;High Grade;82;FEMALE;Alive;23;NA;61;DiseaseFree;23;2;35
+TCGA-C4-A0F7;bladder urothelial carcinoma;Non-Papillary;;cluster 2;Cluster 13 (HNSC-LUSC);;T4;;N2;M0;Stage IV;High Grade;77;MALE;Dead;2.04;62;NA;NA;NA;1;NA
+TCGA-CF-A1HR;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 1;Cluster 5;BLCA nonsquamous-like c1;T3;;N0;M0;Stage III;High Grade;62;MALE;Alive;12.78;NA;14;Recurred/Progressed;9.66;1;NA
+TCGA-CF-A1HS;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 2;Cluster 13 (HNSC-LUSC);squamous-like c4;T3;;N0;M0;Stage III;High Grade;75;FEMALE;Alive;12.55;NA;13;Recurred/Progressed;4.37;1;NA
+TCGA-CF-A27C;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 4;Cluster 5;BLCA nonsquamous-like c1;T3;;N0;M0;Stage III;High Grade;52;MALE;Alive;13.96;NA;21;DiseaseFree;13.96;1;NA
+TCGA-CF-A3MF;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T3;;N0;M0;Stage III;Low Grade;34;MALE;Alive;12.58;NA;0;DiseaseFree;12.58;1;NA
+TCGA-CF-A3MG;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 4;Cluster 5;BLCA nonsquamous-like c1;T2;;N0;M0;Stage II;Low Grade;48;MALE;Alive;12.12;NA;0;DiseaseFree;12.12;1;NA
+TCGA-CF-A3MH;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 4;Cluster 5;BLCA nonsquamous-like c1;T2;;N0;M0;Stage II;Low Grade;75;MALE;Alive;13.07;NA;0;DiseaseFree;13.07;2;25
+TCGA-CF-A3MI;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T2;;N0;M0;Stage II;Low Grade;62;MALE;Alive;12.16;NA;0;DiseaseFree;12.16;2;40
+TCGA-CF-A47S;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;M0;Stage II;Low Grade;41;MALE;Alive;10.94;NA;4;DiseaseFree;10.94;1;NA
+TCGA-CF-A47T;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;M0;Stage II;Low Grade;58;FEMALE;Dead;12.65;NA;2;Recurred/Progressed;4.57;1;NA
+TCGA-CF-A47V;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;M0;Stage II;High Grade;52;MALE;Alive;12.45;NA;3;DiseaseFree;12.45;1;NA
+TCGA-CF-A47W;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;M0;Stage II;Low Grade;42;MALE;Alive;12.09;NA;2;DiseaseFree;12.09;2;10
+TCGA-CF-A47X;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;M0;Stage II;Low Grade;60;MALE;Alive;12.61;NA;3;DiseaseFree;12.61;2;20
+TCGA-CF-A47Y;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;M0;Stage II;Low Grade;55;MALE;Alive;12.25;NA;3;DiseaseFree;12.25;1;NA
+TCGA-CF-A5U8;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;M0;Stage II;Low Grade;59;MALE;Alive;13.11;NA;0;DiseaseFree;13.11;1;NA
+TCGA-CF-A5UA;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;M0;Stage II;Low Grade;67;MALE;Alive;11.99;NA;0;DiseaseFree;11.99;4;30
+TCGA-CF-A7I0;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;M0;Stage II;Low Grade;54;MALE;Alive;12.09;NA;0;DiseaseFree;12.09;1;NA
+TCGA-CF-A8HX;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;M0;Stage II;High Grade;55;FEMALE;Alive;11.33;NA;-35;DiseaseFree;11.33;1;NA
+TCGA-CF-A8HY;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;M0;Stage II;High Grade;59;MALE;Alive;11.33;NA;-21;DiseaseFree;11.33;1;NA
+TCGA-CF-A9FF;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;M0;Stage II;High Grade;52;MALE;Alive;11.86;NA;-27;DiseaseFree;11.86;1;NA
+TCGA-CF-A9FH;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;M0;Stage II;Low Grade;85;MALE;Alive;-2.1;NA;-64;DiseaseFree;-2.1;3;80
+TCGA-CF-A9FL;bladder urothelial carcinoma;Papillary;;;;;T3;;N0;M0;Stage III;;85;MALE;Dead;18.56;NA;84;Recurred/Progressed;10.58;2;NA
+TCGA-CF-A9FM;bladder urothelial carcinoma;Papillary;;;;;T1;;N0;M0;Stage I;;50;MALE;Alive;13.07;NA;9;DiseaseFree;13.07;2;NA
+TCGA-CU-A0YN;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 2;Cluster 6;squamous-like c4;T3;;N0;M0;Stage III;High Grade;60;MALE;Dead;12.91;393;NA;NA;NA;2;40
+TCGA-CU-A0YN;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;;;;T3;;N0;M0;Stage III;High Grade;60;MALE;Dead;12.91;393;NA;NA;NA;2;40
+TCGA-CU-A0YO;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 1;Cluster 5;BLCA nonsquamous-like c1;T3;;N2;MX;Stage IV;High Grade;84;MALE;Dead;4.89;149;NA;Recurred/Progressed;3.88;3;NA
+TCGA-CU-A0YR;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 1;Cluster 5;BLCA nonsquamous-like c1;T2;;N2;M0;Stage IV;High Grade;83;MALE;Dead;15.11;NA;219;Recurred/Progressed;7.56;3;12
+TCGA-CU-A0YR;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;;;;T2;;N2;M0;Stage IV;High Grade;83;MALE;Dead;15.11;NA;219;Recurred/Progressed;7.56;3;12
+TCGA-CU-A3KJ;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 4;Cluster 5;squamous-like c4;T3;;N0;M0;Stage III;High Grade;75;MALE;Alive;18.46;NA;166;Recurred/Progressed;5.45;3;60
+TCGA-CU-A3QU;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T2;;N1;M0;Stage IV;High Grade;58;MALE;Alive;5.19;NA;158;DiseaseFree;5.19;4;15
+TCGA-CU-A3YL;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T4;;N0;M0;Stage III;High Grade;67;MALE;Alive;29.76;NA;247;Recurred/Progressed;12.22;5;25
+TCGA-CU-A5W6;bladder urothelial carcinoma;Non-Papillary;;;;;T4;;N0;M0;Stage III;High Grade;70;MALE;Dead;1.84;56;NA;NA;NA;2;37
+TCGA-CU-A72E;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;M0;Stage IV;High Grade;76;MALE;Dead;13.57;NA;284;Recurred/Progressed;11.96;3;68
+TCGA-DK-A1A3;bladder urothelial carcinoma;NA;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;;N2;M0;Stage IV;High Grade;60;MALE;Dead;21.85;NA;77;NA;NA;3;24
+TCGA-DK-A1A5;bladder urothelial carcinoma;Non-Papillary;C1-LUAD-enriched;cluster 2;Cluster 6;BLCA nonsquamous-like c1;T2;;N0;M0;Stage II;High Grade;79;MALE;Dead;2.14;65;NA;NA;NA;3;20
+TCGA-DK-A1A6;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T2;;N1;M0;Stage IV;High Grade;53;MALE;Alive;66.36;NA;955;DiseaseFree;66.36;4;60
+TCGA-DK-A1A6;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;;;;T2;;N1;M0;Stage IV;High Grade;53;MALE;Alive;66.36;NA;955;DiseaseFree;66.36;4;60
+TCGA-DK-A1A6;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T2;;N1;M0;Stage IV;High Grade;53;MALE;Alive;66.36;NA;955;DiseaseFree;66.36;4;60
+TCGA-DK-A1A6;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;;;;T2;;N1;M0;Stage IV;High Grade;53;MALE;Alive;66.36;NA;955;DiseaseFree;66.36;4;60
+TCGA-DK-A1A7;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 5;BLCA nonsquamous-like c1;T3;;N2;M0;Stage IV;High Grade;67;FEMALE;Alive;18.4;NA;273;Recurred/Progressed;3.68;1;NA
+TCGA-DK-A1AA;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;;N0;M0;Stage III;High Grade;57;MALE;Alive;18.99;NA;214;DiseaseFree;18.99;3;20
+TCGA-DK-A1AB;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 1;BRCA basal-like c8;squamous-like c4;T4;;N2;M0;Stage IV;High Grade;74;FEMALE;Dead;16.69;NA;271;Recurred/Progressed;11.96;3;NA
+TCGA-DK-A1AC;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;;N0;M0;Stage III;High Grade;72;MALE;Alive;130.78;NA;3617;DiseaseFree;130.78;4;20
+TCGA-DK-A1AD;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;;N2;M0;Stage IV;High Grade;69;MALE;Alive;112.35;NA;3056;DiseaseFree;112.35;NA;NA
+TCGA-DK-A1AE;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 3;Cluster 5;squamous-like c4;T3;;N0;M0;Stage III;High Grade;84;MALE;Alive;16.13;NA;218;Recurred/Progressed;6.93;3;10
+TCGA-DK-A1AF;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 1;Low purity c2;BLCA nonsquamous-like c1;T3;;N2;M0;Stage IV;High Grade;84;FEMALE;Alive;17.61;NA;178;Recurred/Progressed;17.35;1;NA
+TCGA-DK-A1AG;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;;N0;M0;Stage III;High Grade;65;MALE;Alive;15.6;NA;202;DiseaseFree;15.6;1;NA
+TCGA-DK-A2HX;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 2;Cluster 6;BLCA nonsquamous-like c1;T3;;N2;M0;Stage IV;High Grade;80;FEMALE;Dead;46.65;NA;55;NA;NA;3;20
+TCGA-DK-A2I1;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 3;Low purity c2;BLCA nonsquamous-like c1;T2;;N0;M0;Stage II;High Grade;73;FEMALE;Alive;17.94;NA;322;DiseaseFree;17.94;1;NA
+TCGA-DK-A2I2;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 1;Cluster 5;squamous-like c4;T3;;N3;M0;Stage IV;High Grade;63;FEMALE;Dead;7.79;237;NA;Recurred/Progressed;5.35;4;NA
+TCGA-DK-A2I4;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 2;Cluster 6;RNA cluster 2;T3;;N0;M0;Stage III;High Grade;79;MALE;Alive;142.67;NA;3767;DiseaseFree;142.67;3;NA
+TCGA-DK-A2I6;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T2;;N1;M0;Stage IV;High Grade;81;MALE;Alive;87.25;NA;2292;DiseaseFree;87.25;3;16
+TCGA-DK-A3IK;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;;N2;M0;Stage IV;High Grade;87;MALE;Dead;4.8;NA;67;NA;NA;1;NA
+TCGA-DK-A3IL;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T3;;N2;M0;Stage IV;High Grade;79;FEMALE;Dead;13.57;NA;121;NA;NA;3;108
+TCGA-DK-A3IM;bladder urothelial carcinoma;Papillary;C2-Squamous-like;cluster 1;Cluster 5;squamous-like c4;T3;;N0;M0;Stage III;High Grade;76;MALE;Dead;8.15;NA;238;Recurred/Progressed;6.6;3;8
+TCGA-DK-A3IN;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T4;;N0;M0;Stage III;High Grade;72;MALE;Dead;8.21;250;NA;NA;NA;3;40
+TCGA-DK-A3IQ;bladder urothelial carcinoma;Papillary;C2-Squamous-like;cluster 1;Cluster 5;;T3;;N0;M0;Stage III;High Grade;74;MALE;Dead;17.71;NA;319;Recurred/Progressed;8.21;3;40
+TCGA-DK-A3IS;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T2;;N0;M0;Stage II;High Grade;68;MALE;Alive;50.23;NA;1151;DiseaseFree;50.23;3;NA
+TCGA-DK-A3IT;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 2;Cluster 5;BLCA nonsquamous-like c1;T3;;N0;M0;Stage III;High Grade;62;MALE;Alive;21.29;NA;168;DiseaseFree;21.29;2;NA
+TCGA-DK-A3IU;bladder urothelial carcinoma;NA;C8-BLCA;cluster 2;Cluster 5;RNA cluster 2;T2;;N0;M0;Stage II;High Grade;58;MALE;Dead;23.19;NA;352;Recurred/Progressed;19.05;4;60
+TCGA-DK-A3IV;bladder urothelial carcinoma;Non-Papillary;C1-LUAD-enriched;cluster 2;Cluster 6;BLCA nonsquamous-like c1;;T2;NX;M0;Stage II;High Grade;60;MALE;Dead;9.66;294;NA;Recurred/Progressed;6.96;4;80
+TCGA-DK-A3WW;bladder urothelial carcinoma;Papillary;;;Cluster 14 (HNSC);;T3;;N0;M0;Stage III;High Grade;57;MALE;Alive;20.8;NA;252;DiseaseFree;20.8;1;NA
+TCGA-DK-A3WX;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 1;Cluster 5;squamous-like c4;T3;T2;N0;M0;Stage III;High Grade;67;FEMALE;Dead;10.55;321;NA;Recurred/Progressed;9.95;3;30
+TCGA-DK-A3WY;bladder urothelial carcinoma;Non-Papillary;C5-KIRC;cluster 1;Low purity c2;BRCA nonbasal-like c7;T3;;N0;M0;Stage III;High Grade;67;FEMALE;Alive;163.17;NA;3989;DiseaseFree;163.17;1;NA
+TCGA-DK-A3X1;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;;N0;M0;Stage III;High Grade;78;FEMALE;Alive;66;NA;1248;DiseaseFree;66;3;20
+TCGA-DK-A3X2;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 4;Cluster 5;BLCA nonsquamous-like c1;T3;;N2;M0;Stage IV;High Grade;85;MALE;Dead;17.97;547;NA;Recurred/Progressed;17.51;3;40
+TCGA-DK-A6AV;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;M0;Stage II;High Grade;82;FEMALE;Alive;64.13;NA;1952;DiseaseFree;64.13;4;12
+TCGA-DK-A6AW;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;M0;Stage II;High Grade;70;MALE;Alive;53.25;NA;1264;DiseaseFree;53.25;4;25
+TCGA-DK-A6B0;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;M0;Stage II;High Grade;61;MALE;Alive;76.54;NA;1966;DiseaseFree;76.54;3;20
+TCGA-DK-A6B1;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;M0;Stage II;High Grade;67;MALE;Alive;67.31;NA;2049;DiseaseFree;67.31;1;NA
+TCGA-DK-A6B2;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N1;M0;Stage IV;High Grade;70;MALE;Alive;15.67;NA;477;Recurred/Progressed;8.8;2;57
+TCGA-DK-A6B5;bladder urothelial carcinoma;Non-Papillary;;;;;T4;;N2;M0;Stage IV;High Grade;45;MALE;Alive;50.66;NA;982;DiseaseFree;50.66;1;NA
+TCGA-DK-A6B6;bladder urothelial carcinoma;Papillary;;;;;;T2;NX;MX;Stage II;High Grade;57;MALE;Alive;36.63;NA;646;DiseaseFree;36.63;3;7
+TCGA-DK-AA6L;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N1;MX;Stage IV;High Grade;48;MALE;Dead;38.21;1163;NA;Recurred/Progressed;30.22;2;730
+TCGA-DK-AA6M;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;N0;M0;Stage II;;64;FEMALE;Alive;51.97;NA;1301;DiseaseFree;51.97;[Unknown];NA
+TCGA-DK-AA6P;bladder urothelial carcinoma;Papillary;;;;;;T2;N0;M0;Stage II;;72;FEMALE;Alive;15.01;NA;457;Recurred/Progressed;0.53;4;30
+TCGA-DK-AA6Q;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N1;M0;Stage IV;High Grade;61;FEMALE;Dead;13.57;413;NA;Recurred/Progressed;9.36;1;NA
+TCGA-DK-AA6R;bladder urothelial carcinoma;Non-Papillary;;;;;T4;;N1;M0;Stage IV;;68;MALE;Alive;165.6;NA;4684;Recurred/Progressed;161.2;4;55
+TCGA-DK-AA6S;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;M0;Stage III;High Grade;60;MALE;Alive;165.9;NA;4670;Recurred/Progressed;72.34;1;NA
+TCGA-DK-AA6T;bladder urothelial carcinoma;Non-Papillary;;;;;;T2;N0;M0;Stage II;High Grade;63;MALE;Alive;18.79;NA;376;DiseaseFree;18.79;3;30
+TCGA-DK-AA6U;bladder urothelial carcinoma;Papillary;;;;;;T2;N0;M0;Stage II;;64;MALE;Alive;18.99;NA;319;DiseaseFree;18.99;3;15
+TCGA-DK-AA6W;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;N0;M0;Stage II;High Grade;78;MALE;Dead;13.63;NA;263;Recurred/Progressed;12.45;1;NA
+TCGA-DK-AA6X;bladder urothelial carcinoma;Papillary;;;;;;T2;N0;M0;Stage II;High Grade;63;MALE;Alive;15.34;NA;229;DiseaseFree;15.34;2;NA
+TCGA-DK-AA71;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;M0;Stage II;;71;MALE;Alive;13.63;NA;415;DiseaseFree;13.63;1;NA
+TCGA-DK-AA74;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;M0;Stage III;High Grade;75;MALE;Alive;56.11;NA;1323;DiseaseFree;56.11;3;34
+TCGA-DK-AA75;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;M0;Stage III;;82;MALE;Dead;11.17;340;NA;Recurred/Progressed;10.78;3;30
+TCGA-DK-AA76;bladder urothelial carcinoma;Papillary;;;;;;T2;N0;M0;Stage II;High Grade;64;FEMALE;Alive;12.02;NA;366;DiseaseFree;12.02;4;40
+TCGA-DK-AA77;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;M0;Stage II;;61;MALE;Alive;20.3;NA;323;Recurred/Progressed;15.34;1;NA
+TCGA-E5-A2PC;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 3;Cluster 5;squamous-like c4;T2;;N1;MX;Stage IV;High Grade;61;FEMALE;Alive;43.56;NA;1108;DiseaseFree;43.56;4;NA
+TCGA-E5-A4TZ;bladder urothelial carcinoma;Papillary;;;;;T4;;N2;MX;Stage IV;High Grade;64;MALE;Dead;15.34;467;NA;Recurred/Progressed;14.29;4;85
+TCGA-E5-A4U1;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;M0;Stage II;High Grade;72;MALE;Alive;38.8;NA;796;Recurred/Progressed;32.59;4;NA
+TCGA-E7-A3X6;bladder urothelial carcinoma;Papillary;C2-Squamous-like;cluster 3;Cluster 5;squamous-like c4;T2;;NX;M0;Stage II;Low Grade;70;MALE;Dead;29.7;NA;0;Recurred/Progressed;12.12;1;NA
+TCGA-E7-A3Y1;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;;T2;N0;M0;Stage II;Low Grade;57;MALE;Alive;5.35;NA;3;DiseaseFree;5.35;1;NA
+TCGA-E7-A4IJ;bladder urothelial carcinoma;Papillary;;;;;T2;;NX;M0;Stage II;High Grade;56;MALE;Dead;22.14;NA;15;Recurred/Progressed;20.37;2;NA
+TCGA-E7-A4XJ;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;N0;M0;Stage II;High Grade;66;MALE;Dead;2.23;NA;16;NA;NA;2;20
+TCGA-E7-A519;bladder urothelial carcinoma;Papillary;;;;;T2;;NX;M0;Stage II;High Grade;72;MALE;Alive;16.69;NA;0;DiseaseFree;16.69;2;50
+TCGA-E7-A541;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;MX;Stage II;High Grade;66;MALE;Dead;25.56;NA;18;NA;NA;[Unknown];NA
+TCGA-E7-A5KE;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;M0;Stage II;High Grade;78;FEMALE;Alive;0.56;NA;17;DiseaseFree;0.56;1;NA
+TCGA-E7-A5KF;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;M0;Stage II;Low Grade;67;MALE;Alive;0.66;NA;20;DiseaseFree;0.66;2;25
+TCGA-E7-A677;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;M0;Stage II;Low Grade;81;MALE;Alive;26.94;NA;42;DiseaseFree;26.94;1;NA
+TCGA-E7-A678;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;M0;Stage III;Low Grade;55;MALE;Alive;26.22;NA;25;DiseaseFree;26.22;2;25
+TCGA-E7-A6MD;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T2;N1;M0;Stage IV;;66;MALE;Alive;4.24;NA;129;DiseaseFree;4.24;[Unknown];NA
+TCGA-E7-A6ME;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;NX;M0;Stage II;High Grade;75;MALE;Alive;24.01;NA;17;DiseaseFree;24.01;2;15
+TCGA-E7-A6MF;bladder urothelial carcinoma;Papillary;;;;;T2;T2;NX;M0;Stage II;Low Grade;37;MALE;Alive;24.64;NA;41;DiseaseFree;24.64;2;2.5
+TCGA-E7-A7DU;bladder urothelial carcinoma;Papillary;;;;;T3;;N0;M0;Stage III;;73;MALE;Alive;0.92;NA;28;DiseaseFree;0.92;3;NA
+TCGA-E7-A7DV;bladder urothelial carcinoma;Papillary;;;;;T4;;N3;MX;Stage IV;High Grade;44;MALE;Alive;1.22;NA;37;DiseaseFree;1.22;[Unknown];NA
+TCGA-E7-A7PW;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;NX;M0;Stage III;High Grade;63;MALE;Alive;13.67;NA;19;Recurred/Progressed;5.72;4;5
+TCGA-E7-A7XN;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;M0;Stage III;High Grade;66;MALE;Alive;14.06;NA;14;Recurred/Progressed;6.24;2;10
+TCGA-E7-A85H;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;M0;Stage III;High Grade;64;MALE;Alive;12.94;NA;20;DiseaseFree;12.94;2;5
+TCGA-E7-A8O7;bladder urothelial carcinoma;Papillary;;;;;T2;T3;N0;M0;Stage II;Low Grade;52;MALE;Alive;15.31;NA;19;DiseaseFree;15.31;1;NA
+TCGA-E7-A8O8;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T3;N0;M0;Stage II;;59;MALE;Alive;0.43;NA;13;DiseaseFree;0.43;4;13
+TCGA-E7-A97P;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T3;NX;M0;Stage II;High Grade;73;MALE;Dead;14.36;NA;13;NA;NA;1;NA
+TCGA-E7-A97Q;bladder urothelial carcinoma;Non-Papillary;;;;;T4;;N3;MX;Stage IV;High Grade;60;FEMALE;Dead;8.08;NA;82;NA;NA;2;20
+TCGA-FD-A3B3;bladder urothelial carcinoma;Papillary;C2-Squamous-like;cluster 1;Cluster 5;squamous-like c4;T3;T2;N0;MX;Stage III;High Grade;74;FEMALE;Dead;32;NA;268;NA;NA;3;32
+TCGA-FD-A3B4;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 2;Cluster 14 (HNSC);squamous-like c4;T4;T2;N0;MX;Stage III;High Grade;55;FEMALE;Dead;16.75;NA;253;Recurred/Progressed;11.79;2;30
+TCGA-FD-A3B5;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 3;Cluster 5;squamous-like c4;T2;T2;N1;MX;Stage IV;High Grade;86;MALE;Dead;8.94;272;NA;NA;NA;3;25
+TCGA-FD-A3B6;bladder urothelial carcinoma;Papillary;C1-LUAD-enriched;cluster 2;Cluster 6;squamous-like c4;T2;T2;N0;MX;Stage II;High Grade;75;MALE;Dead;33.02;NA;209;NA;NA;2;60
+TCGA-FD-A3B7;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 1;Cluster 5;squamous-like c4;T3;T2;N0;MX;Stage III;High Grade;66;MALE;Dead;4.01;122;NA;Recurred/Progressed;3.61;4;25
+TCGA-FD-A3B8;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 1;Low purity c2;squamous-like c4;T2;T2;N0;MX;Stage II;High Grade;56;MALE;Alive;12.61;NA;336;DiseaseFree;12.61;4;40
+TCGA-FD-A3N5;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 2;Cluster 6;squamous-like c4;T2;;N0;MX;Stage II;High Grade;69;MALE;Dead;22.5;NA;272;Recurred/Progressed;11.37;3;40
+TCGA-FD-A3N6;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 4;Cluster 14 (HNSC);squamous-like c4;T2;;N0;MX;Stage II;High Grade;43;FEMALE;Alive;27.96;NA;242;DiseaseFree;27.96;4;8.25
+TCGA-FD-A3NA;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T2;;N0;MX;Stage II;High Grade;60;MALE;Alive;60.61;NA;974;Recurred/Progressed;43.96;3;45
+TCGA-FD-A3SJ;bladder urothelial carcinoma;Non-Papillary;C1-LUAD-enriched;cluster 3;Low purity c2;BLCA nonsquamous-like c1;T2;;N2;MX;Stage IV;High Grade;59;MALE;Dead;24.28;739;NA;Recurred/Progressed;18;2;40
+TCGA-FD-A3SL;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 2;Cluster 5;BLCA nonsquamous-like c1;T4;;N2;M1;Stage IV;High Grade;60;MALE;Dead;23.39;NA;334;Recurred/Progressed;8.54;1;NA
+TCGA-FD-A3SM;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;;N2;M1;Stage IV;High Grade;70;MALE;Dead;17.97;NA;186;Recurred/Progressed;4.73;3;80
+TCGA-FD-A3SN;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 2;Cluster 6;BLCA nonsquamous-like c1;T3;;N0;MX;Stage III;High Grade;79;MALE;Alive;29.14;NA;208;Recurred/Progressed;6.54;3;5
+TCGA-FD-A3SO;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 2;Cluster 6;squamous-like c4;T3;;N1;MX;Stage IV;High Grade;68;MALE;Dead;5.52;168;NA;Recurred/Progressed;4.7;3;30
+TCGA-FD-A3SP;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 1;Cluster 5;squamous-like c4;T3;;N0;MX;Stage III;High Grade;60;MALE;Alive;25.72;NA;139;DiseaseFree;25.72;4;12
+TCGA-FD-A3SQ;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 2;Cluster 5;BLCA nonsquamous-like c1;T3;;N2;MX;Stage IV;High Grade;62;MALE;Dead;46.75;1423;NA;Recurred/Progressed;36.86;4;60
+TCGA-FD-A3SR;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T4;;N2;MX;Stage IV;High Grade;68;MALE;Dead;19.78;602;NA;Recurred/Progressed;12.22;4;40
+TCGA-FD-A3SS;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 2;Cluster 6;BLCA nonsquamous-like c1;T4;;N3;MX;Stage IV;High Grade;66;MALE;Dead;12.84;NA;60;Recurred/Progressed;10.18;4;30
+TCGA-FD-A43N;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;MX;Stage III;High Grade;76;MALE;Alive;22.96;NA;240;DiseaseFree;22.96;2;112
+TCGA-FD-A43P;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T1;N0;MX;Stage II;High Grade;74;MALE;Alive;27.33;NA;125;DiseaseFree;27.33;4;44
+TCGA-FD-A43S;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;MX;Stage III;High Grade;71;FEMALE;Alive;14.95;NA;175;DiseaseFree;14.95;2;150
+TCGA-FD-A43U;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T4;N2;MX;Stage IV;High Grade;70;MALE;Alive;20.89;NA;208;Recurred/Progressed;16.33;3;20
+TCGA-FD-A43X;bladder urothelial carcinoma;Papillary;;;;;T2;T1;N0;MX;Stage II;High Grade;84;MALE;Alive;3.61;NA;110;DiseaseFree;3.61;3;60
+TCGA-FD-A43Y;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T2;N0;MX;Stage III;High Grade;65;MALE;Dead;15.57;NA;243;NA;NA;2;50
+TCGA-FD-A5BR;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;57;MALE;Alive;26.71;NA;407;DiseaseFree;26.71;1;NA
+TCGA-FD-A5BS;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;68;MALE;Alive;53.84;NA;1130;DiseaseFree;53.84;1;NA
+TCGA-FD-A5BT;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;84;MALE;Dead;10.78;328;NA;NA;NA;3;40
+TCGA-FD-A5BU;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;76;FEMALE;Alive;19.32;NA;209;DiseaseFree;19.32;2;67
+TCGA-FD-A5BV;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;47;FEMALE;Dead;5.35;163;NA;Recurred/Progressed;4.4;2;28
+TCGA-FD-A5BX;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N1;MX;Stage IV;High Grade;82;MALE;Dead;5.68;173;NA;Recurred/Progressed;3.25;3;111
+TCGA-FD-A5BY;bladder urothelial carcinoma;NA;;;;;T3;;N0;MX;Stage III;High Grade;63;FEMALE;Alive;8.25;NA;208;DiseaseFree;8.25;1;NA
+TCGA-FD-A5BZ;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N1;MX;Stage IV;High Grade;77;FEMALE;Dead;27.43;835;NA;Recurred/Progressed;17.51;1;NA
+TCGA-FD-A5C0;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;61;MALE;Dead;18.07;NA;209;Recurred/Progressed;13.99;2;30
+TCGA-FD-A5C1;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;61;FEMALE;Alive;58.87;NA;1511;DiseaseFree;58.87;1;NA
+TCGA-FD-A62N;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;69;MALE;Alive;2.69;NA;81;DiseaseFree;2.69;4;10
+TCGA-FD-A62O;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;74;MALE;Dead;7.1;NA;147;NA;NA;2;NA
+TCGA-FD-A62P;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;76;MALE;Dead;6.27;191;NA;NA;NA;4;NA
+TCGA-FD-A62S;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;60;FEMALE;Dead;13.34;NA;194;Recurred/Progressed;10.05;1;NA
+TCGA-FD-A6TA;bladder urothelial carcinoma;Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;58;MALE;Alive;62.81;NA;1541;DiseaseFree;62.81;1;NA
+TCGA-FD-A6TB;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T1;N0;MX;Stage III;High Grade;82;MALE;Alive;18.79;NA;390;DiseaseFree;18.79;5;30
+TCGA-FD-A6TC;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T2;N0;MX;Stage III;High Grade;79;FEMALE;Alive;6.14;NA;187;DiseaseFree;6.14;3;10
+TCGA-FD-A6TD;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T1;N0;MX;Stage III;High Grade;77;MALE;Dead;12.68;NA;204;NA;NA;3;NA
+TCGA-FD-A6TE;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;54;MALE;Alive;12.35;NA;125;Recurred/Progressed;10.55;2;20
+TCGA-FD-A6TF;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N2;M1;Stage IV;High Grade;80;FEMALE;Dead;2.27;NA;63;NA;NA;5;NA
+TCGA-FD-A6TG;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N2;MX;Stage IV;High Grade;73;MALE;Dead;3.06;NA;81;NA;NA;3;10
+TCGA-FD-A6TH;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N2;MX;Stage IV;High Grade;63;MALE;Dead;4.3;NA;67;Recurred/Progressed;4.14;2;45
+TCGA-FD-A6TI;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T2;N1;MX;Stage IV;High Grade;73;MALE;Dead;9.66;NA;122;NA;NA;5;NA
+TCGA-FD-A6TK;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;MX;Stage III;High Grade;60;MALE;Alive;10.84;NA;330;DiseaseFree;10.84;5;15
+TCGA-FJ-A3Z7;bladder urothelial carcinoma;Non-Papillary;;;Cluster 5;;T4;;N2;MX;Stage IV;High Grade;76;MALE;Alive;31.04;NA;462;DiseaseFree;31.04;1;NA
+TCGA-FJ-A3Z9;bladder urothelial carcinoma;Papillary;;;;;TX;T3;N0;M0;;High Grade;72;MALE;Dead;12.65;NA;217;NA;NA;4;13
+TCGA-FJ-A3ZE;bladder urothelial carcinoma;Non-Papillary;;;Cluster 5;;;T2;N3;M1;Stage IV;High Grade;65;MALE;Dead;10.64;NA;106;Recurred/Progressed;4.99;3;25
+TCGA-FJ-A3ZF;bladder urothelial carcinoma;Papillary;;;Cluster 5;;;T3;N0;M0;Stage III;High Grade;73;MALE;Alive;17.21;NA;124;DiseaseFree;17.21;2;51
+TCGA-FJ-A871;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;NX;MX;Stage III;High Grade;49;MALE;Dead;8.94;272;NA;Recurred/Progressed;3.48;3;0.15
+TCGA-FT-A3EE;bladder urothelial carcinoma;Papillary;;cluster 2;Cluster 5;BLCA nonsquamous-like c1;T4;;N0;MX;Stage III;High Grade;80;FEMALE;Dead;3.25;99;NA;NA;NA;1;NA
+TCGA-FT-A61P;bladder urothelial carcinoma;Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;76;MALE;Alive;11.07;NA;197;DiseaseFree;11.07;3;4
+TCGA-G2-A2EC;bladder urothelial carcinoma;Non-Papillary;C1-LUAD-enriched;cluster 2;Cluster 6;BLCA nonsquamous-like c1;;T2;N0;M0;Stage II;High Grade;58;FEMALE;Dead;22.86;NA;418;Recurred/Progressed;22.31;4;NA
+TCGA-G2-A2EF;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 2;Cluster 6;squamous-like c4;;T2;N0;M0;Stage II;High Grade;50;MALE;Alive;61.89;NA;1518;DiseaseFree;61.89;2;35
+TCGA-G2-A2EJ;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 1;Cluster 14 (HNSC);squamous-like c4;;T2;N0;M0;Stage II;High Grade;56;FEMALE;Alive;47.96;NA;806;Recurred/Progressed;29.89;2;20
+TCGA-G2-A2EK;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;;T2;N0;M0;Stage II;High Grade;57;MALE;Alive;15.93;NA;173;Recurred/Progressed;15.93;1;NA
+TCGA-G2-A2EL;bladder urothelial carcinoma;Non-Papillary;C10-GBM;cluster 3;Low purity c2;GBM-like c6;;T2;N0;M0;Stage II;High Grade;77;MALE;Dead;26.91;819;NA;Recurred/Progressed;3.45;3;40
+TCGA-G2-A2EO;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 2;Cluster 6;BLCA nonsquamous-like c1;T3;;N0;M0;Stage III;High Grade;69;MALE;Dead;59.26;NA;997;NA;NA;1;NA
+TCGA-G2-A2ES;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 2;Cluster 6;squamous-like c4;T3;;N0;M0;Stage II;High Grade;85;MALE;Dead;32.98;NA;525;Recurred/Progressed;29.47;4;65
+TCGA-G2-A3IB;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 3;Cluster 13 (HNSC-LUSC);squamous-like c4;;T2;NX;MX;Stage II;High Grade;66;MALE;Dead;7.23;NA;214;NA;NA;3;NA
+TCGA-G2-A3IE;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;;T2;NX;MX;Stage II;High Grade;51;MALE;Dead;20.11;612;NA;NA;NA;2;1.5
+TCGA-G2-A3VY;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;;T2;;;Stage II;High Grade;66;MALE;Alive;17.61;NA;26;DiseaseFree;17.61;1;NA
+TCGA-G2-AA3B;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;N0;M0;Stage II;High Grade;75;FEMALE;Alive;65.97;NA;1602;DiseaseFree;65.97;3;26
+TCGA-G2-AA3C;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T3;N1;M0;Stage IV;High Grade;66;MALE;Dead;6.93;211;NA;NA;NA;3;4
+TCGA-G2-AA3D;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N2;M0;Stage IV;High Grade;60;MALE;Alive;70.27;NA;1775;DiseaseFree;70.27;3;25
+TCGA-G2-AA3F;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N1;M0;Stage IV;High Grade;77;MALE;Alive;29.34;NA;592;DiseaseFree;29.34;3;108
+TCGA-GC-A3BM;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 5;BLCA nonsquamous-like c1;T2;;N0;M0;Stage II;High Grade;70;MALE;Dead;21.39;NA;88;NA;NA;4;30
+TCGA-GC-A3BM;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;;;;T2;;N0;M0;Stage II;High Grade;70;MALE;Dead;21.39;NA;88;NA;NA;4;30
+TCGA-GC-A3I6;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 2;Cluster 6;squamous-like c4;T3;;N0;M0;Stage III;High Grade;45;MALE;Dead;20.7;NA;68;Recurred/Progressed;17.94;2;NA
+TCGA-GC-A3OO;bladder urothelial carcinoma;Non-Papillary;;cluster 2;Cluster 6;BLCA nonsquamous-like c1;T2;T2;N0;M0;Stage II;High Grade;79;MALE;Alive;15.8;NA;40;DiseaseFree;15.8;2;NA
+TCGA-GC-A3RB;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;T3;N0;M0;Stage III;High Grade;54;MALE;Alive;19.12;NA;137;DiseaseFree;19.12;2;40
+TCGA-GC-A3RC;bladder urothelial carcinoma;Non-Papillary;;cluster 2;Cluster 6;squamous-like c4;T2;T2;N0;M0;Stage II;High Grade;59;MALE;Alive;15.9;NA;42;DiseaseFree;15.9;4;NA
+TCGA-GC-A3RD;bladder urothelial carcinoma;Non-Papillary;;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T3;;N0;M0;Stage III;High Grade;83;FEMALE;Alive;14.06;NA;35;DiseaseFree;14.06;1;NA
+TCGA-GC-A3WC;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 1;Cluster 5;squamous-like c4;T3;;N0;MX;Stage III;High Grade;80;FEMALE;Alive;17.74;NA;77;DiseaseFree;17.74;3;14
+TCGA-GC-A3WC;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;;;;T3;;N0;MX;Stage III;High Grade;80;FEMALE;Alive;17.74;NA;77;DiseaseFree;17.74;3;14
+TCGA-GC-A3YS;bladder urothelial carcinoma;Non-Papillary;;;Cluster 6;;T3;;N1;MX;Stage IV;High Grade;61;MALE;Alive;24.9;NA;34;DiseaseFree;24.9;4;58
+TCGA-GC-A4ZW;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T3;N0;M0;Stage III;High Grade;71;MALE;Alive;0.49;NA;15;DiseaseFree;0.49;3;NA
+TCGA-GC-A6I1;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;N0;MX;Stage II;High Grade;90;FEMALE;Dead;8.94;NA;81;NA;NA;1;NA
+TCGA-GC-A6I3;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T3;N1;MX;Stage IV;High Grade;90;FEMALE;Alive;13.9;NA;35;DiseaseFree;13.9;3;NA
+TCGA-GC-A6I3;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T3;N1;MX;Stage IV;High Grade;90;FEMALE;Alive;13.9;NA;35;DiseaseFree;13.9;3;NA
+TCGA-GD-A2C5;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T3;;N2;MX;Stage IV;High Grade;53;FEMALE;Alive;26.68;NA;235;Recurred/Progressed;7.03;4;31
+TCGA-GD-A2C5;bladder urothelial carcinoma;Papillary;C8-BLCA;;;;T3;;N2;MX;Stage IV;High Grade;53;FEMALE;Alive;26.68;NA;235;Recurred/Progressed;7.03;4;31
+TCGA-GD-A3OP;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 2;Cluster 6;BLCA nonsquamous-like c1;T4;;N2;MX;Stage IV;High Grade;84;FEMALE;Alive;2.1;NA;64;DiseaseFree;2.1;[Unknown];NA
+TCGA-GD-A3OP;bladder urothelial carcinoma;Papillary;C8-BLCA;;;;T4;;N2;MX;Stage IV;High Grade;84;FEMALE;Alive;2.1;NA;64;DiseaseFree;2.1;[Unknown];NA
+TCGA-GD-A3OQ;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T4;T2;N1;MX;Stage IV;High Grade;48;MALE;Alive;3.12;NA;95;DiseaseFree;3.12;2;31
+TCGA-GD-A3OQ;bladder urothelial carcinoma;Papillary;C8-BLCA;;;;T4;T2;N1;MX;Stage IV;High Grade;48;MALE;Alive;3.12;NA;95;DiseaseFree;3.12;2;31
+TCGA-GD-A3OS;bladder urothelial carcinoma;Non-Papillary;C12-small-various;cluster 1;Cluster 13 (HNSC-LUSC);GBM-like c6;;T2;NX;MX;Stage II;High Grade;54;FEMALE;Alive;20.96;NA;177;Recurred/Progressed;16.39;2;17.5
+TCGA-GD-A6C6;bladder urothelial carcinoma;Papillary;;;;;T3;T2;N0;MX;Stage III;High Grade;64;MALE;Alive;2.2;NA;67;DiseaseFree;2.2;2;45
+TCGA-GD-A76B;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;MX;Stage II;High Grade;86;FEMALE;Dead;NA;NA;224;NA;NA;1;NA
+TCGA-GU-A42P;bladder urothelial carcinoma;Papillary;;;;;T3;;N1;M0;Stage IV;High Grade;72;MALE;Dead;10.91;NA;195;NA;NA;3;38
+TCGA-GU-A42Q;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;M0;Stage III;High Grade;67;MALE;Dead;11.3;NA;231;NA;NA;2;57
+TCGA-GU-A42R;bladder urothelial carcinoma;Papillary;;;Cluster 5;;T4;T2;N2;MX;Stage IV;High Grade;68;MALE;Dead;18.96;NA;98;Recurred/Progressed;2.99;4;20
+TCGA-GU-A762;bladder urothelial carcinoma;Non-Papillary;;;;;T4;;N2;MX;Stage IV;High Grade;87;MALE;Dead;7.62;NA;62;NA;NA;1;NA
+TCGA-GU-A763;bladder urothelial carcinoma;Papillary;;;;;T4;;N0;M0;Stage III;High Grade;72;MALE;Alive;32.75;NA;625;Recurred/Progressed;9.95;3;45
+TCGA-GU-A764;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;66;MALE;Alive;20.04;NA;225;DiseaseFree;20.04;3;19
+TCGA-GU-A766;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;62;MALE;Alive;15.77;NA;171;DiseaseFree;15.77;1;NA
+TCGA-GU-A767;bladder urothelial carcinoma;Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;81;MALE;Dead;4.73;144;NA;NA;NA;3;NA
+TCGA-GU-AATO;bladder urothelial carcinoma;Papillary;;;;;T4;T2;N2;MX;Stage IV;High Grade;75;MALE;Dead;10.64;324;NA;NA;NA;4;20
+TCGA-GU-AATP;bladder urothelial carcinoma;Papillary;;;;;T2;T1;N2;MX;Stage IV;High Grade;74;MALE;Alive;32.95;NA;612;Recurred/Progressed;28.29;3;14
+TCGA-GU-AATQ;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;MX;Stage III;High Grade;68;MALE;Dead;7;213;NA;NA;NA;4;30
+TCGA-GV-A3JV;bladder urothelial carcinoma;Non-Papillary;C1-LUAD-enriched;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T3;T3;N1;MX;Stage IV;High Grade;66;MALE;Dead;14.26;NA;134;Recurred/Progressed;4.4;4;90
+TCGA-GV-A3JW;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T2;T2;NX;MX;Stage II;High Grade;74;MALE;Alive;21.32;NA;195;Recurred/Progressed;8.9;3;NA
+TCGA-GV-A3JX;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T3;;N0;MX;Stage III;High Grade;59;MALE;Alive;19.09;NA;187;DiseaseFree;19.09;4;80
+TCGA-GV-A3JZ;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T4;;N3;MX;Stage IV;High Grade;55;MALE;Alive;19.81;NA;173;DiseaseFree;19.81;3;15
+TCGA-GV-A3QF;bladder urothelial carcinoma;Papillary;C1-LUAD-enriched;cluster 4;Cluster 6;BLCA nonsquamous-like c1;T3;;N2;MX;Stage IV;High Grade;79;MALE;Dead;20.27;NA;232;NA;NA;4;60
+TCGA-GV-A3QG;bladder urothelial carcinoma;Papillary;C12-small-various;cluster 2;Cluster 6;RNA cluster 2;T3;;N3;MX;Stage IV;High Grade;65;MALE;Dead;NA;NA;NA;Recurred/Progressed;2.76;2;46
+TCGA-GV-A3QH;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;;T2;NX;MX;Stage II;High Grade;67;MALE;Dead;8.48;NA;237;Recurred/Progressed;4.11;4;10
+TCGA-GV-A3QI;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 4;Cluster 6;GBM-like c6;T3;;N0;MX;Stage III;High Grade;47;MALE;Alive;36.47;NA;126;Recurred/Progressed;25.23;4;35
+TCGA-GV-A3QK;bladder urothelial carcinoma;Non-Papillary;;;Cluster 6;;T4;;N2;M0;Stage IV;High Grade;56;FEMALE;Alive;27.33;NA;203;DiseaseFree;27.33;4;45
+TCGA-GV-A40E;bladder urothelial carcinoma;Non-Papillary;;;Cluster 6;;;T2;NX;MX;Stage II;High Grade;75;MALE;Dead;8.57;NA;195;Recurred/Progressed;7.46;3;20
+TCGA-GV-A40G;bladder urothelial carcinoma;Non-Papillary;;;Cluster 6;;T2;;N0;MX;Stage II;High Grade;77;MALE;Alive;19.05;NA;162;DiseaseFree;19.05;4;30
+TCGA-GV-A6ZA;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;MX;Stage II;High Grade;54;MALE;Alive;22.7;NA;351;DiseaseFree;22.7;2;NA
+TCGA-H4-A2HO;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;T4;;N0;MX;Stage III;High Grade;53;MALE;Alive;1.51;NA;46;DiseaseFree;1.51;2;30
+TCGA-H4-A2HQ;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 3;Cluster 5;BLCA nonsquamous-like c1;;T2;NX;M1;Stage IV;High Grade;64;FEMALE;Alive;19.38;NA;205;Recurred/Progressed;12.81;4;7
+TCGA-HQ-A2OE;bladder urothelial carcinoma;Papillary;C8-BLCA;cluster 3;Cluster 6;BLCA nonsquamous-like c1;T2;;N2;MX;;;69;MALE;Alive;38.57;NA;1174;DiseaseFree;38.57;4;NA
+TCGA-HQ-A2OF;bladder urothelial carcinoma;Papillary;;;;;T3;;N0;M0;Stage III;High Grade;52;FEMALE;Alive;63.96;NA;93;Recurred/Progressed;29.8;1;NA
+TCGA-HQ-A5ND;bladder urothelial carcinoma;NA;;;;;T3;;N1;M0;Stage IV;High Grade;78;MALE;Dead;9;274;NA;Recurred/Progressed;2.76;3;40
+TCGA-HQ-A5NE;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T3;N0;M0;Stage III;High Grade;57;MALE;Dead;12.16;NA;250;Recurred/Progressed;6.93;2;80
+TCGA-K4-A3WS;bladder urothelial carcinoma;Non-Papillary;C8-BLCA;cluster 2;Cluster 5;BLCA nonsquamous-like c1;T3;;N0;MX;Stage III;High Grade;66;MALE;Alive;25;NA;266;DiseaseFree;25;3;25
+TCGA-K4-A3WU;bladder urothelial carcinoma;Non-Papillary;;;Cluster 5;;T4;TX;N0;MX;Stage III;High Grade;87;MALE;Alive;3.45;NA;105;DiseaseFree;3.45;1;NA
+TCGA-K4-A3WV;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;cluster 3;Cluster 13 (HNSC-LUSC);squamous-like c4;T2;;N0;MX;Stage II;High Grade;77;FEMALE;Alive;21.22;NA;142;DiseaseFree;21.22;3;80
+TCGA-K4-A3WV;bladder urothelial carcinoma;Non-Papillary;C2-Squamous-like;;;;T2;;N0;MX;Stage II;High Grade;77;FEMALE;Alive;21.22;NA;142;DiseaseFree;21.22;3;80
+TCGA-K4-A4AB;bladder urothelial carcinoma;Non-Papillary;;;;;T4;;N0;MX;Stage III;High Grade;76;MALE;Alive;2.76;NA;76;DiseaseFree;2.76;2;NA
+TCGA-K4-A4AC;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;83;MALE;Dead;9.13;NA;197;Recurred/Progressed;5.58;4;NA
+TCGA-K4-A54R;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;MX;Stage II;High Grade;59;MALE;Alive;27.66;NA;320;DiseaseFree;27.66;[Unknown];NA
+TCGA-K4-A54R;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;MX;Stage II;High Grade;59;MALE;Alive;27.66;NA;320;DiseaseFree;27.66;[Unknown];NA
+TCGA-K4-A5RH;bladder urothelial carcinoma;Non-Papillary;;;;;T3;TX;N0;MX;Stage III;High Grade;69;MALE;Alive;9.07;NA;276;Recurred/Progressed;6.8;4;40
+TCGA-K4-A5RI;bladder urothelial carcinoma;Non-Papillary;;;;;T3;TX;N0;MX;Stage III;High Grade;67;FEMALE;Dead;11.7;NA;239;Recurred/Progressed;7.79;2;40
+TCGA-K4-A5RI;bladder urothelial carcinoma;Non-Papillary;;;;;T3;TX;N0;MX;Stage III;High Grade;67;FEMALE;Dead;11.7;NA;239;Recurred/Progressed;7.79;2;40
+TCGA-K4-A5RJ;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;MX;Stage II;High Grade;75;MALE;Alive;17.71;NA;49;DiseaseFree;17.71;3;NA
+TCGA-K4-A6FZ;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;75;FEMALE;Alive;1.81;NA;55;DiseaseFree;1.81;1;NA
+TCGA-K4-A6MB;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T3;N1;MX;Stage IV;High Grade;64;MALE;Alive;15.41;NA;130;DiseaseFree;15.41;5;NA
+TCGA-K4-A83P;bladder urothelial carcinoma;Non-Papillary;;;;;T4;;N1;MX;Stage IV;;77;MALE;Alive;16.26;NA;194;Recurred/Progressed;2.92;3;140
+TCGA-K4-AAQO;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T3;N0;MX;Stage III;;56;MALE;Alive;11.79;NA;359;DiseaseFree;11.79;4;43
+TCGA-KQ-A41N;bladder urothelial carcinoma;Papillary;;;;;T3;T2;N0;M0;Stage III;;73;MALE;Alive;52.69;NA;1604;DiseaseFree;52.69;4;50
+TCGA-KQ-A41O;bladder urothelial carcinoma;Papillary;;;;;T3;TX;N1;M0;Stage IV;;84;MALE;Alive;50.53;NA;1538;DiseaseFree;50.53;3;NA
+TCGA-KQ-A41P;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N3;M1;Stage IV;;76;MALE;Alive;35.94;NA;1094;Recurred/Progressed;5.85;1;NA
+TCGA-KQ-A41Q;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;;89;MALE;Alive;46.94;NA;1429;Recurred/Progressed;43.17;1;NA
+TCGA-KQ-A41R;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;MX;Stage II;;80;FEMALE;Alive;44.35;NA;1350;DiseaseFree;44.35;3;20
+TCGA-KQ-A41S;bladder urothelial carcinoma;Papillary;;;;;T4;;NX;MX;Stage III;;87;FEMALE;Alive;1.15;NA;35;DiseaseFree;1.15;1;NA
+TCGA-LC-A66R;bladder urothelial carcinoma;Papillary;;;;;T4;T4;N2;MX;Stage IV;High Grade;78;MALE;Alive;15.31;NA;193;DiseaseFree;15.31;3;NA
+TCGA-LT-A5Z6;bladder urothelial carcinoma;Non-Papillary;;;;;;T2;NX;MX;Stage II;High Grade;56;MALE;Alive;15.57;NA;105;DiseaseFree;15.57;1;NA
+TCGA-LT-A8JT;bladder urothelial carcinoma;Papillary;;;;;T2;T2;N0;M0;Stage II;High Grade;69;FEMALE;Alive;21.06;NA;359;DiseaseFree;21.06;4;75
+TCGA-MV-A51V;bladder urothelial carcinoma;Papillary;;;;;T3;;N0;M0;Stage III;High Grade;75;MALE;Alive;13.47;NA;112;DiseaseFree;13.47;1;NA
+TCGA-PQ-A6FI;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;70;MALE;Alive;12.22;NA;372;DiseaseFree;12.22;4;58
+TCGA-PQ-A6FN;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;78;FEMALE;Alive;16.66;NA;507;DiseaseFree;16.66;3;28
+TCGA-R3-A69X;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T3;N0;M0;Stage III;High Grade;70;MALE;Alive;14.22;NA;433;DiseaseFree;14.22;2;48
+TCGA-S5-A6DX;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T4;N2;MX;Stage IV;High Grade;83;MALE;Dead;1.84;56;NA;NA;NA;4;70
+TCGA-S5-AA26;bladder urothelial carcinoma;Papillary;;;;;T3;;N0;MX;Stage III;High Grade;46;MALE;Alive;16.52;NA;111;DiseaseFree;16.52;1;NA
+TCGA-SY-A9G0;bladder urothelial carcinoma;Papillary;;;;;T4;T4;N1;M0;Stage IV;High Grade;82;MALE;Dead;33.11;NA;378;NA;NA;3;9.75
+TCGA-SY-A9G5;bladder urothelial carcinoma;Papillary;;;;;T4;T4;N0;M0;Stage III;High Grade;66;MALE;Alive;38.96;NA;784;DiseaseFree;38.96;1;NA
+TCGA-UY-A78K;bladder urothelial carcinoma;Papillary;;;;;;T2;N2;MX;Stage IV;High Grade;60;MALE;Dead;17.61;536;NA;NA;NA;2;NA
+TCGA-UY-A78L;bladder urothelial carcinoma;Papillary;;;;;;T2;N1;MX;Stage IV;High Grade;62;MALE;Alive;37.02;NA;1127;Recurred/Progressed;11.66;[Unknown];NA
+TCGA-UY-A78M;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N2;MX;Stage IV;High Grade;81;FEMALE;Dead;22.67;690;NA;NA;NA;1;NA
+TCGA-UY-A78N;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N1;MX;Stage IV;High Grade;80;MALE;Dead;86.76;2641;NA;Recurred/Progressed;81.21;3;25
+TCGA-UY-A78O;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;75;FEMALE;Alive;75.95;NA;2312;DiseaseFree;75.95;1;NA
+TCGA-UY-A78P;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;78;FEMALE;Alive;78.19;NA;2062;DiseaseFree;78.19;3;15
+TCGA-UY-A8OB;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N1;MX;Stage IV;High Grade;63;MALE;Alive;69.28;NA;2000;DiseaseFree;69.28;4;25
+TCGA-UY-A8OC;bladder urothelial carcinoma;Non-Papillary;;;;;T4;;N1;MX;Stage IV;High Grade;90;MALE;Dead;3.02;92;NA;Recurred/Progressed;1.05;1;NA
+TCGA-UY-A8OD;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;68;FEMALE;Alive;112.75;NA;3432;DiseaseFree;112.75;[Unknown];NA
+TCGA-UY-A9PA;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;48;MALE;Alive;35.22;NA;1072;DiseaseFree;35.22;2;NA
+TCGA-UY-A9PB;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;49;MALE;Alive;29.53;NA;660;DiseaseFree;29.53;4;25
+TCGA-UY-A9PD;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;80;MALE;Alive;17.81;NA;294;DiseaseFree;17.81;2;NA
+TCGA-UY-A9PE;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N2;MX;Stage IV;High Grade;86;MALE;Alive;6.21;NA;138;Recurred/Progressed;15.54;3;45
+TCGA-UY-A9PF;bladder urothelial carcinoma;Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;77;MALE;Alive;3.84;NA;50;DiseaseFree;3.84;3;5
+TCGA-UY-A9PH;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;;73;MALE;Alive;51.28;NA;1561;DiseaseFree;51.28;1;NA
+TCGA-XF-A8HB;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;MX;Stage II;High Grade;50;FEMALE;Alive;45.01;NA;1370;DiseaseFree;45.01;3;20
+TCGA-XF-A8HC;bladder urothelial carcinoma;Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;79;MALE;Dead;6.57;200;NA;NA;NA;1;NA
+TCGA-XF-A8HD;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;MX;Stage III;High Grade;77;MALE;Alive;97.37;NA;2705;DiseaseFree;97.37;3;12
+TCGA-XF-A8HE;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;47;MALE;Alive;125.39;NA;2964;DiseaseFree;125.39;1;NA
+TCGA-XF-A8HF;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;M0;Stage III;High Grade;80;MALE;Dead;97.04;NA;1709;NA;NA;3;1
+TCGA-XF-A8HG;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;MX;Stage III;High Grade;69;MALE;Dead;15.34;467;NA;Recurred/Progressed;13.07;3;8
+TCGA-XF-A8HH;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;M0;Stage IV;High Grade;61;FEMALE;Dead;1.87;57;NA;NA;NA;1;NA
+TCGA-XF-A8HI;bladder urothelial carcinoma;Papillary;;;;;T2;;N2;MX;Stage IV;High Grade;57;FEMALE;Dead;17.87;544;NA;Recurred/Progressed;15.37;1;NA
+TCGA-XF-A9SG;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;81;MALE;Alive;48.59;NA;1479;DiseaseFree;48.59;1;NA
+TCGA-XF-A9SH;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;M0;Stage II;High Grade;65;FEMALE;Dead;64.75;1971;NA;Recurred/Progressed;17.97;1;NA
+TCGA-XF-A9SI;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;MX;Stage II;High Grade;73;FEMALE;Alive;79.6;NA;2423;DiseaseFree;79.6;1;NA
+TCGA-XF-A9SJ;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;MX;Stage IV;;83;MALE;Dead;3.22;98;NA;NA;NA;3;55
+TCGA-XF-A9SK;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N1;MX;Stage IV;;65;MALE;Dead;15.97;486;NA;Recurred/Progressed;12.55;3;30
+TCGA-XF-A9SL;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;MX;Stage IV;;69;MALE;Dead;66.36;2020;NA;NA;NA;4;55
+TCGA-XF-A9SM;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;;76;MALE;Alive;34.43;NA;1048;DiseaseFree;34.43;3;12
+TCGA-XF-A9SP;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;;59;MALE;Dead;14.91;454;NA;Recurred/Progressed;10.18;2;66
+TCGA-XF-A9ST;bladder urothelial carcinoma;Papillary;;;;;T3;;N0;MX;Stage III;;68;MALE;Dead;4.2;128;NA;NA;NA;3;60
+TCGA-XF-A9SU;bladder urothelial carcinoma;Papillary;;;;;T3;;N1;MX;Stage IV;;74;FEMALE;Dead;5.98;182;NA;Recurred/Progressed;3.38;4;30
+TCGA-XF-A9SV;bladder urothelial carcinoma;Papillary;;;;;T4;;N2;M1;Stage IV;;82;MALE;Dead;12.75;388;NA;Recurred/Progressed;7.79;3;20
+TCGA-XF-A9SW;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;85;MALE;Dead;11.89;362;NA;NA;NA;3;NA
+TCGA-XF-A9SX;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;63;FEMALE;Dead;23.62;719;NA;Recurred/Progressed;15.6;4;40
+TCGA-XF-A9SY;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;60;FEMALE;Alive;21.02;NA;640;Recurred/Progressed;5.52;2;40
+TCGA-XF-A9SZ;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;79;MALE;Dead;28.22;859;NA;Recurred/Progressed;28.06;3;30
+TCGA-XF-A9T0;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;68;MALE;Alive;26.25;NA;799;DiseaseFree;26.25;5;NA
+TCGA-XF-A9T2;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;54;MALE;Dead;18.89;575;NA;NA;NA;1;NA
+TCGA-XF-A9T3;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;69;FEMALE;Alive;2.23;NA;68;DiseaseFree;2.23;2;52
+TCGA-XF-A9T4;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N1;MX;Stage IV;High Grade;48;MALE;Dead;16.26;495;NA;Recurred/Progressed;10.09;1;NA
+TCGA-XF-A9T5;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N1;MX;Stage IV;High Grade;78;FEMALE;Alive;66.59;NA;2027;Recurred/Progressed;27.83;1;NA
+TCGA-XF-A9T6;bladder urothelial carcinoma;Papillary;;;;;T3;;N0;MX;Stage III;High Grade;88;FEMALE;Alive;2.1;NA;64;DiseaseFree;2.1;1;NA
+TCGA-XF-A9T8;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;64;MALE;Dead;13.73;418;NA;NA;NA;3;15
+TCGA-XF-AAME;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;64;FEMALE;Dead;92.9;2828;NA;Recurred/Progressed;87.48;1;NA
+TCGA-XF-AAMF;bladder urothelial carcinoma;Non-Papillary;;;;;T4;;N2;MX;Stage IV;High Grade;68;MALE;Dead;10.81;329;NA;Recurred/Progressed;5.16;3;32
+TCGA-XF-AAMG;bladder urothelial carcinoma;Non-Papillary;;;;;T4;;N0;MX;Stage III;;49;MALE;Alive;110.51;NA;3364;DiseaseFree;110.51;5;NA
+TCGA-XF-AAMH;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N1;MX;Stage IV;High Grade;80;MALE;Dead;11.3;344;NA;Recurred/Progressed;10.28;2;20
+TCGA-XF-AAMJ;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;M0;Stage III;High Grade;70;MALE;Dead;54.86;1670;NA;NA;NA;1;NA
+TCGA-XF-AAML;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;MX;Stage II;High Grade;75;MALE;Dead;7.62;232;NA;NA;NA;3;NA
+TCGA-XF-AAMQ;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;MX;Stage II;High Grade;59;FEMALE;Alive;71.52;NA;2177;DiseaseFree;71.52;3;12
+TCGA-XF-AAMR;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;48;MALE;Alive;91.66;NA;2790;DiseaseFree;91.66;1;NA
+TCGA-XF-AAMT;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;75;FEMALE;Dead;2.96;90;NA;NA;NA;3;10
+TCGA-XF-AAMW;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage IV;High Grade;79;FEMALE;Dead;8.31;253;NA;NA;NA;1;NA
+TCGA-XF-AAMX;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;87;FEMALE;Dead;6.77;206;NA;NA;NA;1;NA
+TCGA-XF-AAMY;bladder urothelial carcinoma;Papillary;;;;;T3;;N0;MX;Stage III;High Grade;78;MALE;Alive;98.92;NA;2822;Recurred/Progressed;20.93;1;NA
+TCGA-XF-AAMZ;bladder urothelial carcinoma;Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;81;FEMALE;Dead;44.28;1348;NA;Recurred/Progressed;44.15;1;NA
+TCGA-XF-AAN0;bladder urothelial carcinoma;Non-Papillary;;;;;T4;;N2;M0;Stage IV;High Grade;68;MALE;Dead;56.44;1718;NA;Recurred/Progressed;19.81;3;56
+TCGA-XF-AAN1;bladder urothelial carcinoma;Papillary;;;;;T4;;N0;M0;Stage III;High Grade;75;FEMALE;Dead;30.91;941;NA;Recurred/Progressed;21.35;3;47
+TCGA-XF-AAN2;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;73;MALE;Dead;61.4;1869;NA;NA;NA;3;20
+TCGA-XF-AAN3;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N2;MX;Stage IV;High Grade;76;MALE;Alive;86.24;NA;2625;DiseaseFree;86.24;1;NA
+TCGA-XF-AAN4;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;77;FEMALE;Dead;27.04;823;NA;NA;NA;2;25
+TCGA-XF-AAN5;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;61;FEMALE;Alive;75.33;NA;2293;DiseaseFree;75.33;4;30
+TCGA-XF-AAN7;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N1;MX;Stage IV;High Grade;60;MALE;Dead;18.56;565;NA;Recurred/Progressed;10.55;2;40
+TCGA-XF-AAN8;bladder urothelial carcinoma;Non-Papillary;;;;;T3;;N0;MX;Stage III;High Grade;74;FEMALE;Dead;3.88;118;NA;NA;NA;2;60
+TCGA-YC-A89H;bladder urothelial carcinoma;Non-Papillary;;;;;;T2;;MX;Stage II;High Grade;78;FEMALE;Alive;18.82;NA;315;DiseaseFree;18.82;2;31.5
+TCGA-YC-A8S6;bladder urothelial carcinoma;Papillary;;;;;T2;;N0;MX;Stage II;High Grade;71;MALE;Alive;9.63;NA;147;DiseaseFree;9.63;5;NA
+TCGA-YC-A9TC;bladder urothelial carcinoma;Papillary;;;;;;T2;;M1;Stage IV;High Grade;71;MALE;Dead;0.66;20;NA;NA;NA;1;NA
+TCGA-YF-AA3L;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;N0;MX;Stage II;High Grade;47;FEMALE;Alive;11.96;NA;242;DiseaseFree;11.96;2;60
+TCGA-YF-AA3M;bladder urothelial carcinoma;Non-Papillary;;;;;T2;;NX;MX;Stage II;High Grade;57;MALE;Alive;13.63;NA;275;Recurred/Progressed;12.52;2;58
+TCGA-ZF-A9R0;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;NX;M0;Stage III;High Grade;82;MALE;Dead;22.34;NA;567;Recurred/Progressed;18.36;3;5
+TCGA-ZF-A9R1;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T1;N1;M0;Stage IV;;81;MALE;Alive;25.39;NA;224;Recurred/Progressed;24.9;1;NA
+TCGA-ZF-A9R2;bladder urothelial carcinoma;Papillary;;;;;T2;T1;N0;M0;Stage II;;75;MALE;Alive;21.09;NA;642;DiseaseFree;21.09;3;58
+TCGA-ZF-A9R3;bladder urothelial carcinoma;Papillary;;;;;T2;T2;NX;M0;Stage II;;53;FEMALE;Dead;31.18;NA;734;Recurred/Progressed;30.12;2;29
+TCGA-ZF-A9R4;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;NX;M0;Stage II;;83;MALE;Alive;30.26;NA;921;DiseaseFree;30.26;1;NA
+TCGA-ZF-A9R5;bladder urothelial carcinoma;Papillary;;;;;T3;;N0;M0;Stage III;High Grade;59;MALE;Alive;35.81;NA;827;DiseaseFree;35.81;2;69
+TCGA-ZF-A9R7;bladder urothelial carcinoma;Non-Papillary;;;;;;T2;NX;M0;Stage II;;76;FEMALE;Alive;21.85;NA;665;DiseaseFree;21.85;3;NA
+TCGA-ZF-A9R9;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N2;MX;Stage IV;;58;MALE;Dead;28.38;864;NA;Recurred/Progressed;27.99;3;3
+TCGA-ZF-A9RC;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;MX;Stage III;High Grade;77;MALE;Alive;94.22;NA;2268;DiseaseFree;94.22;4;NA
+TCGA-ZF-A9RD;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N2;MX;Stage IV;;75;FEMALE;Dead;13.4;408;NA;NA;NA;3;10
+TCGA-ZF-A9RE;bladder urothelial carcinoma;Papillary;;;;;;T2;;MX;Stage II;;78;FEMALE;Dead;3.48;106;NA;NA;NA;1;NA
+TCGA-ZF-A9RF;bladder urothelial carcinoma;Non-Papillary;;;;;T1;T2;NX;M0;Stage II;High Grade;74;MALE;Alive;64.03;NA;1604;Recurred/Progressed;51.41;2;52
+TCGA-ZF-A9RG;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;MX;Stage III;High Grade;70;FEMALE;Alive;58.67;NA;1600;Recurred/Progressed;35.68;1;NA
+TCGA-ZF-A9RL;bladder urothelial carcinoma;Papillary;;;;;;T2;;MX;Stage II;;61;MALE;Alive;88.8;NA;2509;Recurred/Progressed;82.42;4;38
+TCGA-ZF-A9RM;bladder urothelial carcinoma;Papillary;;;;;T0;T2;N0;MX;Stage II;High Grade;70;MALE;Alive;47.8;NA;1455;DiseaseFree;47.8;2;8
+TCGA-ZF-A9RN;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T3;NX;M0;Stage III;High Grade;67;FEMALE;Dead;20.2;615;NA;Recurred/Progressed;16.95;1;NA
+TCGA-ZF-AA4N;bladder urothelial carcinoma;Non-Papillary;;;;;;T2;;;Stage II;;74;MALE;Dead;2.89;88;NA;NA;NA;5;NA
+TCGA-ZF-AA4R;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N1;MX;Stage IV;;67;MALE;Dead;34.03;1036;NA;Recurred/Progressed;24.64;1;NA
+TCGA-ZF-AA4T;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T2;N2;MX;Stage IV;High Grade;65;MALE;Dead;19.68;599;NA;Recurred/Progressed;16.79;1;NA
+TCGA-ZF-AA4U;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T2;NX;MX;Stage III;;70;MALE;Dead;8.61;262;NA;Recurred/Progressed;6.54;3;25
+TCGA-ZF-AA4V;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N0;M0;Stage III;;66;MALE;Alive;59.33;NA;1806;DiseaseFree;59.33;2;28
+TCGA-ZF-AA4W;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T3;N0;MX;Stage III;;56;MALE;Alive;60.12;NA;1830;Recurred/Progressed;55.16;1;NA
+TCGA-ZF-AA4X;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;NX;M0;Stage II;High Grade;56;MALE;Alive;67.15;NA;1917;Recurred/Progressed;54.8;1;NA
+TCGA-ZF-AA51;bladder urothelial carcinoma;Papillary;;;;;T2;T2;NX;M0;Stage II;High Grade;69;FEMALE;Alive;56.31;NA;1178;DiseaseFree;56.31;4;38
+TCGA-ZF-AA52;bladder urothelial carcinoma;Papillary;;;;;T3;T2;NX;MX;Stage III;;70;MALE;Dead;35.38;1077;NA;NA;NA;3;2
+TCGA-ZF-AA53;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;NX;M0;Stage II;;60;MALE;Alive;57.85;NA;1761;DiseaseFree;57.85;1;NA
+TCGA-ZF-AA54;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;NX;MX;Stage III;High Grade;71;MALE;Dead;19.38;590;NA;NA;NA;4;NA
+TCGA-ZF-AA56;bladder urothelial carcinoma;Non-Papillary;;;;;T4;T2;N0;MX;Stage III;;79;FEMALE;Dead;8.51;259;NA;Recurred/Progressed;8.15;1;NA
+TCGA-ZF-AA58;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N2;MX;Stage IV;;61;FEMALE;Alive;54.17;NA;1434;DiseaseFree;54.17;4;39
+TCGA-ZF-AA5H;bladder urothelial carcinoma;Non-Papillary;;;;;T3;T2;N2;M0;Stage IV;;60;FEMALE;Alive;29.47;NA;583;Recurred/Progressed;14.75;3;8
+TCGA-ZF-AA5N;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;NX;M1;Stage IV;;62;FEMALE;Dead;5.52;168;NA;NA;NA;3;10
+TCGA-ZF-AA5P;bladder urothelial carcinoma;Non-Papillary;;;;;T2;T2;N2;M0;Stage IV;;65;MALE;Alive;12.22;NA;308;DiseaseFree;12.22;3;62

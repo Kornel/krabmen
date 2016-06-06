@@ -1,0 +1,293 @@
+PatientID;cohort;histological_type;DNA_methylation_subtype;mRNA_subtype;pathologic_N;pathologic_M;pathologic_T;clinical_M;pathologic_N2;pathologic_stage;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months;smoking_history;pack_per_year
+TCGA-2K-A9WE;NA;NA;NA;NA;;;;;;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+TCGA-2Z-A9J1;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;N0;Stage I;71;MALE;Alive;75.49;NA;2298;DiseaseFree;75.49;1;NA
+TCGA-2Z-A9J2;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;71;FEMALE;Alive;58.97;NA;1795;DiseaseFree;58.97;3;30
+TCGA-2Z-A9J3;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T2;M0;NX;Stage II;67;MALE;Dead;58.18;1771;NA;Recurred/Progressed;25.95;2;NA
+TCGA-2Z-A9J5;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T2;M0;NX;Stage II;80;MALE;Alive;100.2;NA;2861;DiseaseFree;100.2;5;32
+TCGA-2Z-A9J6;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;60;MALE;Alive;56.87;NA;1731;DiseaseFree;56.87;1;NA
+TCGA-2Z-A9J7;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M1;T2;M1;NX;Stage IV;63;MALE;Dead;4.57;139;NA;Recurred/Progressed;3.15;4;25
+TCGA-2Z-A9J8;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;50;MALE;Alive;91.66;NA;2047;Recurred/Progressed;91.59;4;60
+TCGA-2Z-A9J9;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;77;MALE;Alive;75.36;NA;2294;DiseaseFree;75.36;[Unknown];NA
+TCGA-2Z-A9JD;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;MX;T1;M0;NX;Stage I;66;MALE;Alive;34.82;NA;1060;DiseaseFree;34.82;3;40
+TCGA-2Z-A9JE;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;59;MALE;Alive;56.77;NA;1496;DiseaseFree;56.77;1;NA
+TCGA-2Z-A9JG;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;64;MALE;Alive;54.6;NA;1469;DiseaseFree;54.6;1;NA
+TCGA-2Z-A9JI;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T3;M0;NX;Stage III;38;MALE;Alive;51.48;NA;1276;Recurred/Progressed;9.4;4;23
+TCGA-2Z-A9JJ;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T1;M0;NX;Stage I;69;FEMALE;Alive;39.85;NA;1085;DiseaseFree;39.85;1;NA
+TCGA-2Z-A9JK;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T3;M0;NX;Stage III;50;MALE;Alive;38.96;NA;1010;Recurred/Progressed;10.64;5;60
+TCGA-2Z-A9JL;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;47;MALE;Alive;33.05;NA;804;DiseaseFree;33.05;4;NA
+TCGA-2Z-A9JM;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;28;MALE;Alive;30.68;NA;204;DiseaseFree;30.68;2;16
+TCGA-2Z-A9JN;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;50;FEMALE;Alive;24.31;NA;740;DiseaseFree;24.31;4;50
+TCGA-2Z-A9JO;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;MX;N0;Stage I;56;FEMALE;Alive;31.18;NA;581;DiseaseFree;31.18;3;11.25
+TCGA-2Z-A9JP;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;63;MALE;Alive;29.34;NA;893;DiseaseFree;29.34;1;NA
+TCGA-2Z-A9JQ;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;66;MALE;Alive;25.56;NA;141;Recurred/Progressed;19.71;5;40
+TCGA-2Z-A9JR;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;57;MALE;Alive;5.29;NA;161;DiseaseFree;5.29;5;NA
+TCGA-2Z-A9JS;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;74;MALE;Dead;16.16;492;NA;NA;NA;1;NA
+TCGA-2Z-A9JT;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;71;MALE;Alive;22.47;NA;504;DiseaseFree;22.47;1;NA
+TCGA-4A-A93W;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T1;M0;N0;Stage I;66;FEMALE;Alive;0.13;NA;4;DiseaseFree;0.13;3;12.5
+TCGA-4A-A93X;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N1;MX;T3;M1;N1;Stage IV;58;MALE;Alive;12.81;NA;4;DiseaseFree;12.81;1;NA
+TCGA-4A-A93Y;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T2;M0;N0;Stage II;63;FEMALE;Alive;11.56;NA;2;DiseaseFree;11.56;4;22.5
+TCGA-5P-A9JU;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T3;M0;N0;Stage III;81;MALE;Alive;12.25;NA;373;DiseaseFree;12.25;2;6
+TCGA-5P-A9JV;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;;T1;MX;NX;;49;MALE;Alive;67.12;NA;2043;DiseaseFree;67.12;[Unknown];NA
+TCGA-5P-A9JW;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;;64;MALE;Alive;106.47;NA;3241;Recurred/Progressed;106.04;[Unknown];NA
+TCGA-5P-A9JY;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T2;;NX;;79;MALE;Dead;49.54;1508;NA;NA;NA;[Unknown];NA
+TCGA-5P-A9JZ;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;;T1;MX;NX;;51;FEMALE;Alive;90.14;NA;2744;DiseaseFree;90.14;[Unknown];NA
+TCGA-5P-A9K0;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;;75;MALE;Alive;22.24;NA;677;DiseaseFree;22.24;[Unknown];NA
+TCGA-5P-A9K2;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;;62;MALE;Alive;78.58;NA;2324;DiseaseFree;78.58;[Unknown];NA
+TCGA-5P-A9K3;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T2;MX;NX;;59;MALE;Dead;15.47;471;NA;Recurred/Progressed;0.56;2;50
+TCGA-5P-A9K4;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;;54;MALE;Alive;71.75;NA;2184;DiseaseFree;71.75;[Unknown];NA
+TCGA-5P-A9K6;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;;64;MALE;Alive;62.88;NA;1914;DiseaseFree;62.88;[Unknown];NA
+TCGA-5P-A9K8;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T3;MX;NX;;51;FEMALE;Alive;43;NA;1302;DiseaseFree;43;[Unknown];NA
+TCGA-5P-A9K9;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T3;M0;N2;;59;FEMALE;Dead;19.35;589;NA;Recurred/Progressed;18;1;NA
+TCGA-5P-A9KA;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;;61;MALE;Alive;12.98;NA;308;DiseaseFree;12.98;[Unknown];NA
+TCGA-5P-A9KC;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;;51;FEMALE;Alive;12.39;NA;377;DiseaseFree;12.39;[Unknown];NA
+TCGA-5P-A9KE;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T1;M0;NX;;70;MALE;Alive;27.07;NA;824;DiseaseFree;27.07;4;60
+TCGA-5P-A9KF;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;N0;;53;MALE;Alive;27.76;NA;845;Recurred/Progressed;23.92;2;NA
+TCGA-5P-A9KH;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;;77;MALE;Alive;67.38;NA;2051;DiseaseFree;67.38;[Unknown];NA
+TCGA-A4-7286;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;N0;;T3;M0;NX;;42;MALE;Alive;18.2;NA;1;DiseaseFree;18.2;1;NA
+TCGA-A4-7287;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;75;FEMALE;Dead;19.61;NA;21;Recurred/Progressed;16.59;1;NA
+TCGA-A4-7288;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;;71;FEMALE;Alive;61.01;NA;493;DiseaseFree;61.01;1;NA
+TCGA-A4-7583;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;M0;T1;M0;N0;Stage I;60;MALE;Alive;0.1;NA;3;DiseaseFree;0.1;[Unknown];NA
+TCGA-A4-7584;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;59;MALE;Alive;21.35;NA;0;DiseaseFree;21.35;1;NA
+TCGA-A4-7585;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;M0;T3;M0;N0;Stage III;67;MALE;Dead;35.15;1070;NA;NA;NA;1;NA
+TCGA-A4-7732;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T2;M0;NX;;55;MALE;Alive;19.12;NA;1;DiseaseFree;19.12;1;NA
+TCGA-A4-7734;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;53;FEMALE;Alive;0.89;NA;27;DiseaseFree;0.89;[Unknown];NA
+TCGA-A4-7828;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T1;M0;NX;Stage I;74;FEMALE;Alive;7.82;NA;0;DiseaseFree;7.82;4;NA
+TCGA-A4-7915;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;CIMP;mRNA.Cluster 2;N0;MX;T2;M0;N0;Stage II;35;FEMALE;Alive;0.23;NA;7;DiseaseFree;0.23;[Unknown];NA
+TCGA-A4-7996;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;61;FEMALE;Alive;16.62;NA;49;Recurred/Progressed;16.2;1;NA
+TCGA-A4-7997;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;N0;M0;T1;M0;NX;Stage I;67;MALE;Alive;30.45;NA;2;DiseaseFree;30.45;[Unknown];NA
+TCGA-A4-8098;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N0;MX;T1;M0;NX;Stage I;73;MALE;Alive;29.43;NA;140;DiseaseFree;29.43;1;NA
+TCGA-A4-8310;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T3;M0;NX;Stage III;58;MALE;Alive;25.62;NA;1;DiseaseFree;25.62;3;40
+TCGA-A4-8311;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;60;MALE;Alive;23.95;NA;2;DiseaseFree;23.95;1;NA
+TCGA-A4-8312;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;MX;T1;M0;NX;Stage I;60;MALE;Alive;23.26;NA;0;DiseaseFree;23.26;2;NA
+TCGA-A4-8515;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;47;MALE;Alive;23.29;NA;21;DiseaseFree;23.29;1;NA
+TCGA-A4-8516;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T3;M0;NX;Stage III;62;MALE;Alive;0.76;NA;23;DiseaseFree;0.76;[Unknown];NA
+TCGA-A4-8517;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;71;MALE;Alive;19.61;NA;1;DiseaseFree;19.61;1;NA
+TCGA-A4-8518;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;MX;T1;M0;NX;Stage I;48;MALE;Alive;19.71;NA;3;DiseaseFree;19.71;1;NA
+TCGA-A4-8630;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;59;FEMALE;Alive;14.32;NA;9;DiseaseFree;14.32;2;NA
+TCGA-A4-A48D;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;N0;MX;T1;M0;NX;Stage I;84;MALE;Alive;12.45;NA;1;DiseaseFree;12.45;3;20
+TCGA-A4-A4ZT;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;71;FEMALE;Alive;16.95;NA;0;DiseaseFree;16.95;1;NA
+TCGA-A4-A57E;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;M1;T2;M1;N0;Stage IV;59;MALE;Dead;8.48;NA;0;NA;NA;3;50
+TCGA-A4-A5DU;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;45;FEMALE;Alive;16.29;NA;0;DiseaseFree;16.29;1;NA
+TCGA-A4-A5XZ;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T2;M0;NX;Stage II;65;FEMALE;Alive;15.74;NA;2;DiseaseFree;15.74;3;NA
+TCGA-A4-A5Y0;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N0;MX;T1;M0;NX;Stage I;61;FEMALE;Alive;8.28;NA;118;DiseaseFree;8.28;2;120
+TCGA-A4-A5Y1;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N1;MX;T1;M0;N1;Stage III;75;MALE;Dead;12.98;NA;87;Recurred/Progressed;9.72;1;NA
+TCGA-A4-A6HP;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;66;MALE;Alive;12.45;NA;4;DiseaseFree;12.45;1;NA
+TCGA-A4-A772;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;NX;Stage I;39;MALE;Alive;0;NA;0;DiseaseFree;0;[Unknown];NA
+TCGA-A4-A7UZ;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T3;M0;N1;Stage III;71;MALE;Alive;0;NA;0;DiseaseFree;0;[Unknown];NA
+TCGA-AL-3466;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N1;M1;T3;M1;N1;Stage IV;41;MALE;Dead;9.63;293;NA;Recurred/Progressed;4.53;4;10
+TCGA-AL-3467;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T1;M0;NX;;54;FEMALE;Alive;70.14;NA;1778;DiseaseFree;70.14;1;NA
+TCGA-AL-3468;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T2;M0;NX;Stage II;74;MALE;Dead;76.58;NA;1636;NA;NA;3;NA
+TCGA-AL-3471;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 1;N0;M0;T1;M0;NX;Stage I;74;MALE;Dead;49.28;NA;412;NA;NA;1;NA
+TCGA-AL-3472;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;M0;T2;M0;N0;;57;MALE;Alive;66.66;NA;923;DiseaseFree;66.66;3;8
+TCGA-AL-3473;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;M0;T2;M0;N0;Stage II;55;MALE;Alive;62.61;NA;763;DiseaseFree;62.61;1;NA
+TCGA-AL-7173;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N2;M0;T3;MX;N2;Stage IV;72;FEMALE;Alive;67.67;NA;1357;Recurred/Progressed;26.68;2;50
+TCGA-AL-A5DJ;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T3;M0;NX;Stage III;54;FEMALE;Dead;49.21;NA;26;NA;NA;1;NA
+TCGA-AT-A5NU;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 1;;MX;T1;MX;NX;Stage I;77;MALE;Alive;2.2;NA;67;DiseaseFree;2.2;[Unknown];NA
+TCGA-B1-5398;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;M0;T3;M0;N0;Stage III;73;MALE;Alive;41.1;NA;336;DiseaseFree;41.1;[Unknown];NA
+TCGA-B1-7332;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;MX;T2;M0;NX;Stage II;60;FEMALE;Alive;37.48;NA;223;DiseaseFree;37.48;[Unknown];NA
+TCGA-B1-A47M;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;MX;T3;MX;NX;Stage III;79;MALE;Alive;21.65;NA;132;Recurred/Progressed;13.4;1;NA
+TCGA-B1-A47N;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;MX;NX;Stage I;62;MALE;Alive;36.47;NA;278;DiseaseFree;36.47;1;NA
+TCGA-B1-A47O;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;N0;Stage I;54;FEMALE;Alive;27.66;NA;147;DiseaseFree;27.66;1;NA
+TCGA-B1-A654;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;M0;T1;M0;NX;Stage I;43;FEMALE;Alive;20.24;NA;108;DiseaseFree;20.24;2;10
+TCGA-B1-A655;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;;M0;T1;M0;N0;Stage I;77;FEMALE;Alive;16.75;NA;510;DiseaseFree;16.75;1;NA
+TCGA-B1-A656;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;;M0;T1;M0;N0;Stage I;64;MALE;Alive;20.3;NA;14;DiseaseFree;20.3;[Unknown];NA
+TCGA-B1-A657;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;;M0;T1;M0;N0;Stage I;54;MALE;Alive;21.06;NA;200;DiseaseFree;21.06;[Unknown];NA
+TCGA-B3-3925;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;M0;T3;;NX;Stage III;52;MALE;Alive;33.8;NA;110;DiseaseFree;33.8;NA;NA
+TCGA-B3-3926;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;M0;T1;;NX;Stage I;59;FEMALE;Alive;29.01;NA;126;DiseaseFree;29.01;NA;NA
+TCGA-B3-4103;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;;M0;T1;;NX;Stage I;56;MALE;Alive;30.55;NA;180;DiseaseFree;30.55;NA;NA
+TCGA-B3-4104;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;M0;T2;;NX;Stage II;75;MALE;Alive;34.46;NA;136;DiseaseFree;34.46;NA;NA
+TCGA-B3-8121;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;;MX;T1;;NX;Stage I;48;FEMALE;Alive;12.45;NA;148;DiseaseFree;12.45;1;NA
+TCGA-B3-A6W5;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;NX;Stage I;43;MALE;Alive;10.15;NA;85;DiseaseFree;10.15;1;NA
+TCGA-B9-4113;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;;T1;M0;NX;Stage I;64;MALE;Dead;50.46;1536;NA;NA;NA;[Unknown];NA
+TCGA-B9-4114;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;;T2;M1;NX;;49;MALE;Alive;28.15;NA;21;Recurred/Progressed;20.93;4;30
+TCGA-B9-4115;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;;T1;M0;NX;Stage I;53;MALE;Alive;26.38;NA;329;DiseaseFree;26.38;4;15
+TCGA-B9-4116;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 1;N0;;T2;M0;NX;;75;FEMALE;Alive;20.6;NA;93;DiseaseFree;20.6;1;NA
+TCGA-B9-4117;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;NX;;T2;M0;NX;;48;FEMALE;Alive;0.46;NA;14;DiseaseFree;0.46;4;15
+TCGA-B9-4617;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;M0;T1;M0;NX;;41;MALE;Alive;1.15;NA;34;DiseaseFree;1.15;1;NA
+TCGA-B9-5155;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;;T3;M0;NX;Stage III;71;MALE;Alive;21.85;NA;19;DiseaseFree;21.85;2;NA
+TCGA-B9-5156;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;N0;;T1;M0;NX;;51;MALE;Alive;43.96;NA;196;DiseaseFree;43.96;4;NA
+TCGA-B9-7268;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;M0;T2;M0;N0;Stage II;59;MALE;Alive;22.04;NA;36;DiseaseFree;22.04;3;3
+TCGA-B9-A44B;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N0;;T3;M0;NX;Stage III;70;MALE;Alive;11.86;NA;64;DiseaseFree;11.86;5;15
+TCGA-B9-A5W7;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;;T1;M0;NX;Stage I;47;MALE;Alive;19.22;NA;278;Recurred/Progressed;18.53;1;NA
+TCGA-B9-A5W8;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;N0;M0;T2;M0;NX;Stage II;50;MALE;Alive;17.21;NA;207;DiseaseFree;17.21;1;NA
+TCGA-B9-A5W9;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;40;MALE;Alive;0.16;NA;5;DiseaseFree;0.16;2;NA
+TCGA-B9-A69E;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;;T3;M0;NX;Stage III;71;MALE;Alive;14.85;NA;102;DiseaseFree;14.85;3;185
+TCGA-B9-A8YH;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;52;MALE;Alive;17.48;NA;167;DiseaseFree;17.48;2;NA
+TCGA-B9-A8YI;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;MX;T1;M0;NX;Stage I;79;MALE;Alive;12.29;NA;52;DiseaseFree;12.29;3;NA
+TCGA-BQ-5875;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;NX;M0;T3;M0;NX;Stage III;66;FEMALE;Alive;86.7;NA;2639;DiseaseFree;86.7;1;NA
+TCGA-BQ-5876;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;NX;M0;T1;M0;NX;Stage I;75;MALE;Alive;19.25;NA;586;DiseaseFree;19.25;3;NA
+TCGA-BQ-5877;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N1;M1;T3;M1;N1;Stage IV;60;MALE;Dead;8.87;270;NA;Recurred/Progressed;4.17;4;NA
+TCGA-BQ-5878;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N1;M0;T3;M0;N1;Stage III;79;FEMALE;Alive;63.67;NA;1938;Recurred/Progressed;33.57;4;NA
+TCGA-BQ-5879;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;CIMP;mRNA.Cluster 2;N1;M0;T3;M0;N1;Stage III;32;FEMALE;Dead;22.9;697;NA;Recurred/Progressed;19.42;4;NA
+TCGA-BQ-5880;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N1;M0;T3;M0;N1;Stage III;79;MALE;Dead;43.17;1314;NA;Recurred/Progressed;31.93;1;NA
+TCGA-BQ-5881;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;NX;M0;T1;M0;NX;Stage I;69;MALE;Alive;47.77;NA;1454;DiseaseFree;47.77;3;NA
+TCGA-BQ-5882;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N0;M0;T3;M0;N0;Stage III;54;MALE;Dead;21.62;658;NA;Recurred/Progressed;11.17;1;NA
+TCGA-BQ-5883;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;NX;M0;T1;M0;NX;Stage I;79;FEMALE;Alive;40.8;NA;1242;DiseaseFree;40.8;1;NA
+TCGA-BQ-5884;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;NX;M0;T1;M0;NX;Stage I;59;FEMALE;Alive;26.02;NA;792;DiseaseFree;26.02;4;NA
+TCGA-BQ-5885;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;M0;T3;M0;N0;Stage III;63;MALE;Alive;30.26;NA;921;DiseaseFree;30.26;3;NA
+TCGA-BQ-5886;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;NX;M0;T3;M0;NX;Stage III;75;MALE;Alive;26.02;NA;792;DiseaseFree;26.02;3;NA
+TCGA-BQ-5887;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N0;M0;T3;M0;N0;Stage III;54;MALE;Alive;25.33;NA;771;DiseaseFree;25.33;4;NA
+TCGA-BQ-5888;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;M0;T1;M0;N0;Stage I;74;FEMALE;Alive;13.24;NA;403;DiseaseFree;13.24;1;NA
+TCGA-BQ-5889;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N1;M1;T3;M0;N1;Stage IV;63;MALE;Dead;10.81;329;NA;Recurred/Progressed;-1.15;1;NA
+TCGA-BQ-5890;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N0;M0;T3;M0;N0;Stage III;69;MALE;Alive;7.65;NA;233;DiseaseFree;7.65;4;NA
+TCGA-BQ-5891;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N0;M0;T3;M0;N0;Stage III;57;FEMALE;Alive;0.95;NA;29;DiseaseFree;0.95;1;NA
+TCGA-BQ-5892;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;M0;T1;M0;N0;Stage I;51;MALE;Alive;11.96;NA;364;DiseaseFree;11.96;1;NA
+TCGA-BQ-5893;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;CIMP;mRNA.Cluster 2;N1;M1;T3;M1;N1;Stage IV;61;MALE;Dead;7.92;241;NA;Recurred/Progressed;6.18;1;NA
+TCGA-BQ-5894;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;CIMP;mRNA.Cluster 2;N1;M1;T3;M0;N1;Stage IV;42;MALE;Alive;2.76;NA;84;DiseaseFree;2.76;3;NA
+TCGA-BQ-7044;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;NX;M0;T3;M0;NX;Stage III;73;MALE;Alive;123.52;NA;3760;DiseaseFree;123.52;3;NA
+TCGA-BQ-7045;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;N0;M0;T1;M0;N0;Stage I;78;MALE;Dead;48.23;1468;NA;NA;NA;3;NA
+TCGA-BQ-7046;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;NX;M0;T1;M0;NX;Stage I;61;MALE;Alive;96.85;NA;2948;DiseaseFree;96.85;3;NA
+TCGA-BQ-7048;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N0;M0;T3;M0;N0;Stage III;64;MALE;Alive;93.27;NA;2839;Recurred/Progressed;70.37;3;NA
+TCGA-BQ-7049;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;M0;NX;Stage I;45;FEMALE;Dead;44.81;1364;NA;NA;NA;2;NA
+TCGA-BQ-7050;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;M0;T1;M0;N0;Stage I;53;FEMALE;Alive;61.24;NA;1864;DiseaseFree;61.24;4;NA
+TCGA-BQ-7051;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 1;N0;M0;T2;M0;N0;Stage II;74;MALE;Alive;50.36;NA;1533;DiseaseFree;50.36;1;NA
+TCGA-BQ-7053;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;NX;M0;T3;M0;NX;Stage III;57;FEMALE;Alive;49.8;NA;1516;DiseaseFree;49.8;1;NA
+TCGA-BQ-7055;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;NX;M0;T1;M0;NX;Stage I;73;MALE;Alive;26.25;NA;799;DiseaseFree;26.25;[Unknown];NA
+TCGA-BQ-7056;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T3;M0;N0;Stage III;75;FEMALE;Alive;20.11;NA;612;Recurred/Progressed;4.7;3;NA
+TCGA-BQ-7058;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N1;M0;T3;M0;;Stage III;81;MALE;Dead;11.27;343;NA;Recurred/Progressed;9.69;1;NA
+TCGA-BQ-7059;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;NX;M0;T1;M0;NX;Stage I;71;MALE;Alive;7.62;NA;232;DiseaseFree;7.62;1;NA
+TCGA-BQ-7060;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;NX;M0;T1;M0;NX;Stage I;53;MALE;Alive;7.03;NA;214;DiseaseFree;7.03;1;NA
+TCGA-BQ-7061;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;NX;M0;T1;M0;NX;Stage I;83;FEMALE;Alive;7.16;NA;218;DiseaseFree;7.16;3;NA
+TCGA-BQ-7062;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;NX;M0;T1;M0;NX;Stage I;64;MALE;Alive;3.81;NA;116;DiseaseFree;3.81;3;NA
+TCGA-DW-5560;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;M0;T1;M0;NX;Stage I;38;FEMALE;Alive;48.82;NA;353;DiseaseFree;48.82;1;NA
+TCGA-DW-5561;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;M0;T1;M0;NX;Stage I;51;MALE;Alive;13.6;NA;414;DiseaseFree;13.6;4;36
+TCGA-DW-7834;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;53;MALE;Alive;129.76;NA;3950;DiseaseFree;129.76;4;80
+TCGA-DW-7836;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;55;MALE;Alive;35.91;NA;1093;DiseaseFree;35.91;1;NA
+TCGA-DW-7837;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;43;MALE;Alive;37.52;NA;1142;DiseaseFree;37.52;1;NA
+TCGA-DW-7838;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;N0;MX;T1;M0;NX;Stage I;66;MALE;Alive;24.44;NA;744;Recurred/Progressed;12.48;2;45
+TCGA-DW-7839;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;58;FEMALE;Alive;13.76;NA;419;DiseaseFree;13.76;1;NA
+TCGA-DW-7840;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;60;MALE;Alive;3.75;NA;114;DiseaseFree;3.75;1;NA
+TCGA-DW-7841;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;61;MALE;Alive;14.62;NA;445;DiseaseFree;14.62;2;NA
+TCGA-DW-7842;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;52;MALE;Alive;3.02;NA;92;DiseaseFree;3.02;1;NA
+TCGA-DW-7963;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;N0;MX;T1;M0;N0;Stage I;43;MALE;Alive;40.74;NA;876;NA;NA;2;3.5
+TCGA-DZ-6131;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;;MX;T3;;N0;Stage III;31;MALE;Alive;79.8;NA;2429;DiseaseFree;79.8;NA;NA
+TCGA-DZ-6132;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;;MX;T1;;NX;Stage I;69;MALE;Alive;80.81;NA;2460;DiseaseFree;80.81;NA;NA
+TCGA-DZ-6133;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;MX;T1;;NX;Stage I;66;FEMALE;Dead;51.15;1557;NA;NA;NA;NA;NA
+TCGA-DZ-6134;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;;MX;T1;;NX;Stage I;69;MALE;Alive;60.97;NA;1856;DiseaseFree;60.97;NA;NA
+TCGA-DZ-6135;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;MX;T1;;NX;Stage I;45;MALE;Alive;74.54;NA;1670;DiseaseFree;74.54;NA;NA
+TCGA-EV-5901;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;M0;T1;M0;NX;Stage I;47;FEMALE;Alive;34.17;NA;472;DiseaseFree;34.17;2;NA
+TCGA-EV-5902;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;M0;T1;M0;NX;Stage I;58;MALE;Alive;18.99;NA;578;DiseaseFree;18.99;1;NA
+TCGA-EV-5903;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;M0;T1;M0;NX;Stage I;57;MALE;Alive;24.87;NA;757;DiseaseFree;24.87;1;NA
+TCGA-F9-A4JJ;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;CIMP;mRNA.Cluster 2;NX;MX;T3;MX;NX;Stage III;35;FEMALE;Dead;10.68;NA;97;Recurred/Progressed;3.58;1;NA
+TCGA-F9-A7Q0;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;MX;NX;Stage I;37;FEMALE;Alive;13.07;NA;10;DiseaseFree;13.07;1;NA
+TCGA-F9-A7VF;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;MX;NX;Stage I;75;FEMALE;Alive;2.4;NA;7;DiseaseFree;2.4;1;NA
+TCGA-F9-A8NY;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N1;M1;T4;M1;N1;Stage IV;38;FEMALE;Alive;1.18;NA;36;DiseaseFree;1.18;1;NA
+TCGA-F9-A97G;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T3;M0;N0;Stage III;79;MALE;Alive;0.43;NA;13;DiseaseFree;0.43;4;15
+TCGA-G7-6789;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;NX;MX;T3;MX;N2;Stage IV;53;FEMALE;Dead;4.01;122;NA;NA;NA;1;NA
+TCGA-G7-6790;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;57;MALE;Alive;51.74;NA;978;Recurred/Progressed;51.18;1;NA
+TCGA-G7-6792;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;40;MALE;Alive;90.83;NA;1257;DiseaseFree;90.83;2;21
+TCGA-G7-6793;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;CIMP;mRNA.Cluster 2;N2;MX;T3;M0;N2;Stage IV;60;FEMALE;Dead;11.04;336;NA;NA;NA;4;30
+TCGA-G7-6795;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;N0;Stage I;56;MALE;Alive;39.22;NA;928;DiseaseFree;39.22;3;20
+TCGA-G7-6796;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;N0;MX;T1;M0;NX;Stage I;58;MALE;Alive;71.39;NA;1059;DiseaseFree;71.39;1;NA
+TCGA-G7-6797;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage III;46;MALE;Alive;25.13;NA;387;DiseaseFree;25.13;2;NA
+TCGA-G7-7501;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N1;MX;T3;M0;N1;Stage III;55;FEMALE;Dead;20.5;NA;416;Recurred/Progressed;3.61;2;17
+TCGA-G7-7502;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;83;MALE;Alive;25.82;NA;429;DiseaseFree;25.82;3;NA
+TCGA-G7-A4TM;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;40;MALE;Alive;25.23;NA;194;DiseaseFree;25.23;[Unknown];NA
+TCGA-G7-A8LB;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T2;M1;NX;Stage IV;70;MALE;Alive;17.97;NA;197;DiseaseFree;17.97;4;46
+TCGA-G7-A8LC;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;MX;NX;Stage I;61;MALE;Alive;23.06;NA;262;DiseaseFree;23.06;1;NA
+TCGA-G7-A8LD;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T3;MX;N1;Stage III;71;MALE;Dead;16.89;514;NA;Recurred/Progressed;6.87;4;28
+TCGA-G7-A8LE;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;Stage I;62;MALE;Alive;80.58;NA;2091;Recurred/Progressed;47.54;4;40
+TCGA-GL-6846;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 1;;MX;T4;;N1;Stage IV;52;MALE;Alive;194.65;NA;5559;DiseaseFree;194.65;1;NA
+TCGA-GL-7773;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;MX;T1;;NX;Stage I;63;MALE;Alive;12.91;NA;0;DiseaseFree;12.91;4;34
+TCGA-GL-7966;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;CIMP;mRNA.Cluster 2;;MX;T3;;N1;Stage III;28;FEMALE;Alive;3.68;NA;112;DiseaseFree;3.68;1;NA
+TCGA-GL-8500;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;MX;T1;MX;NX;Stage I;63;MALE;Alive;27.63;NA;236;DiseaseFree;27.63;4;NA
+TCGA-GL-A4EM;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;;MX;T1;MX;NX;Stage I;61;MALE;Alive;1.05;NA;32;DiseaseFree;1.05;[Unknown];NA
+TCGA-GL-A59R;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;MX;T3;MX;N0;Stage III;79;MALE;Alive;12.42;NA;203;DiseaseFree;12.42;1;NA
+TCGA-GL-A59T;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;MX;T1;MX;NX;Stage I;46;MALE;Alive;17.94;NA;124;DiseaseFree;17.94;3;5
+TCGA-GL-A9DC;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;;N0;Stage I;66;FEMALE;Alive;12.88;NA;27;DiseaseFree;12.88;1;NA
+TCGA-GL-A9DD;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;;NX;Stage I;69;MALE;Alive;11.2;NA;341;DiseaseFree;11.2;3;20
+TCGA-GL-A9DE;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;;NX;Stage I;74;MALE;Alive;16.29;NA;140;DiseaseFree;16.29;1;NA
+TCGA-HE-7128;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;;MX;T1;MX;NX;Stage I;NA;MALE;Alive;NA;NA;NA;DiseaseFree;NA;1;NA
+TCGA-HE-7129;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;M0;T2;M0;NX;Stage II;NA;MALE;Alive;81.87;NA;NA;Recurred/Progressed;78.81;4;NA
+TCGA-HE-7130;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;M0;T3;M0;NX;Stage III;NA;FEMALE;Alive;58.15;NA;NA;DiseaseFree;58.15;3;NA
+TCGA-HE-A5NF;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;;;T1;M0;NX;Stage I;58;MALE;Alive;84.82;NA;2072;DiseaseFree;84.82;2;NA
+TCGA-HE-A5NH;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;;T1;M0;NX;Stage I;62;MALE;Alive;25.99;NA;408;DiseaseFree;25.99;1;NA
+TCGA-HE-A5NI;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;M0;T1;M0;NX;Stage I;73;MALE;Alive;11.83;NA;360;DiseaseFree;11.83;2;50
+TCGA-HE-A5NJ;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 1;;M0;T1;M0;NX;;58;MALE;Alive;56.7;NA;1726;DiseaseFree;56.7;3;7
+TCGA-HE-A5NK;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;M0;T1;M0;NX;;82;MALE;Alive;73.19;NA;2228;DiseaseFree;73.19;3;35
+TCGA-HE-A5NL;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;;MX;T1;M0;NX;Stage I;51;MALE;Alive;25.2;NA;167;DiseaseFree;25.2;1;NA
+TCGA-IA-A40U;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;N0;MX;T3;MX;N0;Stage III;56;MALE;Alive;16.79;NA;140;DiseaseFree;16.79;4;10
+TCGA-IA-A40X;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;NX;MX;T1;MX;NX;Stage I;49;FEMALE;Alive;19.97;NA;430;DiseaseFree;19.97;1;NA
+TCGA-IA-A40Y;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N1;MX;T3;MX;N1;Stage III;60;FEMALE;Alive;2.04;NA;62;DiseaseFree;2.04;1;NA
+TCGA-IA-A83S;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;TX;;NX;Stage II;81;MALE;Dead;85.71;2609;NA;NA;NA;2;65
+TCGA-IA-A83T;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;TX;;NX;Stage II;80;MALE;Dead;88.17;2684;NA;NA;NA;[Unknown];NA
+TCGA-IA-A83V;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;MX;T1;MX;NX;Stage I;63;MALE;Dead;96.62;2941;NA;NA;NA;2;40
+TCGA-IA-A83W;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;M0;T1;;N0;Stage I;70;MALE;Dead;67.12;2043;NA;Recurred/Progressed;46.25;1;NA
+TCGA-IZ-8195;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 1;NX;MX;T2;MX;NX;Stage II;82;MALE;Alive;22.24;NA;34;DiseaseFree;22.24;1;NA
+TCGA-IZ-8196;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;NX;MX;T1;MX;NX;Stage I;50;MALE;Alive;21.32;NA;124;DiseaseFree;21.32;3;NA
+TCGA-IZ-A6M8;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 3;N0;MX;T1;MX;NX;Stage I;69;MALE;Alive;16.33;NA;146;DiseaseFree;16.33;5;15
+TCGA-IZ-A6M9;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;NX;MX;T1;M0;NX;Stage I;63;MALE;Alive;12.35;NA;2;DiseaseFree;12.35;5;NA
+TCGA-J7-6720;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;;M0;T1;;N0;Stage I;42;MALE;Alive;12.75;NA;0;DiseaseFree;12.75;NA;NA
+TCGA-J7-8537;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;N1;M0;T3;M0;N1;Stage III;37;FEMALE;Dead;10.55;NA;4;Recurred/Progressed;7.23;1;NA
+TCGA-J7-A8I2;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T1;M0;N0;Stage I;75;MALE;Alive;10.09;NA;0;Recurred/Progressed;8.8;1;NA
+TCGA-KV-A6GD;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;M0;T1;M0;NX;Stage I;85;MALE;Alive;18.4;NA;160;DiseaseFree;18.4;1;NA
+TCGA-KV-A6GE;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;MX;NX;Stage I;65;MALE;Alive;29.07;NA;506;DiseaseFree;29.07;1;NA
+TCGA-KV-A74V;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T1;M0;N0;Stage I;40;MALE;Alive;11.4;NA;161;DiseaseFree;11.4;1;NA
+TCGA-MH-A55W;Kidney Papillary Renal Cell Carcinoma;Unclassified Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;NX;MX;T1;MX;NX;Stage I;50;MALE;Alive;34.26;NA;398;DiseaseFree;34.26;1;NA
+TCGA-MH-A55Z;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;MX;NX;Stage I;65;MALE;Alive;27.76;NA;391;DiseaseFree;27.76;1;NA
+TCGA-MH-A560;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;MX;T1;MX;NX;Stage I;62;MALE;Alive;30.35;NA;543;DiseaseFree;30.35;1;NA
+TCGA-MH-A561;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;NX;MX;T1;MX;NX;Stage I;66;MALE;Alive;27.63;NA;438;DiseaseFree;27.63;1;NA
+TCGA-MH-A562;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;MX;NX;Stage I;57;MALE;Alive;20.24;NA;292;DiseaseFree;20.24;1;NA
+TCGA-MH-A854;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;MX;T1;MX;NX;Stage I;62;FEMALE;Alive;17.61;NA;11;DiseaseFree;17.61;4;10
+TCGA-MH-A855;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;MX;T2;MX;NX;Stage II;52;FEMALE;Alive;12.12;NA;0;Recurred/Progressed;0;2;NA
+TCGA-MH-A856;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;M0;NX;Stage I;54;MALE;Alive;31.11;NA;541;DiseaseFree;31.11;4;15
+TCGA-MH-A857;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;M0;NX;Stage I;63;MALE;Alive;29.24;NA;491;DiseaseFree;29.24;1;NA
+TCGA-O9-A75Z;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;NX;Stage I;44;MALE;Alive;15.47;NA;148;DiseaseFree;15.47;[Unknown];NA
+TCGA-P4-A5E6;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;MX;T1;M0;N1;Stage III;67;MALE;Alive;99.7;NA;3035;DiseaseFree;99.7;3;NA
+TCGA-P4-A5E7;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;74;FEMALE;Alive;87.02;NA;2649;DiseaseFree;87.02;3;24
+TCGA-P4-A5E8;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;CIMP;mRNA.Cluster 2;N1;M0;T2;M0;N1;Stage III;57;MALE;Dead;42.9;1306;NA;Recurred/Progressed;1.38;1;NA
+TCGA-P4-A5EA;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;CIMP;mRNA.Cluster 2;N1;MX;T3;M0;N1;Stage III;54;FEMALE;Dead;6.6;201;NA;Recurred/Progressed;1.45;1;NA
+TCGA-P4-A5EB;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;N0;MX;T1;M0;NX;Stage I;83;MALE;Alive;99.05;NA;2584;DiseaseFree;99.05;3;18
+TCGA-P4-A5ED;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;N0;MX;T1;M0;NX;Stage I;51;MALE;Alive;92.51;NA;2816;DiseaseFree;92.51;1;NA
+TCGA-P4-AAVK;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N1;MX;T3;M0;N1;Stage III;74;MALE;Alive;52.23;NA;1590;Recurred/Progressed;7.62;3;NA
+TCGA-P4-AAVL;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T3;M0;N0;Stage III;85;MALE;Dead;16;487;NA;Recurred/Progressed;1.35;1;NA
+TCGA-P4-AAVM;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;69;MALE;Alive;50.56;NA;1539;DiseaseFree;50.56;2;NA
+TCGA-P4-AAVO;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;69;MALE;Alive;78.84;NA;2400;DiseaseFree;78.84;4;NA
+TCGA-PJ-A5Z8;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 2;NX;M0;T1;MX;NX;Stage I;60;FEMALE;Alive;19.71;NA;113;DiseaseFree;19.71;1;NA
+TCGA-PJ-A5Z9;Kidney Papillary Renal Cell Carcinoma;Type 1 Papillary RCC;DNA_meth_cluster:2;mRNA.Cluster 1;NX;MX;T1;MX;NX;Stage I;80;FEMALE;Alive;17.74;NA;174;DiseaseFree;17.74;4;25
+TCGA-PJ-A8JU;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;MX;T1;MX;NX;Stage I;81;FEMALE;Alive;12.48;NA;84;DiseaseFree;12.48;3;5
+TCGA-Q2-A5QZ;Kidney Papillary Renal Cell Carcinoma;Type 2 Papillary RCC;DNA_meth_cluster:1;mRNA.Cluster 2;NX;MX;T3;MX;NX;Stage III;61;FEMALE;Alive;14.06;NA;57;Recurred/Progressed;13.53;4;15
+TCGA-SX-A71R;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T1;M0;N0;Stage I;51;MALE;Alive;47.86;NA;1079;DiseaseFree;47.86;1;NA
+TCGA-SX-A71S;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;M0;NX;Stage I;66;FEMALE;Alive;49.41;NA;1199;DiseaseFree;49.41;3;20
+TCGA-SX-A71U;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;M0;NX;Stage I;57;MALE;Alive;44.58;NA;994;DiseaseFree;44.58;2;15
+TCGA-SX-A71V;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;M0;NX;Stage I;80;MALE;Alive;28.78;NA;508;DiseaseFree;28.78;1;NA
+TCGA-SX-A71W;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;M0;NX;Stage I;66;MALE;Alive;35.35;NA;760;DiseaseFree;35.35;3;14
+TCGA-SX-A7SL;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;M0;NX;Stage I;74;MALE;Alive;27.04;NA;423;DiseaseFree;27.04;4;45
+TCGA-SX-A7SM;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N1;M1;T3;M1;N1;Stage IV;60;MALE;Dead;11.93;363;NA;NA;NA;2;40
+TCGA-SX-A7SN;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;M0;NX;Stage I;52;MALE;Alive;18.99;NA;102;DiseaseFree;18.99;1;NA
+TCGA-SX-A7SO;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;M0;NX;Stage I;64;MALE;Alive;41.29;NA;925;DiseaseFree;41.29;1;NA
+TCGA-SX-A7SP;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T1;MX;N0;Stage I;66;FEMALE;Dead;16.29;496;NA;NA;NA;1;NA
+TCGA-SX-A7SQ;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T1;M0;NX;Stage I;48;MALE;Alive;41.59;NA;494;DiseaseFree;41.59;1;NA
+TCGA-SX-A7SR;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;M0;T2;M0;NX;Stage II;66;MALE;Alive;26.45;NA;335;DiseaseFree;26.45;2;50
+TCGA-SX-A7SS;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T1;M0;N0;Stage I;67;MALE;Alive;53.06;NA;1247;DiseaseFree;53.06;4;50
+TCGA-SX-A7SU;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;M0;T1;M0;NX;Stage I;47;MALE;Alive;43.73;NA;847;DiseaseFree;43.73;1;NA
+TCGA-UN-AAZ9;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;MX;N0;Stage I;76;FEMALE;Alive;18;NA;365;DiseaseFree;18;5;NA
+TCGA-UZ-A9PJ;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;NX;Stage I;78;MALE;Dead;26.18;NA;0;NA;NA;3;NA
+TCGA-UZ-A9PK;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;NX;Stage I;71;MALE;Alive;117.31;NA;1826;Recurred/Progressed;103.71;[Unknown];NA
+TCGA-UZ-A9PL;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T2;M0;NX;Stage II;59;MALE;Alive;103.55;NA;0;DiseaseFree;103.55;1;NA
+TCGA-UZ-A9PM;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T2;M0;N0;Stage II;62;MALE;Alive;125.2;NA;451;DiseaseFree;125.2;2;20
+TCGA-UZ-A9PN;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T3;M0;NX;Stage III;54;MALE;Dead;37.32;NA;667;Recurred/Progressed;22.31;[Unknown];NA
+TCGA-UZ-A9PO;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;NX;Stage I;80;MALE;Alive;62.78;NA;0;DiseaseFree;62.78;3;40
+TCGA-UZ-A9PP;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;NX;Stage I;60;MALE;Alive;98.88;NA;16;DiseaseFree;98.88;1;NA
+TCGA-UZ-A9PQ;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T2;M0;N1;Stage III;59;MALE;Dead;86.2;NA;2182;Recurred/Progressed;75.16;2;NA
+TCGA-UZ-A9PR;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;NX;Stage I;84;MALE;Alive;86.3;NA;1182;Recurred/Progressed;81.93;3;28
+TCGA-UZ-A9PS;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T2;M0;NX;Stage II;62;FEMALE;Alive;71.19;NA;1585;Recurred/Progressed;1.81;3;15
+TCGA-UZ-A9PS;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T2;M0;NX;Stage II;62;FEMALE;Alive;71.19;NA;1585;Recurred/Progressed;1.81;3;15
+TCGA-UZ-A9PU;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;NX;Stage I;76;MALE;Dead;30.65;933;NA;NA;NA;1;NA
+TCGA-UZ-A9PV;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;NX;Stage I;64;MALE;Alive;47.44;NA;781;DiseaseFree;47.44;1;NA
+TCGA-UZ-A9PX;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;N0;Stage I;72;MALE;Alive;65.08;NA;833;Recurred/Progressed;10.12;3;67.5
+TCGA-UZ-A9PZ;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T3;M0;NX;Stage III;64;MALE;Alive;21.58;NA;0;DiseaseFree;21.58;5;NA
+TCGA-UZ-A9Q0;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;NX;Stage I;60;MALE;Alive;110.64;NA;395;DiseaseFree;110.64;5;NA
+TCGA-UZ-A9Q1;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;M0;NX;Stage I;88;FEMALE;Alive;51.31;NA;0;DiseaseFree;51.31;1;NA
+TCGA-V9-A7HT;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T2;M0;NX;Stage II;67;MALE;Alive;31.7;NA;965;DiseaseFree;31.7;5;NA
+TCGA-WN-A9G9;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;MX;T1;MX;NX;Stage I;55;MALE;Alive;25.99;NA;579;Recurred/Progressed;25.99;4;10
+TCGA-WN-AB4C;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;NX;MX;T1;MX;NX;Stage I;60;FEMALE;Alive;39.03;NA;882;Recurred/Progressed;38.01;2;NA
+TCGA-Y8-A894;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;Stage I;57;FEMALE;Alive;18.63;NA;224;DiseaseFree;18.63;2;13
+TCGA-Y8-A895;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;Stage I;74;MALE;Alive;15.9;NA;2;DiseaseFree;15.9;1;NA
+TCGA-Y8-A896;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T3;MX;NX;Stage III;62;MALE;Alive;18.63;NA;186;DiseaseFree;18.63;2;50
+TCGA-Y8-A897;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;N0;Stage I;68;FEMALE;Alive;18.04;NA;219;Recurred/Progressed;14.78;1;NA
+TCGA-Y8-A898;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;Stage I;69;MALE;Alive;15.6;NA;181;DiseaseFree;15.6;1;NA
+TCGA-Y8-A8RY;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;Stage I;63;MALE;Alive;25.26;NA;399;DiseaseFree;25.26;3;30
+TCGA-Y8-A8RZ;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;N0;Stage I;55;MALE;Alive;6.73;NA;205;DiseaseFree;6.73;2;20
+TCGA-Y8-A8S0;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;Stage I;58;MALE;Alive;6.01;NA;106;DiseaseFree;6.01;1;NA
+TCGA-Y8-A8S1;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;;MX;T1;MX;NX;Stage I;61;MALE;Alive;13.27;NA;104;DiseaseFree;13.27;1;NA

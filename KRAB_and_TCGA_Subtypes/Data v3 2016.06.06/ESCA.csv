@@ -1,0 +1,187 @@
+PatientID;histological_type;pathologic_M;pathologic_T;clinical_M;pathologic_N;pathologic_stage;columnar_metaplasia_present;columnar_mucosa_dysplasia;histologic_grade;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months;smoking_history;pack_per_year;H.PYLORI_Infection
+TCGA-2H-A9GF;NA;;;;;N;NO;Negative/no dysplasia;G3;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+TCGA-2H-A9GG;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;YES;Low grade dysplasia;G2;66;MALE;DECEASED;20.04;610;NA;Recurred/Progressed;16.56;[Unknown];NA;[Unknown]
+TCGA-2H-A9GH;Esophagus Adenocarcinoma, NOS;M0;T1;;N1;stage II;YES;;G2;44;MALE;DECEASED;31.24;951;NA;Recurred/Progressed;26.28;[Unknown];NA;[Unknown]
+TCGA-2H-A9GI;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;YES;;G2;68;MALE;DECEASED;14.29;435;NA;Recurred/Progressed;13.14;[Unknown];NA;[Unknown]
+TCGA-2H-A9GJ;Esophagus Adenocarcinoma, NOS;M0;T1;;N0;stage I;YES;High grade dysplasia;G2;57;MALE;DECEASED;58.51;1781;NA;Recurred/Progressed;41.43;[Unknown];NA;[Unknown]
+TCGA-2H-A9GK;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;YES;High grade dysplasia;G3;43;MALE;DECEASED;7.62;232;NA;Recurred/Progressed;4.4;[Unknown];NA;[Unknown]
+TCGA-2H-A9GL;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;YES;;G3;74;MALE;DECEASED;5.91;180;NA;Recurred/Progressed;3.58;[Unknown];NA;[Unknown]
+TCGA-2H-A9GM;Esophagus Adenocarcinoma, NOS;M0;T1;;N1;stage II;YES;;G2;53;MALE;DECEASED;13.93;424;NA;Recurred/Progressed;12.06;[Unknown];NA;[Unknown]
+TCGA-2H-A9GN;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;NO;Negative/no dysplasia;G3;70;MALE;DECEASED;8.94;272;NA;Recurred/Progressed;7.95;[Unknown];NA;[Unknown]
+TCGA-2H-A9GO;Esophagus Adenocarcinoma, NOS;M1;T3;;N1;stage IV;YES;;G3;58;MALE;DECEASED;16.23;494;NA;Recurred/Progressed;11.89;[Unknown];NA;[Unknown]
+TCGA-2H-A9GQ;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;YES;Low grade dysplasia;G3;80;MALE;DECEASED;4.2;128;NA;Recurred/Progressed;3.68;[Unknown];NA;[Unknown]
+TCGA-2H-A9GR;Esophagus Adenocarcinoma, NOS;M0;T3;;N0;stage II;YES;High grade dysplasia;G2;80;MALE;DECEASED;32.42;987;NA;NA;NA;[Unknown];NA;[Unknown]
+TCGA-IC-A6RE;Esophagus Adenocarcinoma, NOS;M0;T1;;N1;stage II;;;G2;59;MALE;LIVING;7.69;NA;234;DiseaseFree;7.69;2;40;[Unknown]
+TCGA-IC-A6RF;Esophagus Squamous Cell Carcinoma;M0;T1;M0;N0;stage I;;;GX;69;FEMALE;LIVING;15.67;NA;189;Recurred/Progressed;9.63;3;22;[Unknown]
+TCGA-IG-A3I8;Esophagus Squamous Cell Carcinoma;M0;T3;;N0;stage II;NO;;G2;51;FEMALE;LIVING;33.25;NA;0;DiseaseFree;33.25;1;NA;[Unknown]
+TCGA-IG-A3QL;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;NO;;G2;54;MALE;LIVING;35.18;NA;0;DiseaseFree;35.18;2;30;[Unknown]
+TCGA-IG-A3Y9;Esophagus Squamous Cell Carcinoma;M0;T4;;N0;stage III;NO;;G2;72;MALE;DECEASED;0.85;NA;0;NA;NA;2;50;[Unknown]
+TCGA-IG-A3YA;Esophagus Squamous Cell Carcinoma;M0;T4;;N0;stage III;NO;;G2;53;MALE;LIVING;20.76;NA;0;DiseaseFree;20.76;2;37.5;[Unknown]
+TCGA-IG-A3YB;Esophagus Squamous Cell Carcinoma;M0;T3;;N1;stage III;NO;;G2;61;MALE;LIVING;2.63;NA;0;DiseaseFree;2.63;1;NA;[Unknown]
+TCGA-IG-A3YC;Esophagus Squamous Cell Carcinoma;M0;T3;;N1;stage III;NO;;G2;62;MALE;LIVING;20.11;NA;0;Recurred/Progressed;17.81;2;40;[Unknown]
+TCGA-IG-A4P3;Esophagus Squamous Cell Carcinoma;M0;T2;;N1;stage II;;;G2;48;MALE;DECEASED;18.63;NA;1;NA;NA;4;20;[Unknown]
+TCGA-IG-A4QS;Esophagus Adenocarcinoma, NOS;M0;T3;;N2;stage III;;;G3;71;MALE;DECEASED;3.88;NA;8;NA;NA;1;NA;Never
+TCGA-IG-A4QT;Esophagus Squamous Cell Carcinoma;M0;T3;;N0;stage II;NO;;G2;56;MALE;DECEASED;9.3;NA;30;NA;NA;2;60;Never
+TCGA-IG-A50L;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N1;stage III;NO;;G2;58;MALE;LIVING;0.53;NA;16;DiseaseFree;0.53;3;31;[Unknown]
+TCGA-IG-A51D;Esophagus Squamous Cell Carcinoma;M0;T1;M1;N1;stage II;NO;;G2;63;MALE;LIVING;17.02;NA;0;DiseaseFree;17.02;1;NA;[Unknown]
+TCGA-IG-A5B8;Esophagus Squamous Cell Carcinoma;M0;T3;;N0;stage I;NO;;G1;72;MALE;DECEASED;0.79;24;NA;NA;NA;2;75;[Unknown]
+TCGA-IG-A5S3;Esophagus Squamous Cell Carcinoma;M0;T3;;N0;stage II;NO;;G2;69;FEMALE;LIVING;23.39;NA;0;DiseaseFree;23.39;1;NA;[Unknown]
+TCGA-IG-A625;Esophagus Squamous Cell Carcinoma;M0;T3;;N2;stage III;NO;Negative/no dysplasia;G2;60;MALE;DECEASED;12.81;NA;11;NA;NA;1;NA;[Unknown]
+TCGA-IG-A6QS;Esophagus Squamous Cell Carcinoma;M0;T2;;N1;stage II;NO;;G1;54;MALE;DECEASED;9.95;NA;4;NA;NA;2;34;[Unknown]
+TCGA-IG-A7DP;Esophagus Adenocarcinoma, NOS;MX;T4;;NX;stage III;;;G2;50;FEMALE;LIVING;14.85;NA;34;DiseaseFree;14.85;1;NA;Never
+TCGA-IG-A8O2;Esophagus Squamous Cell Carcinoma;M0;T3;;N2;stage III;NO;Negative/no dysplasia;G3;62;MALE;DECEASED;4.66;NA;14;NA;NA;4;15;[Unknown]
+TCGA-IG-A97H;Esophagus Squamous Cell Carcinoma;M0;T3;;NX;stage II;NO;Negative/no dysplasia;G3;36;MALE;LIVING;14.49;NA;13;DiseaseFree;14.49;4;10;[Unknown]
+TCGA-IG-A97I;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;NO;;G2;58;MALE;LIVING;12.16;NA;-4;DiseaseFree;12.16;1;NA;Never
+TCGA-JY-A6F8;Esophagus Adenocarcinoma, NOS;M0;T1;;N0;stage I;YES;High grade dysplasia;G1;56;MALE;LIVING;122.01;NA;3714;DiseaseFree;122.01;1;NA;Never
+TCGA-JY-A6FA;Esophagus Squamous Cell Carcinoma;M0;T2;;N1;stage II;YES;High grade dysplasia;G2;51;MALE;DECEASED;44.71;1361;NA;Recurred/Progressed;15.67;4;35;Never
+TCGA-JY-A6FB;Esophagus Adenocarcinoma, NOS;M0;T1;;N0;stage I;YES;High grade dysplasia;G2;77;MALE;LIVING;60.35;NA;1837;DiseaseFree;60.35;1;NA;Never
+TCGA-JY-A6FD;Esophagus Squamous Cell Carcinoma;M0;T3;;N0;stage II;NO;Negative/no dysplasia;G1;51;FEMALE;LIVING;67.97;NA;1638;DiseaseFree;67.97;1;NA;Never
+TCGA-JY-A6FE;Esophagus Squamous Cell Carcinoma;M0;T3;;N1;stage III;NO;Negative/no dysplasia;G3;49;MALE;DECEASED;3.68;112;NA;Recurred/Progressed;1.81;4;29;Never
+TCGA-JY-A6FG;Esophagus Squamous Cell Carcinoma;M0;T3;;N1;stage III;NO;Negative/no dysplasia;G2;50;MALE;DECEASED;41.49;1263;NA;NA;NA;4;6;Never
+TCGA-JY-A6FH;Esophagus Adenocarcinoma, NOS;M0;T2;;N1;stage II;YES;High grade dysplasia;G2;53;MALE;LIVING;47.34;NA;1098;Recurred/Progressed;37.02;4;33;Never
+TCGA-JY-A938;Esophagus Adenocarcinoma, NOS;M0;T3;;N0;stage II;YES;Negative/no dysplasia;G3;75;MALE;LIVING;34.82;NA;773;Recurred/Progressed;33.21;1;NA;Never
+TCGA-JY-A939;Esophagus Adenocarcinoma, NOS;M0;T1;;N1;stage II;YES;Negative/no dysplasia;G3;77;MALE;LIVING;21.68;NA;471;DiseaseFree;21.68;1;NA;Never
+TCGA-JY-A93C;Esophagus Adenocarcinoma, NOS;M0;T3;;N2;stage III;YES;Negative/no dysplasia;G3;47;MALE;LIVING;23.16;NA;705;Recurred/Progressed;21.42;1;NA;Never
+TCGA-JY-A93D;Esophagus Adenocarcinoma, NOS;M0;T2;;N3;stage III;YES;High grade dysplasia;G3;51;MALE;DECEASED;31.54;NA;769;Recurred/Progressed;24.05;1;NA;Never
+TCGA-JY-A93E;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;NO;Negative/no dysplasia;G3;61;MALE;LIVING;25.2;NA;550;DiseaseFree;25.2;1;NA;Never
+TCGA-JY-A93F;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage I;NO;Negative/no dysplasia;G1;58;FEMALE;LIVING;24.01;NA;535;DiseaseFree;24.01;1;NA;Never
+TCGA-KH-A6WC;Esophagus Squamous Cell Carcinoma;M0;T1;M0;N0;stage I;NO;;GX;82;MALE;LIVING;6.27;NA;189;DiseaseFree;6.27;3;50;Never
+TCGA-L5-A43C;Esophagus Adenocarcinoma, NOS;;;MX;;N;NO;Negative/no dysplasia;GX;81;MALE;LIVING;3.15;NA;96;DiseaseFree;3.15;4;78;Never
+TCGA-L5-A43E;Esophagus Adenocarcinoma, NOS;M0;T1;;N0;stage I;YES;High grade dysplasia;GX;74;MALE;LIVING;30.22;NA;105;Recurred/Progressed;29.07;3;15;Never
+TCGA-L5-A43H;Esophagus Squamous Cell Carcinoma;M0;T3;;N1;stage III;NO;;GX;75;MALE;DECEASED;0.3;9;NA;NA;NA;4;102;[Unknown]
+TCGA-L5-A43I;Esophagus Adenocarcinoma, NOS;MX;T3;;N1;stage III;;;;77;MALE;DECEASED;18.27;556;NA;NA;NA;2;45;[Unknown]
+TCGA-L5-A43J;Esophagus Squamous Cell Carcinoma;MX;T3;;N0;stage II;NO;Negative/no dysplasia;G3;90;MALE;DECEASED;4.3;131;NA;Recurred/Progressed;3.22;3;54;[Unknown]
+TCGA-L5-A43M;Esophagus Adenocarcinoma, NOS;MX;T3;;N2;;NO;Negative/no dysplasia;GX;84;FEMALE;LIVING;8.94;NA;272;DiseaseFree;8.94;3;NA;[Unknown]
+TCGA-L5-A4OE;Esophagus Adenocarcinoma, NOS;[Unknown];T3;;N2;stage III;NO;Negative/no dysplasia;G2;81;MALE;DECEASED;23.98;NA;107;NA;NA;3;38;[Unknown]
+TCGA-L5-A4OF;Esophagus Adenocarcinoma, NOS;[Unknown];T1;;N1;stage II;;High grade dysplasia;G3;63;MALE;DECEASED;26.31;NA;112;NA;NA;1;NA;NA
+TCGA-L5-A4OG;Esophagus Adenocarcinoma, NOS;M0;T1;;N0;stage I;;High grade dysplasia;G1;79;FEMALE;LIVING;4.7;NA;102;DiseaseFree;4.7;3;30;NA
+TCGA-L5-A4OH;Esophagus Adenocarcinoma, NOS;M0;T1;;N0;stage I;NO;;GX;71;MALE;LIVING;32.59;NA;593;DiseaseFree;32.59;3;60;[Unknown]
+TCGA-L5-A4OI;Esophagus Adenocarcinoma, NOS;MX;T3;;N3;stage III;NO;;G2;79;MALE;LIVING;19.97;NA;267;Recurred/Progressed;8.77;3;48;[Unknown]
+TCGA-L5-A4OJ;Esophagus Adenocarcinoma, NOS;M0;T1;;N0;stage I;NO;High grade dysplasia;G3;70;FEMALE;LIVING;20.99;NA;195;DiseaseFree;20.99;1;NA;[Unknown]
+TCGA-L5-A4OM;Esophagus Squamous Cell Carcinoma;[Unknown];T1;;N0;stage I;NO;High grade dysplasia;GX;54;FEMALE;DECEASED;47.9;NA;124;NA;NA;2;40;NA
+TCGA-L5-A4ON;Esophagus Adenocarcinoma, NOS;[Unknown];T1;;N1;stage II;NO;High grade dysplasia;GX;65;MALE;DECEASED;18.33;558;NA;NA;NA;3;10;[Unknown]
+TCGA-L5-A4OO;Esophagus Adenocarcinoma, NOS;M0;T3;;N3;stage III;NO;;G2;75;MALE;LIVING;3.32;NA;101;DiseaseFree;3.32;4;2.5;[Unknown]
+TCGA-L5-A4OP;Esophagus Adenocarcinoma, NOS;MX;T1;;N0;stage I;;;G2;67;FEMALE;LIVING;7.16;NA;218;DiseaseFree;7.16;2;30;[Unknown]
+TCGA-L5-A4OQ;Esophagus Adenocarcinoma, NOS;MX;T2;;N2;stage III;NO;;GX;75;MALE;DECEASED;1.38;42;NA;Recurred/Progressed;0.95;3;35;Never
+TCGA-L5-A4OR;Esophagus Adenocarcinoma, NOS;MX;T1;;N0;stage I;;High grade dysplasia;GX;83;MALE;DECEASED;3.15;96;NA;NA;NA;1;NA;NA
+TCGA-L5-A4OS;Esophagus Adenocarcinoma, NOS;M0;T2;;N1;stage II;NO;;G3;86;FEMALE;LIVING;58.54;NA;935;DiseaseFree;58.54;1;NA;[Unknown]
+TCGA-L5-A4OT;Esophagus Adenocarcinoma, NOS;M1;T3;;N1;stage IV;;;GX;77;MALE;DECEASED;4.89;149;NA;NA;NA;4;40;[Unknown]
+TCGA-L5-A4OU;Esophagus Adenocarcinoma, NOS;M0;T3;;N0;stage II;NO;;GX;81;MALE;LIVING;28.98;NA;882;DiseaseFree;28.98;3;30;NA
+TCGA-L5-A4OW;Esophagus Adenocarcinoma, NOS;M0;T2;;N1;stage II;;;GX;56;FEMALE;DECEASED;7.13;217;NA;NA;NA;2;40;NA
+TCGA-L5-A4OX;Esophagus Adenocarcinoma, NOS;M0;T2;;N1;stage II;;High grade dysplasia;GX;60;MALE;DECEASED;7.42;226;NA;NA;NA;4;28.75;[Unknown]
+TCGA-L5-A88S;Esophagus Squamous Cell Carcinoma;MX;T3;;N0;stage I;NO;Negative/no dysplasia;GX;84;MALE;LIVING;15.47;NA;211;DiseaseFree;15.47;3;30;[Unknown]
+TCGA-L5-A88T;Esophagus Adenocarcinoma, NOS;M0;T2;;N1;stage II;NO;Negative/no dysplasia;GX;86;MALE;LIVING;22.8;NA;265;DiseaseFree;22.8;3;17.5;Never
+TCGA-L5-A88V;Esophagus Adenocarcinoma, NOS;MX;T3;;N1;stage III;NO;Negative/no dysplasia;GX;60;MALE;LIVING;2.6;NA;79;DiseaseFree;2.6;4;30;Never
+TCGA-L5-A88W;Esophagus Squamous Cell Carcinoma;MX;T3;;N0;stage II;NO;;GX;67;MALE;DECEASED;25.1;764;NA;Recurred/Progressed;10.35;[Unknown];NA;[Unknown]
+TCGA-L5-A88Y;Esophagus Adenocarcinoma, NOS;MX;T1;;N0;;;;GX;76;MALE;LIVING;0.36;NA;11;DiseaseFree;0.36;3;50;[Unknown]
+TCGA-L5-A88Z;Esophagus Squamous Cell Carcinoma;M0;T1;;N1;stage II;NO;Negative/no dysplasia;GX;70;FEMALE;LIVING;7.39;NA;225;DiseaseFree;7.39;1;NA;[Unknown]
+TCGA-L5-A891;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;;NO;Negative/no dysplasia;GX;51;MALE;LIVING;3.75;NA;114;DiseaseFree;3.75;1;NA;[Unknown]
+TCGA-L5-A893;Esophagus Adenocarcinoma, NOS;M0;T1;;N0;stage I;;High grade dysplasia;GX;71;FEMALE;LIVING;3.02;NA;92;DiseaseFree;3.02;2;52;[Unknown]
+TCGA-L5-A8NE;Esophagus Adenocarcinoma, NOS;M0;T2;;N1;stage II;NO;;GX;77;MALE;LIVING;55.45;NA;1688;DiseaseFree;55.45;3;58;[Unknown]
+TCGA-L5-A8NF;Esophagus Adenocarcinoma, NOS;M1;T1;;N0;stage IV;;;GX;57;MALE;DECEASED;2.66;81;NA;NA;NA;4;60;[Unknown]
+TCGA-L5-A8NG;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;;;GX;77;MALE;LIVING;35.94;NA;1094;DiseaseFree;35.94;4;100;[Unknown]
+TCGA-L5-A8NH;Esophagus Adenocarcinoma, NOS;M1;T1;;N0;stage IV;;High grade dysplasia;GX;54;MALE;DECEASED;12.91;393;NA;NA;NA;1;NA;[Unknown]
+TCGA-L5-A8NI;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;NO;;G3;79;MALE;DECEASED;13.47;410;NA;Recurred/Progressed;13.17;3;NA;Never
+TCGA-L5-A8NJ;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;;;GX;77;MALE;LIVING;16.46;NA;501;Recurred/Progressed;13.01;3;NA;[Unknown]
+TCGA-L5-A8NK;Esophagus Squamous Cell Carcinoma;M0;T3;;N0;stage II;;;G1;84;FEMALE;LIVING;13.53;NA;412;Recurred/Progressed;10.68;4;25;[Unknown]
+TCGA-L5-A8NL;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;;;GX;56;MALE;LIVING;13.21;NA;402;DiseaseFree;13.21;3;NA;[Unknown]
+TCGA-L5-A8NM;Esophagus Adenocarcinoma, NOS;M0;T2;;N1;stage II;;;GX;84;FEMALE;DECEASED;7.75;236;NA;NA;NA;1;NA;[Unknown]
+TCGA-L5-A8NN;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;;;GX;81;MALE;LIVING;5.49;NA;165;DiseaseFree;5.49;3;15;[Unknown]
+TCGA-L5-A8NQ;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;;;G3;71;MALE;DECEASED;21.35;650;NA;Recurred/Progressed;11.07;3;60;[Unknown]
+TCGA-L5-A8NR;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;;;GX;81;FEMALE;LIVING;8.71;NA;265;Recurred/Progressed;8.71;3;15;[Unknown]
+TCGA-L5-A8NS;Esophagus Adenocarcinoma, NOS;M0;T3;;N0;stage II;YES;;GX;76;MALE;LIVING;13.4;NA;408;Recurred/Progressed;9.86;4;80;[Unknown]
+TCGA-L5-A8NT;Esophagus Adenocarcinoma, NOS;M0;T3;;N0;stage II;;;GX;69;MALE;LIVING;27.1;NA;825;Recurred/Progressed;27.1;3;26;[Unknown]
+TCGA-L5-A8NU;Esophagus Adenocarcinoma, NOS;M0;T2;;N0;stage II;;;G3;84;MALE;DECEASED;83.18;2532;NA;NA;NA;3;NA;[Unknown]
+TCGA-L5-A8NV;Esophagus Adenocarcinoma, NOS;M0;T3;;N0;stage II;;;G3;75;MALE;DECEASED;52.53;1599;NA;Recurred/Progressed;41.13;3;NA;[Unknown]
+TCGA-L5-A8NW;Esophagus Adenocarcinoma, NOS;M0;T2;;N1;stage I;;;GX;55;MALE;DECEASED;46.06;1402;NA;Recurred/Progressed;44.15;3;15;[Unknown]
+TCGA-L7-A56G;Esophagus Squamous Cell Carcinoma;;;M0;;N;;;;65;MALE;DECEASED;10.84;NA;245;Recurred/Progressed;8.87;1;NA;Never
+TCGA-L7-A6VZ;Esophagus Adenocarcinoma, NOS;MX;T3;;N3;stage III;;;G2;62;MALE;LIVING;10.35;NA;266;DiseaseFree;10.35;1;NA;NA
+TCGA-LN-A49K;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N0;stage II;;;G2;66;MALE;DECEASED;5.91;NA;2;NA;NA;1;NA;NA
+TCGA-LN-A49L;Esophagus Squamous Cell Carcinoma;M0;T2;M0;N0;stage II;;;G2;44;MALE;DECEASED;10.45;NA;2;NA;NA;1;NA;NA
+TCGA-LN-A49M;Esophagus Squamous Cell Carcinoma;M0;T2;M0;N0;stage II;;;G1;62;MALE;LIVING;12.65;NA;5;DiseaseFree;12.65;1;NA;NA
+TCGA-LN-A49N;Esophagus Squamous Cell Carcinoma;M0;T2;M0;N1;stage II;;;G2;50;MALE;LIVING;12.42;NA;2;DiseaseFree;12.42;1;NA;NA
+TCGA-LN-A49O;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N0;stage II;;;G3;47;MALE;LIVING;13.4;NA;10;Recurred/Progressed;6.34;4;20;NA
+TCGA-LN-A49P;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N0;stage II;;;G2;71;MALE;LIVING;12.32;NA;0;Recurred/Progressed;10.51;4;40;NA
+TCGA-LN-A49R;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N1;stage III;;;G3;46;MALE;LIVING;13.37;NA;3;DiseaseFree;13.37;4;20;NA
+TCGA-LN-A49S;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N0;stage II;;;G2;59;MALE;LIVING;13.14;NA;4;Recurred/Progressed;1.61;4;40;NA
+TCGA-LN-A49U;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N0;stage II;;;G1;62;MALE;LIVING;15.34;NA;2;DiseaseFree;15.34;4;40;NA
+TCGA-LN-A49V;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N0;stage II;;;G3;49;MALE;LIVING;12.58;NA;3;DiseaseFree;12.58;4;15;NA
+TCGA-LN-A49W;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N1;stage III;;;G3;73;MALE;LIVING;13.24;NA;2;DiseaseFree;13.24;4;40;NA
+TCGA-LN-A49X;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N0;stage II;;;G2;44;MALE;LIVING;12.61;NA;3;DiseaseFree;12.61;1;NA;NA
+TCGA-LN-A49Y;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N0;stage II;;;G2;77;MALE;LIVING;12.45;NA;2;Recurred/Progressed;2.96;1;NA;NA
+TCGA-LN-A4A1;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N0;stage II;;;G3;60;MALE;LIVING;12.58;NA;0;Recurred/Progressed;6.73;1;NA;NA
+TCGA-LN-A4A2;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N0;stage II;;;G1;57;MALE;LIVING;12.48;NA;4;DiseaseFree;12.48;1;NA;NA
+TCGA-LN-A4A3;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N1;stage III;;;G2;61;MALE;LIVING;12.75;NA;2;DiseaseFree;12.75;2;35;NA
+TCGA-LN-A4A4;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N1;stage III;;;GX;36;MALE;LIVING;12.58;NA;3;DiseaseFree;12.58;1;NA;NA
+TCGA-LN-A4A5;Esophagus Squamous Cell Carcinoma;M0;T2;M0;N0;stage II;;;G2;49;MALE;DECEASED;22.37;NA;3;Recurred/Progressed;7.36;1;NA;NA
+TCGA-LN-A4A6;Esophagus Squamous Cell Carcinoma;M0;T2;M0;N0;stage II;;;G2;65;MALE;LIVING;12.84;NA;3;Recurred/Progressed;5.19;4;20;NA
+TCGA-LN-A4A8;Esophagus Squamous Cell Carcinoma;M0;T2;M0;N0;stage II;;;G2;52;MALE;LIVING;15.51;NA;2;Recurred/Progressed;8.21;1;NA;NA
+TCGA-LN-A4A9;Esophagus Squamous Cell Carcinoma;M0;T2;M0;N0;stage II;;;G1;58;MALE;DECEASED;11.53;NA;2;Recurred/Progressed;9;4;20;NA
+TCGA-LN-A4MQ;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N1;stage III;;;G3;46;MALE;LIVING;12.32;NA;3;Recurred/Progressed;0.82;2;NA;NA
+TCGA-LN-A4MR;Esophagus Squamous Cell Carcinoma;M0;T2;M0;N0;stage II;;;G2;57;MALE;LIVING;13.21;NA;2;Recurred/Progressed;7.42;1;NA;NA
+TCGA-LN-A5U5;Esophagus Squamous Cell Carcinoma;M1;T3;;N1;stage IV;;;G2;57;MALE;DECEASED;4.47;NA;5;NA;NA;1;NA;Never
+TCGA-LN-A5U6;Esophagus Squamous Cell Carcinoma;M0;T2;;N1;stage II;;;G2;54;MALE;LIVING;12.32;NA;6;DiseaseFree;12.32;2;24;Never
+TCGA-LN-A5U7;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;;;G1;46;MALE;LIVING;25.23;NA;36;Recurred/Progressed;17.58;2;23;Never
+TCGA-LN-A7HV;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;;;G1;58;MALE;LIVING;10.51;NA;0;DiseaseFree;10.51;2;15;NA
+TCGA-LN-A7HW;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;;;G2;59;MALE;LIVING;11.99;NA;0;Recurred/Progressed;3.19;2;40;Never
+TCGA-LN-A7HX;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;;;G2;72;MALE;LIVING;12.22;NA;0;DiseaseFree;12.22;2;50;Never
+TCGA-LN-A7HY;Esophagus Squamous Cell Carcinoma;M0;T3;;N1;stage III;;;G2;50;MALE;LIVING;12.02;NA;0;Recurred/Progressed;2.89;1;NA;Never
+TCGA-LN-A7HZ;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;;;G2;49;MALE;LIVING;13.17;NA;0;Recurred/Progressed;3.84;2;25;Never
+TCGA-LN-A8HZ;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;;;;56;MALE;LIVING;12.32;NA;0;DiseaseFree;12.32;NA;30;[Unknown]
+TCGA-LN-A8I0;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;;;;52;MALE;LIVING;13.37;NA;0;Recurred/Progressed;1.87;2;15;Never
+TCGA-LN-A8I1;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;;;;67;FEMALE;LIVING;13.17;NA;0;DiseaseFree;13.17;1;NA;Never
+TCGA-LN-A9FO;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;;;G2;42;MALE;LIVING;0.13;NA;4;DiseaseFree;0.13;2;NA;Never
+TCGA-LN-A9FP;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;;;;60;FEMALE;LIVING;12.02;NA;0;Recurred/Progressed;9.53;1;NA;Never
+TCGA-LN-A9FQ;Esophagus Squamous Cell Carcinoma;M0;T3;;N0;stage II;;;;62;MALE;LIVING;12.84;NA;0;Recurred/Progressed;2.69;1;NA;Never
+TCGA-LN-A9FR;Esophagus Squamous Cell Carcinoma;M0;T2;;N1;stage II;;;G2;70;MALE;LIVING;12.25;NA;0;DiseaseFree;12.25;1;NA;Never
+TCGA-M9-A5M8;Esophagus Adenocarcinoma, NOS;M0;T3;;N0;stage II;;;G2;58;MALE;LIVING;33.08;NA;536;DiseaseFree;33.08;2;50;[Unknown]
+TCGA-Q9-A6FU;Esophagus Squamous Cell Carcinoma;M0;T3;;N2;stage III;NO;Negative/no dysplasia;G2;57;FEMALE;DECEASED;5.16;157;NA;Recurred/Progressed;3.25;4;53;[Unknown]
+TCGA-Q9-A6FW;Esophagus Adenocarcinoma, NOS;M0;T3;;N2;stage III;;Negative/no dysplasia;G2;61;MALE;LIVING;7.82;NA;115;DiseaseFree;7.82;4;75;Never
+TCGA-R6-A6DN;Esophagus Adenocarcinoma, NOS;;;M1;;N;YES;High grade dysplasia;G3;58;MALE;DECEASED;8.02;244;NA;Recurred/Progressed;6.54;3;8;[Unknown]
+TCGA-R6-A6DQ;Esophagus Adenocarcinoma, NOS;;;M0;;N;NO;Low grade dysplasia;G3;74;FEMALE;DECEASED;7.59;231;NA;NA;NA;1;NA;[Unknown]
+TCGA-R6-A6KZ;Esophagus Adenocarcinoma, NOS;;;M1;;N;YES;High grade dysplasia;G3;42;MALE;DECEASED;5.06;154;NA;NA;NA;1;NA;Never
+TCGA-R6-A6L4;Esophagus Adenocarcinoma, NOS;;;M0;;N;NO;Negative/no dysplasia;G2;27;MALE;DECEASED;16.29;NA;447;Recurred/Progressed;5.49;4;11;Never
+TCGA-R6-A6L6;Esophagus Adenocarcinoma, NOS;;;M1;;N;YES;Low grade dysplasia;G3;68;MALE;DECEASED;7.03;214;NA;NA;NA;1;NA;Never
+TCGA-R6-A6XG;Esophagus Adenocarcinoma, NOS;;;M0;;N;YES;High grade dysplasia;G2;64;MALE;LIVING;38.37;NA;900;Recurred/Progressed;25.66;1;NA;Never
+TCGA-R6-A6XQ;Esophagus Adenocarcinoma, NOS;;;M1;;N;NO;Negative/no dysplasia;G3;58;MALE;DECEASED;6.34;193;NA;NA;NA;4;54;Never
+TCGA-R6-A6Y0;Esophagus Adenocarcinoma, NOS;;;M1;;N;NO;Negative/no dysplasia;G2;54;MALE;LIVING;53.91;NA;1641;DiseaseFree;53.91;1;NA;Never
+TCGA-R6-A6Y2;Esophagus Adenocarcinoma, NOS;;;M0;;N;YES;High grade dysplasia;G3;71;MALE;DECEASED;9.3;283;NA;Recurred/Progressed;3.35;4;70;Never
+TCGA-R6-A8W5;Esophagus Adenocarcinoma, NOS;M1;T3;;N1;stage IV;NO;Low grade dysplasia;G2;60;MALE;DECEASED;15.77;480;NA;Recurred/Progressed;11.04;4;41;Never
+TCGA-R6-A8W8;Esophagus Adenocarcinoma, NOS;;;M0;;N;NO;Negative/no dysplasia;G2;72;MALE;DECEASED;2.89;88;NA;NA;NA;3;76;Never
+TCGA-R6-A8WC;Esophagus Adenocarcinoma, NOS;;;M0;;N;NO;Negative/no dysplasia;G2;56;MALE;LIVING;2.3;NA;22;DiseaseFree;2.3;3;3;Never
+TCGA-R6-A8WG;Esophagus Adenocarcinoma, NOS;;;M0;;N;;;;60;MALE;DECEASED;12.68;386;NA;Recurred/Progressed;3.52;1;NA;Never
+TCGA-RE-A7BO;Esophagus Adenocarcinoma, NOS;M0;T1;;N1;stage II;YES;High grade dysplasia;G3;72;FEMALE;DECEASED;7;213;NA;NA;NA;3;5;Never
+TCGA-S8-A6BV;Esophagus Adenocarcinoma, NOS;MX;T3;MX;N1;stage III;NO;High grade dysplasia;G2;76;MALE;LIVING;20.01;NA;267;Recurred/Progressed;8.77;3;NA;[Unknown]
+TCGA-S8-A6BW;Esophagus Squamous Cell Carcinoma;MX;T2;;N0;stage I;NO;Negative/no dysplasia;G1;51;MALE;LIVING;20.37;NA;426;DiseaseFree;20.37;3;NA;Never
+TCGA-V5-A7RB;Esophagus Adenocarcinoma, NOS;MX;T0;MX;N1;;YES;;GX;59;MALE;DECEASED;5.29;161;NA;NA;NA;2;40;Never
+TCGA-V5-A7RC;Esophagus Squamous Cell Carcinoma;;;M1;;N;NO;;GX;55;MALE;DECEASED;3.42;104;NA;Recurred/Progressed;2.89;2;18;Never
+TCGA-V5-A7RC;Esophagus Squamous Cell Carcinoma;;;M1;;N;NO;;GX;55;MALE;DECEASED;3.42;104;NA;Recurred/Progressed;2.89;2;18;Never
+TCGA-V5-A7RE;Esophagus Adenocarcinoma, NOS;M0;T1;M0;N0;stage I;YES;Low grade dysplasia;G2;45;MALE;LIVING;16.43;NA;146;Recurred/Progressed;9.66;1;NA;Never
+TCGA-V5-AASV;Esophagus Squamous Cell Carcinoma;MX;T3;;N0;stage II;NO;;G3;67;MALE;LIVING;15.34;NA;258;Recurred/Progressed;10.58;4;30;Never
+TCGA-V5-AASW;Esophagus Adenocarcinoma, NOS;;;M0;;N;YES;High grade dysplasia;G3;72;MALE;LIVING;9.26;NA;248;Recurred/Progressed;9.26;2;NA;Never
+TCGA-V5-AASX;Esophagus Adenocarcinoma, NOS;;;M1;;N;YES;High grade dysplasia;G2;74;MALE;LIVING;8.97;NA;135;Recurred/Progressed;8.97;4;NA;Never
+TCGA-VR-A8EO;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N0;stage II;NO;Negative/no dysplasia;G3;49;MALE;LIVING;25.79;NA;509;DiseaseFree;25.79;[Unknown];NA;Never
+TCGA-VR-A8EP;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N2;stage III;NO;;G3;51;MALE;LIVING;27.07;NA;474;Recurred/Progressed;7.95;2;54;Current
+TCGA-VR-A8EQ;Esophagus Adenocarcinoma, NOS;M0;T3;M0;N1;stage III;NO;;G2;73;MALE;DECEASED;22.8;694;NA;NA;NA;[Unknown];NA;Never
+TCGA-VR-A8ER;Esophagus Squamous Cell Carcinoma;M0;T4;M0;N1;stage III;NO;;GX;54;MALE;DECEASED;12.42;378;NA;NA;NA;2;12.25;Never
+TCGA-VR-A8ET;Esophagus Squamous Cell Carcinoma;M0;T2;M0;N0;stage II;NO;;G2;64;MALE;DECEASED;1.54;47;NA;NA;NA;1;NA;[Unknown]
+TCGA-VR-A8EU;Esophagus Squamous Cell Carcinoma;M1;T1;M1;N1;stage IV;NO;Negative/no dysplasia;G2;51;MALE;DECEASED;18.3;557;NA;NA;NA;2;10;[Unknown]
+TCGA-VR-A8EW;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N2;stage III;NO;;G2;57;MALE;DECEASED;8.11;247;NA;NA;NA;2;10;Never
+TCGA-VR-A8EX;Esophagus Squamous Cell Carcinoma;M1;T1;M1;N1;stage IV;NO;Negative/no dysplasia;G2;63;MALE;DECEASED;28.09;855;NA;NA;NA;2;10;Never
+TCGA-VR-A8EY;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N0;stage II;NO;Negative/no dysplasia;G1;44;FEMALE;LIVING;33.67;NA;724;DiseaseFree;33.67;3;NA;Never
+TCGA-VR-A8EZ;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N3;stage III;NO;Negative/no dysplasia;G2;47;MALE;DECEASED;18.17;553;NA;Recurred/Progressed;12.45;2;45;Never
+TCGA-VR-A8Q7;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N1;stage III;NO;Negative/no dysplasia;G3;60;MALE;LIVING;52.23;NA;1117;DiseaseFree;52.23;2;13.5;Never
+TCGA-VR-AA4D;Esophagus Adenocarcinoma, NOS;M0;T1;M0;N1;stage II;NO;Negative/no dysplasia;G2;53;MALE;DECEASED;46.16;NA;1378;Recurred/Progressed;27.33;[Unknown];NA;Never
+TCGA-VR-AA4G;Esophagus Squamous Cell Carcinoma;M0;T2;M0;N2;stage III;NO;Negative/no dysplasia;G2;51;FEMALE;LIVING;18.04;NA;366;DiseaseFree;18.04;4;10;Never
+TCGA-VR-AA7B;Esophagus Squamous Cell Carcinoma;M1;T3;M0;N3;stage IV;;;;65;FEMALE;LIVING;11.24;NA;342;Recurred/Progressed;6.8;[Unknown];NA;Never
+TCGA-VR-AA7D;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N3;stage III;NO;;G2;58;MALE;DECEASED;9.17;279;NA;Recurred/Progressed;8.02;2;40;Never
+TCGA-VR-AA7I;Esophagus Squamous Cell Carcinoma;M0;T4;M0;N0;stage III;NO;Negative/no dysplasia;G1;70;MALE;DECEASED;15.9;484;NA;NA;NA;3;20;Never
+TCGA-X8-AAAR;Esophagus Adenocarcinoma, NOS;[Unknown];T1;;N1;;;;G1;69;MALE;LIVING;18.2;NA;309;DiseaseFree;18.2;3;75;[Unknown]
+TCGA-XP-A8T6;Esophagus Squamous Cell Carcinoma;M0;T2;;N1;stage II;;;;54;MALE;DECEASED;25.07;763;NA;NA;NA;2;25;Never
+TCGA-XP-A8T7;Esophagus Squamous Cell Carcinoma;M0;T2;;N0;stage II;;;;63;FEMALE;LIVING;41.2;NA;1254;DiseaseFree;41.2;4;11;Never
+TCGA-XP-A8T8;Esophagus Squamous Cell Carcinoma;M0;T1;M0;N1;stage II;;;;49;MALE;LIVING;14.36;NA;437;DiseaseFree;14.36;2;19;Never
+TCGA-Z6-A8JD;Esophagus Squamous Cell Carcinoma;M0;T3;;N0;stage II;;;G2;53;MALE;LIVING;3.42;NA;20;DiseaseFree;3.42;1;NA;[Unknown]
+TCGA-Z6-A8JE;Esophagus Squamous Cell Carcinoma;M0;T3;M0;N1;stage III;;;G3;57;MALE;LIVING;2.1;NA;0;DiseaseFree;2.1;1;NA;[Unknown]
+TCGA-Z6-A9VB;Esophagus Squamous Cell Carcinoma;M0;T3;;N1;stage III;;;;53;MALE;LIVING;1.31;NA;15;DiseaseFree;1.31;1;NA;NA
+TCGA-Z6-AAPN;Esophagus Squamous Cell Carcinoma;M0;T3;;N0;stage II;;;G1;57;MALE;LIVING;2.66;NA;18;DiseaseFree;2.66;4;1;[Unknown]
+TCGA-ZR-A9CJ;Esophagus Adenocarcinoma, NOS;MX;T3;;N3;stage III;YES;High grade dysplasia;G3;65;MALE;DECEASED;19.71;NA;551;Recurred/Progressed;18;[Unknown];NA;[Unknown]

@@ -1,0 +1,511 @@
+PatientID;histological_type;mRNA_Cluster_number;meth_Cluster;meth_Cluster_number;mRNA_Cluster_number_Feb2014;meth_Cluster_number_Feb2014;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;age;gender;overall_survival;overall_survival_days;days_to_death;days_to_last_followup;disease_status;disease_free_months
+TCGA-BJ-A0YZ;Thyroid Papillary Carcinoma - Classical/usual;1;classical 2;2;1;4;M0;T2;N0;stage II;65;MALE;Alive;NA;NA;479;DiseaseFree;24.77
+TCGA-BJ-A0Z0;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;MX;T2;N0;stage II;55;MALE;Alive;NA;NA;356;DiseaseFree;13.76
+TCGA-BJ-A0Z2;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;M1;T2;N0;stage IV;57;MALE;Alive;NA;NA;232;Recurred/Progressed;5.19
+TCGA-BJ-A0Z3;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;M0;T1;N0;stage I;33;FEMALE;Alive;NA;NA;182;DiseaseFree;16.33
+TCGA-BJ-A0Z5;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N1;stage III;58;MALE;Alive;NA;NA;197;DiseaseFree;14.72
+TCGA-BJ-A0Z9;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;MX;T3;N0;stage III;57;FEMALE;Alive;NA;NA;251;DiseaseFree;41.29
+TCGA-BJ-A0ZA;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T2;N0;stage II;67;FEMALE;Alive;NA;NA;264;DiseaseFree;18.86
+TCGA-BJ-A0ZB;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N1;stage IV;66;MALE;Alive;NA;NA;122;DiseaseFree;4.01
+TCGA-BJ-A0ZC;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T1;N0;stage I;55;MALE;Alive;NA;NA;183;DiseaseFree;11.56
+TCGA-BJ-A0ZE;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T3;N0;stage III;63;FEMALE;Alive;NA;NA;237;DiseaseFree;16.72
+TCGA-BJ-A0ZG;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T1;N0;stage I;80;MALE;Alive;NA;NA;230;DiseaseFree;25.46
+TCGA-BJ-A0ZH;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);3;classical 2;2;3;4;MX;T2;N1;stage IV;52;FEMALE;Alive;NA;NA;22;DiseaseFree;15.11
+TCGA-BJ-A0ZJ;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;M0;T2;N1;stage I;36;MALE;Alive;NA;NA;152;DiseaseFree;42.05
+TCGA-BJ-A18Y;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;MX;T1;N0;stage I;29;MALE;Alive;NA;NA;85;DiseaseFree;51.35
+TCGA-BJ-A18Z;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T3;N1;stage IV;58;MALE;Alive;NA;NA;184;DiseaseFree;41.49
+TCGA-BJ-A190;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;MX;T2;N0;stage II;55;MALE;Alive;NA;NA;13;DiseaseFree;20.57
+TCGA-BJ-A191;columnar cell variant;1;classical 2;2;1;4;M0;T1;N0;stage I;49;FEMALE;Alive;NA;NA;147;DiseaseFree;4.83
+TCGA-BJ-A192;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T3;NX;stage III;54;FEMALE;Alive;NA;NA;246;DiseaseFree;44.32
+TCGA-BJ-A28R;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T1;N0;stage I;38;FEMALE;Alive;NA;NA;148;DiseaseFree;42.12
+TCGA-BJ-A28S;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T2;N0;stage II;79;MALE;Alive;NA;NA;245;DiseaseFree;21.02
+TCGA-BJ-A28T;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T1;N1;stage I;34;FEMALE;Alive;NA;NA;85;DiseaseFree;35.51
+TCGA-BJ-A28V;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;MX;T3;N0;stage III;80;FEMALE;Alive;NA;NA;NA;DiseaseFree;32.42
+TCGA-BJ-A28W;Thyroid Papillary Carcinoma - Classical/usual;NA;follicular;4;NA;1;M0;T2;N0;stage I;32;FEMALE;Alive;NA;NA;34;DiseaseFree;11.3
+TCGA-BJ-A28X;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 1;1;5;3;M0;T3;N1;stage I;32;FEMALE;Alive;NA;NA;533;Recurred/Progressed;16.23
+TCGA-BJ-A28Z;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;M0;T3;N1;stage III;46;FEMALE;Alive;NA;NA;37;DiseaseFree;11.07
+TCGA-BJ-A290;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);5;classical 2;2;4;4;M0;T3;N1;stage III;70;MALE;Alive;NA;NA;627;Recurred/Progressed;10.81
+TCGA-BJ-A291;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T1;N0;stage I;56;FEMALE;Alive;NA;NA;441;DiseaseFree;22.86
+TCGA-BJ-A2N7;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T3;N0;stage I;30;FEMALE;Alive;NA;NA;191;DiseaseFree;18.36
+TCGA-BJ-A2N8;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T1;N0;stage I;30;FEMALE;Alive;NA;NA;1;DiseaseFree;16.56
+TCGA-BJ-A2N9;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T2;N0;stage I;42;FEMALE;Alive;NA;NA;15;Recurred/Progressed;7.39
+TCGA-BJ-A2NA;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N0;stage III;77;MALE;Alive;NA;NA;65;Recurred/Progressed;4.17
+TCGA-BJ-A2P4;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T2;N0;stage I;29;FEMALE;Alive;NA;NA;214;DiseaseFree;12.81
+TCGA-BJ-A3EZ;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N1;stage IV;51;MALE;Alive;NA;NA;42;DiseaseFree;16
+TCGA-BJ-A3F0;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;M0;T1;N0;stage I;64;FEMALE;Alive;NA;NA;4;DiseaseFree;13.93
+TCGA-BJ-A3PR;Thyroid Papillary Carcinoma - Classical/usual;4;follicular;4;5;1;M0;T1;N0;stage I;69;FEMALE;Alive;NA;NA;244;DiseaseFree;36.37
+TCGA-BJ-A3PT;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T3;N0;stage III;51;FEMALE;Alive;NA;NA;367;DiseaseFree;23.29
+TCGA-BJ-A3PU;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N1;stage III;52;MALE;Alive;NA;NA;305;Recurred/Progressed;7.26
+TCGA-BJ-A45C;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;M0;T3;N0;stage III;78;MALE;Dead;NA;NA;175;NA;NA
+TCGA-BJ-A45D;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T2;N0;stage I;36;MALE;Alive;NA;NA;197;DiseaseFree;10.87
+TCGA-BJ-A45E;Thyroid Papillary Carcinoma - Classical/usual;NA;follicular;4;NA;1;M0;T1;N0;stage I;46;FEMALE;Alive;NA;NA;1;DiseaseFree;20.99
+TCGA-BJ-A45F;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T1;N0;stage I;59;FEMALE;Alive;NA;NA;105;DiseaseFree;3.45
+TCGA-BJ-A45G;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;classical 2;2;1;4;M0;T2;N1;stage III;48;FEMALE;Alive;NA;NA;193;DiseaseFree;23.82
+TCGA-BJ-A45H;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T3;N0;stage III;45;MALE;Alive;NA;NA;238;DiseaseFree;28.42
+TCGA-BJ-A45I;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;M0;T3;N0;stage III;51;FEMALE;Alive;NA;NA;188;Recurred/Progressed;3.61
+TCGA-BJ-A45J;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);3;classical 2;2;3;4;M0;T1;N1;stage I;39;FEMALE;Alive;NA;NA;154;DiseaseFree;21.62
+TCGA-BJ-A45K;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;M0;T2;N0;stage I;33;MALE;Alive;NA;NA;273;DiseaseFree;23.16
+TCGA-BJ-A4O8;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;M0;T3;N1;stage III;47;MALE;Alive;NA;NA;150;DiseaseFree;19.42
+TCGA-BJ-A4O9;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);3;classical 2;2;3;4;M0;T2;N0;stage II;51;FEMALE;Alive;NA;NA;182;DiseaseFree;23.46
+TCGA-CE-A13K;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T3;N1;stage I;30;FEMALE;Alive;NA;NA;16;DiseaseFree;12.65
+TCGA-CE-A27D;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T2;N1;stage I;28;FEMALE;Alive;NA;NA;3;DiseaseFree;12.29
+TCGA-CE-A3MD;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N1;stage I;31;MALE;Alive;NA;NA;6;DiseaseFree;12.78
+TCGA-CE-A3ME;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N0;stage II;51;FEMALE;Alive;NA;NA;7;DiseaseFree;12.45
+TCGA-CE-A481;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N0;stage I;41;FEMALE;Alive;NA;NA;3;DiseaseFree;11.37
+TCGA-CE-A482;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N1;stage I;27;FEMALE;Alive;NA;NA;2;DiseaseFree;10.68
+TCGA-CE-A483;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N1;stage I;34;FEMALE;Alive;NA;NA;3;DiseaseFree;15.01
+TCGA-CE-A484;Thyroid Papillary Carcinoma - Classical/usual;1;classical 2;2;1;4;M0;T2;N1;stage I;37;FEMALE;Alive;NA;NA;12;DiseaseFree;12.42
+TCGA-CE-A485;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T2;N1;stage I;32;MALE;Alive;NA;NA;3;DiseaseFree;12.65
+TCGA-DE-A0XZ;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;M0;T1;N1;stage III;65;FEMALE;Alive;NA;NA;402;Recurred/Progressed;6.7
+TCGA-DE-A0Y2;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N1;stage I;30;FEMALE;Alive;NA;NA;231;DiseaseFree;21.62
+TCGA-DE-A0Y3;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M1;T4;N1;stage IV;60;FEMALE;Alive;NA;NA;952;Recurred/Progressed;0.99
+TCGA-DE-A2OL;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T2;NX;stage I;44;FEMALE;Alive;NA;NA;161;DiseaseFree;37.61
+TCGA-DE-A3KN;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T3;N1;stage IV;49;FEMALE;Alive;NA;NA;286;DiseaseFree;27.3
+TCGA-DE-A4M8;Thyroid Papillary Carcinoma - Classical/usual;NA;classical 1;1;NA;3;M0;T2;N1;stage III;61;FEMALE;Alive;NA;NA;185;DiseaseFree;18.53
+TCGA-DE-A4M9;Thyroid Papillary Carcinoma - Classical/usual;1;classical 2;2;1;4;M0;T2;NX;stage I;28;MALE;Alive;NA;NA;148;DiseaseFree;18.82
+TCGA-DE-A4MA;Thyroid Papillary Carcinoma - Classical/usual;NA;classical 2;2;NA;4;M0;T3;N1;stage III;52;FEMALE;Alive;NA;NA;506;DiseaseFree;30.09
+TCGA-DE-A4MB;Thyroid Papillary Carcinoma - Classical/usual;NA;classical 2;2;NA;4;M0;T3;N1;stage IV;79;FEMALE;Alive;NA;NA;352;DiseaseFree;11.56
+TCGA-DE-A4MC;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N1;stage I;43;FEMALE;Alive;NA;NA;529;Recurred/Progressed;10.91
+TCGA-DE-A4MD;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N1;stage IV;71;MALE;Alive;NA;NA;365;Recurred/Progressed;10.84
+TCGA-DE-A4MD;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N1;stage IV;71;MALE;Alive;NA;NA;365;Recurred/Progressed;10.84
+TCGA-DE-A69J;Thyroid Papillary Carcinoma - Classical/usual;NA;NA;NA;NA;NA;M0;T2;NX;stage I;34;FEMALE;Alive;NA;NA;130;DiseaseFree;14.68
+TCGA-DE-A69K;Thyroid Papillary Carcinoma - Classical/usual;NA;NA;NA;NA;NA;M0;T3;N0;stage III;58;FEMALE;Alive;NA;NA;98;Recurred/Progressed;14.26
+TCGA-DE-A7U5;Thyroid Papillary Carcinoma - Classical/usual;NA;NA;NA;NA;NA;M0;T2;N0;stage I;36;FEMALE;Alive;NA;NA;84;DiseaseFree;2.76
+TCGA-DJ-A13L;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 1;1;5;3;M0;T1;N0;stage I;85;MALE;Alive;NA;NA;303;DiseaseFree;9.95
+TCGA-DJ-A13M;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T1;N0;stage I;28;FEMALE;Alive;NA;NA;287;DiseaseFree;48.75
+TCGA-DJ-A13O;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T1;N0;stage I;56;MALE;Alive;NA;NA;224;DiseaseFree;38.14
+TCGA-DJ-A13P;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage II;52;FEMALE;Alive;NA;NA;4194;DiseaseFree;169.19
+TCGA-DJ-A13R;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T3;N0;stage III;50;MALE;Alive;NA;NA;92;DiseaseFree;18.56
+TCGA-DJ-A13S;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T1;N0;stage I;19;FEMALE;Alive;NA;NA;265;DiseaseFree;8.71
+TCGA-DJ-A13T;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage I;37;FEMALE;Alive;NA;NA;771;DiseaseFree;56.14
+TCGA-DJ-A13U;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N0;stage III;60;MALE;Alive;NA;NA;408;DiseaseFree;52.23
+TCGA-DJ-A13V;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T3;N1;stage I;21;FEMALE;Alive;NA;NA;362;DiseaseFree;43.13
+TCGA-DJ-A13W;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;M0;T1;N0;stage I;45;FEMALE;Alive;NA;NA;444;DiseaseFree;52.33
+TCGA-DJ-A13X;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);5;classical 2;2;4;4;M0;T3;N0;stage III;51;FEMALE;Alive;NA;NA;243;DiseaseFree;8.31
+TCGA-DJ-A1QD;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N1;stage I;20;FEMALE;Alive;NA;NA;332;DiseaseFree;48.03
+TCGA-DJ-A1QE;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N0;stage III;62;FEMALE;Alive;NA;NA;3042;DiseaseFree;135.81
+TCGA-DJ-A1QF;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage II;61;FEMALE;Alive;NA;NA;563;DiseaseFree;30.58
+TCGA-DJ-A1QG;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T1;N0;stage I;62;MALE;Alive;NA;NA;212;DiseaseFree;44.94
+TCGA-DJ-A1QH;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;M0;T3;N1;stage III;58;FEMALE;Alive;NA;NA;243;DiseaseFree;42.48
+TCGA-DJ-A1QI;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage II;63;FEMALE;Alive;NA;NA;151;DiseaseFree;14.95
+TCGA-DJ-A1QL;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;M0;T2;N0;stage II;70;MALE;Alive;NA;NA;219;DiseaseFree;17.58
+TCGA-DJ-A1QM;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);2;follicular;4;2;1;M0;T1;N0;stage I;42;MALE;Alive;NA;NA;44;DiseaseFree;6.01
+TCGA-DJ-A1QN;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N0;stage I;42;FEMALE;Alive;NA;NA;270;DiseaseFree;42.54
+TCGA-DJ-A1QO;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);3;classical 2;2;3;4;M0;T3;N0;stage III;69;MALE;Alive;NA;NA;31;Recurred/Progressed;34.89
+TCGA-DJ-A1QQ;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N0;stage I;43;MALE;Alive;NA;NA;181;DiseaseFree;17.54
+TCGA-DJ-A2PN;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T1;N0;stage I;70;FEMALE;Alive;NA;NA;305;DiseaseFree;10.09
+TCGA-DJ-A2PO;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T1;N0;stage I;54;MALE;Alive;NA;NA;243;DiseaseFree;7.98
+TCGA-DJ-A2PP;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;M0;T2;N0;stage II;47;MALE;Alive;NA;NA;162;DiseaseFree;30.55
+TCGA-DJ-A2PQ;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N1;stage I;26;MALE;Alive;NA;NA;258;DiseaseFree;35.38
+TCGA-DJ-A2PR;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T3;N1;stage I;27;MALE;Alive;NA;NA;318;DiseaseFree;27.43
+TCGA-DJ-A2PS;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T3;N1;stage I;40;FEMALE;Alive;NA;NA;46;DiseaseFree;26.18
+TCGA-DJ-A2PT;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;M0;T3;N0;stage III;70;FEMALE;Alive;NA;NA;292;DiseaseFree;38.8
+TCGA-DJ-A2PU;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage II;52;FEMALE;Alive;NA;NA;312;DiseaseFree;33.94
+TCGA-DJ-A2PV;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage II;53;FEMALE;Alive;NA;NA;238;DiseaseFree;31.96
+TCGA-DJ-A2PW;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T3;N1;stage III;65;MALE;Alive;NA;NA;234;DiseaseFree;34.82
+TCGA-DJ-A2PX;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);2;follicular;4;2;1;M0;T1;N0;stage I;55;FEMALE;Alive;NA;NA;168;DiseaseFree;28.94
+TCGA-DJ-A2PY;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;M0;T3;N1;stage III;46;FEMALE;Alive;NA;NA;267;DiseaseFree;8.77
+TCGA-DJ-A2PZ;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N0;stage III;63;MALE;Alive;NA;NA;256;DiseaseFree;8.41
+TCGA-DJ-A2Q0;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T2;N0;stage II;57;FEMALE;Alive;NA;NA;247;DiseaseFree;34.33
+TCGA-DJ-A2Q1;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;M0;T1;N1;stage I;44;FEMALE;Alive;NA;NA;284;DiseaseFree;37.71
+TCGA-DJ-A2Q2;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T3;N0;stage III;57;FEMALE;Alive;NA;NA;206;DiseaseFree;43.92
+TCGA-DJ-A2Q3;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;follicular;4;5;1;M0;T3;N1;stage III;61;FEMALE;Alive;NA;NA;280;Recurred/Progressed;12.65
+TCGA-DJ-A2Q4;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T1;N1;stage III;53;MALE;Alive;NA;NA;287;DiseaseFree;33.9
+TCGA-DJ-A2Q5;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;M0;T2;N1;stage IV;51;MALE;Alive;NA;NA;301;DiseaseFree;37.45
+TCGA-DJ-A2Q6;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T1;N1;stage I;38;FEMALE;Alive;NA;NA;262;DiseaseFree;36.43
+TCGA-DJ-A2Q7;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N1;stage III;52;FEMALE;Alive;NA;NA;291;DiseaseFree;35.09
+TCGA-DJ-A2Q8;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);NA;classical 2;2;NA;4;M0;T1;N0;stage I;47;FEMALE;Alive;NA;NA;215;DiseaseFree;39.06
+TCGA-DJ-A2Q9;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;follicular;4;5;1;M0;T1;N1;stage III;65;FEMALE;Alive;NA;NA;315;DiseaseFree;35.87
+TCGA-DJ-A2QA;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);5;classical 2;2;4;4;M0;T3;N0;stage III;56;FEMALE;Alive;NA;NA;378;DiseaseFree;33.51
+TCGA-DJ-A2QB;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T3;N1;stage IV;53;FEMALE;Alive;NA;NA;330;DiseaseFree;35.15
+TCGA-DJ-A2QC;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage II;70;FEMALE;Alive;NA;NA;305;DiseaseFree;39.91
+TCGA-DJ-A3UK;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N0;stage I;35;FEMALE;Alive;NA;NA;252;DiseaseFree;36.89
+TCGA-DJ-A3UM;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T1;N0;stage I;45;FEMALE;Alive;NA;NA;524;DiseaseFree;31.01
+TCGA-DJ-A3UN;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N0;stage I;51;FEMALE;Alive;NA;NA;380;DiseaseFree;32.39
+TCGA-DJ-A3UO;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T3;N1;stage IV;63;MALE;Alive;NA;NA;481;Recurred/Progressed;21.06
+TCGA-DJ-A3UP;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;classical 2;2;1;4;M0;T2;N0;stage I;38;FEMALE;Alive;NA;NA;168;DiseaseFree;16.39
+TCGA-DJ-A3UQ;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;M0;T3;N1;stage III;45;FEMALE;Alive;NA;NA;277;DiseaseFree;19.55
+TCGA-DJ-A3UR;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);5;classical 2;2;4;4;M0;T3;N1;stage III;51;FEMALE;Alive;NA;NA;721;DiseaseFree;36.3
+TCGA-DJ-A3US;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T1;N0;stage I;37;FEMALE;Alive;NA;NA;630;DiseaseFree;32.79
+TCGA-DJ-A3UT;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T1;N0;stage I;43;FEMALE;Alive;NA;NA;470;DiseaseFree;36.3
+TCGA-DJ-A3UU;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T3;N0;stage III;49;FEMALE;Alive;NA;NA;538;DiseaseFree;23.42
+TCGA-DJ-A3UW;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;M0;T1;N0;stage I;50;FEMALE;Alive;NA;NA;1435;DiseaseFree;59.53
+TCGA-DJ-A3UX;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T1;N0;stage I;46;FEMALE;Alive;NA;NA;345;DiseaseFree;11.33
+TCGA-DJ-A3UY;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T1;N0;stage I;32;FEMALE;Alive;NA;NA;405;DiseaseFree;35.84
+TCGA-DJ-A3UZ;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T3;N0;stage III;70;FEMALE;Alive;NA;NA;388;DiseaseFree;40.93
+TCGA-DJ-A3V0;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;M0;T4;N1;stage IV;56;MALE;Alive;NA;NA;761;DiseaseFree;36.96
+TCGA-DJ-A3V2;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T2;N1;stage I;44;FEMALE;Alive;NA;NA;225;DiseaseFree;20.2
+TCGA-DJ-A3V3;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T2;N0;stage II;57;FEMALE;Alive;NA;NA;541;DiseaseFree;30.58
+TCGA-DJ-A3V4;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);2;classical 2;2;2;4;M0;T3;N1;stage III;60;FEMALE;Alive;NA;NA;443;DiseaseFree;42.51
+TCGA-DJ-A3V5;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;M0;T3;N0;stage III;76;FEMALE;Alive;NA;NA;239;DiseaseFree;19.19
+TCGA-DJ-A3V7;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);3;classical 2;2;3;4;M0;T3;N0;stage III;44;FEMALE;Alive;NA;NA;299;DiseaseFree;23.19
+TCGA-DJ-A3V8;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);3;classical 2;2;3;4;M0;T3;N1;stage I;28;FEMALE;Alive;NA;NA;259;DiseaseFree;21.25
+TCGA-DJ-A3V9;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N1;stage IV;50;FEMALE;Alive;NA;NA;217;DiseaseFree;20.47
+TCGA-DJ-A3VA;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T1;N1;stage I;39;FEMALE;Alive;NA;NA;363;DiseaseFree;24.8
+TCGA-DJ-A3VB;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;M0;T3;N1;stage III;52;MALE;Alive;NA;NA;341;DiseaseFree;22.9
+TCGA-DJ-A3VD;Thyroid Papillary Carcinoma - Classical/usual;4;follicular;4;5;1;M0;T1;N1;stage I;32;FEMALE;Alive;NA;NA;350;DiseaseFree;40.67
+TCGA-DJ-A3VE;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T1;N0;stage I;50;MALE;Alive;NA;NA;135;DiseaseFree;18.96
+TCGA-DJ-A3VF;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;M0;T3;N1;stage IV;60;FEMALE;Alive;NA;NA;236;DiseaseFree;9.59
+TCGA-DJ-A3VG;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T1;N0;stage I;40;MALE;Alive;NA;NA;253;DiseaseFree;35.64
+TCGA-DJ-A3VI;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T1;N1;stage III;52;FEMALE;Alive;NA;NA;95;DiseaseFree;3.12
+TCGA-DJ-A3VJ;Papillary carcinoma, diffuse sclerosing variant;3;classical 2;2;3;4;M0;T3;N1;stage I;22;MALE;Alive;NA;NA;528;DiseaseFree;36.4
+TCGA-DJ-A3VK;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T3;N0;stage III;63;MALE;Alive;NA;NA;263;DiseaseFree;24.74
+TCGA-DJ-A3VL;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T1;N0;stage I;38;MALE;Alive;NA;NA;524;Recurred/Progressed;20.96
+TCGA-DJ-A3VM;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T2;N0;stage II;68;FEMALE;Alive;NA;NA;481;DiseaseFree;27.6
+TCGA-DJ-A4UL;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N0;stage I;68;FEMALE;Alive;NA;NA;363;DiseaseFree;30.85
+TCGA-DJ-A4UP;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T1;N1;stage I;15;FEMALE;Alive;NA;NA;356;DiseaseFree;30.09
+TCGA-DJ-A4UQ;Papillary carcinoma, diffuse sclerosing variant;2;classical 2;2;2;4;M0;T3;N1;stage IV;60;MALE;Alive;NA;NA;328;DiseaseFree;33.02
+TCGA-DJ-A4UR;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M1;T3;N1;stage II;36;FEMALE;Alive;NA;NA;334;Recurred/Progressed;3.71
+TCGA-DJ-A4UT;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;M0;T1;N0;stage I;32;FEMALE;Alive;NA;NA;371;DiseaseFree;27.04
+TCGA-DJ-A4UW;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);2;classical 2;2;2;4;M0;T1;N1;stage I;34;FEMALE;Alive;NA;NA;287;DiseaseFree;26.91
+TCGA-DJ-A4V0;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T2;N0;stage I;36;FEMALE;Alive;NA;NA;284;DiseaseFree;35.51
+TCGA-DJ-A4V2;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N0;stage I;38;FEMALE;Alive;NA;NA;95;DiseaseFree;3.12
+TCGA-DJ-A4V4;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);2;classical 2;2;2;4;M0;T1;N0;stage I;48;FEMALE;Alive;NA;NA;103;DiseaseFree;15.8
+TCGA-DJ-A4V5;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T3;N1;stage IV;55;MALE;Alive;NA;NA;491;DiseaseFree;35.35
+TCGA-DO-A1JZ;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);5;classical 2;2;4;4;MX;T2;NX;stage I;23;FEMALE;Alive;NA;NA;1225;DiseaseFree;54.86
+TCGA-DO-A1K0;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T3;N1;stage I;30;FEMALE;Alive;NA;NA;93;Recurred/Progressed;18.96
+TCGA-DO-A2HM;Thyroid Papillary Carcinoma - Classical/usual;4;follicular;4;5;1;MX;T1;N1;stage IV;49;MALE;Alive;NA;NA;71;DiseaseFree;2.33
+TCGA-E3-A3DY;Papillary carcinoma: mixed papillary and follicular variant;2;classical 2;2;2;4;M0;T3;N1;stage I;37;MALE;Alive;NA;NA;945;DiseaseFree;92.48
+TCGA-E3-A3DZ;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T3;N0;stage III;55;FEMALE;Alive;NA;NA;367;DiseaseFree;47.17
+TCGA-E3-A3E0;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T2;N0;stage I;34;FEMALE;Alive;NA;NA;1544;DiseaseFree;66.33
+TCGA-E3-A3E1;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T1;N0;stage I;46;FEMALE;Alive;NA;NA;1223;DiseaseFree;80.45
+TCGA-E3-A3E2;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);2;classical 1;1;2;3;MX;T1;N1;stage I;34;FEMALE;Alive;NA;NA;1421;DiseaseFree;63.14
+TCGA-E3-A3E3;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N0;stage II;49;FEMALE;Alive;NA;NA;636;Recurred/Progressed;14.62
+TCGA-E3-A3E5;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T4;N1;stage IV;57;MALE;Alive;NA;NA;427;DiseaseFree;39.91
+TCGA-E8-A242;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T3;N0;stage III;56;FEMALE;Alive;NA;NA;35;DiseaseFree;31.21
+TCGA-E8-A2EA;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T1;N0;stage I;52;FEMALE;Alive;NA;NA;11;DiseaseFree;35.64
+TCGA-E8-A2JQ;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;M0;T3;N1;stage I;18;FEMALE;Alive;NA;NA;0;DiseaseFree;11.7
+TCGA-E8-A3X7;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T4;N0;stage IV;57;FEMALE;Alive;NA;NA;45;DiseaseFree;31.24
+TCGA-E8-A413;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T1;N0;stage I;38;FEMALE;Alive;NA;NA;10;DiseaseFree;29.96
+TCGA-E8-A414;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T3;N0;stage III;45;FEMALE;Alive;NA;NA;7;DiseaseFree;31.47
+TCGA-E8-A415;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T1;N1;stage I;39;FEMALE;Alive;NA;NA;5;DiseaseFree;31.01
+TCGA-E8-A416;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T1;N0;stage I;51;FEMALE;Alive;NA;NA;22;DiseaseFree;31.27
+TCGA-E8-A417;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N1;stage I;38;FEMALE;Alive;NA;NA;8;DiseaseFree;30.81
+TCGA-E8-A418;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T4;N0;stage IV;75;FEMALE;Alive;NA;NA;45;DiseaseFree;3.02
+TCGA-E8-A419;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;M0;T2;N1;stage I;30;FEMALE;Alive;NA;NA;0;DiseaseFree;25.43
+TCGA-E8-A432;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage II;57;FEMALE;Alive;NA;NA;16;Recurred/Progressed;23.65
+TCGA-E8-A433;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T2;N0;stage I;25;FEMALE;Alive;NA;NA;5;DiseaseFree;31.24
+TCGA-E8-A434;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T1;N0;stage I;56;FEMALE;Alive;NA;NA;7;DiseaseFree;31.31
+TCGA-E8-A436;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T2;N1;stage IV;53;FEMALE;Alive;NA;NA;35;DiseaseFree;14.95
+TCGA-E8-A437;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;TX;NX;stage I;57;FEMALE;Alive;NA;NA;234;DiseaseFree;39.85
+TCGA-E8-A438;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N0;stage I;23;FEMALE;Alive;NA;NA;210;DiseaseFree;33.48
+TCGA-E8-A44K;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T1;N0;stage I;50;FEMALE;Alive;NA;NA;12;DiseaseFree;30.98
+TCGA-E8-A44M;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T1;N0;stage I;23;FEMALE;Alive;NA;NA;12;DiseaseFree;30.12
+TCGA-EL-A3CL;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;NX;stage II;70;FEMALE;Dead;963;963;NA;NA;NA
+TCGA-EL-A3CM;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N1;stage III;64;FEMALE;Dead;813;813;NA;NA;NA
+TCGA-EL-A3CN;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N0;stage II;47;FEMALE;Alive;NA;NA;3955;DiseaseFree;155.42
+TCGA-EL-A3CO;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T3;N1;stage III;88;MALE;Dead;2973;2973;NA;NA;NA
+TCGA-EL-A3CP;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);5;classical 2;2;4;4;M0;T1;NX;;50;FEMALE;Alive;NA;NA;3656;DiseaseFree;158.71
+TCGA-EL-A3CR;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N1;stage III;78;FEMALE;Dead;233;233;NA;NA;NA
+TCGA-EL-A3CS;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T4;N0;stage IV;62;FEMALE;Dead;1385;1385;NA;NA;NA
+TCGA-EL-A3CT;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;M0;T4;N1;stage IV;78;FEMALE;Dead;1854;1854;NA;NA;NA
+TCGA-EL-A3CU;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;M0;T1;N1;stage III;70;FEMALE;Alive;NA;NA;4422;DiseaseFree;157.03
+TCGA-EL-A3CV;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;M0;T3;N1;stage I;40;MALE;Alive;NA;NA;1154;DiseaseFree;37.91
+TCGA-EL-A3CW;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T2;N1;stage III;87;FEMALE;Dead;1734;1734;NA;NA;NA
+TCGA-EL-A3CX;Thyroid Papillary Carcinoma - Classical/usual;1;classical 2;2;1;4;M0;T2;N0;stage I;22;FEMALE;Alive;NA;NA;2214;DiseaseFree;106.54
+TCGA-EL-A3CY;Thyroid Papillary Carcinoma - Classical/usual;4;follicular;4;5;1;M0;TX;N1;stage I;28;MALE;Alive;NA;NA;127;DiseaseFree;4.17
+TCGA-EL-A3CZ;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T1;N1;stage I;37;FEMALE;Alive;NA;NA;1606;Recurred/Progressed;46.85
+TCGA-EL-A3D0;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T4;N1;stage III;61;MALE;Alive;NA;NA;44;DiseaseFree;139.75
+TCGA-EL-A3D1;Thyroid Papillary Carcinoma - Classical/usual;NA;classical 2;2;NA;4;M0;T2;N0;stage I;39;MALE;Alive;NA;NA;2260;DiseaseFree;98.46
+TCGA-EL-A3D4;Thyroid Papillary Carcinoma - Classical/usual;NA;classical 2;2;NA;4;M0;T3;N1;stage IV;62;MALE;Alive;NA;NA;1212;DiseaseFree;69.51
+TCGA-EL-A3D5;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T3;N1;stage I;44;FEMALE;Alive;NA;NA;1018;DiseaseFree;57.06
+TCGA-EL-A3D6;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N1;stage III;51;FEMALE;Alive;NA;NA;3296;DiseaseFree;108.28
+TCGA-EL-A3GO;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;M0;T2;N0;stage I;31;FEMALE;Alive;NA;NA;1196;Recurred/Progressed;0.2
+TCGA-EL-A3GP;Thyroid Papillary Carcinoma - Classical/usual;4;follicular;4;5;1;M0;T3;N1;stage III;70;MALE;Alive;NA;NA;43;DiseaseFree;49.47
+TCGA-EL-A3GQ;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);2;classical 2;2;2;4;M0;T1;N0;stage I;72;FEMALE;Alive;NA;NA;918;DiseaseFree;50.2
+TCGA-EL-A3GR;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;NX;stage I;31;FEMALE;Alive;NA;NA;3128;DiseaseFree;115.01
+TCGA-EL-A3GS;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N1;stage I;37;FEMALE;Alive;NA;NA;1616;DiseaseFree;65.34
+TCGA-EL-A3GU;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N1;stage III;72;FEMALE;Alive;NA;NA;3773;Recurred/Progressed;17.87
+TCGA-EL-A3GV;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T3;N0;stage III;65;FEMALE;Alive;NA;NA;1212;DiseaseFree;50.33
+TCGA-EL-A3GW;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T2;N0;stage I;37;FEMALE;Alive;NA;NA;1133;DiseaseFree;50.16
+TCGA-EL-A3GX;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T2;N1;stage I;41;FEMALE;Alive;NA;NA;2700;Recurred/Progressed;14.42
+TCGA-EL-A3GY;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M1;T1;N1;stage II;40;FEMALE;Alive;NA;NA;847;DiseaseFree;101.05
+TCGA-EL-A3GZ;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N0;stage I;34;FEMALE;Alive;NA;NA;2716;DiseaseFree;139.88
+TCGA-EL-A3H1;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;M0;T1;N0;stage I;66;FEMALE;Dead;1500;1500;NA;NA;NA
+TCGA-EL-A3H2;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;MX;T2;N0;stage II;58;MALE;Dead;1019;1019;NA;NA;NA
+TCGA-EL-A3H3;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T2;N1;stage I;19;FEMALE;Alive;NA;NA;407;DiseaseFree;43.33
+TCGA-EL-A3H4;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T4;N1;stage IV;46;FEMALE;Alive;NA;NA;1176;DiseaseFree;49.67
+TCGA-EL-A3H5;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;M0;T4;N1;stage IV;57;FEMALE;Alive;NA;NA;1604;DiseaseFree;83.51
+TCGA-EL-A3H7;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N1;stage I;36;FEMALE;Alive;NA;NA;3862;DiseaseFree;138.9
+TCGA-EL-A3H8;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N1;stage I;35;FEMALE;Alive;NA;NA;3912;DiseaseFree;150.36
+TCGA-EL-A3MW;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage II;55;FEMALE;Alive;NA;NA;2842;DiseaseFree;108.57
+TCGA-EL-A3MX;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M1;T4;N1;stage IV;66;FEMALE;Dead;1753;1753;NA;Recurred/Progressed;56.11
+TCGA-EL-A3MY;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M1;T4;NX;stage IV;81;MALE;Dead;533;533;NA;NA;NA
+TCGA-EL-A3MZ;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T4;N1;stage III;66;MALE;Dead;1597;1597;NA;NA;NA
+TCGA-EL-A3N2;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N1;stage I;24;FEMALE;Alive;NA;NA;370;DiseaseFree;29.63
+TCGA-EL-A3N3;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;NX;stage II;53;FEMALE;Alive;NA;NA;4484;DiseaseFree;178.15
+TCGA-EL-A3T0;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T3;N1;stage III;45;FEMALE;Alive;NA;NA;3976;DiseaseFree;142.41
+TCGA-EL-A3T1;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T2;N0;stage I;38;FEMALE;Alive;NA;NA;3941;DiseaseFree;129.47
+TCGA-EL-A3T2;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T2;N1;stage III;55;FEMALE;Alive;NA;NA;988;Recurred/Progressed;31.08
+TCGA-EL-A3T3;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N0;stage II;63;MALE;Alive;NA;NA;3556;DiseaseFree;131.96
+TCGA-EL-A3T6;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N0;stage I;34;FEMALE;Alive;NA;NA;2988;DiseaseFree;98.16
+TCGA-EL-A3T7;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage II;47;FEMALE;Alive;NA;NA;1256;DiseaseFree;41.26
+TCGA-EL-A3T8;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N0;stage I;36;MALE;Alive;NA;NA;2901;DiseaseFree;107.39
+TCGA-EL-A3T9;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;MX;T4;N1;stage IV;69;FEMALE;Dead;174;174;NA;NA;NA
+TCGA-EL-A3TA;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T2;N0;stage I;42;MALE;Alive;NA;NA;1650;DiseaseFree;66.85
+TCGA-EL-A3TB;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T3;N1;stage III;47;FEMALE;Alive;NA;NA;2519;DiseaseFree;82.75
+TCGA-EL-A3ZG;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N0;stage I;15;MALE;Alive;NA;NA;2353;DiseaseFree;89.49
+TCGA-EL-A3ZH;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T3;N1;stage I;42;FEMALE;Alive;NA;NA;2402;DiseaseFree;91.1
+TCGA-EL-A3ZK;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N1;stage I;41;FEMALE;Alive;NA;NA;958;DiseaseFree;51.74
+TCGA-EL-A3ZL;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N1;stage I;34;FEMALE;Alive;NA;NA;1531;DiseaseFree;62.25
+TCGA-EL-A3ZM;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T4;N1;stage IV;60;MALE;Alive;NA;NA;1096;DiseaseFree;36.01
+TCGA-EL-A3ZN;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T3;N1;stage I;28;FEMALE;Alive;NA;NA;1614;DiseaseFree;53.02
+TCGA-EL-A3ZO;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N1;stage III;79;FEMALE;Alive;NA;NA;1441;DiseaseFree;72.63
+TCGA-EL-A3ZP;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T4;N1;stage I;19;MALE;Alive;NA;NA;1323;DiseaseFree;65.44
+TCGA-EL-A3ZQ;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage II;78;FEMALE;Alive;NA;NA;1385;DiseaseFree;61.17
+TCGA-EL-A3ZR;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T2;N0;stage II;46;FEMALE;Alive;NA;NA;1465;DiseaseFree;60.12
+TCGA-EL-A3ZS;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;M0;T1;N1;stage I;22;FEMALE;Alive;NA;NA;215;DiseaseFree;7.06
+TCGA-EL-A3ZT;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N0;stage I;35;MALE;Alive;NA;NA;1358;DiseaseFree;59.4
+TCGA-EL-A4JV;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T2;N0;stage I;41;FEMALE;Alive;NA;NA;1393;DiseaseFree;57.42
+TCGA-EL-A4JW;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T1;N0;stage I;38;FEMALE;Alive;NA;NA;587;DiseaseFree;34.69
+TCGA-EL-A4JX;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;MX;T3;N0;stage I;31;FEMALE;Alive;NA;NA;1398;DiseaseFree;45.93
+TCGA-EL-A4JZ;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;M0;T3;N1;stage III;55;FEMALE;Alive;NA;NA;1154;DiseaseFree;60.97
+TCGA-EL-A4K0;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N0;stage I;54;FEMALE;Alive;NA;NA;578;DiseaseFree;31.01
+TCGA-EL-A4K1;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N1;stage III;68;FEMALE;Alive;NA;NA;596;DiseaseFree;34.36
+TCGA-EL-A4K2;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;M0;T1;N0;stage I;43;FEMALE;Alive;NA;NA;594;DiseaseFree;30.49
+TCGA-EL-A4K4;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N1;stage I;33;FEMALE;Alive;NA;NA;1022;DiseaseFree;53.32
+TCGA-EL-A4K6;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;MX;T4;N1;stage IV;75;MALE;Alive;NA;NA;874;Recurred/Progressed;28.71
+TCGA-EL-A4K7;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N1;stage III;74;MALE;Alive;NA;NA;4;DiseaseFree;41.1
+TCGA-EL-A4K9;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage II;68;MALE;Alive;NA;NA;1149;DiseaseFree;47.8
+TCGA-EL-A4KD;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T3;N1;stage I;41;MALE;Alive;NA;NA;911;DiseaseFree;43.56
+TCGA-EL-A4KG;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N0;stage I;35;FEMALE;Alive;NA;NA;405;DiseaseFree;24.28
+TCGA-EL-A4KH;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage I;36;FEMALE;Alive;NA;NA;361;DiseaseFree;27.04
+TCGA-EL-A4KI;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;MX;T3;N0;stage III;63;MALE;Alive;NA;NA;265;Recurred/Progressed;8.71
+TCGA-EM-A1CS;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T1;N0;stage I;55;FEMALE;Alive;NA;NA;566;DiseaseFree;26.84
+TCGA-EM-A1CT;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T1;N1;stage IV;76;MALE;Alive;NA;NA;165;DiseaseFree;18.17
+TCGA-EM-A1CU;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N1;stage I;31;MALE;Alive;NA;NA;218;DiseaseFree;20.89
+TCGA-EM-A1CV;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T1;N0;stage I;32;FEMALE;Alive;NA;NA;366;DiseaseFree;48.46
+TCGA-EM-A1CW;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T3;N0;stage I;39;FEMALE;Alive;NA;NA;257;DiseaseFree;18.04
+TCGA-EM-A1YA;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;NX;stage II;74;FEMALE;Alive;NA;NA;217;DiseaseFree;19.78
+TCGA-EM-A1YB;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;classical 2;2;1;4;MX;T2;NX;stage II;73;FEMALE;Alive;NA;NA;284;DiseaseFree;19.45
+TCGA-EM-A1YC;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T3;N0;stage III;71;FEMALE;Alive;NA;NA;1421;DiseaseFree;78.55
+TCGA-EM-A1YD;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;N0;stage II;53;FEMALE;Alive;NA;NA;1209;DiseaseFree;56.96
+TCGA-EM-A1YE;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;N0;stage II;47;FEMALE;Alive;NA;NA;650;DiseaseFree;54.04
+TCGA-EM-A22I;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T3;N0;stage III;52;FEMALE;Alive;NA;NA;82;DiseaseFree;14.72
+TCGA-EM-A22J;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;N0;stage II;56;FEMALE;Alive;NA;NA;208;DiseaseFree;14.49
+TCGA-EM-A22K;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;MX;T1;N1;stage IV;46;FEMALE;Alive;NA;NA;203;DiseaseFree;15.74
+TCGA-EM-A22L;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;N0;stage I;33;FEMALE;Alive;NA;NA;139;DiseaseFree;10.45
+TCGA-EM-A22M;Thyroid Papillary Carcinoma - Classical/usual;NA;classical 1;1;NA;3;MX;T1;N0;stage I;52;MALE;Alive;NA;NA;107;DiseaseFree;14.52
+TCGA-EM-A22N;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T1;N0;stage I;68;FEMALE;Alive;NA;NA;210;DiseaseFree;10.64
+TCGA-EM-A22O;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T4;N1;stage IV;75;MALE;Alive;NA;NA;190;DiseaseFree;44.15
+TCGA-EM-A22P;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;MX;T1;N1;stage IV;64;MALE;Alive;NA;NA;175;DiseaseFree;41.26
+TCGA-EM-A22Q;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T3;N0;stage I;36;MALE;Alive;NA;NA;193;DiseaseFree;14.22
+TCGA-EM-A2CJ;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T1;NX;stage I;49;FEMALE;Alive;NA;NA;348;DiseaseFree;47.54
+TCGA-EM-A2CK;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;N1;stage I;28;MALE;Alive;NA;NA;250;DiseaseFree;17.87
+TCGA-EM-A2CL;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T2;NX;stage I;31;MALE;Alive;NA;NA;210;DiseaseFree;13.17
+TCGA-EM-A2CN;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;M1;T3;N0;stage IV;62;MALE;Alive;NA;NA;344;DiseaseFree;23.49
+TCGA-EM-A2CO;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;NX;stage II;77;FEMALE;Alive;NA;NA;184;DiseaseFree;6.04
+TCGA-EM-A2CP;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;N0;stage I;26;FEMALE;Alive;NA;NA;91;DiseaseFree;2.99
+TCGA-EM-A2CQ;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T1;N1;stage I;40;FEMALE;Alive;NA;NA;200;DiseaseFree;12.29
+TCGA-EM-A2CR;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;classical 2;2;1;4;MX;T2;N0;stage II;46;FEMALE;Alive;NA;NA;219;DiseaseFree;13.63
+TCGA-EM-A2CS;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T3;N1;stage IV;51;FEMALE;Alive;NA;NA;313;DiseaseFree;27.63
+TCGA-EM-A2CS;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T3;N1;stage IV;51;FEMALE;Alive;NA;NA;313;DiseaseFree;27.63
+TCGA-EM-A2CT;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T1;N0;stage I;20;FEMALE;Alive;NA;NA;319;DiseaseFree;48.42
+TCGA-EM-A2CU;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);5;classical 2;2;4;4;MX;T2;N1;stage III;47;FEMALE;Alive;NA;NA;177;DiseaseFree;13.14
+TCGA-EM-A2OV;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;N0;stage II;64;FEMALE;Alive;NA;NA;353;DiseaseFree;22.14
+TCGA-EM-A2OW;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T1;NX;stage I;37;FEMALE;Alive;NA;NA;219;DiseaseFree;40.31
+TCGA-EM-A2OX;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T1;N1;stage IV;46;MALE;Alive;NA;NA;88;DiseaseFree;19.71
+TCGA-EM-A2OY;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;N0;stage II;46;FEMALE;Alive;NA;NA;347;DiseaseFree;32.29
+TCGA-EM-A2OZ;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T1;N0;stage I;66;MALE;Alive;NA;NA;284;DiseaseFree;33.94
+TCGA-EM-A2P0;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T2;N1;stage I;33;MALE;Alive;NA;NA;191;DiseaseFree;17.58
+TCGA-EM-A2P1;Thyroid Papillary Carcinoma - Classical/usual;4;follicular;4;5;1;MX;T2;N1;stage I;33;MALE;Alive;NA;NA;194;Recurred/Progressed;11.93
+TCGA-EM-A2P1;Thyroid Papillary Carcinoma - Classical/usual;4;follicular;4;5;1;MX;T2;N1;stage I;33;MALE;Alive;NA;NA;194;Recurred/Progressed;11.93
+TCGA-EM-A2P2;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;classical 2;2;1;4;MX;T3;N0;stage III;46;MALE;Alive;NA;NA;224;DiseaseFree;17.28
+TCGA-EM-A2P3;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T1;NX;stage I;47;FEMALE;Alive;NA;NA;10;DiseaseFree;14.59
+TCGA-EM-A3AI;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;NX;stage II;67;FEMALE;Alive;NA;NA;355;DiseaseFree;22.5
+TCGA-EM-A3AJ;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T3;N1;stage I;39;MALE;Alive;NA;NA;398;DiseaseFree;30.91
+TCGA-EM-A3AK;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T1;N0;stage I;62;FEMALE;Alive;NA;NA;282;DiseaseFree;15.67
+TCGA-EM-A3AL;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T1;N0;stage I;45;FEMALE;Alive;NA;NA;203;DiseaseFree;14.13
+TCGA-EM-A3AN;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T1;N1;stage I;36;FEMALE;Alive;NA;NA;341;DiseaseFree;33.05
+TCGA-EM-A3AO;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T2;N1;stage IV;61;MALE;Alive;NA;NA;336;DiseaseFree;44.48
+TCGA-EM-A3AP;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;classical 2;2;1;4;MX;T2;NX;stage I;31;FEMALE;Alive;NA;NA;161;DiseaseFree;8.34
+TCGA-EM-A3AQ;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T1;N0;stage I;85;FEMALE;Alive;NA;NA;262;DiseaseFree;29.7
+TCGA-EM-A3AR;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;MX;T1;N1;stage I;41;MALE;Alive;NA;NA;207;DiseaseFree;37.22
+TCGA-EM-A3FJ;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T1;N1;stage I;24;FEMALE;Alive;NA;NA;506;DiseaseFree;27.92
+TCGA-EM-A3FK;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T1;N1;stage I;30;FEMALE;Alive;NA;NA;512;DiseaseFree;23.75
+TCGA-EM-A3FL;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T1;NX;stage I;63;FEMALE;Alive;NA;NA;349;DiseaseFree;47.34
+TCGA-EM-A3FM;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T2;N1;stage IV;57;MALE;Alive;NA;NA;279;Recurred/Progressed;16.89
+TCGA-EM-A3FN;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T3;N0;stage I;42;FEMALE;Alive;NA;NA;367;DiseaseFree;12.06
+TCGA-EM-A3FO;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T3;N0;stage I;40;MALE;Alive;NA;NA;238;DiseaseFree;17.48
+TCGA-EM-A3FP;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;N0;stage II;71;FEMALE;Alive;NA;NA;234;DiseaseFree;17.38
+TCGA-EM-A3FQ;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;MX;T3;N1;stage I;19;FEMALE;Alive;NA;NA;150;DiseaseFree;16.16
+TCGA-EM-A3FQ;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;MX;T3;N1;stage I;19;FEMALE;Alive;NA;NA;150;DiseaseFree;16.16
+TCGA-EM-A3FR;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;MX;T2;N1;stage III;55;FEMALE;Alive;NA;NA;219;DiseaseFree;15.01
+TCGA-EM-A3O3;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;MX;T2;N1;stage III;83;FEMALE;Alive;NA;NA;224;DiseaseFree;14.49
+TCGA-EM-A3O6;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;NX;stage II;54;FEMALE;Alive;NA;NA;263;DiseaseFree;15.05
+TCGA-EM-A3O7;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T3;NX;stage III;46;FEMALE;Alive;NA;NA;223;DiseaseFree;7.33
+TCGA-EM-A3O8;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T1;N0;stage I;33;FEMALE;Alive;NA;NA;15;DiseaseFree;12.52
+TCGA-EM-A3O9;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T3;N0;stage I;40;MALE;Alive;NA;NA;146;DiseaseFree;9.23
+TCGA-EM-A3OA;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T2;N0;stage II;55;FEMALE;Alive;NA;NA;164;DiseaseFree;27
+TCGA-EM-A3OB;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;N0;stage I;33;FEMALE;Alive;NA;NA;71;DiseaseFree;38.63
+TCGA-EM-A3ST;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T3;N0;stage III;62;FEMALE;Alive;NA;NA;211;Recurred/Progressed;31.73
+TCGA-EM-A3SU;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T2;N1;stage I;43;FEMALE;Alive;NA;NA;267;DiseaseFree;29.93
+TCGA-EM-A3SU;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T2;N1;stage I;43;FEMALE;Alive;NA;NA;267;DiseaseFree;29.93
+TCGA-EM-A3SX;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T3;N1;stage I;28;FEMALE;Alive;NA;NA;231;DiseaseFree;29.83
+TCGA-EM-A3SY;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T1;NX;stage I;36;MALE;Alive;NA;NA;176;DiseaseFree;13.5
+TCGA-EM-A3SZ;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T2;N0;stage I;42;FEMALE;Alive;NA;NA;200;DiseaseFree;12.78
+TCGA-EM-A4FF;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T1;N1;stage I;40;FEMALE;Alive;NA;NA;2149;Recurred/Progressed;60.94
+TCGA-EM-A4FH;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T3;NX;stage III;69;MALE;Alive;NA;NA;514;DiseaseFree;29.3
+TCGA-EM-A4FK;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T2;NX;stage I;33;FEMALE;Alive;NA;NA;274;DiseaseFree;21.32
+TCGA-EM-A4FM;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T3;N1;stage IV;59;FEMALE;Alive;NA;NA;147;DiseaseFree;5.32
+TCGA-EM-A4FN;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T1;N1;stage IV;49;FEMALE;Alive;NA;NA;262;DiseaseFree;26.35
+TCGA-EM-A4FO;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;MX;T1;N0;stage I;72;MALE;Alive;NA;NA;255;DiseaseFree;26.35
+TCGA-EM-A4FQ;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);4;classical 2;2;5;4;MX;T2;N1;stage I;42;FEMALE;Alive;NA;NA;298;DiseaseFree;22.44
+TCGA-EM-A4FR;cribiform morular;1;classical 2;2;1;4;MX;T3;N1;stage I;28;MALE;Alive;NA;NA;153;DiseaseFree;21.52
+TCGA-EM-A4FU;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T3;NX;stage I;35;MALE;Alive;NA;NA;1152;Recurred/Progressed;25.66
+TCGA-EM-A4FV;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;MX;T1;N0;stage I;64;FEMALE;Alive;NA;NA;387;DiseaseFree;24.44
+TCGA-EM-A4G1;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T1;N0;stage I;26;FEMALE;Alive;NA;NA;29;DiseaseFree;13.67
+TCGA-ET-A25G;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;MX;T3;N0;stage III;56;FEMALE;Alive;NA;NA;1088;DiseaseFree;81.87
+TCGA-ET-A25I;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;N0;stage I;37;FEMALE;Alive;NA;NA;10;DiseaseFree;81.64
+TCGA-ET-A25J;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T2;N1;stage I;40;FEMALE;Alive;NA;NA;903;DiseaseFree;77.5
+TCGA-ET-A25K;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T2;N1;stage I;36;FEMALE;Alive;NA;NA;589;DiseaseFree;70.37
+TCGA-ET-A25L;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;MX;T3;N1;stage IV;52;FEMALE;Alive;NA;NA;450;DiseaseFree;56.54
+TCGA-ET-A25M;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T2;N1;stage I;33;MALE;Alive;NA;NA;375;DiseaseFree;60.15
+TCGA-ET-A25N;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T2;N1;stage I;28;FEMALE;Alive;NA;NA;75;DiseaseFree;63.34
+TCGA-ET-A25O;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T2;N1;stage I;35;FEMALE;Alive;NA;NA;135;DiseaseFree;65.24
+TCGA-ET-A25P;Thyroid Papillary Carcinoma - Classical/usual;1;classical 2;2;1;4;MX;T1;N0;stage I;24;FEMALE;Alive;NA;NA;15;DiseaseFree;18.36
+TCGA-ET-A25R;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;MX;T3;NX;stage III;51;FEMALE;Alive;NA;NA;622;DiseaseFree;63.4
+TCGA-ET-A2MX;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T2;N1;stage I;27;MALE;Alive;NA;NA;1644;DiseaseFree;88.34
+TCGA-ET-A2MY;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T1;NX;stage I;72;FEMALE;Alive;NA;NA;579;DiseaseFree;58.71
+TCGA-ET-A2MZ;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T1;N0;stage I;39;MALE;Alive;NA;NA;373;DiseaseFree;37.22
+TCGA-ET-A2N0;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T1;N1;stage III;51;FEMALE;Alive;NA;NA;133;DiseaseFree;52.56
+TCGA-ET-A2N1;Thyroid Papillary Carcinoma - Classical/usual;NA;classical 2;2;NA;4;MX;T2;N1;stage III;47;FEMALE;Alive;NA;NA;449;DiseaseFree;54.3
+TCGA-ET-A2N3;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T2;NX;stage I;34;FEMALE;Alive;NA;NA;198;DiseaseFree;83.28
+TCGA-ET-A2N4;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);5;classical 2;2;4;4;MX;T3;N0;stage III;53;FEMALE;Alive;NA;NA;43;DiseaseFree;2.66
+TCGA-ET-A2N5;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T3;NX;stage III;46;FEMALE;Alive;NA;NA;1182;DiseaseFree;80.81
+TCGA-ET-A39I;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T1;NX;stage I;83;FEMALE;Dead;NA;NA;9;NA;NA
+TCGA-ET-A39J;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T2;NX;stage I;23;FEMALE;Alive;NA;NA;362;DiseaseFree;106.01
+TCGA-ET-A39K;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T3;N1;stage III;48;FEMALE;Alive;NA;NA;2058;Recurred/Progressed;41.03
+TCGA-ET-A39L;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T3;N0;stage I;20;FEMALE;Alive;NA;NA;60;DiseaseFree;108.38
+TCGA-ET-A39M;Thyroid Papillary Carcinoma - Classical/usual;5;classical 1;1;4;3;MX;T2;NX;stage I;34;MALE;Alive;NA;NA;2266;DiseaseFree;84.82
+TCGA-ET-A39N;Thyroid Papillary Carcinoma - Classical/usual;1;classical 2;2;1;4;MX;T3;NX;stage I;35;FEMALE;Alive;NA;NA;2535;DiseaseFree;123.23
+TCGA-ET-A39O;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 1;1;5;3;MX;T1;N0;stage I;39;MALE;Alive;NA;NA;1310;DiseaseFree;100.49
+TCGA-ET-A39P;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T3;N0;stage III;73;FEMALE;Alive;NA;NA;406;DiseaseFree;95.27
+TCGA-ET-A39R;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;MX;T1;N0;stage I;24;FEMALE;Alive;NA;NA;1413;DiseaseFree;94.05
+TCGA-ET-A39S;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;MX;T1;N0;stage I;27;FEMALE;Alive;NA;NA;20;DiseaseFree;55.06
+TCGA-ET-A39T;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);3;classical 2;2;3;4;MX;T3;N0;stage III;55;FEMALE;Alive;NA;NA;238;DiseaseFree;98.13
+TCGA-ET-A3BN;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T2;NX;stage I;33;FEMALE;Alive;NA;NA;51;DiseaseFree;28.22
+TCGA-ET-A3BO;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;MX;T3;N1;stage I;44;FEMALE;Alive;NA;NA;178;DiseaseFree;50.36
+TCGA-ET-A3BP;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T2;N1;stage I;34;FEMALE;Alive;NA;NA;127;DiseaseFree;79.04
+TCGA-ET-A3BQ;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T2;N0;stage I;27;FEMALE;Alive;NA;NA;74;DiseaseFree;76.58
+TCGA-ET-A3BS;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;MX;T3;N1;stage I;42;MALE;Alive;NA;NA;169;DiseaseFree;5.78
+TCGA-ET-A3BT;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;MX;T2;N1;stage IV;60;FEMALE;Alive;NA;NA;752;Recurred/Progressed;8.77
+TCGA-ET-A3BU;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T1;N1;stage I;28;MALE;Alive;NA;NA;39;DiseaseFree;77.76
+TCGA-ET-A3BV;Thyroid Papillary Carcinoma - Classical/usual;NA;classical 1;1;NA;3;MX;T2;N1;stage III;47;FEMALE;Alive;NA;NA;56;Recurred/Progressed;42.02
+TCGA-ET-A3BW;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T2;NX;stage I;30;FEMALE;Alive;NA;NA;72;DiseaseFree;46.62
+TCGA-ET-A3BX;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T3;N1;stage I;24;MALE;Alive;NA;NA;137;DiseaseFree;52.43
+TCGA-ET-A3DO;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;MX;T2;NX;stage I;33;FEMALE;Alive;NA;NA;2095;Recurred/Progressed;21.65
+TCGA-ET-A3DP;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T2;NX;stage I;43;FEMALE;Alive;NA;NA;1536;DiseaseFree;94.51
+TCGA-ET-A3DQ;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);2;follicular;4;2;1;MX;T1;N0;stage I;43;FEMALE;Alive;NA;NA;1367;DiseaseFree;84.79
+TCGA-ET-A3DR;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T1;N1;stage I;42;FEMALE;Alive;NA;NA;65;DiseaseFree;80.52
+TCGA-ET-A3DS;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;MX;T1;N0;stage I;33;FEMALE;Alive;NA;NA;9;DiseaseFree;66.79
+TCGA-ET-A3DT;Thyroid Papillary Carcinoma - Classical/usual;2;classical 1;1;2;3;MX;T2;N1;stage I;23;FEMALE;Alive;NA;NA;145;DiseaseFree;43.69
+TCGA-ET-A3DU;Thyroid Papillary Carcinoma - Classical/usual;NA;classical 1;1;NA;3;MX;T1;N1;stage I;21;FEMALE;Alive;NA;NA;139;DiseaseFree;62.78
+TCGA-ET-A3DV;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T3;N0;stage II;68;FEMALE;Alive;NA;NA;3424;DiseaseFree;166.49
+TCGA-ET-A3DW;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;MX;T2;N1;stage III;64;MALE;Alive;NA;NA;752;DiseaseFree;24.7
+TCGA-ET-A40P;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;N0;stage I;32;FEMALE;Alive;NA;NA;98;DiseaseFree;43.96
+TCGA-ET-A40Q;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;MX;T3;N1;stage I;38;MALE;Alive;NA;NA;218;Recurred/Progressed;7.16
+TCGA-ET-A40R;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);2;classical 2;2;2;4;MX;T2;N1;stage I;24;FEMALE;Alive;NA;NA;146;DiseaseFree;44.35
+TCGA-ET-A40S;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;MX;T2;N0;stage II;62;MALE;Alive;NA;NA;153;DiseaseFree;40.18
+TCGA-ET-A40T;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;MX;T2;N1;stage I;26;FEMALE;Alive;NA;NA;65;DiseaseFree;37.45
+TCGA-ET-A4KN;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 1;1;5;3;MX;T3;N0;stage III;51;FEMALE;Alive;NA;NA;122;DiseaseFree;33.15
+TCGA-ET-A4KQ;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T2;NX;stage II;45;FEMALE;Alive;NA;NA;59;DiseaseFree;31.37
+TCGA-FE-A22Z;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);4;classical 2;2;5;4;MX;T4;N1;stage IV;61;FEMALE;Alive;NA;NA;1566;Recurred/Progressed;68.76
+TCGA-FE-A230;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T3;N1;stage I;30;FEMALE;Alive;NA;NA;1442;Recurred/Progressed;17.28
+TCGA-FE-A231;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T3;N1;stage IV;70;MALE;Alive;NA;NA;374;DiseaseFree;31.57
+TCGA-FE-A232;Thyroid Papillary Carcinoma - Classical/usual;NA;classical 2;2;NA;4;MX;T3;NX;stage I;44;FEMALE;Alive;NA;NA;1346;DiseaseFree;79.63
+TCGA-FE-A233;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T2;NX;stage I;18;FEMALE;Alive;NA;NA;751;Recurred/Progressed;18.63
+TCGA-FE-A234;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T2;N1;stage I;26;FEMALE;Alive;NA;NA;1333;Recurred/Progressed;15.87
+TCGA-FE-A235;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T2;N1;stage I;26;FEMALE;Alive;NA;NA;3130;DiseaseFree;117.31
+TCGA-FE-A236;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T2;N1;stage I;33;MALE;Alive;NA;NA;2031;DiseaseFree;66.72
+TCGA-FE-A237;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T3;N1;stage I;19;FEMALE;Alive;NA;NA;2292;Recurred/Progressed;22.77
+TCGA-FE-A238;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T3;N0;stage I;36;FEMALE;Alive;NA;NA;1215;Recurred/Progressed;14.16
+TCGA-FE-A239;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;MX;T3;N0;stage III;82;MALE;Dead;1023;1023;NA;Recurred/Progressed;30.65
+TCGA-FE-A23A;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T2;N0;stage I;27;FEMALE;Alive;NA;NA;1908;DiseaseFree;81.77
+TCGA-FE-A3PA;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);5;classical 2;2;4;4;M1;T4;N0;stage II;16;MALE;Alive;NA;NA;2872;DiseaseFree;106.27
+TCGA-FE-A3PB;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T3;N1;stage I;33;FEMALE;Alive;NA;NA;2590;DiseaseFree;85.09
+TCGA-FE-A3PC;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T3;N1;stage I;37;FEMALE;Alive;NA;NA;1868;DiseaseFree;85.61
+TCGA-FE-A3PD;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);5;classical 2;2;4;4;MX;T2;N0;stage I;17;FEMALE;Alive;NA;NA;1913;DiseaseFree;78.71
+TCGA-FK-A3S3;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);5;classical 2;2;4;4;MX;T3;N1;stage I;43;FEMALE;Alive;NA;NA;1401;DiseaseFree;71.02
+TCGA-FK-A3SB;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T3;N1;stage I;28;FEMALE;Alive;NA;NA;124;DiseaseFree;4.11
+TCGA-FK-A3SD;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;M0;T1;N0;stage I;61;FEMALE;Alive;NA;NA;27;DiseaseFree;1.05
+TCGA-FK-A3SE;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T2;N1;stage I;31;FEMALE;Alive;NA;NA;670;DiseaseFree;22.01
+TCGA-FK-A3SG;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T2;N1;stage I;21;FEMALE;Alive;NA;NA;28;DiseaseFree;0.92
+TCGA-FK-A3SH;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T2;N1;stage III;50;FEMALE;Alive;NA;NA;1463;DiseaseFree;48.06
+TCGA-FK-A4UB;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T3;N1;stage III;51;MALE;Alive;NA;NA;2773;DiseaseFree;116
+TCGA-FY-A2QD;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;;T1;N0;;61;FEMALE;Alive;NA;NA;38;DiseaseFree;1.25
+TCGA-FY-A3BL;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T1;NX;stage I;29;MALE;Alive;NA;NA;35;DiseaseFree;20.4
+TCGA-FY-A3I4;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N0;stage I;34;FEMALE;Alive;NA;NA;34;DiseaseFree;17.81
+TCGA-FY-A3I5;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T3;N0;stage III;64;FEMALE;Alive;NA;NA;50;DiseaseFree;7.82
+TCGA-FY-A3NM;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;MX;T3;N0;stage III;48;FEMALE;Alive;NA;NA;30;DiseaseFree;29.07
+TCGA-FY-A3NN;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T1;N1;stage III;48;FEMALE;Alive;NA;NA;0;DiseaseFree;0
+TCGA-FY-A3NP;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T1;N0;stage I;69;MALE;Alive;NA;NA;18;DiseaseFree;16.13
+TCGA-FY-A3ON;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T2;N1;stage I;20;MALE;Alive;NA;NA;46;DiseaseFree;19.55
+TCGA-FY-A3R6;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;MX;T2;N1;stage IV;57;FEMALE;Alive;NA;NA;23;DiseaseFree;13.9
+TCGA-FY-A3R7;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;MX;T3;N1;stage III;50;FEMALE;Alive;NA;NA;1;DiseaseFree;16.26
+TCGA-FY-A3R8;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T3;NX;stage III;62;FEMALE;Alive;NA;NA;142;DiseaseFree;15.67
+TCGA-FY-A3R9;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;MX;T1;N0;stage I;66;FEMALE;Alive;NA;NA;66;DiseaseFree;16.56
+TCGA-FY-A3RA;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T2;NX;stage I;21;FEMALE;Alive;NA;NA;278;DiseaseFree;18.07
+TCGA-FY-A3TY;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;MX;T3;N0;stage III;61;FEMALE;Alive;NA;NA;9;DiseaseFree;23.29
+TCGA-FY-A3W9;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T2;N0;stage II;66;FEMALE;Alive;NA;NA;23;DiseaseFree;21.62
+TCGA-FY-A3WA;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;MX;T1;NX;stage I;52;FEMALE;Alive;NA;NA;30;DiseaseFree;17.05
+TCGA-FY-A3YR;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T3;N1;stage III;64;FEMALE;Alive;NA;NA;209;DiseaseFree;17.35
+TCGA-FY-A40K;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;MX;T1;N0;stage I;46;FEMALE;Alive;NA;NA;126;DiseaseFree;15.14
+TCGA-FY-A40L;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T4;N1;stage IV;55;FEMALE;Alive;NA;NA;200;DiseaseFree;23.85
+TCGA-FY-A40M;Thyroid Papillary Carcinoma - Classical/usual;1;classical 2;2;1;4;MX;T1;N0;stage I;51;FEMALE;Alive;NA;NA;138;DiseaseFree;22.47
+TCGA-FY-A40N;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);2;classical 2;2;2;4;MX;T1;N0;stage I;55;FEMALE;Alive;NA;NA;27;DiseaseFree;19.02
+TCGA-FY-A4B0;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;MX;T1;NX;stage I;76;MALE;Alive;NA;NA;0;DiseaseFree;13.8
+TCGA-FY-A4B3;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T3;N1;stage III;51;MALE;Alive;NA;NA;41;DiseaseFree;14.03
+TCGA-FY-A4B4;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T1;N1;stage III;62;FEMALE;Alive;NA;NA;35;DiseaseFree;21.58
+TCGA-FY-A76V;Thyroid Papillary Carcinoma - Classical/usual;NA;NA;NA;NA;NA;MX;T2;NX;stage II;54;MALE;Alive;NA;NA;51;DiseaseFree;1.68
+TCGA-GE-A2C6;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T2;N1;stage I;33;FEMALE;Alive;NA;NA;206;DiseaseFree;12.52
+TCGA-H2-A26U;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;MX;T3;N0;stage III;54;FEMALE;Alive;NA;NA;106;DiseaseFree;16.98
+TCGA-H2-A2K9;Thyroid Papillary Carcinoma - Classical/usual;1;CpG island methylated;3;1;2;MX;T2;N1;stage I;25;MALE;Alive;NA;NA;145;DiseaseFree;21.65
+TCGA-H2-A3RH;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;classical 2;2;1;4;M0;T1;N0;stage I;41;FEMALE;Alive;NA;NA;149;DiseaseFree;12.45
+TCGA-H2-A3RI;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T3;N0;stage I;29;FEMALE;Alive;NA;NA;91;Recurred/Progressed;9.17
+TCGA-H2-A421;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;M0;T1;N1;stage I;34;FEMALE;Alive;NA;NA;67;DiseaseFree;20.04
+TCGA-H2-A422;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T2;N0;stage I;40;FEMALE;Alive;NA;NA;88;DiseaseFree;18.59
+TCGA-IM-A3EB;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T3;N1;stage I;32;FEMALE;Alive;NA;NA;1070;DiseaseFree;48.88
+TCGA-IM-A3ED;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;MX;T1;N0;stage I;58;FEMALE;Alive;NA;NA;939;DiseaseFree;47.37
+TCGA-IM-A3U2;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;MX;T3;N1;stage IV;89;FEMALE;Alive;NA;NA;81;DiseaseFree;18.5
+TCGA-IM-A3U3;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;MX;T1;N0;stage I;55;FEMALE;Alive;NA;NA;100;DiseaseFree;16.89
+TCGA-IM-A41Y;Diffuse sclerosing variant;3;classical 2;2;3;4;MX;T3;N1;stage I;42;FEMALE;Alive;NA;NA;298;DiseaseFree;21.81
+TCGA-IM-A41Z;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;MX;T1;N0;stage I;37;FEMALE;Alive;NA;NA;293;DiseaseFree;31.08
+TCGA-IM-A420;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;MX;T2;N1;stage I;39;FEMALE;Alive;NA;NA;90;DiseaseFree;8.21
+TCGA-IM-A4EB;Diffuse Sclerosing Variant;4;classical 1;1;5;3;MX;T3;N1;stage I;37;MALE;Alive;NA;NA;263;DiseaseFree;25.62
+TCGA-J8-A3NZ;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N1;stage III;52;FEMALE;Alive;NA;NA;68;DiseaseFree;17.21
+TCGA-J8-A3O0;Thyroid Papillary Carcinoma - Classical/usual;1;classical 2;2;1;4;M0;T2;N0;stage I;38;MALE;Alive;NA;NA;392;DiseaseFree;43.13
+TCGA-J8-A3O1;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N1;stage I;33;FEMALE;Alive;NA;NA;415;DiseaseFree;27.17
+TCGA-J8-A3O2;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T3;N1;stage I;39;MALE;Alive;NA;NA;41;DiseaseFree;11.24
+TCGA-J8-A3O2;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;M0;T3;N1;stage I;39;MALE;Alive;NA;NA;41;DiseaseFree;11.24
+TCGA-J8-A3YD;Thyroid Papillary Carcinoma - Classical/usual;2;follicular;4;2;1;M0;T1;N1;stage III;47;FEMALE;Alive;NA;NA;968;DiseaseFree;31.8
+TCGA-J8-A3YE;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N1;stage I;31;FEMALE;Alive;NA;NA;847;DiseaseFree;27.83
+TCGA-J8-A3YF;Thyroid Papillary Carcinoma - Classical/usual;4;classical 1;1;5;3;M0;T1;N1;stage III;83;MALE;Alive;NA;NA;751;DiseaseFree;24.67
+TCGA-J8-A3YG;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N1;stage III;54;FEMALE;Alive;NA;NA;678;DiseaseFree;22.27
+TCGA-J8-A3YH;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T3;N1;stage I;39;MALE;Alive;NA;NA;175;DiseaseFree;5.75
+TCGA-J8-A3YH;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T3;N1;stage I;39;MALE;Alive;NA;NA;175;DiseaseFree;5.75
+TCGA-J8-A42S;Thyroid Papillary Carcinoma - Classical/usual;2;classical 2;2;2;4;MX;T1;N1;stage III;45;MALE;Alive;NA;NA;75;DiseaseFree;2.46
+TCGA-J8-A4HW;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N1;stage III;59;FEMALE;Alive;NA;NA;79;DiseaseFree;2.6
+TCGA-J8-A4HW;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N1;stage III;59;FEMALE;Alive;NA;NA;79;DiseaseFree;2.6
+TCGA-J8-A4HY;Thyroid Papillary Carcinoma - Classical/usual;1;classical 2;2;1;4;MX;T4;N1;stage IV;68;FEMALE;Alive;NA;NA;6;DiseaseFree;0.2
+TCGA-KS-A41F;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N1;stage I;37;FEMALE;Alive;NA;NA;3680;DiseaseFree;143.46
+TCGA-KS-A41I;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T1;N0;stage I;47;FEMALE;Alive;NA;NA;486;DiseaseFree;15.97
+TCGA-KS-A41J;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N1;stage I;28;FEMALE;Alive;NA;NA;477;DiseaseFree;15.67
+TCGA-KS-A41L;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T2;N0;stage I;39;FEMALE;Alive;NA;NA;2637;DiseaseFree;113.76
+TCGA-KS-A4I1;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage I;37;FEMALE;Alive;NA;NA;183;DiseaseFree;26.68
+TCGA-KS-A4I3;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T3;N1;stage I;41;MALE;Alive;NA;NA;378;DiseaseFree;43.66
+TCGA-KS-A4I5;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N1;stage IV;49;FEMALE;Alive;NA;NA;205;DiseaseFree;18.63
+TCGA-KS-A4I7;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N0;stage I;61;FEMALE;Alive;NA;NA;376;DiseaseFree;32.42
+TCGA-KS-A4I9;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T1;N0;stage I;46;FEMALE;Alive;NA;NA;531;DiseaseFree;87.32
+TCGA-KS-A4IB;Thyroid Papillary Carcinoma - Classical/usual;3;classical 2;2;3;4;M0;T2;N1;stage I;41;FEMALE;Alive;NA;NA;1964;DiseaseFree;84.66
+TCGA-KS-A4IC;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T1;N1;stage III;45;FEMALE;Alive;NA;NA;447;DiseaseFree;35.25
+TCGA-KS-A4ID;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;follicular;4;1;1;M0;T1;N0;stage I;55;FEMALE;Alive;NA;NA;623;DiseaseFree;33.21
+TCGA-L6-A4EP;Thyroid Papillary Carcinoma - Classical/usual;NA;classical 2;2;NA;4;M0;T2;N0;stage I;41;FEMALE;Alive;NA;NA;18;DiseaseFree;33.38
+TCGA-L6-A4EQ;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N1;stage III;47;MALE;Alive;NA;NA;361;DiseaseFree;40.34
+TCGA-L6-A4ET;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);5;classical 2;2;4;4;M1;T3;NX;stage IV;49;FEMALE;Alive;NA;NA;34;DiseaseFree;21.81
+TCGA-L6-A4EU;Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features);4;classical 2;2;5;4;M0;T3;N1;stage III;58;FEMALE;Alive;NA;NA;22;DiseaseFree;9.49
+TCGA-MK-A4N6;Thyroid Papillary Carcinoma - Classical/usual;4;classical 2;2;5;4;M0;T3;N1;stage I;35;MALE;Alive;NA;NA;506;DiseaseFree;36.07
+TCGA-MK-A4N7;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T2;N0;stage I;20;FEMALE;Alive;NA;NA;440;DiseaseFree;32.42
+TCGA-MK-A4N9;Thyroid Papillary Carcinoma - Classical/usual;5;classical 2;2;4;4;M0;T3;N1;stage I;41;FEMALE;Alive;NA;NA;265;DiseaseFree;30.19
+TCGA-MK-A84Z;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);NA;NA;NA;NA;NA;MX;T3;NX;stage III;74;MALE;Alive;NA;NA;344;DiseaseFree;23.92
+TCGA-QD-A8IV;Thyroid Papillary Carcinoma - Classical/usual;NA;NA;NA;NA;NA;MX;T3;N1;stage IV;50;FEMALE;Alive;NA;NA;158;DiseaseFree;12.88

@@ -1,0 +1,531 @@
+PatientID;histological_type;RNA_subtype;Methylation_subtype;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;clinical_M;clinical_stage;clinical_T;clinical_N;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months;smoking_history;pack_per_year;Hpv.status.ish;Hpv.status.p16
+TCGA-4P-AA8J;NA;NA;NA;;;;;;;;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+TCGA-BA-4074;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hypo-methylated;M0;T2;N2;stage IV;M0;stage IV;T3;N2;69;MALE;DECEASED;15.18;462;NA;Recurred/Progressed;13.01;2;51;NA;NA
+TCGA-BA-4075;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N0;stage III;M0;stage IV;T4;N1;49;MALE;DECEASED;9.3;283;NA;Recurred/Progressed;7.75;2;30;NA;NA
+TCGA-BA-4076;Head & Neck Squamous Cell Carcinoma;Basal;normal-like;;TX;NX;;M0;stage IV;T3;N2;39;MALE;DECEASED;13.63;415;NA;Recurred/Progressed;9.4;2;30;NA;NA
+TCGA-BA-4077;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;M0;T4;N0;stage IV;M0;stage IV;T4;N3;45;FEMALE;DECEASED;37.25;1134;NA;NA;NA;4;30;NA;NA
+TCGA-BA-4078;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;;;;M0;stage IV;T2;N2;83;MALE;DECEASED;9.07;276;NA;NA;NA;4;75;NA;NA
+TCGA-BA-5149;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T3;N2;stage IV;M0;stage IV;T3;N2;47;MALE;DECEASED;26.48;NA;248;Recurred/Progressed;12.78;2;60;NA;NA
+TCGA-BA-5151;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T4;N0;stage IV;M0;stage IV;T4;N0;72;MALE;LIVING;23.72;NA;190;Recurred/Progressed;16.98;3;20;NA;NA
+TCGA-BA-5152;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;M0;T4;N0;stage IV;M0;stage IV;T4;N0;56;MALE;LIVING;42.31;NA;846;DiseaseFree;42.31;1;NA;NA;NA
+TCGA-BA-5153;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;T2;NX;;M0;stage III;T2;N1;51;MALE;DECEASED;57.88;1762;NA;Recurred/Progressed;53.09;1;NA;NA;NA
+TCGA-BA-5555;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;;T3;N2;stage IV;M0;stage IV;T2;N2;54;MALE;LIVING;17.08;NA;186;Recurred/Progressed;8.15;4;62;NA;NA
+TCGA-BA-5556;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;N0;stage II;M0;stage II;T2;N0;58;FEMALE;LIVING;23.82;NA;179;DiseaseFree;23.82;4;60;NA;NA
+TCGA-BA-5557;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T1;N1;stage III;M0;stage IV;T2;N2;41;FEMALE;LIVING;20.47;NA;242;DiseaseFree;20.47;1;NA;NA;NA
+TCGA-BA-5558;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;TX;NX;;M0;stage IV;T4;N1;65;MALE;LIVING;65.54;NA;1636;DiseaseFree;65.54;1;NA;NA;NA
+TCGA-BA-5559;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;TX;NX;;M0;stage IV;T3;N2;71;MALE;DECEASED;68.43;NA;1747;Recurred/Progressed;60.94;1;NA;NA;NA
+TCGA-BA-6868;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;TX;NX;;M0;stage IV;T3;N3;53;MALE;DECEASED;15.51;NA;153;Recurred/Progressed;11.3;4;60;NA;NA
+TCGA-BA-6869;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;;T3;N0;stage III;M0;stage III;T3;N0;62;MALE;LIVING;21.16;NA;244;DiseaseFree;21.16;2;46;NA;NA
+TCGA-BA-6870;Head & Neck Squamous Cell Carcinoma;Basal;normal-like;;TX;NX;;M1;stage IV;T3;N2;60;FEMALE;DECEASED;14.82;451;NA;NA;NA;2;40;NA;NA
+TCGA-BA-6871;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;TX;NX;;M0;stage IV;T3;N2;75;MALE;DECEASED;3.55;NA;63;NA;NA;4;180;NA;NA
+TCGA-BA-6872;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;TX;NX;;M0;stage IV;T3;N2;47;MALE;DECEASED;12.61;384;NA;NA;NA;2;40;NA;NA
+TCGA-BA-6873;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T4;N2;stage IV;M0;stage IV;T2;N2;28;MALE;LIVING;4.01;NA;113;Recurred/Progressed;2.17;2;1;NA;NA
+TCGA-BA-7269;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T2;N1;stage III;M0;stage III;T2;N1;61;MALE;LIVING;41.82;NA;236;DiseaseFree;41.82;2;46;NA;NA
+TCGA-BA-A4IF;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;TX;NX;;M0;stage IV;T4;N0;59;MALE;LIVING;29.4;NA;523;Recurred/Progressed;15.21;4;40;Negative;Negative
+TCGA-BA-A4IG;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T1;NX;;M0;stage IV;T2;N2;77;MALE;LIVING;28.09;NA;519;DiseaseFree;28.09;3;NA;NA;NA
+TCGA-BA-A4IH;Head & Neck Squamous Cell Carcinoma Basaloid Type;NA;NA;M0;T2;N1;stage IV;M0;stage IV;T2;N2;57;MALE;LIVING;20.43;NA;201;DiseaseFree;20.43;4;20;Positive;Positive
+TCGA-BA-A4II;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage I;T1;N0;46;MALE;LIVING;30.16;NA;603;Recurred/Progressed;30.16;4;25;[Not Evaluated];[Not Evaluated]
+TCGA-BA-A6D8;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N2;59;MALE;LIVING;27.92;NA;513;Recurred/Progressed;27.89;4;40;Negative;Negative
+TCGA-BA-A6DA;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N2;41;FEMALE;LIVING;11.53;NA;351;DiseaseFree;11.53;2;25;Negative;Positive
+TCGA-BA-A6DB;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;N0;stage I;M0;stage II;T2;N0;24;FEMALE;LIVING;7.1;NA;216;Recurred/Progressed;6.83;1;NA;Negative;Negative
+TCGA-BA-A6DD;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N2;44;MALE;DECEASED;5.68;173;NA;Recurred/Progressed;3.15;2;30;Negative;Negative
+TCGA-BA-A6DE;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage III;T3;N0;70;FEMALE;LIVING;14.45;NA;182;DiseaseFree;14.45;2;60;Negative;Negative
+TCGA-BA-A6DF;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N2;80;FEMALE;DECEASED;7.82;238;NA;NA;NA;NA;NA;Negative;Positive
+TCGA-BA-A6DG;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;TX;NX;;M0;stage IV;T4;N2;49;MALE;DECEASED;2.27;69;NA;NA;NA;3;20;Negative;Negative
+TCGA-BA-A6DI;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;TX;NX;;M0;stage III;T3;N0;62;MALE;DECEASED;11.04;336;NA;Recurred/Progressed;8.74;2;40;Negative;Negative
+TCGA-BA-A6DJ;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N2;62;MALE;DECEASED;13.37;NA;314;Recurred/Progressed;7.88;4;40;Negative;Negative
+TCGA-BA-A6DL;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T0;N0;;M0;stage III;T3;N0;59;MALE;LIVING;20.47;NA;294;DiseaseFree;20.47;2;45;Negative;Negative
+TCGA-BA-A8YP;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N3;stage IV;M0;stage IV;T4;N3;50;MALE;LIVING;16.39;NA;142;DiseaseFree;16.39;2;14;Negative;Negative
+TCGA-BB-4217;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;M0;T4;N2;stage IV;M0;stage IV;T4;N2;68;MALE;LIVING;6.14;NA;187;DiseaseFree;6.14;2;60;NA;NA
+TCGA-BB-4223;Head & Neck Squamous Cell Carcinoma;Atypical;CpG island hyper-methylated;M0;T2;N2;stage IV;M0;stage IV;T3;N2;48;MALE;LIVING;105.81;NA;2878;DiseaseFree;105.81;1;NA;NA;NA
+TCGA-BB-4224;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;N2;stage IV;M0;stage III;T3;N0;52;MALE;LIVING;9.13;NA;278;Recurred/Progressed;5.75;1;NA;NA;NA
+TCGA-BB-4225;Head & Neck Squamous Cell Carcinoma;Atypical;CpG island hyper-methylated;;TX;NX;;M0;stage IV;T3;N2;73;MALE;LIVING;4.8;NA;140;DiseaseFree;4.8;4;1.5;NA;NA
+TCGA-BB-4227;Head & Neck Squamous Cell Carcinoma;NA;NA;;T4;N2;stage IV;M0;stage IV;T4;N2;66;MALE;LIVING;4.4;NA;133;Recurred/Progressed;2.79;3;25;NA;NA
+TCGA-BB-4228;Head & Neck Squamous Cell Carcinoma;Atypical;CpG island hyper-methylated;;T3;NX;stage III;M0;stage II;T2;N0;50;MALE;LIVING;18.36;NA;558;DiseaseFree;18.36;2;102.5;NA;Positive
+TCGA-BB-7861;Head & Neck Squamous Cell Carcinoma;NA;NA;;T1;N1;stage III;M0;stage III;TX;N1;56;MALE;LIVING;22.4;NA;310;DiseaseFree;22.4;2;NA;Positive;Positive
+TCGA-BB-7862;Head & Neck Squamous Cell Carcinoma;NA;NA;;T3;N2;stage IV;M0;stage IV;T2;N2;67;MALE;LIVING;36.7;NA;536;DiseaseFree;36.7;4;90;NA;NA
+TCGA-BB-7863;Head & Neck Squamous Cell Carcinoma;NA;NA;;T3;N0;stage III;M0;stage III;T3;N0;43;FEMALE;LIVING;33.67;NA;423;DiseaseFree;33.67;1;NA;NA;NA
+TCGA-BB-7864;Head & Neck Squamous Cell Carcinoma;NA;NA;;T2;N2;stage IV;M0;stage IV;T3;N2;61;MALE;LIVING;50.16;NA;687;DiseaseFree;50.16;4;80;NA;NA
+TCGA-BB-7866;Head & Neck Squamous Cell Carcinoma;NA;NA;;TX;NX;;M0;stage III;T3;N1;40;MALE;LIVING;44.94;NA;638;DiseaseFree;44.94;4;NA;Positive;Positive
+TCGA-BB-7870;Head & Neck Squamous Cell Carcinoma;NA;NA;;T4;N0;stage IV;M0;stage IV;T3;N2;58;MALE;LIVING;66.23;NA;1153;DiseaseFree;66.23;2;40;NA;NA
+TCGA-BB-7871;Head & Neck Squamous Cell Carcinoma;NA;NA;;T4;N2;stage IV;M0;stage IV;T4;N2;64;FEMALE;LIVING;24.64;NA;428;Recurred/Progressed;14.06;2;5.1;NA;NA
+TCGA-BB-7872;Head & Neck Squamous Cell Carcinoma;NA;NA;;T1;N0;stage I;M0;stage IV;T2;N2;63;MALE;LIVING;38.37;NA;436;DiseaseFree;38.37;1;NA;Negative;Positive
+TCGA-BB-8596;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;NX;stage IV;M0;stage IV;T4;N1;69;FEMALE;LIVING;70.99;NA;2161;DiseaseFree;70.99;4;50;[Not Evaluated];[Not Evaluated]
+TCGA-BB-8601;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N1;stage III;M0;stage II;T2;N0;84;MALE;LIVING;20.5;NA;624;Recurred/Progressed;20.5;4;NA;[Not Evaluated];[Not Evaluated]
+TCGA-BB-A5HU;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N2;47;MALE;LIVING;25.69;NA;383;DiseaseFree;25.69;1;NA;Negative;[Not Evaluated]
+TCGA-BB-A5HY;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N2;stage IV;M0;stage IV;T3;N2;64;MALE;DECEASED;10.55;NA;308;Recurred/Progressed;7.56;2;40;Negative;[Not Evaluated]
+TCGA-BB-A5HZ;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N1;stage IV;M0;stage IV;T4;N1;65;MALE;LIVING;27.17;NA;350;Recurred/Progressed;14.39;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-BB-A6UM;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T1;N2;stage III;MX;stage III;T2;N2;52;MALE;LIVING;12.91;NA;393;DiseaseFree;12.91;4;105;Positive;Positive
+TCGA-BB-A6UO;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N2;stage IV;MX;stage IV;T3;N2;61;FEMALE;DECEASED;8.8;268;NA;Recurred/Progressed;6.96;2;20;[Not Evaluated];[Not Evaluated]
+TCGA-C9-A47Z;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N1;stage III;M0;stage III;T2;N1;72;FEMALE;DECEASED;6.27;NA;5;NA;NA;1;NA;NA;NA
+TCGA-C9-A480;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N0;stage III;M0;stage III;T3;N0;45;FEMALE;LIVING;12.68;NA;4;DiseaseFree;12.68;1;NA;NA;NA
+TCGA-CN-4722;Head & Neck Squamous Cell Carcinoma;NA;NA;;T2;N0;stage II;M0;stage II;T2;N0;61;FEMALE;LIVING;48.72;NA;193;DiseaseFree;48.72;2;NA;Negative;NA
+TCGA-CN-4723;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T4;N0;stage IV;M0;stage IV;T4;N0;67;MALE;LIVING;55.81;NA;412;DiseaseFree;55.81;4;NA;NA;NA
+TCGA-CN-4725;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;N0;stage II;M0;stage II;T2;N0;60;MALE;LIVING;38.01;NA;310;DiseaseFree;38.01;1;NA;Negative;Negative
+TCGA-CN-4726;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T3;N2;stage IV;M0;stage IV;T3;N2;68;MALE;DECEASED;4.66;142;NA;Recurred/Progressed;2.6;2;12.5;Negative;Negative
+TCGA-CN-4727;Head & Neck Squamous Cell Carcinoma;Classical;hypo-methylated;;T4;N0;stage IV;M0;stage IV;T4;N0;56;MALE;LIVING;51.25;NA;194;DiseaseFree;51.25;4;80;Negative;Negative
+TCGA-CN-4728;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T3;N2;stage IV;M0;stage IV;T2;N2;56;MALE;LIVING;56.64;NA;325;DiseaseFree;56.64;2;40;NA;Negative
+TCGA-CN-4729;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;N1;stage III;M0;stage IV;T4;N0;73;MALE;LIVING;12.88;NA;156;DiseaseFree;12.88;4;35;NA;NA
+TCGA-CN-4730;Head & Neck Squamous Cell Carcinoma;Basal;hypo-methylated;;T4;N1;stage IV;M0;stage IV;T4;N2;62;MALE;LIVING;26.84;NA;343;DiseaseFree;26.84;2;47;NA;NA
+TCGA-CN-4731;Head & Neck Squamous Cell Carcinoma;Classical;hypo-methylated;;T4;N2;stage IV;M0;stage IV;T4;N2;63;FEMALE;DECEASED;32.79;NA;383;Recurred/Progressed;28.78;4;60;Negative;Negative
+TCGA-CN-4733;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T1;N1;stage III;M0;stage I;T1;N0;61;MALE;LIVING;52.1;NA;523;DiseaseFree;52.1;1;NA;Negative;Negative
+TCGA-CN-4734;Head & Neck Squamous Cell Carcinoma;NA;NA;;T2;N0;stage II;M0;stage II;T2;N0;70;MALE;LIVING;55.52;NA;227;DiseaseFree;55.52;4;NA;Negative;Negative
+TCGA-CN-4735;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T3;N2;stage IV;M0;stage IV;T3;N2;52;MALE;LIVING;57.06;NA;369;DiseaseFree;57.06;2;120;Negative;Negative
+TCGA-CN-4736;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T1;NX;;M0;stage II;T2;N0;70;FEMALE;DECEASED;12.98;395;NA;Recurred/Progressed;6.87;4;45;NA;NA
+TCGA-CN-4737;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hypo-methylated;;T2;N2;stage IV;M0;stage II;T2;N0;19;MALE;LIVING;20.53;NA;240;DiseaseFree;20.53;1;NA;Negative;Negative
+TCGA-CN-4738;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;M0;T4;N0;stage IV;M0;stage IV;T4;N0;53;MALE;DECEASED;14.32;436;NA;NA;NA;2;72;NA;NA
+TCGA-CN-4739;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;M0;T4;N0;stage IV;M0;stage IV;T4;N0;71;MALE;DECEASED;45.8;NA;348;Recurred/Progressed;42.77;4;82.5;NA;NA
+TCGA-CN-4740;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hypo-methylated;M0;T4;N0;stage IV;M0;stage IV;T4;N0;79;FEMALE;DECEASED;27.56;NA;811;Recurred/Progressed;23.65;4;12;NA;NA
+TCGA-CN-4741;Head & Neck Squamous Cell Carcinoma;Atypical;CpG island hyper-methylated;M0;T4;N0;stage IV;M0;stage IV;T4;N0;75;MALE;LIVING;73.55;NA;876;Recurred/Progressed;71.22;4;45;NA;NA
+TCGA-CN-4742;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;M0;T4;N2;stage IV;M0;stage IV;T4;N1;48;FEMALE;DECEASED;13.04;397;NA;NA;NA;2;20;Negative;Negative
+TCGA-CN-5355;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T4;N0;stage IV;M0;stage IV;T4;N0;64;MALE;LIVING;41.98;NA;279;DiseaseFree;41.98;2;40;NA;NA
+TCGA-CN-5356;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hypo-methylated;;T3;N0;stage III;M0;stage III;T3;N0;56;MALE;LIVING;46.29;NA;289;DiseaseFree;46.29;2;NA;NA;NA
+TCGA-CN-5358;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T2;N0;stage II;M0;stage III;T2;N1;60;MALE;DECEASED;8.57;NA;173;Recurred/Progressed;4.76;4;45;Negative;Negative
+TCGA-CN-5359;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;M0;T4;N2;stage IV;M0;stage IV;T4;N1;59;MALE;DECEASED;12.39;377;NA;Recurred/Progressed;11.7;2;29;Negative;Negative
+TCGA-CN-5360;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;M0;T4;N0;stage IV;M0;stage IV;T4;N0;68;MALE;LIVING;71.25;NA;867;DiseaseFree;71.25;2;50;NA;NA
+TCGA-CN-5361;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;;;TX;NX;80;MALE;DECEASED;69.65;NA;194;Recurred/Progressed;67.74;2;25;NA;NA
+TCGA-CN-5363;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;M0;T4;N3;stage IV;M0;stage IV;T4;N3;48;MALE;DECEASED;8.31;253;NA;Recurred/Progressed;1.74;2;15;NA;NA
+TCGA-CN-5364;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;M0;T4;N2;stage IV;M0;stage IV;T4;N2;55;MALE;DECEASED;16.2;493;NA;NA;NA;2;NA;NA;NA
+TCGA-CN-5365;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;N3;stage IV;M1;stage IV;T1;N2;38;MALE;DECEASED;11.53;351;NA;NA;NA;2;26;NA;NA
+TCGA-CN-5366;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;M0;T4;N2;stage IV;M0;stage IV;T4;N2;51;MALE;DECEASED;11.83;360;NA;Recurred/Progressed;9.07;2;80;NA;NA
+TCGA-CN-5367;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;M0;T4;N2;stage IV;M0;stage IV;T4;N0;60;FEMALE;DECEASED;11.56;352;NA;NA;NA;4;40;NA;NA
+TCGA-CN-5369;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;M0;T4;N0;stage IV;M0;stage IV;T4;N1;90;FEMALE;DECEASED;12.48;380;NA;NA;NA;2;NA;NA;NA
+TCGA-CN-5370;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;M0;T3;N1;stage III;M0;stage II;T2;N0;78;MALE;DECEASED;8.51;259;NA;Recurred/Progressed;4.04;4;NA;Negative;Negative
+TCGA-CN-5373;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T1;N0;stage I;M0;stage II;T2;N0;55;FEMALE;LIVING;52.04;NA;413;DiseaseFree;52.04;4;60;Negative;Negative
+TCGA-CN-5374;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;M0;T2;N2;stage IV;M0;stage IV;T2;N2;56;FEMALE;DECEASED;56.9;NA;290;Recurred/Progressed;44.97;2;30;Positive;NA
+TCGA-CN-6010;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T4;N2;stage IV;M0;stage IV;T4;N0;53;MALE;LIVING;50.03;NA;207;Recurred/Progressed;17.74;2;67.5;Negative;Negative
+TCGA-CN-6011;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T4;N0;stage IV;M0;stage IV;T4;N0;57;MALE;LIVING;30.65;NA;228;DiseaseFree;30.65;4;40;NA;NA
+TCGA-CN-6012;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;T3;N2;stage IV;M0;stage III;T3;N1;66;MALE;LIVING;47.96;NA;144;DiseaseFree;47.96;2;100;Negative;Negative
+TCGA-CN-6013;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;T4;N2;stage IV;M0;stage IV;T4;N2;56;MALE;DECEASED;23.88;NA;155;Recurred/Progressed;20.2;1;NA;Negative;Negative
+TCGA-CN-6016;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T4;N1;stage IV;M0;stage IV;T4;N1;64;MALE;LIVING;47.4;NA;202;DiseaseFree;47.4;2;50;Negative;Negative
+TCGA-CN-6017;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T3;N2;stage IV;M0;stage III;T2;N1;55;MALE;DECEASED;28.02;NA;160;NA;NA;3;5;Negative;Negative
+TCGA-CN-6018;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T4;N2;stage IV;M0;stage IV;T4;N2;85;FEMALE;DECEASED;19.05;NA;45;NA;NA;1;NA;NA;NA
+TCGA-CN-6019;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T4;N0;stage IV;M0;stage IV;T4;N0;61;MALE;LIVING;34.1;NA;135;DiseaseFree;34.1;4;20;Negative;Negative
+TCGA-CN-6020;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;N1;stage III;M0;stage IV;T3;N2;58;MALE;DECEASED;6.73;NA;98;NA;NA;2;NA;Negative;Negative
+TCGA-CN-6021;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;TX;NX;;M0;stage III;T3;N0;63;FEMALE;DECEASED;9.07;276;NA;NA;NA;4;60;NA;NA
+TCGA-CN-6022;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;M0;T4;N1;stage IV;M0;stage IV;T4;N1;49;MALE;DECEASED;9.23;NA;202;Recurred/Progressed;3.32;2;NA;Negative;Negative
+TCGA-CN-6023;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;M0;T3;N2;stage IV;M0;stage IV;T4;N0;73;MALE;LIVING;52.04;NA;188;DiseaseFree;52.04;3;35;Negative;Negative
+TCGA-CN-6024;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;M0;T4;N2;stage IV;M0;stage IV;T4;N2;66;MALE;DECEASED;11.07;NA;224;Recurred/Progressed;5.12;2;150;Negative;Negative
+TCGA-CN-6988;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;;T4;N2;stage IV;M0;stage IV;T4;N2;47;MALE;LIVING;10.45;NA;43;DiseaseFree;10.45;4;40;Negative;Negative
+TCGA-CN-6989;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T3;N2;stage IV;M0;stage IV;T3;N2;64;MALE;DECEASED;32.19;NA;178;Recurred/Progressed;29.2;2;50;Negative;Negative
+TCGA-CN-6992;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T3;N2;stage IV;M0;stage IV;T4;N1;61;MALE;LIVING;35.02;NA;83;DiseaseFree;35.02;2;90;Negative;Negative
+TCGA-CN-6994;Head & Neck Squamous Cell Carcinoma;Classical;hyper-methylated;;T4;N0;stage IV;M0;stage IV;T4;N2;67;MALE;LIVING;38.86;NA;119;DiseaseFree;38.86;3;12;NA;NA
+TCGA-CN-6995;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T4;N0;stage IV;M0;stage IV;T4;N1;78;MALE;DECEASED;3.68;112;NA;NA;NA;2;NA;NA;NA
+TCGA-CN-6996;Head & Neck Squamous Cell Carcinoma;NA;NA;;T3;N2;stage IV;M0;stage IV;T3;N2;58;FEMALE;DECEASED;17.41;NA;114;Recurred/Progressed;14.68;1;NA;NA;NA
+TCGA-CN-6997;Head & Neck Squamous Cell Carcinoma;Classical;hypo-methylated;;T3;N2;stage IV;M0;stage IV;T4;N2;66;MALE;DECEASED;32.46;NA;100;Recurred/Progressed;9.17;4;80;Negative;Negative
+TCGA-CN-6998;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T3;N2;stage IV;M0;stage IV;T4;N1;53;MALE;DECEASED;11.73;NA;46;Recurred/Progressed;8.02;2;40;Negative;Negative
+TCGA-CN-A497;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T1;N1;stage III;M0;stage IV;T2;N2;63;MALE;LIVING;34.99;NA;490;DiseaseFree;34.99;4;NA;Negative;Negative
+TCGA-CN-A498;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N0;stage III;M0;stage II;T2;N0;61;FEMALE;DECEASED;25.39;NA;443;Recurred/Progressed;18.17;4;40;[Not Evaluated];[Not Evaluated]
+TCGA-CN-A499;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T2;N0;stage II;M0;stage I;T1;N0;60;FEMALE;LIVING;23.55;NA;388;DiseaseFree;23.55;1;NA;Positive;Positive
+TCGA-CN-A49A;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N0;stage IV;M0;stage IV;T4;N0;60;MALE;DECEASED;17.28;NA;391;Recurred/Progressed;12.19;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-CN-A49B;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N1;stage III;M0;stage III;T3;N1;71;MALE;LIVING;29.7;NA;447;DiseaseFree;29.7;4;40;Negative;Negative
+TCGA-CN-A49C;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;TX;NX;;M0;stage IV;T4;N2;67;MALE;LIVING;21.19;NA;190;DiseaseFree;21.19;3;45;Positive;Positive
+TCGA-CN-A63T;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N2;stage IV;M0;stage IV;T3;N2;60;MALE;LIVING;7.39;NA;225;DiseaseFree;7.39;2;46;[Not Evaluated];Negative
+TCGA-CN-A63U;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N2;stage IV;M0;stage III;T3;N0;50;MALE;LIVING;31.67;NA;526;DiseaseFree;31.67;4;25;[Not Evaluated];Negative
+TCGA-CN-A63V;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N0;stage IV;M0;stage IV;T4;N0;59;MALE;LIVING;22.31;NA;484;DiseaseFree;22.31;2;60;[Not Evaluated];Negative
+TCGA-CN-A63W;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N2;stage IV;M0;stage IV;T4;N2;48;FEMALE;DECEASED;12.39;NA;348;NA;NA;4;NA;Negative;Negative
+TCGA-CN-A63Y;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T2;N0;stage II;M0;stage I;T1;N0;46;MALE;LIVING;16.56;NA;175;DiseaseFree;16.56;1;NA;Positive;Positive
+TCGA-CN-A640;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T2;N2;stage IV;M0;stage IV;T3;N2;40;FEMALE;DECEASED;4.4;134;NA;NA;NA;1;NA;[Not Evaluated];Positive
+TCGA-CN-A641;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N2;stage IV;M0;stage IV;T4;N2;47;MALE;LIVING;12.06;NA;367;DiseaseFree;12.06;2;15;[Not Evaluated];Positive
+TCGA-CN-A642;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N3;stage IV;M0;stage IV;T3;N2;57;MALE;DECEASED;2.69;82;NA;NA;NA;4;5;NA;Negative
+TCGA-CN-A6UY;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N2;stage IV;M0;stage IV;T3;N2;57;MALE;LIVING;23.42;NA;307;DiseaseFree;23.42;4;40;Positive;Positive
+TCGA-CN-A6V1;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T2;N2;stage IV;M0;stage IV;T2;N2;59;MALE;LIVING;19.81;NA;223;DiseaseFree;19.81;1;NA;[Not Evaluated];Positive
+TCGA-CN-A6V3;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N2;stage IV;M0;stage IV;T3;N2;61;MALE;LIVING;24.38;NA;298;DiseaseFree;24.38;4;40;NA;NA
+TCGA-CN-A6V6;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T2;N2;stage IV;M0;stage IV;T2;N2;59;MALE;LIVING;20.86;NA;234;DiseaseFree;20.86;4;90;Positive;Positive
+TCGA-CN-A6V7;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T2;N2;stage IV;M0;stage IV;T2;N2;40;MALE;LIVING;19.51;NA;188;DiseaseFree;19.51;1;NA;Positive;Positive
+TCGA-CQ-5323;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;T1;N0;stage I;M0;stage III;T3;N0;82;MALE;LIVING;48.16;NA;1466;DiseaseFree;48.16;3;45;NA;NA
+TCGA-CQ-5324;Head & Neck Squamous Cell Carcinoma;Classical;CpG island hyper-methylated;;T3;N0;stage III;M0;stage IV;T3;N2;59;MALE;LIVING;52.33;NA;1207;DiseaseFree;52.33;4;43;NA;NA
+TCGA-CQ-5325;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T1;N0;stage I;M0;stage I;T1;N0;65;MALE;DECEASED;21.48;654;NA;Recurred/Progressed;19.35;4;49;NA;NA
+TCGA-CQ-5326;Head & Neck Squamous Cell Carcinoma;Basal;normal-like;;T4;N2;stage IV;M0;stage IV;T4;N2;67;MALE;DECEASED;2.92;89;NA;NA;NA;4;40;NA;NA
+TCGA-CQ-5327;Head & Neck Squamous Cell Carcinoma;NA;NA;;T3;N2;stage IV;M0;stage IV;T3;N2;61;FEMALE;LIVING;54.53;NA;1184;DiseaseFree;54.53;1;NA;NA;NA
+TCGA-CQ-5329;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T2;N0;stage II;M0;stage III;T3;N1;46;FEMALE;LIVING;70.4;NA;841;DiseaseFree;70.4;1;NA;NA;NA
+TCGA-CQ-5330;Head & Neck Squamous Cell Carcinoma;Mesenchymal;CpG island hyper-methylated;;T3;N2;stage IV;M0;stage III;T3;N1;69;FEMALE;LIVING;62.32;NA;896;DiseaseFree;62.32;3;21;NA;NA
+TCGA-CQ-5331;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;NX;;M0;stage IV;T4;N0;73;FEMALE;LIVING;45.96;NA;1028;DiseaseFree;45.96;3;15;NA;NA
+TCGA-CQ-5332;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T3;N0;stage III;M0;stage III;T3;N0;87;MALE;DECEASED;10.41;317;NA;NA;NA;4;90;NA;NA
+TCGA-CQ-5333;Head & Neck Squamous Cell Carcinoma;NA;NA;;T2;N0;stage II;M0;stage I;T1;N0;74;MALE;DECEASED;11.2;341;NA;Recurred/Progressed;5.78;3;37;NA;NA
+TCGA-CQ-5334;Head & Neck Squamous Cell Carcinoma;Mesenchymal;CpG island hyper-methylated;;T3;N2;stage IV;M0;stage IV;T4;N2;87;MALE;DECEASED;4.24;129;NA;Recurred/Progressed;1.64;3;NA;NA;NA
+TCGA-CQ-6218;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T3;N2;stage IV;M0;stage III;T3;N0;52;FEMALE;LIVING;41.16;NA;870;DiseaseFree;41.16;4;30;NA;NA
+TCGA-CQ-6219;Head & Neck Squamous Cell Carcinoma;NA;NA;;T3;N2;stage IV;M0;stage IV;T3;N2;50;FEMALE;DECEASED;15.74;479;NA;Recurred/Progressed;6.41;2;35;NA;NA
+TCGA-CQ-6220;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T3;N0;stage III;M0;stage III;T2;N1;69;MALE;DECEASED;32.36;985;NA;NA;NA;1;NA;NA;NA
+TCGA-CQ-6221;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T2;NX;;M0;stage II;T2;N0;79;MALE;LIVING;32.85;NA;1000;DiseaseFree;32.85;3;25;NA;NA
+TCGA-CQ-6222;Head & Neck Squamous Cell Carcinoma;NA;NA;;T2;N2;stage IV;M0;stage IV;T3;N2;63;MALE;LIVING;66.23;NA;1160;DiseaseFree;66.23;3;10;NA;NA
+TCGA-CQ-6223;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;N0;stage II;M0;stage IV;T4;N0;69;MALE;LIVING;46.91;NA;1057;DiseaseFree;46.91;3;22;NA;NA
+TCGA-CQ-6224;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T2;N2;stage IV;M0;stage II;T2;N0;52;MALE;LIVING;56.54;NA;985;DiseaseFree;56.54;4;35;NA;NA
+TCGA-CQ-6225;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;;T3;N0;stage III;M0;stage II;T2;N0;65;MALE;DECEASED;13.24;403;NA;Recurred/Progressed;5.91;4;NA;NA;NA
+TCGA-CQ-6227;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T3;N2;stage IV;M0;stage III;T3;N1;77;MALE;DECEASED;4.24;129;NA;NA;NA;3;20;NA;NA
+TCGA-CQ-6228;Head & Neck Squamous Cell Carcinoma;Classical;hypo-methylated;;T1;N2;stage IV;M0;stage III;T2;N1;71;FEMALE;DECEASED;14.98;456;NA;Recurred/Progressed;8.97;2;50;NA;NA
+TCGA-CQ-6229;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;N0;stage II;M0;stage III;T2;N1;61;MALE;LIVING;38.73;NA;815;DiseaseFree;38.73;1;NA;NA;NA
+TCGA-CQ-7063;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;NX;stage I;;;;;59;FEMALE;LIVING;70.07;NA;1461;Recurred/Progressed;38.11;3;1.25;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-7064;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N1;stage III;M0;stage III;T3;N1;83;FEMALE;LIVING;64.82;NA;1378;DiseaseFree;64.82;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-7065;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;N0;stage II;M0;stage II;T2;N0;40;MALE;LIVING;53.48;NA;1007;Recurred/Progressed;7.56;1;NA;NA;NA
+TCGA-CQ-7067;Head & Neck Squamous Cell Carcinoma;NA;NA;;T1;N0;stage I;M0;stage I;T1;N0;75;FEMALE;LIVING;16.72;NA;509;DiseaseFree;16.72;NA;NA;NA;NA
+TCGA-CQ-7068;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T2;N0;stage II;M0;stage II;T2;N0;80;FEMALE;LIVING;43;NA;693;Recurred/Progressed;37.71;1;NA;NA;NA
+TCGA-CQ-7069;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage II;T2;N0;77;FEMALE;LIVING;41.85;NA;901;DiseaseFree;41.85;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-7071;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N1;stage III;M0;stage IV;T4;N1;76;FEMALE;LIVING;43.07;NA;877;DiseaseFree;43.07;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-7072;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage IV;T4;N0;51;MALE;LIVING;77.5;NA;1950;DiseaseFree;77.5;2;40;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-A4C6;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage II;T2;N0;63;MALE;LIVING;44.45;NA;968;DiseaseFree;44.45;4;3;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-A4C7;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N1;stage III;M0;stage II;T2;N0;88;MALE;DECEASED;11.6;353;NA;Recurred/Progressed;6.8;3;25;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-A4C9;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N1;stage III;MX;;TX;NX;56;MALE;LIVING;23.23;NA;613;Recurred/Progressed;23.23;2;6;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-A4CA;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage II;T2;N0;NA;MALE;LIVING;NA;NA;NA;DiseaseFree;NA;2;80;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-A4CB;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;N1;stage III;M0;stage II;T2;N0;59;MALE;LIVING;29.34;NA;545;DiseaseFree;29.34;2;75;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-A4CD;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;69;MALE;LIVING;33.57;NA;548;DiseaseFree;33.57;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-A4CE;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage II;T2;N0;76;FEMALE;LIVING;29.47;NA;393;DiseaseFree;29.47;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-A4CG;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N0;stage III;M0;stage II;T2;N0;78;FEMALE;DECEASED;14.13;NA;391;Recurred/Progressed;11.5;4;70;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-A4CH;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage IV;T4;N2;58;MALE;DECEASED;12.45;NA;303;Recurred/Progressed;11.63;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-CQ-A4CI;Head & Neck Squamous Cell Carcinoma Basaloid Type;NA;NA;M0;T2;N1;stage III;MX;;TX;NX;73;MALE;LIVING;31.21;NA;608;Recurred/Progressed;16.98;4;40;[Not Evaluated];[Not Evaluated]
+TCGA-CR-5243;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;TX;NX;;M0;stage IV;T3;N2;51;MALE;LIVING;84.17;NA;2562;DiseaseFree;84.17;1;NA;NA;NA
+TCGA-CR-5247;Head & Neck Squamous Cell Carcinoma;Classical;hypo-methylated;;TX;NX;;M0;stage III;T3;N1;48;MALE;LIVING;11.76;NA;358;DiseaseFree;11.76;2;105;NA;NA
+TCGA-CR-5248;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;TX;NX;;M0;stage IV;T4;N2;53;MALE;LIVING;54.63;NA;1663;Recurred/Progressed;36.7;2;35;NA;NA
+TCGA-CR-5249;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;M0;T2;N0;stage II;M0;stage II;T2;N0;35;FEMALE;LIVING;37.84;NA;1152;DiseaseFree;37.84;1;NA;NA;NA
+TCGA-CR-5250;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;TX;NX;;M0;stage II;T2;N0;71;MALE;LIVING;26.25;NA;799;DiseaseFree;26.25;2;30;Positive;Positive
+TCGA-CR-6467;Head & Neck Squamous Cell Carcinoma;Atypical;CpG island hyper-methylated;M0;T2;N1;stage III;M0;stage IV;T2;N2;59;MALE;LIVING;58.38;NA;1777;DiseaseFree;58.38;4;15;NA;NA
+TCGA-CR-6470;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;M0;T2;N0;stage II;M0;stage IV;T1;N2;38;MALE;LIVING;49.97;NA;1521;DiseaseFree;49.97;1;NA;NA;NA
+TCGA-CR-6471;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;M0;T4;N1;stage IV;M0;stage IV;T4;N0;58;MALE;DECEASED;39.49;1202;NA;Recurred/Progressed;33.41;2;40;NA;NA
+TCGA-CR-6472;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;;;;;M0;stage IV;T2;N3;59;MALE;LIVING;34.49;NA;1050;DiseaseFree;34.49;1;NA;NA;NA
+TCGA-CR-6473;Head & Neck Squamous Cell Carcinoma;Atypical;CpG island hyper-methylated;;;;;M0;stage IV;T3;N2;68;MALE;LIVING;36.96;NA;1125;DiseaseFree;36.96;4;50;NA;NA
+TCGA-CR-6474;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;M0;T2;N2;stage IV;M0;stage IV;T3;N2;51;MALE;DECEASED;18.53;564;NA;Recurred/Progressed;7.23;2;74;NA;NA
+TCGA-CR-6477;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;;;;M0;stage IV;T3;N2;56;FEMALE;LIVING;16.89;NA;514;DiseaseFree;16.89;3;NA;Negative;Negative
+TCGA-CR-6478;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;;;;M0;stage IV;T3;N2;66;FEMALE;DECEASED;6.01;183;NA;NA;NA;4;NA;NA;NA
+TCGA-CR-6480;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage IV;T2;N2;53;MALE;LIVING;11.89;NA;362;DiseaseFree;11.89;1;NA;Positive;Positive
+TCGA-CR-6481;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;;;;M0;stage IV;T2;N2;47;MALE;LIVING;10.22;NA;311;DiseaseFree;10.22;1;NA;Positive;Positive
+TCGA-CR-6482;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;;;;M0;stage IV;T2;N2;62;MALE;LIVING;11.33;NA;345;DiseaseFree;11.33;4;31;NA;Positive
+TCGA-CR-6484;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;M0;T4;N2;stage IV;M0;stage IV;T4;N0;67;FEMALE;LIVING;11.63;NA;354;DiseaseFree;11.63;1;NA;Negative;Negative
+TCGA-CR-6487;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;M0;T1;N0;stage I;M0;stage II;T2;N0;50;MALE;LIVING;7.69;NA;234;DiseaseFree;7.69;4;11;Positive;Positive
+TCGA-CR-6488;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T2;N0;stage II;M0;stage II;T2;N0;68;FEMALE;LIVING;12.45;NA;379;DiseaseFree;12.45;1;NA;NA;NA
+TCGA-CR-6491;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;M0;T4;N2;stage IV;M0;stage IV;T4;NX;60;MALE;LIVING;22.77;NA;350;Recurred/Progressed;16.39;2;67.5;Negative;Negative
+TCGA-CR-6492;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;M0;T2;N1;stage III;M0;stage IV;T4;N1;78;MALE;LIVING;15.74;NA;479;DiseaseFree;15.74;2;50;Negative;Negative
+TCGA-CR-6493;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T3;N2;stage IV;M0;stage IV;T3;N2;69;MALE;DECEASED;9.26;282;NA;Recurred/Progressed;8.11;3;15;NA;NA
+TCGA-CR-7364;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;M0;T3;N0;stage III;M0;stage III;T3;N0;66;MALE;LIVING;47.14;NA;1435;DiseaseFree;47.14;2;150;NA;NA
+TCGA-CR-7365;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;M0;T4;N0;stage IV;M0;stage IV;T4;N2;60;MALE;LIVING;39.13;NA;1191;DiseaseFree;39.13;2;NA;NA;NA
+TCGA-CR-7367;Head & Neck Squamous Cell Carcinoma;Mesenchymal;CpG island hyper-methylated;M0;T4;N1;stage IV;M0;stage IV;T4;N3;52;MALE;LIVING;47.31;NA;1440;DiseaseFree;47.31;2;45;NA;NA
+TCGA-CR-7368;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;M0;T4;N1;stage IV;M0;stage IV;T4;N0;54;MALE;LIVING;40.9;NA;1245;DiseaseFree;40.9;4;57;NA;NA
+TCGA-CR-7369;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;M0;T4;N2;stage IV;M0;stage IV;T4;N0;59;MALE;DECEASED;35.81;1090;NA;NA;NA;2;48;NA;NA
+TCGA-CR-7370;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;TX;NX;;M0;stage II;T2;N0;72;FEMALE;LIVING;3.45;NA;105;DiseaseFree;3.45;4;112;NA;NA
+TCGA-CR-7371;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;M0;T3;N1;stage III;M0;stage III;T3;N0;45;FEMALE;DECEASED;3.09;94;NA;NA;NA;2;60;NA;NA
+TCGA-CR-7372;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;M0;T1;N0;stage I;M0;stage II;T2;N0;45;MALE;LIVING;24.93;NA;759;DiseaseFree;24.93;1;NA;Negative;Negative
+TCGA-CR-7373;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;M0;T4;N1;stage IV;M0;stage IV;T4;N2;66;MALE;LIVING;29.2;NA;889;DiseaseFree;29.2;3;90;Negative;Negative
+TCGA-CR-7374;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;TX;NX;;M0;stage II;T2;N0;67;FEMALE;LIVING;0.99;NA;30;DiseaseFree;0.99;2;45;NA;NA
+TCGA-CR-7376;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;M0;T2;N1;stage III;M0;stage II;T2;N0;83;MALE;LIVING;31.93;NA;972;DiseaseFree;31.93;3;54;Negative;Negative
+TCGA-CR-7377;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;M0;T4;N2;stage IV;M0;stage IV;T4;N1;58;MALE;DECEASED;9.17;279;NA;NA;NA;2;80;NA;NA
+TCGA-CR-7379;Head & Neck Squamous Cell Carcinoma;Basal;normal-like;M0;T4;N2;stage IV;M0;stage IV;T4;N2;78;FEMALE;LIVING;34.03;NA;1036;DiseaseFree;34.03;3;0.71;Negative;Negative
+TCGA-CR-7380;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T4;N0;stage IV;M0;stage III;T3;N0;58;MALE;DECEASED;19.91;606;NA;Recurred/Progressed;18.43;1;NA;NA;NA
+TCGA-CR-7382;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;M0;T2;N2;stage IV;M0;stage IV;T2;N2;49;MALE;LIVING;26.15;NA;796;Recurred/Progressed;20.17;1;NA;NA;NA
+TCGA-CR-7383;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;M0;T1;N0;stage I;M0;stage I;T1;N0;79;FEMALE;DECEASED;17.12;521;NA;Recurred/Progressed;14.91;2;110;NA;NA
+TCGA-CR-7385;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;M0;T1;NX;;M0;stage IV;T2;N2;42;MALE;LIVING;32.75;NA;997;DiseaseFree;32.75;3;0.01685;NA;NA
+TCGA-CR-7386;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;M0;T4;N2;stage IV;M0;stage IV;T4;N1;69;MALE;LIVING;46.98;NA;1430;Recurred/Progressed;33.77;3;54;NA;NA
+TCGA-CR-7388;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;TX;NX;;M0;stage IV;T2;N2;70;FEMALE;DECEASED;27.04;823;NA;Recurred/Progressed;20.04;2;110;NA;NA
+TCGA-CR-7389;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;TX;NX;;M0;stage III;T2;N1;55;MALE;LIVING;12.88;NA;392;DiseaseFree;12.88;2;34;NA;NA
+TCGA-CR-7390;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;M0;T4;N0;stage IV;M0;stage III;T3;N0;67;MALE;LIVING;49.54;NA;907;DiseaseFree;49.54;2;80;Negative;Negative
+TCGA-CR-7391;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;M0;T1;N0;stage I;M0;stage I;T1;N0;36;FEMALE;LIVING;29.99;NA;913;DiseaseFree;29.99;3;NA;Negative;Negative
+TCGA-CR-7392;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;M0;T3;N2;stage IV;M0;stage IV;T3;N2;67;FEMALE;LIVING;46.81;NA;946;DiseaseFree;46.81;3;30;Negative;Negative
+TCGA-CR-7393;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;M0;T1;N1;stage III;M0;stage I;T1;N0;26;MALE;LIVING;32.62;NA;908;DiseaseFree;32.62;1;NA;Negative;Negative
+TCGA-CR-7394;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;M0;T4;N0;stage IV;M0;stage IV;T3;N2;70;MALE;LIVING;44.22;NA;898;DiseaseFree;44.22;2;60;Negative;Negative
+TCGA-CR-7395;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;M0;T2;N0;stage II;M0;stage II;T2;N0;80;FEMALE;LIVING;30.55;NA;930;DiseaseFree;30.55;3;60;Negative;Negative
+TCGA-CR-7397;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;M0;T3;N2;stage IV;M0;stage IV;T3;N2;44;MALE;LIVING;24.77;NA;216;DiseaseFree;24.77;4;NA;NA;NA
+TCGA-CR-7398;Head & Neck Squamous Cell Carcinoma;Classical;hypo-methylated;;T2;N0;stage II;M0;stage II;T2;N0;53;FEMALE;LIVING;5.12;NA;156;DiseaseFree;5.12;2;40;NA;NA
+TCGA-CR-7399;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;M0;T3;N2;stage IV;M0;stage IV;T4;N2;60;FEMALE;LIVING;5.95;NA;181;DiseaseFree;5.95;2;135;NA;NA
+TCGA-CR-7401;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;M0;T1;N0;stage I;M0;stage I;T1;N0;64;MALE;LIVING;35.38;NA;1077;DiseaseFree;35.38;4;66;NA;NA
+TCGA-CR-7402;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;;TX;NX;;M0;stage III;T3;N0;68;MALE;LIVING;29.93;NA;911;DiseaseFree;29.93;2;108;NA;NA
+TCGA-CR-7404;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;TX;NX;;M0;stage IV;T3;N2;53;MALE;LIVING;48.36;NA;1472;Recurred/Progressed;32.82;1;NA;Positive;Positive
+TCGA-CV-5430;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;T4;N2;stage IV;M0;stage IV;T4;N2;61;MALE;LIVING;139.32;NA;4115;Recurred/Progressed;25.72;3;NA;NA;NA
+TCGA-CV-5431;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T3;N2;stage IV;M0;stage IV;T3;N2;73;MALE;DECEASED;17.15;522;522;NA;NA;4;NA;NA;NA
+TCGA-CV-5432;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T3;N0;stage III;M0;stage III;T3;N0;68;MALE;LIVING;129.11;NA;3930;DiseaseFree;129.11;4;NA;NA;NA
+TCGA-CV-5434;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T4;N2;stage IV;M0;stage IV;T4;N1;60;MALE;DECEASED;108.87;3314;3295;Recurred/Progressed;61.07;3;NA;NA;NA
+TCGA-CV-5435;Head & Neck Squamous Cell Carcinoma;Classical;CpG island hyper-methylated;;T4;N2;stage IV;M0;stage IV;T4;N0;57;MALE;DECEASED;76.18;2319;1438;Recurred/Progressed;9.33;4;NA;NA;NA
+TCGA-CV-5436;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T3;N2;stage IV;M0;stage IV;T3;N2;65;MALE;DECEASED;19.19;584;584;NA;NA;2;NA;NA;NA
+TCGA-CV-5439;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T3;N2;stage IV;M0;stage II;T2;N0;62;MALE;DECEASED;17.94;546;546;Recurred/Progressed;6.93;2;NA;NA;NA
+TCGA-CV-5440;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T4;N2;stage IV;M0;stage IV;T4;N2;52;MALE;LIVING;107.42;NA;2732;DiseaseFree;107.42;2;NA;NA;NA
+TCGA-CV-5441;Head & Neck Squamous Cell Carcinoma;Basal;hypo-methylated;;T4;N2;stage IV;M0;stage IV;T4;N1;58;MALE;LIVING;94.81;NA;2663;DiseaseFree;94.81;4;NA;NA;NA
+TCGA-CV-5442;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T4;N2;stage IV;M0;stage IV;T4;N2;76;FEMALE;LIVING;76.45;NA;2327;DiseaseFree;76.45;4;NA;NA;NA
+TCGA-CV-5443;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;T3;N0;stage III;M0;stage III;T3;N1;63;MALE;LIVING;91.46;NA;2567;DiseaseFree;91.46;2;NA;NA;NA
+TCGA-CV-5444;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T4;N1;stage IV;M0;stage IV;T4;N0;64;MALE;LIVING;80.06;NA;1969;DiseaseFree;80.06;4;NA;NA;NA
+TCGA-CV-5966;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T4;N1;stage IV;M0;stage IV;T4;N1;63;FEMALE;DECEASED;17.9;545;NA;NA;NA;4;NA;NA;NA
+TCGA-CV-5970;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T4;N2;stage IV;M0;stage IV;T4;N2;59;MALE;DECEASED;13.34;406;406;NA;NA;4;NA;NA;NA
+TCGA-CV-5971;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T4;N2;stage IV;M0;stage IV;T2;N2;60;MALE;LIVING;23.03;NA;540;DiseaseFree;23.03;2;NA;NA;NA
+TCGA-CV-5973;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T3;N1;stage III;M0;stage III;T3;N0;62;FEMALE;LIVING;86.76;NA;1737;DiseaseFree;86.76;1;NA;NA;NA
+TCGA-CV-5976;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T4;N2;stage IV;M0;stage III;T3;N1;50;MALE;LIVING;48.55;NA;1478;DiseaseFree;48.55;4;NA;NA;NA
+TCGA-CV-5977;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T3;N2;stage IV;M0;stage III;T3;N1;66;MALE;LIVING;60.45;NA;1007;DiseaseFree;60.45;4;NA;NA;NA
+TCGA-CV-5978;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T4;N3;stage IV;M0;stage IV;T4;N3;53;FEMALE;DECEASED;7.06;215;215;NA;NA;2;NA;NA;NA
+TCGA-CV-5979;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;N2;stage IV;M0;stage III;T3;N1;26;MALE;LIVING;43.2;NA;1315;DiseaseFree;43.2;1;NA;NA;NA
+TCGA-CV-6003;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;N1;stage III;M0;stage II;T2;N0;50;FEMALE;LIVING;54.7;NA;1246;DiseaseFree;54.7;1;NA;NA;NA
+TCGA-CV-6433;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;T2;N0;stage II;M0;stage II;T2;N0;57;MALE;LIVING;21.06;NA;405;DiseaseFree;21.06;2;NA;NA;NA
+TCGA-CV-6436;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T4;N0;stage IV;M0;stage III;T3;N0;62;MALE;LIVING;62.39;NA;743;DiseaseFree;62.39;3;9.5;NA;NA
+TCGA-CV-6441;Head & Neck Squamous Cell Carcinoma;Atypical;CpG island hyper-methylated;;T3;N0;stage III;M0;stage III;T3;N0;60;MALE;DECEASED;9.59;292;NA;Recurred/Progressed;3.12;4;38;NA;NA
+TCGA-CV-6933;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T3;N1;stage III;M0;stage IV;T4;N0;53;MALE;DECEASED;90.05;2741;NA;NA;NA;4;60;NA;NA
+TCGA-CV-6934;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T3;N2;stage IV;M0;stage IV;T3;N2;66;FEMALE;DECEASED;2.14;65;NA;NA;NA;2;75;NA;NA
+TCGA-CV-6935;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T3;N2;stage IV;M0;stage III;T3;N0;67;MALE;DECEASED;9.69;295;NA;NA;NA;2;NA;NA;NA
+TCGA-CV-6936;Head & Neck Squamous Cell Carcinoma;Classical;CpG island hyper-methylated;;T4;N2;stage IV;M0;stage IV;T4;N2;68;MALE;DECEASED;5.45;166;NA;Recurred/Progressed;5.16;2;NA;NA;NA
+TCGA-CV-6937;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T2;N0;stage II;M0;stage II;T2;N0;71;MALE;DECEASED;20.5;624;NA;NA;NA;4;NA;NA;NA
+TCGA-CV-6938;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;NX;stage II;M0;stage II;T2;N0;87;MALE;DECEASED;4.73;144;NA;NA;NA;3;NA;NA;NA
+TCGA-CV-6939;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;T4;N2;stage IV;M0;stage IV;T4;N1;60;MALE;DECEASED;21.88;666;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-6940;Head & Neck Squamous Cell Carcinoma;Classical;hyper-methylated;;T2;N1;stage III;M0;stage I;T1;N0;80;FEMALE;DECEASED;26.41;804;NA;NA;NA;2;50;NA;NA
+TCGA-CV-6941;Head & Neck Squamous Cell Carcinoma;Classical;hypo-methylated;;T3;N0;stage III;M0;stage III;T3;N0;51;MALE;DECEASED;11.24;342;NA;NA;NA;2;60;NA;NA
+TCGA-CV-6942;Head & Neck Squamous Cell Carcinoma;Mesenchymal;CpG island hyper-methylated;;T2;NX;stage II;M0;stage II;T2;N0;73;FEMALE;LIVING;140.67;NA;3835;DiseaseFree;140.67;1;NA;NA;NA
+TCGA-CV-6943;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T3;NX;stage III;M0;stage III;T3;N0;74;MALE;DECEASED;19.78;602;NA;NA;NA;3;NA;NA;NA
+TCGA-CV-6945;Head & Neck Squamous Cell Carcinoma;Basal;normal-like;;T4;N2;stage IV;M0;stage IV;T4;N2;41;MALE;DECEASED;12.02;366;NA;NA;NA;2;75;NA;NA
+TCGA-CV-6948;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;T4;N3;stage IV;M0;stage IV;T4;N0;79;FEMALE;DECEASED;42.35;1289;NA;NA;NA;NA;NA;NA;NA
+TCGA-CV-6950;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T3;N2;stage IV;M0;stage IV;T3;N2;64;MALE;DECEASED;15.08;459;NA;Recurred/Progressed;8.48;4;NA;NA;NA
+TCGA-CV-6951;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T4;N2;stage IV;M0;stage IV;T4;N2;57;MALE;DECEASED;30.06;915;NA;NA;NA;4;NA;NA;NA
+TCGA-CV-6952;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T3;N2;stage IV;M0;stage III;T3;N0;65;FEMALE;DECEASED;6.08;185;NA;NA;NA;4;30;NA;NA
+TCGA-CV-6953;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T3;N0;stage III;M0;stage III;T3;N0;80;FEMALE;DECEASED;53.91;1641;NA;Recurred/Progressed;49.97;1;NA;NA;NA
+TCGA-CV-6954;Head & Neck Squamous Cell Carcinoma;Basal;hypo-methylated;;T4;NX;stage IV;M0;stage IV;T4;N1;59;MALE;DECEASED;65.77;2002;NA;NA;NA;3;NA;NA;NA
+TCGA-CV-6955;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;T2;NX;stage II;M0;stage II;T2;N0;74;FEMALE;DECEASED;10.97;334;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-6956;Head & Neck Squamous Cell Carcinoma;Basal;hypo-methylated;;T3;N1;stage III;M0;stage IV;T4;N2;67;MALE;DECEASED;7.13;217;NA;NA;NA;2;NA;NA;NA
+TCGA-CV-6959;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T3;N0;stage III;M0;stage III;T3;N1;48;MALE;DECEASED;8.41;256;NA;Recurred/Progressed;3.38;1;NA;NA;NA
+TCGA-CV-6960;Head & Neck Squamous Cell Carcinoma;Classical;hypo-methylated;;T3;N0;stage III;M0;stage III;T3;N0;49;MALE;DECEASED;28.32;862;NA;NA;NA;4;NA;NA;NA
+TCGA-CV-6961;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T2;N0;stage II;M0;stage II;T2;N0;61;MALE;DECEASED;2.5;76;NA;NA;NA;4;66;NA;NA
+TCGA-CV-6962;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T4;NX;stage IV;M0;stage III;T3;N0;65;MALE;DECEASED;4.14;126;NA;NA;NA;4;NA;NA;NA
+TCGA-CV-7089;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;T4;N2;stage IV;M0;stage IV;T4;N2;74;MALE;DECEASED;64.78;1972;NA;NA;NA;4;NA;NA;NA
+TCGA-CV-7090;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T2;NX;stage II;M0;stage II;T2;N0;39;MALE;LIVING;172.54;NA;3837;DiseaseFree;172.54;NA;NA;NA;NA
+TCGA-CV-7091;Head & Neck Squamous Cell Carcinoma;Basal;hypo-methylated;;T1;N0;stage I;M0;stage I;T1;N0;54;MALE;LIVING;111.07;NA;3381;DiseaseFree;111.07;4;NA;NA;NA
+TCGA-CV-7095;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T2;NX;stage II;M0;stage IV;T1;N2;87;FEMALE;DECEASED;18.79;572;NA;NA;NA;3;40;NA;NA
+TCGA-CV-7097;Head & Neck Squamous Cell Carcinoma;Mesenchymal;CpG island hyper-methylated;;T2;NX;stage II;M0;stage III;T3;N0;53;MALE;DECEASED;12.65;385;NA;NA;NA;4;64;NA;NA
+TCGA-CV-7099;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T2;NX;stage II;M0;stage II;T2;N0;85;FEMALE;DECEASED;7.98;243;NA;NA;NA;3;NA;NA;NA
+TCGA-CV-7100;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T2;N1;stage III;M0;stage II;T2;N0;66;MALE;DECEASED;9;274;NA;NA;NA;3;NA;NA;NA
+TCGA-CV-7101;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;T2;NX;stage II;M0;stage II;T2;N0;80;MALE;DECEASED;5.26;160;NA;NA;NA;2;NA;NA;NA
+TCGA-CV-7102;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T3;N2;stage IV;M0;stage III;T3;N1;76;FEMALE;DECEASED;1.84;56;NA;NA;NA;4;NA;NA;NA
+TCGA-CV-7103;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T2;N2;stage IV;M0;stage II;T2;N0;49;MALE;DECEASED;52.27;1591;NA;NA;NA;2;NA;NA;NA
+TCGA-CV-7104;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T2;N2;stage IV;M0;stage IV;T2;N2;61;FEMALE;DECEASED;12.91;393;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-7177;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T2;NX;stage II;M0;stage I;T1;N0;82;FEMALE;DECEASED;21.78;663;NA;NA;NA;NA;NA;NA;NA
+TCGA-CV-7178;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T4;N2;stage IV;M0;stage IV;T4;N1;64;FEMALE;DECEASED;71.16;2166;NA;NA;NA;3;NA;NA;NA
+TCGA-CV-7180;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;NX;stage II;M0;stage II;T2;N0;34;MALE;DECEASED;10.74;327;NA;NA;NA;3;NA;NA;NA
+TCGA-CV-7183;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T2;N0;stage II;M0;stage II;T2;N0;53;MALE;LIVING;130.78;NA;3497;DiseaseFree;130.78;3;NA;NA;NA
+TCGA-CV-7235;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T2;N0;stage II;M0;stage III;T3;N0;67;MALE;LIVING;77.1;NA;1724;DiseaseFree;77.1;3;97.5;NA;NA
+TCGA-CV-7236;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T3;N2;stage IV;M0;stage IV;T2;N2;77;FEMALE;DECEASED;4.73;144;NA;NA;NA;NA;NA;NA;NA
+TCGA-CV-7238;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T2;N0;stage II;M0;stage II;T2;N0;69;FEMALE;LIVING;89.59;NA;1444;DiseaseFree;89.59;1;NA;NA;NA
+TCGA-CV-7242;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;;T2;N0;stage II;M0;stage III;T3;N0;60;FEMALE;LIVING;35.97;NA;1095;DiseaseFree;35.97;3;40;NA;NA
+TCGA-CV-7243;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T2;N1;stage III;M0;stage II;T2;N0;50;MALE;LIVING;31.34;NA;954;DiseaseFree;31.34;1;NA;NA;NA
+TCGA-CV-7245;Head & Neck Squamous Cell Carcinoma;Classical;hypo-methylated;;T4;N0;stage IV;M0;stage III;T3;N0;62;MALE;LIVING;26.18;NA;797;DiseaseFree;26.18;4;60;NA;NA
+TCGA-CV-7247;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T3;N0;stage III;M0;stage II;T2;N0;55;MALE;DECEASED;18.96;577;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-7248;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;T4;N2;stage IV;M0;stage IV;T4;N2;63;FEMALE;DECEASED;17.12;521;NA;NA;NA;2;30;NA;NA
+TCGA-CV-7250;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;;T4;N0;stage IV;M0;stage III;T3;N0;64;MALE;DECEASED;95.27;2900;NA;Recurred/Progressed;3.65;3;60;NA;NA
+TCGA-CV-7252;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T4;N0;stage IV;M0;stage III;T3;N0;62;FEMALE;DECEASED;4.96;151;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-7253;Head & Neck Squamous Cell Carcinoma;Classical;hypo-methylated;;T4;N0;stage IV;M0;stage II;T2;N0;58;MALE;DECEASED;11.86;361;NA;NA;NA;NA;NA;NA;NA
+TCGA-CV-7254;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T2;NX;stage II;M0;stage II;T2;N0;55;MALE;DECEASED;47.93;1459;NA;NA;NA;4;40;NA;NA
+TCGA-CV-7255;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T4;N0;stage IV;M0;stage II;T2;N0;32;FEMALE;DECEASED;2.1;64;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-7261;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T4;N0;stage IV;M0;stage III;T3;N0;57;MALE;LIVING;49.67;NA;1099;DiseaseFree;49.67;2;41;NA;NA
+TCGA-CV-7263;Head & Neck Squamous Cell Carcinoma;Mesenchymal;CpG island hyper-methylated;;T2;NX;stage II;M0;stage II;T2;NX;64;MALE;DECEASED;18.4;560;NA;NA;NA;3;60;NA;NA
+TCGA-CV-7406;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;T2;N0;stage II;M0;stage II;T2;N0;49;MALE;DECEASED;57.42;1748;NA;NA;NA;4;9;NA;NA
+TCGA-CV-7407;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;T2;NX;stage II;M0;stage II;T2;N0;67;FEMALE;DECEASED;35.51;1081;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-7409;Head & Neck Squamous Cell Carcinoma;NA;NA;;T4;N3;stage IV;M0;stage IV;T4;N3;43;MALE;DECEASED;17.84;543;NA;NA;NA;NA;NA;NA;NA
+TCGA-CV-7410;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T2;N1;stage III;M0;stage II;T2;N0;61;MALE;DECEASED;210.81;6417;NA;NA;NA;3;38;NA;NA
+TCGA-CV-7411;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T4;N0;stage IV;M0;stage IV;T4;N0;64;FEMALE;DECEASED;89.26;2717;NA;NA;NA;2;NA;NA;NA
+TCGA-CV-7413;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T2;N0;stage II;M0;stage II;T2;N0;74;FEMALE;DECEASED;9.66;294;NA;NA;NA;NA;NA;NA;NA
+TCGA-CV-7414;Head & Neck Squamous Cell Carcinoma;Atypical;hyper-methylated;;T4;N2;stage IV;M0;stage III;T3;N1;78;MALE;DECEASED;0.46;14;NA;NA;NA;3;NA;NA;NA
+TCGA-CV-7415;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T4;N2;stage IV;M0;stage III;T3;N0;60;MALE;DECEASED;22.83;695;NA;NA;NA;NA;NA;NA;NA
+TCGA-CV-7416;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T4;;stage IV;M0;stage IV;T4;N0;29;FEMALE;DECEASED;25.07;763;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-7418;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T4;N2;stage IV;M0;stage IV;T4;N0;62;MALE;DECEASED;25.92;789;NA;Recurred/Progressed;16.23;4;60;NA;NA
+TCGA-CV-7421;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T4;N0;stage IV;M0;stage IV;T4;N0;76;MALE;DECEASED;0.07;2;NA;NA;NA;3;NA;NA;NA
+TCGA-CV-7422;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T4;N1;stage IV;M0;stage IV;T4;N1;60;FEMALE;DECEASED;34.07;1037;NA;Recurred/Progressed;24.08;4;80;NA;NA
+TCGA-CV-7423;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T2;NX;stage II;M0;stage II;T2;N0;65;MALE;DECEASED;100.49;3059;NA;NA;NA;3;NA;NA;NA
+TCGA-CV-7424;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T3;N2;stage IV;M0;stage IV;T4;N2;67;MALE;DECEASED;14.88;453;NA;NA;NA;4;50;NA;NA
+TCGA-CV-7425;Head & Neck Squamous Cell Carcinoma;NA;NA;;T3;NX;stage III;M0;stage III;T3;N0;77;FEMALE;DECEASED;56.44;1718;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-7427;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T2;NX;stage II;M0;stage II;T2;N0;73;FEMALE;DECEASED;156.37;4760;NA;Recurred/Progressed;107.82;3;25;NA;NA
+TCGA-CV-7428;Head & Neck Squamous Cell Carcinoma;NA;NA;;T4;N2;stage IV;M0;stage IV;T4;N2;47;MALE;DECEASED;54.89;1671;NA;NA;NA;2;4;NA;NA
+TCGA-CV-7429;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T4;N2;stage IV;M0;stage III;T3;N0;55;MALE;DECEASED;3.52;107;NA;NA;NA;4;NA;NA;NA
+TCGA-CV-7430;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T4;N0;stage IV;M0;stage III;T3;N0;56;MALE;DECEASED;16.26;495;NA;NA;NA;4;40;NA;NA
+TCGA-CV-7432;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T2;N0;stage II;M0;stage III;T2;N1;79;MALE;DECEASED;84.43;2570;NA;NA;NA;4;61;NA;NA
+TCGA-CV-7433;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T4;N2;stage IV;M0;stage IV;T4;N1;49;MALE;DECEASED;19.74;601;NA;Recurred/Progressed;19.19;2;16;NA;NA
+TCGA-CV-7434;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T4;N1;stage IV;M0;stage III;T3;N0;64;MALE;DECEASED;7.16;218;NA;NA;NA;4;80;NA;NA
+TCGA-CV-7435;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hypo-methylated;;T3;N2;stage IV;M0;stage IV;T4;N1;57;FEMALE;DECEASED;153.75;NA;4335;NA;NA;2;NA;NA;NA
+TCGA-CV-7437;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T2;NX;stage II;M0;stage II;T2;N0;77;MALE;DECEASED;16.62;506;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-7438;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T1;NX;stage I;M0;stage II;T2;N0;87;FEMALE;DECEASED;6.37;194;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-7440;Head & Neck Squamous Cell Carcinoma;Classical;hypo-methylated;;T2;NX;stage II;M0;stage II;T2;N0;38;MALE;DECEASED;22.17;675;NA;NA;NA;2;21;NA;NA
+TCGA-CV-7446;Head & Neck Squamous Cell Carcinoma;NA;NA;;T2;N2;stage IV;M0;stage II;T2;N0;66;MALE;DECEASED;35.91;1093;NA;NA;NA;2;86;NA;NA
+TCGA-CV-7568;Head & Neck Squamous Cell Carcinoma;NA;NA;;T4;NX;stage IV;M0;stage IV;T4;N0;48;FEMALE;DECEASED;30.45;927;NA;NA;NA;4;35;NA;NA
+TCGA-CV-A45O;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage III;T3;N0;57;MALE;LIVING;27.96;NA;851;DiseaseFree;27.96;3;NA;NA;NA
+TCGA-CV-A45P;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;N0;stage I;M0;stage II;T2;N0;82;FEMALE;LIVING;20.99;NA;639;Recurred/Progressed;20.99;1;NA;NA;NA
+TCGA-CV-A45Q;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage IV;T4;N1;69;FEMALE;DECEASED;169.25;5152;NA;NA;NA;3;NA;NA;NA
+TCGA-CV-A45R;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N1;stage III;M0;stage III;T3;N1;46;MALE;LIVING;180.03;NA;5480;DiseaseFree;180.03;4;NA;NA;NA
+TCGA-CV-A45T;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;N0;stage II;M0;stage II;T2;N0;64;FEMALE;DECEASED;159.53;4856;NA;NA;NA;4;NA;NA;NA
+TCGA-CV-A45U;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N0;59;MALE;DECEASED;35.45;1079;NA;Recurred/Progressed;34.95;2;NA;NA;NA
+TCGA-CV-A45V;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;87;FEMALE;DECEASED;1.05;32;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-A45W;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage III;T3;N0;75;MALE;DECEASED;45.93;1398;NA;NA;NA;2;NA;NA;NA
+TCGA-CV-A45X;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N2;stage IV;M0;stage IV;T4;N1;47;MALE;DECEASED;6.5;198;NA;NA;NA;2;NA;NA;NA
+TCGA-CV-A45Y;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;61;MALE;DECEASED;88.8;2703;NA;Recurred/Progressed;76.15;4;39;NA;NA
+TCGA-CV-A45Z;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;N0;stage II;M0;stage II;T2;N0;75;MALE;DECEASED;48.16;1466;NA;NA;NA;2;40;NA;NA
+TCGA-CV-A460;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;N2;stage II;M0;stage IV;T3;N2;72;MALE;DECEASED;60.38;1838;NA;Recurred/Progressed;46.81;3;51;NA;NA
+TCGA-CV-A461;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage III;T3;N0;65;MALE;DECEASED;67.81;2064;NA;NA;NA;2;NA;NA;NA
+TCGA-CV-A463;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;82;FEMALE;DECEASED;0.76;23;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-A464;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N0;stage III;M0;stage IV;T4;N0;48;MALE;LIVING;56.57;NA;1722;Recurred/Progressed;0.92;4;21;NA;NA
+TCGA-CV-A465;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N0;stage III;M0;stage II;T2;N0;24;MALE;DECEASED;7.06;215;NA;NA;NA;1;NA;NA;NA
+TCGA-CV-A468;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage III;T3;N2;42;MALE;DECEASED;15.24;464;NA;NA;NA;2;25;NA;NA
+TCGA-CV-A6JD;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage IV;T4;N0;82;FEMALE;DECEASED;5.98;182;NA;NA;NA;3;10;NA;NA
+TCGA-CV-A6JE;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage II;T2;N0;78;MALE;LIVING;35.32;NA;750;DiseaseFree;35.32;4;NA;NA;NA
+TCGA-CV-A6JM;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage IV;T4;N0;85;MALE;DECEASED;6.37;194;NA;Recurred/Progressed;3.52;1;NA;NA;NA
+TCGA-CV-A6JN;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage II;T2;N0;53;MALE;LIVING;29.76;NA;717;DiseaseFree;29.76;2;54;NA;NA
+TCGA-CV-A6JO;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N2;stage IV;M0;stage IV;T4;N2;69;MALE;DECEASED;6.47;197;NA;Recurred/Progressed;4.17;4;74;NA;NA
+TCGA-CV-A6JT;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage II;T2;N0;65;MALE;LIVING;27.99;NA;670;DiseaseFree;27.99;1;NA;NA;NA
+TCGA-CV-A6JU;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;61;FEMALE;LIVING;3.61;NA;110;DiseaseFree;3.61;2;81;NA;NA
+TCGA-CV-A6JY;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;69;MALE;LIVING;21.22;NA;646;DiseaseFree;21.22;2;NA;NA;NA
+TCGA-CV-A6JZ;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage IV;T4;N0;68;MALE;LIVING;23.46;NA;680;Recurred/Progressed;12.91;2;53;NA;NA
+TCGA-CV-A6K0;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;N0;stage I;M0;stage II;T2;N0;58;MALE;LIVING;19.91;NA;606;Recurred/Progressed;4.8;1;NA;NA;NA
+TCGA-CV-A6K1;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;65;MALE;LIVING;22.5;NA;527;Recurred/Progressed;13.17;4;43;NA;NA
+TCGA-CV-A6K2;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage II;T2;N0;79;MALE;DECEASED;10.41;317;NA;Recurred/Progressed;4.4;3;14;NA;NA
+TCGA-CX-7082;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;T2;N2;stage IV;M0;stage II;T2;N0;82;MALE;DECEASED;0.36;11;NA;NA;NA;4;50;NA;NA
+TCGA-CX-7085;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T1;N0;stage I;M0;stage III;T3;N0;77;FEMALE;LIVING;10.55;NA;15;Recurred/Progressed;10.12;3;3;NA;NA
+TCGA-CX-7086;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;;T3;N1;stage III;M0;stage IV;T4;N2;53;MALE;LIVING;18.82;NA;237;DiseaseFree;18.82;2;35;NA;NA
+TCGA-CX-7219;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T4;N2;stage IV;M0;stage IV;T4;N2;47;MALE;LIVING;34.33;NA;828;DiseaseFree;34.33;2;20;NA;NA
+TCGA-CX-A4AQ;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N2;stage IV;M0;stage IV;T1;N2;56;MALE;LIVING;51.08;NA;1555;DiseaseFree;51.08;4;75;[Not Evaluated];[Not Evaluated]
+TCGA-D6-6515;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T2;N0;stage II;M0;stage II;T2;N0;82;FEMALE;DECEASED;13.24;403;NA;Recurred/Progressed;6.41;1;NA;NA;NA
+TCGA-D6-6516;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T1;N0;stage I;M0;stage III;T1;N1;69;MALE;LIVING;25.39;NA;325;DiseaseFree;25.39;4;74;NA;NA
+TCGA-D6-6517;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T3;N0;stage III;M0;stage III;T3;N0;59;MALE;LIVING;9.59;NA;250;Recurred/Progressed;5.29;4;30;NA;NA
+TCGA-D6-6823;Head & Neck Squamous Cell Carcinoma;Classical;hypo-methylated;;T2;N0;stage II;M0;stage III;T3;N1;50;MALE;LIVING;23.03;NA;605;DiseaseFree;23.03;2;60;NA;NA
+TCGA-D6-6824;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;T4;N0;stage IV;M0;stage IV;T4;N1;61;MALE;LIVING;2.53;NA;77;DiseaseFree;2.53;2;40;NA;NA
+TCGA-D6-6825;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T1;N0;stage I;M0;stage III;T3;N0;73;MALE;LIVING;16.13;NA;153;DiseaseFree;16.13;4;300;NA;NA
+TCGA-D6-6826;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;T4;N2;stage IV;M0;stage IV;T4;N2;64;FEMALE;DECEASED;11.43;NA;154;NA;NA;1;NA;NA;NA
+TCGA-D6-6827;Head & Neck Squamous Cell Carcinoma;NA;NA;;T1;N0;stage I;M0;stage III;T1;N1;55;FEMALE;LIVING;18.66;NA;128;DiseaseFree;18.66;2;28;NA;NA
+TCGA-D6-8568;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage II;T2;N0;62;MALE;LIVING;24.93;NA;106;DiseaseFree;24.93;2;43;[Not Evaluated];[Not Evaluated]
+TCGA-D6-8569;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage II;T2;N0;52;MALE;LIVING;25.3;NA;128;DiseaseFree;25.3;4;43;[Not Evaluated];[Not Evaluated]
+TCGA-D6-A4Z9;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N2;stage IV;M0;stage IV;T2;N2;59;MALE;LIVING;17.71;NA;112;DiseaseFree;17.71;3;39;[Not Evaluated];[Not Evaluated]
+TCGA-D6-A4ZB;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N0;stage III;M0;stage III;T3;N0;61;MALE;LIVING;12.35;NA;104;DiseaseFree;12.35;2;41;[Not Evaluated];[Not Evaluated]
+TCGA-D6-A6EK;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N1;stage III;M0;stage IV;T4;N1;67;MALE;LIVING;28.75;NA;483;DiseaseFree;28.75;4;72;[Not Evaluated];[Not Evaluated]
+TCGA-D6-A6EM;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N1;stage III;M0;stage III;T2;N1;65;FEMALE;LIVING;7.62;NA;232;Recurred/Progressed;7.62;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-D6-A6EN;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N1;stage III;M0;stage III;T3;N0;71;MALE;LIVING;22.57;NA;439;DiseaseFree;22.57;5;NA;[Not Evaluated];[Not Evaluated]
+TCGA-D6-A6EO;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;44;MALE;LIVING;24.93;NA;429;DiseaseFree;24.93;5;NA;[Not Evaluated];[Not Evaluated]
+TCGA-D6-A6EP;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N0;stage III;M0;stage III;T3;N0;62;MALE;LIVING;13.93;NA;424;DiseaseFree;13.93;3;40;[Not Evaluated];[Not Evaluated]
+TCGA-D6-A6EQ;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N1;stage IV;M0;stage IV;T4;N1;57;MALE;LIVING;12.09;NA;368;DiseaseFree;12.09;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-D6-A6ES;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N1;50;MALE;LIVING;12.78;NA;24;DiseaseFree;12.78;[Unknown];NA;[Not Evaluated];[Not Evaluated]
+TCGA-D6-A74Q;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;67;MALE;LIVING;23.32;NA;338;DiseaseFree;23.32;4;NA;[Not Evaluated];[Not Evaluated]
+TCGA-DQ-5624;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;TX;NX;;M0;stage IV;T4;N1;43;FEMALE;LIVING;58.41;NA;1149;DiseaseFree;58.41;1;NA;NA;NA
+TCGA-DQ-5625;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;TX;NX;;M0;stage II;T2;N0;52;FEMALE;DECEASED;37.22;NA;1058;Recurred/Progressed;34.76;2;33;NA;NA
+TCGA-DQ-5629;Head & Neck Squamous Cell Carcinoma;Classical;normal-like;;TX;NX;;M0;stage IV;T4;N2;64;MALE;DECEASED;30.91;NA;516;NA;NA;4;63;NA;Negative
+TCGA-DQ-5630;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hyper-methylated;;TX;NX;;M0;stage III;T3;N1;73;MALE;LIVING;33.84;NA;477;DiseaseFree;33.84;3;5;NA;NA
+TCGA-DQ-5631;Head & Neck Squamous Cell Carcinoma;Mesenchymal;CpG island hyper-methylated;;TX;NX;;M0;stage IV;T3;N2;52;MALE;DECEASED;18;548;548;Recurred/Progressed;14.68;4;23;NA;NA
+TCGA-DQ-7588;Head & Neck Squamous Cell Carcinoma;Basal;normal-like;;TX;NX;;M0;stage III;T2;N1;66;MALE;DECEASED;14.03;427;NA;Recurred/Progressed;10.61;4;45;NA;Negative
+TCGA-DQ-7589;Head & Neck Squamous Cell Carcinoma;NA;NA;;TX;NX;;M1;stage IV;T2;N2;70;MALE;LIVING;46.29;NA;575;DiseaseFree;46.29;4;100;NA;Negative
+TCGA-DQ-7590;Head & Neck Squamous Cell Carcinoma;NA;NA;;TX;NX;;M0;stage IV;T1;N2;51;MALE;LIVING;46.42;NA;661;DiseaseFree;46.42;3;0.5;NA;Positive
+TCGA-DQ-7591;Head & Neck Squamous Cell Carcinoma;Atypical;normal-like;;TX;NX;;M0;stage IV;T4;N2;62;MALE;LIVING;20.43;NA;360;DiseaseFree;20.43;3;20;NA;Positive
+TCGA-DQ-7592;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;TX;NX;;M0;stage IV;T4;N2;57;MALE;LIVING;37.55;NA;299;DiseaseFree;37.55;2;68;NA;Negative
+TCGA-DQ-7593;Head & Neck Squamous Cell Carcinoma;NA;NA;;TX;NX;;M0;stage IV;T4;N1;58;MALE;LIVING;40.21;NA;369;DiseaseFree;40.21;2;20;NA;Positive
+TCGA-DQ-7594;Head & Neck Squamous Cell Carcinoma;NA;NA;;TX;NX;;M0;stage IV;T4;N3;47;MALE;LIVING;40.01;NA;368;Recurred/Progressed;35.61;1;NA;NA;Positive
+TCGA-DQ-7595;Head & Neck Squamous Cell Carcinoma;NA;NA;;TX;NX;;M0;stage II;T2;N0;53;MALE;LIVING;39.09;NA;324;DiseaseFree;39.09;2;80;NA;Positive
+TCGA-DQ-7596;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage IV;T2;N2;48;MALE;LIVING;41.56;NA;340;Recurred/Progressed;4.5;1;NA;NA;NA
+TCGA-F7-7848;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;M0;T4;N1;stage IV;M0;stage IV;T4;N1;47;MALE;LIVING;37.16;NA;35;DiseaseFree;37.16;2;20;NA;NA
+TCGA-F7-8298;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;N0;stage I;M0;stage I;T1;N0;58;MALE;LIVING;32.69;NA;14;DiseaseFree;32.69;3;26;NA;NA
+TCGA-F7-8489;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage II;T2;N0;48;MALE;LIVING;21.62;NA;14;DiseaseFree;21.62;2;300;[Unknown];[Unknown]
+TCGA-F7-A50G;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N1;stage III;;;;;66;MALE;LIVING;20.24;NA;15;DiseaseFree;20.24;2;27;[Not Evaluated];[Not Evaluated]
+TCGA-F7-A50I;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;;;;;72;MALE;LIVING;3.02;NA;92;DiseaseFree;3.02;2;0.9;[Unknown];[Unknown]
+TCGA-F7-A50J;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N0;stage III;;;;;67;FEMALE;LIVING;31.11;NA;156;DiseaseFree;31.11;4;25.5;[Not Evaluated];[Not Evaluated]
+TCGA-F7-A61S;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N0;stage III;MX;;TX;NX;62;MALE;LIVING;18.92;NA;3;Recurred/Progressed;7;4;11;[Not Evaluated];[Not Evaluated]
+TCGA-F7-A61V;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;MX;;TX;NX;54;MALE;LIVING;24.93;NA;9;DiseaseFree;24.93;2;38;[Not Evaluated];Negative
+TCGA-F7-A61W;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N2;stage IV;MX;;TX;NX;51;MALE;LIVING;0.46;NA;14;DiseaseFree;0.46;2;20;[Not Evaluated];[Not Evaluated]
+TCGA-F7-A620;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N1;stage III;MX;;TX;NX;47;MALE;LIVING;17.84;NA;13;DiseaseFree;17.84;2;30;[Not Evaluated];[Not Evaluated]
+TCGA-F7-A622;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;NX;stage III;MX;;TX;NX;75;MALE;DECEASED;11.79;NA;13;NA;NA;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-F7-A623;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;N2;stage IV;MX;;TX;NX;70;MALE;LIVING;20.24;NA;6;DiseaseFree;20.24;2;42;[Not Evaluated];[Not Evaluated]
+TCGA-F7-A624;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;NX;stage II;MX;;TX;NX;73;MALE;LIVING;12.42;NA;0;DiseaseFree;12.42;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-H7-7774;Head & Neck Squamous Cell Carcinoma;Atypical;CpG island hyper-methylated;;T4;N0;stage IV;M0;stage III;T3;N0;75;FEMALE;LIVING;13.37;NA;30;Recurred/Progressed;8.28;4;55;NA;NA
+TCGA-H7-8501;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N1;stage IV;M0;stage IV;T4;N2;54;MALE;LIVING;15.14;NA;58;DiseaseFree;15.14;2;NA;[Unknown];[Unknown]
+TCGA-H7-8502;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N2;50;MALE;LIVING;15.05;NA;133;DiseaseFree;15.05;2;40;[Unknown];[Unknown]
+TCGA-H7-A6C4;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N2;stage IV;M0;stage III;T3;N1;35;FEMALE;DECEASED;NA;NA;414;Recurred/Progressed;8.05;2;9;[Not Evaluated];Negative
+TCGA-H7-A6C5;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage III;T3;N1;65;MALE;LIVING;21.09;NA;403;DiseaseFree;21.09;4;50;[Not Evaluated];[Not Evaluated]
+TCGA-H7-A76A;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;TX;N2;;M0;stage IV;T2;N2;57;MALE;LIVING;20.93;NA;206;DiseaseFree;20.93;4;NA;[Not Evaluated];Positive
+TCGA-HD-7229;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T4;N0;stage IV;M0;stage IV;T4;NX;60;MALE;LIVING;33.74;NA;2;Recurred/Progressed;5.32;3;NA;NA;NA
+TCGA-HD-7753;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;;T1;N0;stage I;M0;stage II;T2;N0;62;MALE;LIVING;28.45;NA;5;DiseaseFree;28.45;2;40;NA;NA
+TCGA-HD-7754;Head & Neck Squamous Cell Carcinoma;Atypical;hypo-methylated;;T2;N2;stage IV;M0;stage IV;T2;N2;69;MALE;LIVING;25.72;NA;25;DiseaseFree;25.72;4;4;NA;NA
+TCGA-HD-7831;Head & Neck Squamous Cell Carcinoma;Mesenchymal;normal-like;;T2;N2;stage IV;M0;stage III;T3;N0;74;MALE;LIVING;21.91;NA;0;Recurred/Progressed;21.91;1;NA;NA;NA
+TCGA-HD-7832;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;;T4;N0;stage IV;M0;stage IV;T4;N2;52;MALE;LIVING;27.46;NA;0;DiseaseFree;27.46;2;36;NA;NA
+TCGA-HD-7917;Head & Neck Squamous Cell Carcinoma;NA;NA;;T2;N0;stage II;M0;stage II;T2;N0;62;MALE;DECEASED;27.46;NA;37;NA;NA;2;NA;NA;NA
+TCGA-HD-8224;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N2;stage IV;M0;stage III;T3;N0;63;MALE;DECEASED;14.65;NA;55;Recurred/Progressed;5.62;1;NA;NA;Negative
+TCGA-HD-8314;Head & Neck Squamous Cell Carcinoma Basaloid Type;NA;NA;;T1;N1;stage III;M0;stage III;T1;N1;58;MALE;LIVING;22.01;NA;44;DiseaseFree;22.01;1;NA;[Not Evaluated];Positive
+TCGA-HD-8634;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T1;N0;stage I;M0;stage I;T1;NX;51;FEMALE;DECEASED;12.65;NA;24;NA;NA;2;60;[Not Evaluated];[Not Evaluated]
+TCGA-HD-8635;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T1;N1;stage III;M0;stage III;T1;N1;61;FEMALE;LIVING;22.83;NA;25;DiseaseFree;22.83;2;36;[Not Evaluated];Negative
+TCGA-HD-A4C1;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N2;stage IV;M0;stage IV;T3;N2;41;FEMALE;LIVING;0.36;NA;11;DiseaseFree;0.36;1;NA;[Not Evaluated];Negative
+TCGA-HD-A633;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N0;stage IV;M0;stage IV;T4;N0;74;MALE;LIVING;13.83;NA;49;Recurred/Progressed;13.76;1;NA;[Unknown];[Unknown]
+TCGA-HD-A634;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N2;stage IV;M0;stage III;T3;N1;56;MALE;DECEASED;4.27;NA;10;NA;NA;2;40;[Not Evaluated];Positive
+TCGA-HD-A6HZ;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T2;N1;stage III;M0;stage II;T2;N0;79;FEMALE;LIVING;3.65;NA;111;DiseaseFree;3.65;1;NA;[Unknown];[Unknown]
+TCGA-HD-A6I0;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N1;stage IV;M0;stage III;T3;NX;56;MALE;LIVING;6.9;NA;33;DiseaseFree;6.9;3;15;[Unknown];[Unknown]
+TCGA-HL-7533;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage IV;T2;N2;65;MALE;LIVING;34.72;NA;692;DiseaseFree;34.72;3;25;Positive;NA
+TCGA-IQ-7630;Head & Neck Squamous Cell Carcinoma;Basal;CpG island hyper-methylated;M0;T2;N0;stage II;M0;stage III;T3;N0;49;MALE;LIVING;15.93;NA;160;DiseaseFree;15.93;1;NA;NA;NA
+TCGA-IQ-7631;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hypo-methylated;;T2;N0;stage II;M0;stage II;T2;N0;60;FEMALE;LIVING;38.5;NA;122;DiseaseFree;38.5;3;30;NA;NA
+TCGA-IQ-7632;Head & Neck Squamous Cell Carcinoma;Basal;hyper-methylated;M0;T4;N0;stage IV;M0;stage IV;T4;N0;68;FEMALE;LIVING;14.49;NA;113;DiseaseFree;14.49;3;10;NA;NA
+TCGA-IQ-A61E;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N0;stage III;MX;stage III;T3;N0;55;FEMALE;LIVING;37.68;NA;588;DiseaseFree;37.68;2;45;[Not Evaluated];[Not Evaluated]
+TCGA-IQ-A61G;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N2;stage IV;MX;stage IV;T4;N2;57;MALE;LIVING;11.83;NA;360;Recurred/Progressed;8.18;4;60;[Not Evaluated];[Not Evaluated]
+TCGA-IQ-A61H;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T2;N0;stage II;MX;stage II;T2;N0;76;MALE;LIVING;37.39;NA;412;DiseaseFree;37.39;4;30;[Not Evaluated];[Not Evaluated]
+TCGA-IQ-A61I;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;N2;stage IV;M0;stage IV;T1;N2;63;MALE;DECEASED;0.07;2;NA;NA;NA;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-IQ-A61J;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N2;stage IV;M0;stage IV;T2;N2;54;MALE;LIVING;33.54;NA;440;DiseaseFree;33.54;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-IQ-A61K;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N2;stage IV;M0;stage IV;T3;N2;70;FEMALE;DECEASED;5.29;161;NA;NA;NA;2;20;[Not Evaluated];[Not Evaluated]
+TCGA-IQ-A61L;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage II;T2;N0;72;FEMALE;LIVING;13.67;NA;351;Recurred/Progressed;5.12;1;NA;Negative;Negative
+TCGA-IQ-A61O;Head & Neck Squamous Cell Carcinoma, Spindle Cell Variant;NA;NA;MX;T2;N2;stage IV;MX;stage IV;T2;N2;43;MALE;DECEASED;13.83;NA;360;NA;NA;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-IQ-A6SG;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N0;stage III;M0;stage III;T3;N0;61;FEMALE;LIVING;19.02;NA;579;DiseaseFree;19.02;1;NA;NA;NA
+TCGA-IQ-A6SH;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N1;stage III;M1;stage IV;T2;N1;55;MALE;LIVING;15.47;NA;471;DiseaseFree;15.47;3;120;[Not Evaluated];[Not Evaluated]
+TCGA-KU-A66S;Head & Neck Squamous Cell Carcinoma Basaloid Type;NA;NA;MX;T1;N1;stage III;MX;stage III;T2;N1;69;FEMALE;DECEASED;13.34;NA;224;Recurred/Progressed;12.78;2;50;[Not Evaluated];[Not Evaluated]
+TCGA-KU-A66T;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N0;stage IV;M0;stage IV;T4;N0;53;FEMALE;LIVING;18.13;NA;210;Recurred/Progressed;18.13;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-KU-A6H7;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N2;stage IV;M0;stage IV;T2;N2;55;FEMALE;LIVING;19.25;NA;146;DiseaseFree;19.25;4;60;[Not Evaluated];Positive
+TCGA-KU-A6H7;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N2;stage IV;M0;stage IV;T2;N2;55;FEMALE;LIVING;19.25;NA;146;DiseaseFree;19.25;4;60;[Not Evaluated];Positive
+TCGA-KU-A6H8;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N2;stage IV;M0;stage I;T1;N0;41;MALE;DECEASED;10.74;NA;168;Recurred/Progressed;3.61;2;12.5;[Not Evaluated];[Not Evaluated]
+TCGA-MT-A51W;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;N0;stage I;M0;stage I;T1;NX;52;FEMALE;LIVING;14.36;NA;14;DiseaseFree;14.36;2;10;Negative;Negative
+TCGA-MT-A51X;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T1;N2;stage IV;M0;stage IV;T1;N2;30;MALE;LIVING;7.95;NA;34;DiseaseFree;7.95;2;28.5;NA;NA
+TCGA-MT-A67A;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T1;N0;stage I;M0;stage I;T1;N0;85;FEMALE;LIVING;30.03;NA;392;DiseaseFree;30.03;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-MT-A67D;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage II;T2;N0;55;MALE;LIVING;1.84;NA;56;DiseaseFree;1.84;2;40;[Not Evaluated];[Not Evaluated]
+TCGA-MT-A67F;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N0;stage IV;MX;stage IV;T4;N0;60;FEMALE;LIVING;12.61;NA;111;DiseaseFree;12.61;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-MT-A67G;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T1;N2;stage IV;MX;stage IV;T1;N2;53;FEMALE;LIVING;6.24;NA;189;DiseaseFree;6.24;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-MT-A7BN;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;stage IV;M0;stage IV;T2;N2;74;MALE;LIVING;15.41;NA;51;Recurred/Progressed;5.88;1;NA;[Unknown];[Unknown]
+TCGA-MZ-A5BI;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage IV;T2;N2;53;MALE;DECEASED;7.13;217;NA;NA;NA;[Unknown];NA;[Not Evaluated];Positive
+TCGA-MZ-A6I9;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage IV;T4;N2;68;MALE;DECEASED;16.06;NA;254;Recurred/Progressed;15.87;3;14;[Not Evaluated];Positive
+TCGA-MZ-A7D7;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N2;stage IV;M0;stage IV;T3;N2;51;MALE;LIVING;17.97;NA;240;Recurred/Progressed;11.14;2;39;[Not Evaluated];Negative
+TCGA-P3-A5Q5;Head & Neck Squamous Cell Carcinoma Basaloid Type;NA;NA;MX;T2;N2;stage IV;M0;stage IV;TX;N2;54;MALE;LIVING;29.89;NA;910;DiseaseFree;29.89;4;30;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A5Q6;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N2;stage IV;M0;stage III;T3;N0;49;MALE;DECEASED;15.77;480;NA;Recurred/Progressed;12.22;4;9;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A5QA;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T1;NX;stage I;M0;stage II;T2;N0;41;MALE;LIVING;71.68;NA;1652;Recurred/Progressed;52.6;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A5QE;Head & Neck Squamous Cell Carcinoma Basaloid Type;NA;NA;MX;T2;N1;stage III;M0;stage III;T1;N1;49;MALE;LIVING;51.22;NA;721;DiseaseFree;51.22;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A5QF;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N2;stage IV;M0;stage IV;T4;N2;49;MALE;DECEASED;10.84;330;NA;Recurred/Progressed;4.6;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A6SW;Head & Neck Squamous Cell Carcinoma Basaloid Type;NA;NA;MX;T3;N3;stage IV;M0;stage IV;T4;N2;50;MALE;LIVING;36.79;NA;1120;DiseaseFree;36.79;2;20;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A6SX;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T2;N1;stage III;M0;stage IV;T4;N0;67;MALE;DECEASED;46.98;1430;NA;NA;NA;4;100;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A6T0;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N0;stage IV;M0;stage IV;T4;N2;47;FEMALE;LIVING;18.99;NA;578;Recurred/Progressed;11.99;4;30;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A6T2;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N2;stage IV;M0;stage II;T2;N0;45;MALE;LIVING;75.49;NA;1917;DiseaseFree;75.49;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A6T3;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N2;stage IV;M0;stage IV;T4;N1;49;MALE;DECEASED;18.96;577;NA;Recurred/Progressed;7.95;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A6T4;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N1;stage IV;M0;stage IV;T4;N1;54;MALE;DECEASED;2.04;62;NA;NA;NA;2;40;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A6T5;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N0;stage IV;M0;stage IV;T4;N0;79;FEMALE;DECEASED;28.98;882;NA;Recurred/Progressed;18.96;3;15;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A6T6;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;NX;stage IV;M0;stage IV;T4;N0;53;MALE;DECEASED;12.98;395;NA;Recurred/Progressed;8.97;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A6T7;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N2;stage IV;M0;stage III;T3;N1;55;MALE;DECEASED;16;487;NA;NA;NA;2;80;[Not Evaluated];[Not Evaluated]
+TCGA-P3-A6T8;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N2;stage IV;M0;stage IV;T4;N0;54;MALE;LIVING;13.14;NA;400;DiseaseFree;13.14;2;30;[Not Evaluated];[Not Evaluated]
+TCGA-QK-A64Z;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;NX;stage IV;M0;stage II;T2;N0;79;FEMALE;DECEASED;21.06;NA;553;Recurred/Progressed;18.17;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-QK-A652;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T1;N1;stage III;M0;stage II;T2;N0;60;MALE;LIVING;21.19;NA;259;DiseaseFree;21.19;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-QK-A6IF;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage IV;T1;N2;61;MALE;LIVING;23.13;NA;245;Recurred/Progressed;16.49;1;NA;Positive;Positive
+TCGA-QK-A6IG;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N1;stage III;M0;stage II;T2;N0;69;MALE;DECEASED;7.29;NA;218;Recurred/Progressed;5.55;4;40;[Not Evaluated];[Not Evaluated]
+TCGA-QK-A6IH;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N1;65;FEMALE;LIVING;21.45;NA;228;Recurred/Progressed;8.15;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-QK-A6II;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage III;T3;N0;52;MALE;DECEASED;9.33;NA;225;Recurred/Progressed;5.78;2;30;[Not Evaluated];[Not Evaluated]
+TCGA-QK-A6IJ;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N1;stage III;M0;stage II;T2;N0;71;MALE;LIVING;12.71;NA;64;DiseaseFree;12.71;4;40;Negative;[Not Evaluated]
+TCGA-QK-A6V9;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;NX;stage II;M0;stage II;T2;N0;56;MALE;LIVING;27.37;NA;567;DiseaseFree;27.37;1;NA;Positive;Positive
+TCGA-QK-A6VB;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;66;MALE;LIVING;21.06;NA;156;Recurred/Progressed;20.14;4;NA;[Not Evaluated];[Not Evaluated]
+TCGA-QK-A6VC;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N1;stage IV;M0;stage IV;T4;N2;62;FEMALE;LIVING;19.71;NA;106;DiseaseFree;19.71;4;NA;Negative;[Not Evaluated]
+TCGA-QK-A8Z7;Head & Neck Squamous Cell Carcinoma Basaloid Type;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N2;59;MALE;LIVING;12.88;NA;23;DiseaseFree;12.88;2;8;[Not Evaluated];[Not Evaluated]
+TCGA-QK-A8Z8;Head & Neck Squamous Cell Carcinoma;NA;NA;M1;T3;N1;stage IV;M1;stage IV;T3;N1;60;FEMALE;DECEASED;5.62;171;NA;NA;NA;2;80;[Not Evaluated];[Not Evaluated]
+TCGA-QK-A8Z9;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N2;56;MALE;DECEASED;14.75;NA;149;Recurred/Progressed;6.73;2;35;[Not Evaluated];[Not Evaluated]
+TCGA-QK-A8ZA;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T2;N2;;MX;stage IV;T2;N2;60;MALE;DECEASED;12.19;NA;135;NA;NA;2;15;[Not Evaluated];Positive
+TCGA-QK-A8ZB;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;68;MALE;LIVING;17.81;NA;135;DiseaseFree;17.81;3;NA;[Not Evaluated];[Not Evaluated]
+TCGA-QK-AA3J;Head & Neck Squamous Cell Carcinoma Basaloid Type;NA;NA;M0;T1;N0;stage I;M0;stage I;T1;N0;69;MALE;LIVING;15.31;NA;157;DiseaseFree;15.31;4;NA;[Not Evaluated];[Not Evaluated]
+TCGA-QK-AA3K;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N2;stage IV;MX;stage IV;T3;N2;60;MALE;LIVING;8.31;NA;168;DiseaseFree;8.31;2;NA;[Not Evaluated];Positive
+TCGA-RS-A6TO;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N2;82;FEMALE;DECEASED;12.71;NA;272;Recurred/Progressed;11.1;1;NA;[Not Evaluated];Negative
+TCGA-RS-A6TP;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage II;T2;N0;58;MALE;LIVING;16.95;NA;236;DiseaseFree;16.95;4;10;[Not Evaluated];Positive
+TCGA-T2-A6WX;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;M0;stage III;T3;N0;73;FEMALE;DECEASED;6.87;209;NA;NA;NA;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-T2-A6WZ;Head & Neck Squamous Cell Carcinoma;NA;NA;;T3;N2;;M0;stage IV;T3;N2;53;MALE;DECEASED;15.9;484;NA;Recurred/Progressed;7.52;2;40;Negative;[Not Evaluated]
+TCGA-T2-A6X0;Head & Neck Squamous Cell Carcinoma;NA;NA;;TX;;;M0;stage IV;T1;N2;49;MALE;LIVING;7.1;NA;216;DiseaseFree;7.1;4;10;Positive;[Not Evaluated]
+TCGA-T2-A6X2;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T3;N0;stage III;M0;stage III;T3;N0;82;MALE;LIVING;32.42;NA;987;DiseaseFree;32.42;3;25;Negative;[Not Evaluated]
+TCGA-T3-A92M;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T4;N2;stage IV;M0;stage IV;T4;N2;52;MALE;LIVING;13.7;NA;0;Recurred/Progressed;13.7;2;20;[Not Evaluated];NA
+TCGA-T3-A92N;Head & Neck Squamous Cell Carcinoma;NA;NA;MX;T2;N2;stage IV;M1;stage IV;T1;N1;79;MALE;DECEASED;3.12;NA;-2;Recurred/Progressed;1.51;2;50;[Unknown];[Not Evaluated]
+TCGA-TN-A7HI;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N2;stage IV;M0;stage I;T1;N0;56;MALE;LIVING;13.53;NA;146;DiseaseFree;13.53;2;16;Positive;Positive
+TCGA-TN-A7HJ;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage III;T3;NX;51;MALE;LIVING;13.24;NA;184;DiseaseFree;13.24;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-TN-A7HL;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N2;stage IV;M0;stage IV;T4;NX;59;MALE;LIVING;20.34;NA;153;DiseaseFree;20.34;4;10;Positive;Positive
+TCGA-UF-A718;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;62;MALE;LIVING;64.75;NA;1326;DiseaseFree;64.75;2;50;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A719;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T2;N0;stage II;M0;stage III;T3;N0;54;MALE;LIVING;54.63;NA;1337;DiseaseFree;54.63;2;NA;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A71A;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T3;N2;67;MALE;DECEASED;2.83;86;NA;NA;NA;3;NA;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A71A;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T3;N2;67;MALE;DECEASED;2.83;86;NA;NA;NA;3;NA;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A71B;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N1;50;MALE;LIVING;49.47;NA;1158;DiseaseFree;49.47;2;30;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A71D;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N1;54;FEMALE;LIVING;48;NA;986;DiseaseFree;48;2;22;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A71E;Head & Neck Squamous Cell Carcinoma Basaloid Type;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;63;MALE;DECEASED;49.41;NA;1090;NA;NA;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A7J9;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;75;MALE;LIVING;44.61;NA;1043;DiseaseFree;44.61;2;25.5;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A7JA;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N1;stage IV;M0;stage IV;T4;N1;66;FEMALE;LIVING;74.41;NA;1894;DiseaseFree;74.41;2;NA;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A7JC;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N2;stage IV;M0;stage III;T3;N1;42;MALE;DECEASED;17.94;NA;484;Recurred/Progressed;7.52;2;38;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A7JD;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N0;71;MALE;DECEASED;24.28;NA;653;NA;NA;2;61;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A7JF;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N2;80;MALE;LIVING;55.39;NA;1266;DiseaseFree;55.39;2;42;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A7JH;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;59;MALE;LIVING;29.43;NA;469;DiseaseFree;29.43;4;52;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A7JJ;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;68;MALE;LIVING;18.04;NA;214;DiseaseFree;18.04;2;80;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A7JK;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N0;59;MALE;DECEASED;13.93;424;NA;Recurred/Progressed;11.2;4;NA;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A7JO;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;79;FEMALE;DECEASED;20.73;631;NA;Recurred/Progressed;17.25;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A7JS;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T3;N2;59;MALE;DECEASED;22.34;NA;413;Recurred/Progressed;17.05;2;25.5;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A7JT;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N0;stage IV;M0;stage IV;T4;N0;72;FEMALE;DECEASED;32.62;993;NA;Recurred/Progressed;23.59;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-UF-A7JV;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T4;N2;stage IV;M0;stage IV;T4;N2;62;FEMALE;DECEASED;2.96;90;NA;Recurred/Progressed;1.81;1;NA;[Not Evaluated];[Not Evaluated]
+TCGA-UP-A6WW;Head & Neck Squamous Cell Carcinoma;NA;NA;;;;;MX;stage IV;T2;N2;58;MALE;LIVING;17.02;NA;457;DiseaseFree;17.02;1;NA;NA;NA
+TCGA-WA-A7GZ;Head & Neck Squamous Cell Carcinoma;NA;NA;;T2;N0;;M0;stage II;T2;N0;58;MALE;DECEASED;20.53;NA;335;NA;NA;2;20;NA;NA
+TCGA-WA-A7H4;Head & Neck Squamous Cell Carcinoma;NA;NA;;T2;N0;stage II;M0;stage II;T2;N0;69;MALE;LIVING;14.55;NA;153;DiseaseFree;14.55;2;25;NA;NA

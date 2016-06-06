@@ -1,0 +1,67 @@
+PatientID;cohort;histological_type_eosinophilic.1_classic.0;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;age;gender;overall_survival;overall_survival_months;days_to_death;disease_status;disease_free_months;smoking_history;pack_per_year
+TCGA-KL-8323;Kidney Chromophobe;0;M0;T3;NX;Stage III;57;FEMALE;Dead;38.04;1158;DiseaseFree;29.93;Lifelong Non-smoker;NA
+TCGA-KL-8324;Kidney Chromophobe;0;M0;T2;NX;Stage II;67;FEMALE;Alive;141.62;NA;DiseaseFree;141.62;Current reformed smoker for < or = 15 years;1
+TCGA-KL-8325;Kidney Chromophobe;0;M0;T2;NX;Stage II;56;FEMALE;Dead;23.82;725;DiseaseFree;NA;Lifelong Non-smoker;NA
+TCGA-KL-8326;Kidney Chromophobe;1;M0;T3;N0;Stage III;69;MALE;Alive;109.13;NA;DiseaseFree;109.13;Lifelong Non-smoker;NA
+TCGA-KL-8327;Kidney Chromophobe;0;M0;T1;N0;Stage I;46;FEMALE;Alive;136.96;NA;DiseaseFree;136.96;Lifelong Non-smoker;NA
+TCGA-KL-8328;Kidney Chromophobe;0;M0;T2;N0;Stage II;60;MALE;Alive;102.73;NA;Recurred/Progressed;102.73;Lifelong Non-smoker;NA
+TCGA-KL-8329;Kidney Chromophobe;0;M0;T1;N0;Stage I;57;FEMALE;Alive;90.41;NA;Recurred/Progressed;90.41;Lifelong Non-smoker;NA
+TCGA-KL-8330;Kidney Chromophobe;1;M0;T2;N0;Stage II;44;FEMALE;Alive;108.54;NA;DiseaseFree;108.54;Current smoker;35
+TCGA-KL-8331;Kidney Chromophobe;0;M0;T2;N0;Stage II;48;FEMALE;Alive;98.88;NA;DiseaseFree;98.88;Lifelong Non-smoker;NA
+TCGA-KL-8332;Kidney Chromophobe;0;M0;T1;N0;Stage I;55;MALE;Alive;84.82;NA;DiseaseFree;84.82;Lifelong Non-smoker;NA
+TCGA-KL-8333;Kidney Chromophobe;0;M0;T2;N0;Stage II;69;MALE;Alive;NA;NA;DiseaseFree;NA;Lifelong Non-smoker;NA
+TCGA-KL-8334;Kidney Chromophobe;0;M0;T3;N0;Stage III;37;FEMALE;Alive;96.88;NA;DiseaseFree;96.88;Lifelong Non-smoker;NA
+TCGA-KL-8335;Kidney Chromophobe;0;M0;T3;N0;Stage III;67;MALE;Alive;92.48;NA;DiseaseFree;92.48;Current reformed smoker for > 15 years;27
+TCGA-KL-8336;Kidney Chromophobe;0;M0;T3;N2;Stage IV;51;FEMALE;Dead;30.22;920;DiseaseFree;26.84;Lifelong Non-smoker;NA
+TCGA-KL-8337;Kidney Chromophobe;0;M0;T2;N0;Stage II;26;MALE;Alive;44.81;NA;DiseaseFree;44.81;Lifelong Non-smoker;NA
+TCGA-KL-8338;Kidney Chromophobe;0;M0;T3;N0;Stage III;51;MALE;Alive;86.5;NA;Recurred/Progressed;86.5;Lifelong Non-smoker;NA
+TCGA-KL-8339;Kidney Chromophobe;1;M1;T3;N1;Stage IV;67;MALE;Dead;28.09;855;DiseaseFree;11.93;Current Reformed Smoker, Duration Not Specified;NA
+TCGA-KL-8340;Kidney Chromophobe;0;M0;T2;N0;Stage II;34;MALE;Alive;66.49;NA;;66.49;Lifelong Non-smoker;NA
+TCGA-KL-8341;Kidney Chromophobe;0;M0;T3;N2;Stage IV;41;MALE;Dead;24.77;754;DiseaseFree;20.24;Current reformed smoker for < or = 15 years;10
+TCGA-KL-8342;Kidney Chromophobe;0;M0;T2;N0;Stage II;45;FEMALE;Alive;73.85;NA;DiseaseFree;73.85;Lifelong Non-smoker;NA
+TCGA-KL-8343;Kidney Chromophobe;1;M0;T3;N0;Stage III;72;MALE;Alive;59.63;NA;DiseaseFree;59.63;Lifelong Non-smoker;NA
+TCGA-KL-8344;Kidney Chromophobe;1;M0;T3;N0;Stage III;51;MALE;Alive;28.78;NA;Recurred/Progressed;28.78;Lifelong Non-smoker;NA
+TCGA-KL-8345;Kidney Chromophobe;0;M0;T3;N0;Stage III;75;MALE;Alive;54.7;NA;DiseaseFree;54.7;Current reformed smoker for > 15 years;6
+TCGA-KL-8346;Kidney Chromophobe;0;M0;T2;N0;Stage II;62;MALE;Alive;62.32;NA;DiseaseFree;62.32;Lifelong Non-smoker;NA
+TCGA-KM-8438;Kidney Chromophobe;0;MX;T2;N0;Stage II;45;FEMALE;Alive;NA;NA;DiseaseFree;151.84;Lifelong Non-smoker;NA
+TCGA-KM-8439;Kidney Chromophobe;1;MX;T1;NX;Stage I;30;MALE;Alive;23.26;NA;NA;23.26;Lifelong Non-smoker;NA
+TCGA-KM-8440;Kidney Chromophobe;0;MX;T3;NX;Stage III;37;MALE;Alive;44.88;NA;DiseaseFree;44.88;Lifelong Non-smoker;NA
+TCGA-KM-8441;Kidney Chromophobe;1;MX;T1;NX;Stage I;61;FEMALE;Alive;13.14;NA;DiseaseFree;13.14;Lifelong Non-smoker;NA
+TCGA-KM-8442;Kidney Chromophobe;0;MX;T2;NX;Stage II;38;MALE;Alive;47.21;NA;DiseaseFree;47.21;Lifelong Non-smoker;NA
+TCGA-KM-8443;Kidney Chromophobe;1;MX;T2;N0;Stage II;57;MALE;Alive;49.93;NA;DiseaseFree;49.93;[Unknown];NA
+TCGA-KM-8476;Kidney Chromophobe;0;MX;T1;NX;Stage I;47;MALE;Alive;123.03;NA;DiseaseFree;123.03;Lifelong Non-smoker;NA
+TCGA-KM-8477;Kidney Chromophobe;1;MX;T1;NX;Stage I;56;MALE;Alive;NA;NA;DiseaseFree;NA;Lifelong Non-smoker;NA
+TCGA-KM-8639;Kidney Chromophobe;1;MX;T1;NX;Stage I;67;MALE;Alive;NA;NA;DiseaseFree;NA;Current Reformed Smoker, Duration Not Specified;20
+TCGA-KN-8418;Kidney Chromophobe;0;NA;T2;N0;Stage II;41;FEMALE;Alive;114.13;NA;DiseaseFree;114.13;Lifelong Non-smoker;NA
+TCGA-KN-8419;Kidney Chromophobe;1;NA;T2;N0;Stage II;43;MALE;Alive;23.46;NA;NA;23.46;[Unknown];NA
+TCGA-KN-8421;Kidney Chromophobe;1;NA;T2;N0;Stage II;47;FEMALE;Alive;87.84;NA;Recurred/Progressed;87.84;[Unknown];NA
+TCGA-KN-8422;Kidney Chromophobe;0;NA;T1;N0;Stage I;28;FEMALE;Alive;25.46;NA;NA;25.46;Current reformed smoker for < or = 15 years;NA
+TCGA-KN-8423;Kidney Chromophobe;0;NA;T1;N0;Stage I;44;MALE;Alive;25.89;NA;DiseaseFree;25.89;[Unknown];NA
+TCGA-KN-8424;Kidney Chromophobe;0;NA;T1;N0;Stage I;42;FEMALE;Alive;65.14;NA;DiseaseFree;65.14;Lifelong Non-smoker;NA
+TCGA-KN-8425;Kidney Chromophobe;0;NA;T1;N0;Stage I;53;MALE;Alive;72.63;NA;DiseaseFree;72.63;Lifelong Non-smoker;NA
+TCGA-KN-8426;Kidney Chromophobe;0;M1;T3;NX;Stage IV;50;MALE;Alive;NA;NA;DiseaseFree;NA;Lifelong Non-smoker;NA
+TCGA-KN-8427;Kidney Chromophobe;1;NA;T4;N1;Stage IV;54;MALE;Alive;0.59;NA;NA;0.59;Lifelong Non-smoker;NA
+TCGA-KN-8428;Kidney Chromophobe;1;NA;T2;N0;Stage II;71;MALE;Dead;52.23;1590;DiseaseFree;15.7;Current reformed smoker for > 15 years;48
+TCGA-KN-8429;Kidney Chromophobe;0;NA;T3;N0;Stage III;38;FEMALE;Alive;NA;NA;Recurred/Progressed;65.34;[Unknown];NA
+TCGA-KN-8430;Kidney Chromophobe;0;NA;T1;N0;Stage I;75;MALE;Dead;NA;NA;NA;NA;Lifelong Non-smoker;NA
+TCGA-KN-8431;Kidney Chromophobe;0;NA;T2;NX;Stage II;35;FEMALE;Alive;23.39;NA;DiseaseFree;23.39;Lifelong Non-smoker;NA
+TCGA-KN-8432;Kidney Chromophobe;0;NA;T2;NX;Stage II;86;FEMALE;Alive;2.5;NA;DiseaseFree;2.5;Lifelong Non-smoker;NA
+TCGA-KN-8433;Kidney Chromophobe;0;NA;T3;NX;Stage III;46;FEMALE;Alive;11.2;NA;Recurred/Progressed;11.2;Current smoker;24
+TCGA-KN-8434;Kidney Chromophobe;0;NA;T2;NX;Stage II;65;FEMALE;Alive;36.96;NA;DiseaseFree;36.96;Lifelong Non-smoker;NA
+TCGA-KN-8435;Kidney Chromophobe;1;NA;T2;NX;Stage II;59;MALE;Alive;89.59;NA;NA;89.59;Lifelong Non-smoker;NA
+TCGA-KN-8436;Kidney Chromophobe;1;NA;T2;NX;Stage II;62;MALE;Alive;20.93;NA;DiseaseFree;20.93;Lifelong Non-smoker;NA
+TCGA-KN-8437;Kidney Chromophobe;1;NA;T1;NX;Stage I;42;FEMALE;Alive;75.69;NA;DiseaseFree;75.69;[Unknown];NA
+TCGA-KO-8403;Kidney Chromophobe;0;NA;T1;NX;Stage I;49;MALE;Alive;76.84;NA;DiseaseFree;76.84;Lifelong Non-smoker;NA
+TCGA-KO-8404;Kidney Chromophobe;0;NA;T4;NX;Stage IV;78;MALE;Dead;10.68;325;DiseaseFree;4.86;Lifelong Non-smoker;NA
+TCGA-KO-8405;Kidney Chromophobe;0;M0;T3;N0;Stage III;29;MALE;Alive;74.87;NA;DiseaseFree;74.87;Lifelong Non-smoker;NA
+TCGA-KO-8406;Kidney Chromophobe;0;M0;T1;N0;Stage I;17;FEMALE;Alive;78.98;NA;DiseaseFree;78.98;Lifelong Non-smoker;NA
+TCGA-KO-8407;Kidney Chromophobe;0;M0;T2;N0;Stage II;42;MALE;Alive;92.64;NA;NA;92.64;Lifelong Non-smoker;NA
+TCGA-KO-8408;Kidney Chromophobe;1;NA;T3;N1;Stage III;47;MALE;Dead;16.66;507;DiseaseFree;1.51;Current smoker;75
+TCGA-KO-8409;Kidney Chromophobe;1;M0;T2;N0;Stage II;69;MALE;Alive;80.32;NA;Recurred/Progressed;80.32;Current reformed smoker for < or = 15 years;3
+TCGA-KO-8410;Kidney Chromophobe;0;M0;T1;N0;Stage I;74;FEMALE;Alive;NA;NA;DiseaseFree;NA;Lifelong Non-smoker;NA
+TCGA-KO-8411;Kidney Chromophobe;0;M0;T1;NX;Stage I;58;MALE;Alive;103.19;NA;Recurred/Progressed;103.19;Lifelong Non-smoker;NA
+TCGA-KO-8413;Kidney Chromophobe;0;M0;T1;N0;Stage I;46;MALE;Alive;86.04;NA;DiseaseFree;86.04;Lifelong Non-smoker;NA
+TCGA-KO-8414;Kidney Chromophobe;0;M0;T2;N0;Stage II;50;FEMALE;Alive;77.79;NA;DiseaseFree;77.79;Lifelong Non-smoker;NA
+TCGA-KO-8415;Kidney Chromophobe;0;M0;T1;N0;Stage I;44;FEMALE;Alive;57.13;NA;DiseaseFree;57.13;Lifelong Non-smoker;NA
+TCGA-KO-8416;Kidney Chromophobe;0;M0;T3;N0;Stage III;41;MALE;Alive;61.53;NA;DiseaseFree;61.53;Current smoker;27
+TCGA-KO-8417;Kidney Chromophobe;0;M0;T1;N0;Stage I;30;FEMALE;Alive;63.9;NA;DiseaseFree;63.9;Lifelong Non-smoker;NA
