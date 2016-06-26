@@ -1,4 +1,4 @@
-PatientID;cohort;histological_type;DNA_methylation_subtype;mRNA_subtype;pathologic_N;pathologic_M;pathologic_T;clinical_M;pathologic_N2;pathologic_stage;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months;smoking_history;pack_per_year
+sampleID;cohort;histological_type;DNA_methylation_subtype;mRNA_subtype;pathologic_N;pathologic_M;pathologic_T;clinical_M;pathologic_N2;pathologic_stage;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months;smoking_history;pack_per_year
 TCGA-2K-A9WE;NA;NA;NA;NA;;;;;;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 TCGA-2Z-A9J1;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;N0;Stage I;71;MALE;Alive;75.49;NA;2298;DiseaseFree;75.49;1;NA
 TCGA-2Z-A9J2;Kidney Papillary Renal Cell Carcinoma;NA;NA;NA;N0;MX;T1;M0;NX;Stage I;71;FEMALE;Alive;58.97;NA;1795;DiseaseFree;58.97;3;30

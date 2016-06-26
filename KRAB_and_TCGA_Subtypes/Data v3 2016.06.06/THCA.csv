@@ -1,4 +1,4 @@
-PatientID;histological_type;mRNA_Cluster_number;meth_Cluster;meth_Cluster_number;mRNA_Cluster_number_Feb2014;meth_Cluster_number_Feb2014;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;age;gender;overall_survival;overall_survival_days;days_to_death;days_to_last_followup;disease_status;disease_free_months
+sampleID;histological_type;mRNA_Cluster_number;meth_Cluster;meth_Cluster_number;mRNA_Cluster_number_Feb2014;meth_Cluster_number_Feb2014;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;age;gender;overall_survival;overall_survival_days;days_to_death;days_to_last_followup;disease_status;disease_free_months
 TCGA-BJ-A0YZ;Thyroid Papillary Carcinoma - Classical/usual;1;classical 2;2;1;4;M0;T2;N0;stage II;65;MALE;Alive;NA;NA;479;DiseaseFree;24.77
 TCGA-BJ-A0Z0;Thyroid Papillary Carcinoma - Classical/usual;1;follicular;4;1;1;MX;T2;N0;stage II;55;MALE;Alive;NA;NA;356;DiseaseFree;13.76
 TCGA-BJ-A0Z2;Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned);1;CpG island methylated;3;1;2;M1;T2;N0;stage IV;57;MALE;Alive;NA;NA;232;Recurred/Progressed;5.19

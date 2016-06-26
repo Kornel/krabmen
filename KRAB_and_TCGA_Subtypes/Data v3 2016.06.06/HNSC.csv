@@ -1,4 +1,4 @@
-PatientID;histological_type;RNA_subtype;Methylation_subtype;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;clinical_M;clinical_stage;clinical_T;clinical_N;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months;smoking_history;pack_per_year;Hpv.status.ish;Hpv.status.p16
+sampleID;histological_type;RNA_subtype;Methylation_subtype;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;clinical_M;clinical_stage;clinical_T;clinical_N;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months;smoking_history;pack_per_year;Hpv.status.ish;Hpv.status.p16
 TCGA-4P-AA8J;NA;NA;NA;;;;;;;;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 TCGA-BA-4074;Head & Neck Squamous Cell Carcinoma;Mesenchymal;hypo-methylated;M0;T2;N2;stage IV;M0;stage IV;T3;N2;69;MALE;DECEASED;15.18;462;NA;Recurred/Progressed;13.01;2;51;NA;NA
 TCGA-BA-4075;Head & Neck Squamous Cell Carcinoma;NA;NA;M0;T3;N0;stage III;M0;stage IV;T4;N1;49;MALE;DECEASED;9.3;283;NA;Recurred/Progressed;7.75;2;30;NA;NA

@@ -1,4 +1,4 @@
-PatientID;cohort;histological_type;IntegrativeCluster;msi_status_7_marker_call;mrna_expression_cluster;X_PANCAN_DNAMethyl_PANCAN;X_PANCAN_DNAMethyl_UCEC;clinical_stage;tumor_grade;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months
+sampleID;cohort;histological_type;IntegrativeCluster;msi_status_7_marker_call;mrna_expression_cluster;X_PANCAN_DNAMethyl_PANCAN;X_PANCAN_DNAMethyl_UCEC;clinical_stage;tumor_grade;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months
 TCGA-2E-A9G8;Uterine Corpus Endometroid Cancer;NA;NA;NA;NA;;;;NA;NA;NA;NA;NA;NA;NA;NA;NA
 TCGA-4E-A92E;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;54;FEMALE;Alive;0.43;NA;0;DiseaseFree;0.43
 TCGA-5B-A90C;Uterine Corpus Endometroid Cancer;Endometrioid endometrial adenocarcinoma;NA;NA;NA;;;stage I;NA;69;FEMALE;Alive;39.49;NA;883;Recurred/Progressed;16.98

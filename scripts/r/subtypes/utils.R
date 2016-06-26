@@ -66,7 +66,7 @@ library(reshape2)
     } else {
       print(sprintf('OK subtype \'%s\'. Values found: %s', subtype, subtypes.str))
       
-      dir <- file.path('../../KRAB_and_TCGA_Subtypes/results', subtypes.file.name)
+      dir <- file.path(dirname(subtypes.file), 'results', subtypes.file.name)
       dir.create(dir, showWarnings = F, recursive = T)
       file <- file.path(dir, paste0(subtype, '.csv'))
       

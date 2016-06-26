@@ -1,4 +1,4 @@
-PatientID;cohort;mRNA_cluster;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;tumor_grade;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months;smoking_history;pack_per_year
+sampleID;cohort;mRNA_cluster;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;tumor_grade;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months;smoking_history;pack_per_year
 TCGA-3Z-A93Z;NA;NA;NA;N;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 TCGA-6D-AA2E;Kidney Clear Cell Renal Carcinoma;NA;MX;T1;NX;Stage I;NA;68;FEMALE;Alive;11.89;NA;135;DiseaseFree;11.89;1;NA
 TCGA-A3-3306;Kidney Clear Cell Renal Carcinoma;NA;M0;T1;N0;Stage I;NA;67;MALE;Alive;36.79;NA;1120;DiseaseFree;36.79;NA;NA

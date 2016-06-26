@@ -1,4 +1,4 @@
-PatientID;histological_type;Hypermethylation.Cluster.Laird.group.;Hypomethylation.Cluster.Laird.group.;Hypermethylation.Cluster.Laird.group.1;Hypomethylation.Cluster.Laird.group.1;mRNA.clusters.5.group.NMF.Hoadley.group.;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_follow_up;disease_status;disease_free_months;HBV_consensus;HCV_consensus
+sampleID;histological_type;Hypermethylation.Cluster.Laird.group.;Hypomethylation.Cluster.Laird.group.;Hypermethylation.Cluster.Laird.group.1;Hypomethylation.Cluster.Laird.group.1;mRNA.clusters.5.group.NMF.Hoadley.group.;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_follow_up;disease_status;disease_free_months;HBV_consensus;HCV_consensus
 TCGA-2V-A95S;NA;NA;NA;NA;NA;NA;;;;;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 TCGA-2Y-A9GS;NA;NA;NA;NA;NA;NA;MX;T2;NX;stage IV;58;MALE;Dead;23.78;724;NA;Recurred/Progressed;3.35;NA;NA
 TCGA-2Y-A9GT;NA;NA;NA;NA;NA;NA;MX;T1;NX;stage I;51;MALE;Dead;53.35;1624;NA;Recurred/Progressed;35.58;NA;NA

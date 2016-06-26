@@ -1,4 +1,4 @@
-;PatientID;cohort;histological_type;ER.Status;PR.Status;HER2.Final.Status;methylation.Clusters;Integrated.Clusters.with.PAM50.;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months
+;sampleID;cohort;histological_type;ER.Status;PR.Status;HER2.Final.Status;methylation.Clusters;Integrated.Clusters.with.PAM50.;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months
 1;TCGA-3C-AAAU;TCGA Breast Carcinoma;NA;NA;NA;NA;NA;NA;;;;;NA;;;NA;NA;NA;;NA
 2;TCGA-3C-AALI;TCGA Breast Carcinoma;NA;NA;NA;NA;NA;NA;;;;;NA;;;NA;NA;NA;;NA
 3;TCGA-3C-AALJ;TCGA Breast Carcinoma;NA;NA;NA;NA;NA;NA;;;;;NA;;;NA;NA;NA;;NA

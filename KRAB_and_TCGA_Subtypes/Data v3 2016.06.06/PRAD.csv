@@ -1,4 +1,4 @@
-PatientID;histological_type;mRNA_subtype;mRNA_cluster;methylation_cluster;pathologic_T;clinical_M;pathologic_N;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months
+sampleID;histological_type;mRNA_subtype;mRNA_cluster;methylation_cluster;pathologic_T;clinical_M;pathologic_N;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months
 TCGA-2A-A8VL;NA;1-ERG;3;3;;;;NA;NA;NA;NA;NA;NA;NA;NA
 TCGA-2A-A8VO;Prostate Adenocarcinoma Acinar Type;8-other;1;4;T3;M0;;57;MALE;Alive;55.88;NA;1332;DiseaseFree;55.88
 TCGA-2A-A8VT;Prostate Adenocarcinoma Acinar Type;1-ERG;2;3;T4;M0;N1;47;MALE;Alive;45.11;NA;995;DiseaseFree;45.11

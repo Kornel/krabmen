@@ -1,4 +1,4 @@
-PatientID;cohort;histological_type_eosinophilic.1_classic.0;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;age;gender;overall_survival;overall_survival_months;days_to_death;disease_status;disease_free_months;smoking_history;pack_per_year
+sampleID;cohort;histological_type_eosinophilic.1_classic.0;pathologic_M;pathologic_T;pathologic_N;pathologic_stage;age;gender;overall_survival;overall_survival_months;days_to_death;disease_status;disease_free_months;smoking_history;pack_per_year
 TCGA-KL-8323;Kidney Chromophobe;0;M0;T3;NX;Stage III;57;FEMALE;Dead;38.04;1158;DiseaseFree;29.93;Lifelong Non-smoker;NA
 TCGA-KL-8324;Kidney Chromophobe;0;M0;T2;NX;Stage II;67;FEMALE;Alive;141.62;NA;DiseaseFree;141.62;Current reformed smoker for < or = 15 years;1
 TCGA-KL-8325;Kidney Chromophobe;0;M0;T2;NX;Stage II;56;FEMALE;Dead;23.82;725;DiseaseFree;NA;Lifelong Non-smoker;NA

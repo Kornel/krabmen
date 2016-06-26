@@ -1,4 +1,4 @@
-PatientID;histological_type;pathologic_M;pathologic_T;clinical_M;pathologic_N;pathologic_stage;columnar_metaplasia_present;columnar_mucosa_dysplasia;histologic_grade;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months;smoking_history;pack_per_year;H.PYLORI_Infection
+sampleID;histological_type;pathologic_M;pathologic_T;clinical_M;pathologic_N;pathologic_stage;columnar_metaplasia_present;columnar_mucosa_dysplasia;histologic_grade;age;gender;overall_survival;overall_survival_months;days_to_death;days_to_last_followup;disease_status;disease_free_months;smoking_history;pack_per_year;H.PYLORI_Infection
 TCGA-2H-A9GF;NA;;;;;N;NO;Negative/no dysplasia;G3;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 TCGA-2H-A9GG;Esophagus Adenocarcinoma, NOS;M0;T3;;N1;stage III;YES;Low grade dysplasia;G2;66;MALE;DECEASED;20.04;610;NA;Recurred/Progressed;16.56;[Unknown];NA;[Unknown]
 TCGA-2H-A9GH;Esophagus Adenocarcinoma, NOS;M0;T1;;N1;stage II;YES;;G2;44;MALE;DECEASED;31.24;951;NA;Recurred/Progressed;26.28;[Unknown];NA;[Unknown]
