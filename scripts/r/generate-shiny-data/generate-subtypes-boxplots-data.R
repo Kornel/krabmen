@@ -63,6 +63,10 @@ for (subtype.file in list.files(subtypes.dir, pattern = 'csv', full.names = F)) 
                         value.name = 'expression', 
                         variable.name = 'gene')
     
+    long.format <- Filter(function(x) {
+      (length(unique(x)) > 1)
+    }, long.format)
+    
     long.format$tumor <- tumor.name
     
     subtype.data <- long.format
