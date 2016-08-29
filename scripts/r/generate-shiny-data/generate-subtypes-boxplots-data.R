@@ -46,7 +46,7 @@ for (subtype.file in list.files(subtypes.dir, pattern = 'csv', full.names = F)) 
   
   results.file <- file.path(res.path, paste0(tumor.name, '.Rdata'))
   
-  if (length(tumor.file) > 0) {
+  if (length(tumor.file) > 0 && !file.exists(results.file)) {
   
     print(tumor.name)
     
