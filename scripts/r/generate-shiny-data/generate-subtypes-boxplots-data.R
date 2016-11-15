@@ -44,7 +44,7 @@ for (subtype.file in list.files(subtypes.dir, pattern = 'csv', full.names = F)) 
   # Find the file with tumor expression data
   tumor.file <- list.files(mrna.dir, pattern = tumor.name, recursive = T, full.names = T)
   
-  results.file <- file.path(res.path, paste0(tumor.name, '.Rdata'))
+  results.file <- file.path(res.path, paste0(tumor.name, '.RData'))
   
   if (length(tumor.file) > 0 && !file.exists(results.file)) {
   
