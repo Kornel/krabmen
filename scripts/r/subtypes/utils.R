@@ -3,7 +3,7 @@ library(readr)
 library(reshape2)
 
 # Load tumor data
-.load.tumor <- function(tumor.name, path) {
+.load.tumor <- function(tumor.name, path, only.krab = TRUE) {
   
   print(paste('Loading tumor data from', path))
   
@@ -16,8 +16,8 @@ library(reshape2)
   raw.counts$HybRefShort <- .hyb.ref.short(raw.counts)
   
   # Filter for relevant genes
-  data <- .get.gene.table(raw.counts, tumor.name) 
-  
+  data <- .get.gene.table(raw.counts, tumor.name, only.krab) 
+
   #Fetch gene names
   r <- rownames(data)
   
@@ -111,24 +111,30 @@ library(reshape2)
 }
 
 # Filter relevant genes
-.get.gene.table <- function(rawdata, tumor.name) {
+.get.gene.table <- function(rawdata, tumor.name, only.krab = T) {
   
-  genes <- read.csv('../../data/KRAB ZNF gene master list.csv', sep = '\t')
-  genes$Gene.ID <- as.character(genes$Gene.ID)
-  
-  joined <- genes %>% inner_join(rawdata, by = c('Gene.ID' = 'HybRefShort'))
-  
-  joined$Ensembl.ID <- NULL  
-  
-  rownames(joined) <- joined$Gene.ID
-  joined$Gene.ID <- NULL
-  joined$`Hybridization REF` <- NULL
-  
-  as.data.frame(joined)
-  
+  if (only.krab) {
+    genes <- read.csv('../../data/KRAB ZNF gene master list.csv', sep = '\t')
+    genes$Gene.ID <- as.character(genes$Gene.ID)
+    
+    joined <- genes %>% inner_join(rawdata, by = c('Gene.ID' = 'HybRefShort'))
+    
+    joined$Ensembl.ID <- NULL  
+    
+    rownames(joined) <- joined$Gene.ID
+    joined$Gene.ID <- NULL
+    joined$`Hybridization REF` <- NULL
+    
+    return(as.data.frame(joined))
+  } else {
+    data <- as.data.frame(rawdata %>% filter(!grepl('\\?', HybRefShort)) %>% filter(!grepl('SLC35E2', HybRefShort)))
+    rownames(data) <- data$HybRefShort
+    data$HybRefShort <- NULL
+    return (data)
+  }
 }
 
-compare.subtypes <- function(tumor.name, tumor.file, subtypes.file, ignored) {
-  data <- .load.tumor(tumor.name, tumor.file)
+compare.subtypes <- function(tumor.name, tumor.file, subtypes.file, ignored, only.krab = T) {
+  data <- .load.tumor(tumor.name, tumor.file, only.krab)
   .compare.subtypes(tumor.name, subtypes.file, data, ignored)
 }
