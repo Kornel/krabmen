@@ -1,23 +1,14 @@
 library(readr)
 library(dplyr)
 library(reshape2)
-file <- 'data/out.txt'
+file <- '../data/methylation/BRCA.methylation.27k.450k.txt.gz'
+#file <- 'data/out.txt'
 #file <- 'data/head.txt'
 
 rawdata <- read_delim(file, delim = '\t')
-#Remove second header
-data <- rawdata[-1, ]
-
-#Beta values are in every 4th column, 
-#first column is the name of the probe
-cols <- c(1, seq(2, dim(data)[2], 4))
-data <- data[, cols]
-
-#Convert Beta values to numeric
-data[, -1] <- as.data.frame(sapply(data[, -1], as.numeric))
 
 #Only complete cases
-data <- data[complete.cases(data),]
+data <-rawdata[complete.cases(rawdata),]
 
 #Short colnames
 colnames(data) <- substr(colnames(data), 0, 12)
@@ -28,7 +19,7 @@ subtypes <- subtypes[, c('sampleID', 'methylation.Clusters')]
 subtypes <- subtypes[complete.cases(subtypes),]
 
 #Transpose probes to columns
-probes <- data$Hybridizatio
+probes <- data$id
 samples <- colnames(data)
 
 #Remove probe names
@@ -77,3 +68,29 @@ for (probe in probes) {
 
   result <- rbind(result, t.hds.df)
 }
+
+write.table(result, file = 'results/BRCA.csv', row.names = F, sep = ',')
+
+# Map 27k probe <-> genes
+library(IlluminaHumanMethylation27k.db)
+ProbeToSymbol <- IlluminaHumanMethylation27kSYMBOL
+mapped_probes <- mappedkeys(ProbeToSymbol)
+mapped_probes.df <- as.data.frame(ProbeToSymbol[mapped_probes]) %>%
+  dplyr::rename(symbol27k = symbol, probe27k = probe_id)
+
+result27k <- result %>% left_join(mapped_probes.df, by = c('probe' = 'probe27k'))
+
+# Map 450k probe <-> genes
+mapping450k <- read.delim('../data/IlluminaHumanMethylation450k-probes-mapping.csv.gz', sep = ',', col.names = c('probe', 'gene', 'multi'))
+mapping450k$gene <- as.character(mapping450k$gene)
+s2eg <- org.Hs.egSYMBOL2EG
+mapping <- as.data.frame(s2eg[mappedkeys(s2eg)])
+
+probe2symbol <- mapping450k %>%
+  inner_join(mapping, by = c('gene' = 'gene_id')) %>%
+  dplyr::select(probe, symbol) %>%
+  dplyr::rename(probe450k = probe, symbol450k = symbol)
+
+result450k <- result27k %>% left_join(probe2symbol, by = c('probe' = 'probe450k'))
+
+write.table(result, file = 'results/BRCA-with-probe-mapping.csv', row.names = F, sep = ',')
