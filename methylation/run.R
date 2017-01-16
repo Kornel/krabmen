@@ -2,13 +2,11 @@ library(readr)
 library(dplyr)
 library(reshape2)
 file <- '../data/methylation/BRCA.methylation.27k.450k.txt.gz'
-#file <- 'data/out.txt'
-#file <- 'data/head.txt'
 
 rawdata <- read_delim(file, delim = '\t')
 
 #Only complete cases
-data <-rawdata[complete.cases(rawdata),]
+data <- rawdata[complete.cases(rawdata),]
 
 #Short colnames
 colnames(data) <- substr(colnames(data), 0, 12)
@@ -93,4 +91,4 @@ probe2symbol <- mapping450k %>%
 
 result450k <- result27k %>% left_join(probe2symbol, by = c('probe' = 'probe450k'))
 
-write.table(result, file = 'results/BRCA-with-probe-mapping.csv', row.names = F, sep = ',')
+write.table(result450k, file = 'results/BRCA-with-probe-mapping.csv', row.names = F, sep = ',')
