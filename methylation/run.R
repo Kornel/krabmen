@@ -1,6 +1,8 @@
 library(readr)
 library(dplyr)
 library(reshape2)
+library(IlluminaHumanMethylation27k.db)
+
 file <- '../data/methylation/BRCA.methylation.27k.450k.txt.gz'
 
 rawdata <- read_delim(file, delim = '\t')
@@ -42,21 +44,36 @@ colnames(jdata) <- c(probes, c('sampleID', 'cluster'))
 
 result <- data.frame()
 
+unique.clusters <- unique(jdata$cluster)
+
 for (probe in probes) {
   probeCol <- jdata[, probe]
   clusterCol <- as.character(jdata$cluster)
-  # Anova
+  
+  # Anova for pairs
   a <- aov(probeCol ~ clusterCol)
   
   #TukeyHSD
   t.hsd <- as.data.frame(TukeyHSD(a)$`clusterCol`)
-  
+
   # Convert TukeyHSD result to dataframe
   t.hsd$type <- rownames(t.hsd)
   t.hsd$probe <- probe
   t.hds.df <- dcast(t.hsd, probe ~ type, value.var = c('p adj'))
   colnames(t.hds.df)[-1] <- paste0('p-adj-', colnames(t.hds.df)[-1])
+
+  # Anova for 1 vs rest
   
+  for (cl in unique.clusters) { 
+    all.but.cl <- setdiff(unique.clusters, cl)
+    clusterCol2 <- integer(length(clusterCol))
+    clusterCol2[clusterCol == cl] <- cl
+    a <- aov(probeCol ~ clusterCol2)
+    p.val <- summary(a)[[1]][["Pr(>F)"]][[1]]
+    t.hds.df[paste0('pval-', cl, '-', paste0(setdiff(unique.clusters, cl), collapse = ''))] <- p.val
+  }
+  
+    
   # Append stats: mean, SEM, Q1, Q3
   t.hds.df <- .append.stat(probeCol, clusterCol, mean, 'mean-', t.hds.df)
   t.hds.df <- .append.stat(probeCol, clusterCol, function(x) sqrt(var(x) / length(x)), 'SEM-', t.hds.df)
@@ -70,13 +87,12 @@ for (probe in probes) {
 write.table(result, file = 'results/BRCA.csv', row.names = F, sep = ',')
 
 # Map 27k probe <-> genes
-library(IlluminaHumanMethylation27k.db)
-ProbeToSymbol <- IlluminaHumanMethylation27kSYMBOL
-mapped_probes <- mappedkeys(ProbeToSymbol)
-mapped_probes.df <- as.data.frame(ProbeToSymbol[mapped_probes]) %>%
+Symbol27k <- IlluminaHumanMethylation27kSYMBOL
+probe2symbol27k <- mappedkeys(Symbol27k)
+probe2symbol27k.df <- as.data.frame(Symbol27k[probe2symbol27k]) %>%
   dplyr::rename(symbol27k = symbol, probe27k = probe_id)
 
-result27k <- result %>% left_join(mapped_probes.df, by = c('probe' = 'probe27k'))
+result27k <- result %>% left_join(probe2symbol27k.df, by = c('probe' = 'probe27k'))
 
 # Map 450k probe <-> genes
 mapping450k <- read.delim('../data/IlluminaHumanMethylation450k-probes-mapping.csv.gz', sep = ',', col.names = c('probe', 'gene', 'multi'))
