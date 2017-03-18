@@ -34,6 +34,29 @@ for (file in files) {
   # save(gene.table, file = paste0('../../../boxplots-krabmen/res2/', tumor.name, '.Rdata'))  
 }
 
+# {
+#   lung <- read_delim('../../download/mrna-rsem-normalized-2015-11-01/LUXX/LUXX.csv', delim = '\t')  
+#   lung$HybRefShort <- hyb.ref.short(lung)
+#   lung$`Hybridization REF` <- NULL
+#   gene.table <- get.gene.table(lung, tumor.name)$gene.table
+#   
+#   gene.table <- t(gene.table)
+#   r <- rownames(gene.table)
+#   rownames(gene.table) <- NULL
+#   gene.table <- as.data.frame(gene.table)
+#   gene.table$type <- r
+#   
+#   gene.table <- gene.table %>% filter(type != 'other')
+#   
+#   gene.table$tumor <- 'LUNG'
+#   
+#   all.tumors <- rbind(all.tumors, gene.table)
+# }
+# 
+
+
+
+
 all.tumors.long <- melt(all.tumors, id.vars = c('tumor', 'type'), value.name = 'expression', variable.name = 'gene')
 save(all.tumors.long, file = paste0('../../../boxplots-krabmen/resources/all.Rdata'))
 
@@ -47,4 +70,4 @@ write.table(setdiff(colnames(all.tumors), c('tumor', 'type')), file = paste0('..
 pvalues <- read_csv('../../results/bionmialTest/full-table-pvalues-long.csv')
 pvalues <- subset(pvalues, select = c('pval', 'padj', 'id', 'tumor'))
 colnames(pvalues)[3] <- 'gene'
-save(pvalues, file = '../../../boxplots-krabmen/res2/pvalues.Rdata')
+save(pvalues, file = '../../../boxplots-krabmen/resources/pvalues.Rdata')

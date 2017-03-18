@@ -34,10 +34,16 @@ library(reshape2)
   #Filter only relevant patients with tumor samples
   data <- data %>% filter(substr(barcode, 14, 15) == '01')
   data$barcode <- substr(data$barcode, 1, 12)
+  
+  
+  print('Tumor data loaded')
+  
   data
 }
 
 .compare.subtypes <- function(tumor.name, subtypes.file, data, ignored) {
+  
+  print('Comparing..')
   
   genes <- setdiff(colnames(data), 'barcode')
   

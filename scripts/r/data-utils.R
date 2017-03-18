@@ -41,11 +41,9 @@ scaled.only <- function(rawdata) {
 select.tumor.files <- function(patient.freqs.path = '../../results/stats/raw/stats-rsem-1-vs-11.csv',
                                files.path = '../../download/mrna-rsem-2015-11-01/') {
   
-  results.dir <- '../../results/heatmap'
-
   patient.freqs <- read.csv(patient.freqs.path) %>% filter(normal >= 9)
   
-  files <- list.files(path = files.path, pattern = '*data\\.txt$', recursive = T, full.names = T)
+  files <- list.files(path = files.path, pattern = '*data\\.txt.gz$', recursive = T, full.names = T)
   
   filtered.files <- c()
   

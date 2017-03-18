@@ -3,20 +3,23 @@ library(readr)
 library(reshape2)
 library(data.table)
 
-files <- list.files(path = '../../results/bionmialTest/partial/', 
-                    pattern = '*.csv', 
+files <- list.files(path = '../../results/bionmialTest/partial/',
+                    pattern = '*.csv',
                     full.names = T)
 
 all <- data.frame()
 
+# file <- '../../results/bionmialTest/partial/LUSC.csv'
+
 for (file in files) {
+
   tumor.name <- sub('.*/(\\w*)\\.csv', '\\1', file)
-  
+
   print(tumor.name)
-  
-  raw <- read.csv(file)
+
+  raw <- read.csv(file, stringsAsFactors = F)
   raw$tumor <- tumor.name
-  
+
   all <- rbind(all, raw)
 }
 
